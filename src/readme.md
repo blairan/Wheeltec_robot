@@ -43,7 +43,7 @@
 
 `ros2 run nav2_map_server map_saver_cli –f ~/wheeltec_ros2/src/wheeltec_robot_nav2/map/house`
 
-### 5. Wheeltec_robot_rtab[RTAB 建图导航]
+#### 5. Wheeltec_robot_rtab[RTAB 建图导航]
 
 相機使用astra pro或astra pro plus,須修改wheeltec_camera.launch.py裡的參數
 
