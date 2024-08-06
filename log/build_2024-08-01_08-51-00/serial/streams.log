@@ -1,0 +1,33 @@
+[0.166s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[3.528s] [100%] Built target serial
+[3.612s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[3.895s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial
+[4.177s] -- Install configuration: ""
+[4.178s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/lib/libserial.a
+[4.179s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.sh
+[4.180s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[4.186s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial
+[4.187s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/serial.h
+[4.188s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl
+[4.189s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/win.h
+[4.190s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/unix.h
+[4.191s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/v8stdint.h
+[4.201s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[4.210s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[4.211s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[4.212s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[4.215s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.sh
+[4.216s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.dsv
+[4.225s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.bash
+[4.226s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.sh
+[4.228s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.zsh
+[4.229s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.dsv
+[4.230s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.dsv
+[4.231s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[4.232s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.273s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[4.274s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.276s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[4.285s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[4.294s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.xml
+[4.336s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial

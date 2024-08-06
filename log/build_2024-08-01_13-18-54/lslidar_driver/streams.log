@@ -1,0 +1,53 @@
+[0.082s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/lslidar_driver -- -j4 -l4
+[0.415s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[0.515s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver.cc.o[0m
+[0.515s] [ 40%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[118.329s] [ 60%] [32m[1mLinking CXX executable lslidar_driver_node[0m
+[133.025s] [100%] Built target lslidar_driver_node
+[133.075s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/lslidar_driver -- -j4 -l4
+[133.220s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/lslidar_driver
+[133.253s] -- Install configuration: ""
+[133.257s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch
+[133.258s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[133.259s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[133.261s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[133.262s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[133.264s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[133.265s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[133.266s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[133.267s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[133.268s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[133.269s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[133.270s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params
+[133.271s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[133.272s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[133.273s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[133.274s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[133.275s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[133.275s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[133.276s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[133.277s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[133.278s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[133.279s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[133.280s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz
+[133.281s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[133.285s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[133.311s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node" to ""
+[133.315s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[133.317s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[133.319s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[133.321s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[133.322s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[133.324s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[133.325s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[133.327s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[133.328s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[133.329s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[133.330s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/package.dsv
+[133.332s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[133.334s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[133.335s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[133.337s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[133.338s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[133.343s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/lslidar_driver/share/lslidar_driver/package.xml
+[133.353s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/lslidar_driver

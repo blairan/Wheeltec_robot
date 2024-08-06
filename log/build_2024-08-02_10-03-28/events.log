@@ -1,0 +1,1184 @@
+[0.000000] (-) TimerEvent: {}
+[0.001575] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.003007] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.004004] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.005068] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.005413] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005689] (-) JobUnselected: {'identifier': 'serial'}
+[0.005946] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.006199] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.006499] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.006755] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.006976] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.007168] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.007500] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.007773] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.008087] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping')])}
+[0.008870] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[0.067383] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'cmake'}
+[0.068493] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/slam_gmapping'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 43318 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b97cf0e6-36a9-41cf-a80b-db91d0e140a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddc1d1355.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping'), ('SSH_CONNECTION', '192.168.159.239 43318 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[0.098572] (-) TimerEvent: {}
+[0.199591] (-) TimerEvent: {}
+[0.300705] (-) TimerEvent: {}
+[0.398286] (slam_gmapping) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.400987] (-) TimerEvent: {}
+[0.502075] (-) TimerEvent: {}
+[0.603171] (-) TimerEvent: {}
+[0.704267] (-) TimerEvent: {}
+[0.745961] (slam_gmapping) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.783922] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.804498] (-) TimerEvent: {}
+[0.905496] (-) TimerEvent: {}
+[1.006459] (-) TimerEvent: {}
+[1.107463] (-) TimerEvent: {}
+[1.142254] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.205540] (slam_gmapping) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.207031] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.207811] (-) TimerEvent: {}
+[1.209702] (slam_gmapping) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.228137] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.308110] (-) TimerEvent: {}
+[1.409176] (-) TimerEvent: {}
+[1.510257] (-) TimerEvent: {}
+[1.611294] (-) TimerEvent: {}
+[1.637421] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.702706] (slam_gmapping) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.704303] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.707784] (slam_gmapping) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.711343] (slam_gmapping) StderrLine: {'line': b'\x1b[0m -fuse-ld=lld -Wl,--disable-new-dtags\x1b[0m\n'}
+[1.712242] (-) TimerEvent: {}
+[1.724494] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.812474] (-) TimerEvent: {}
+[1.913550] (-) TimerEvent: {}
+[2.014539] (-) TimerEvent: {}
+[2.115509] (-) TimerEvent: {}
+[2.216509] (-) TimerEvent: {}
+[2.317587] (-) TimerEvent: {}
+[2.418740] (-) TimerEvent: {}
+[2.519736] (-) TimerEvent: {}
+[2.620658] (-) TimerEvent: {}
+[2.721636] (-) TimerEvent: {}
+[2.823836] (-) TimerEvent: {}
+[2.897827] (slam_gmapping) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[2.924028] (-) TimerEvent: {}
+[3.025101] (-) TimerEvent: {}
+[3.126092] (-) TimerEvent: {}
+[3.227020] (-) TimerEvent: {}
+[3.328105] (-) TimerEvent: {}
+[3.429535] (-) TimerEvent: {}
+[3.530490] (-) TimerEvent: {}
+[3.585183] (slam_gmapping) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[3.630695] (-) TimerEvent: {}
+[3.731671] (-) TimerEvent: {}
+[3.832616] (-) TimerEvent: {}
+[3.859944] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[3.904424] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.932922] (-) TimerEvent: {}
+[3.977200] (slam_gmapping) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.033124] (-) TimerEvent: {}
+[4.096461] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.133335] (-) TimerEvent: {}
+[4.234260] (-) TimerEvent: {}
+[4.266189] (slam_gmapping) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.334486] (-) TimerEvent: {}
+[4.435514] (-) TimerEvent: {}
+[4.536517] (-) TimerEvent: {}
+[4.637524] (-) TimerEvent: {}
+[4.738468] (-) TimerEvent: {}
+[4.772417] (slam_gmapping) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[4.838703] (-) TimerEvent: {}
+[4.939833] (-) TimerEvent: {}
+[5.040850] (-) TimerEvent: {}
+[5.142199] (-) TimerEvent: {}
+[5.243164] (-) TimerEvent: {}
+[5.344108] (-) TimerEvent: {}
+[5.445444] (-) TimerEvent: {}
+[5.546407] (-) TimerEvent: {}
+[5.647369] (-) TimerEvent: {}
+[5.749055] (-) TimerEvent: {}
+[5.850058] (-) TimerEvent: {}
+[5.906550] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)\n'}
+[5.950265] (-) TimerEvent: {}
+[6.013203] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[6.050469] (-) TimerEvent: {}
+[6.151423] (-) TimerEvent: {}
+[6.252398] (-) TimerEvent: {}
+[6.353423] (-) TimerEvent: {}
+[6.454957] (-) TimerEvent: {}
+[6.555948] (-) TimerEvent: {}
+[6.657723] (-) TimerEvent: {}
+[6.759102] (-) TimerEvent: {}
+[6.860183] (-) TimerEvent: {}
+[6.961223] (-) TimerEvent: {}
+[7.062178] (-) TimerEvent: {}
+[7.073031] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.098669] (slam_gmapping) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.162385] (-) TimerEvent: {}
+[7.263393] (-) TimerEvent: {}
+[7.364376] (-) TimerEvent: {}
+[7.465417] (-) TimerEvent: {}
+[7.566429] (-) TimerEvent: {}
+[7.667443] (-) TimerEvent: {}
+[7.768480] (-) TimerEvent: {}
+[7.824015] (slam_gmapping) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[7.868694] (-) TimerEvent: {}
+[7.969959] (-) TimerEvent: {}
+[7.977581] (slam_gmapping) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.070174] (-) TimerEvent: {}
+[8.171196] (-) TimerEvent: {}
+[8.255917] (slam_gmapping) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.271397] (-) TimerEvent: {}
+[8.341376] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.371643] (-) TimerEvent: {}
+[8.473194] (-) TimerEvent: {}
+[8.575121] (-) TimerEvent: {}
+[8.677004] (-) TimerEvent: {}
+[8.732123] (slam_gmapping) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[8.734592] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[8.777233] (-) TimerEvent: {}
+[8.878318] (-) TimerEvent: {}
+[8.979479] (-) TimerEvent: {}
+[9.080663] (-) TimerEvent: {}
+[9.138273] (slam_gmapping) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.144461] (slam_gmapping) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.180967] (-) TimerEvent: {}
+[9.282081] (-) TimerEvent: {}
+[9.383983] (-) TimerEvent: {}
+[9.485121] (-) TimerEvent: {}
+[9.586188] (-) TimerEvent: {}
+[9.687283] (-) TimerEvent: {}
+[9.788354] (-) TimerEvent: {}
+[9.889542] (-) TimerEvent: {}
+[9.990726] (-) TimerEvent: {}
+[10.091837] (-) TimerEvent: {}
+[10.192998] (-) TimerEvent: {}
+[10.294170] (-) TimerEvent: {}
+[10.395284] (-) TimerEvent: {}
+[10.496355] (-) TimerEvent: {}
+[10.597529] (-) TimerEvent: {}
+[10.698651] (-) TimerEvent: {}
+[10.800383] (-) TimerEvent: {}
+[10.903086] (-) TimerEvent: {}
+[11.004180] (-) TimerEvent: {}
+[11.105365] (-) TimerEvent: {}
+[11.207688] (-) TimerEvent: {}
+[11.308871] (-) TimerEvent: {}
+[11.409936] (-) TimerEvent: {}
+[11.511008] (-) TimerEvent: {}
+[11.612098] (-) TimerEvent: {}
+[11.713162] (-) TimerEvent: {}
+[11.814236] (-) TimerEvent: {}
+[11.915362] (-) TimerEvent: {}
+[12.016486] (-) TimerEvent: {}
+[12.117653] (-) TimerEvent: {}
+[12.218694] (-) TimerEvent: {}
+[12.319772] (-) TimerEvent: {}
+[12.420941] (-) TimerEvent: {}
+[12.522041] (-) TimerEvent: {}
+[12.623103] (-) TimerEvent: {}
+[12.724207] (-) TimerEvent: {}
+[12.825900] (-) TimerEvent: {}
+[12.926999] (-) TimerEvent: {}
+[13.027993] (-) TimerEvent: {}
+[13.129132] (-) TimerEvent: {}
+[13.144401] (slam_gmapping) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[13.229364] (-) TimerEvent: {}
+[13.255956] (slam_gmapping) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[13.266452] (slam_gmapping) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[13.268579] (slam_gmapping) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[13.329602] (-) TimerEvent: {}
+[13.370372] (slam_gmapping) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[13.429836] (-) TimerEvent: {}
+[13.530834] (-) TimerEvent: {}
+[13.631973] (-) TimerEvent: {}
+[13.733027] (-) TimerEvent: {}
+[13.834062] (-) TimerEvent: {}
+[13.935130] (-) TimerEvent: {}
+[14.036145] (-) TimerEvent: {}
+[14.137210] (-) TimerEvent: {}
+[14.150352] (slam_gmapping) StdoutLine: {'line': b'-- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)\n'}
+[14.237420] (-) TimerEvent: {}
+[14.338415] (-) TimerEvent: {}
+[14.439370] (-) TimerEvent: {}
+[14.540338] (-) TimerEvent: {}
+[14.641314] (-) TimerEvent: {}
+[14.742282] (-) TimerEvent: {}
+[14.843284] (-) TimerEvent: {}
+[14.944249] (-) TimerEvent: {}
+[15.045255] (-) TimerEvent: {}
+[15.146186] (-) TimerEvent: {}
+[15.214922] (slam_gmapping) StdoutLine: {'line': b'-- Found openslam_gmapping: 0.1.2 (/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)\n'}
+[15.236212] (slam_gmapping) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[15.246430] (-) TimerEvent: {}
+[15.347535] (-) TimerEvent: {}
+[15.448464] (-) TimerEvent: {}
+[15.549483] (-) TimerEvent: {}
+[15.650489] (-) TimerEvent: {}
+[15.751541] (-) TimerEvent: {}
+[15.852500] (-) TimerEvent: {}
+[15.874092] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[15.875882] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include\n'}
+[15.877052] (slam_gmapping) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[15.880589] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[15.884760] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[15.888646] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[15.894548] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[15.895475] (slam_gmapping) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[15.898817] (slam_gmapping) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[15.907168] (slam_gmapping) StdoutLine: {'line': b'-- Configuring done\n'}
+[15.952717] (-) TimerEvent: {}
+[15.984761] (slam_gmapping) StdoutLine: {'line': b'-- Generating done\n'}
+[15.997309] (slam_gmapping) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/slam_gmapping\n'}
+[16.053042] (-) TimerEvent: {}
+[16.077740] (slam_gmapping) CommandEnded: {'returncode': 0}
+[16.081590] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'build'}
+[16.086887] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 43318 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b97cf0e6-36a9-41cf-a80b-db91d0e140a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddc1d1355.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping'), ('SSH_CONNECTION', '192.168.159.239 43318 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[16.153327] (-) TimerEvent: {}
+[16.254465] (-) TimerEvent: {}
+[16.320030] (slam_gmapping) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o\x1b[0m\n'}
+[16.354689] (-) TimerEvent: {}
+[16.455709] (-) TimerEvent: {}
+[16.556705] (-) TimerEvent: {}
+[16.657750] (-) TimerEvent: {}
+[16.758732] (-) TimerEvent: {}
+[16.859729] (-) TimerEvent: {}
+[16.960701] (-) TimerEvent: {}
+[17.061704] (-) TimerEvent: {}
+[17.162663] (-) TimerEvent: {}
+[17.263619] (-) TimerEvent: {}
+[17.364607] (-) TimerEvent: {}
+[17.465601] (-) TimerEvent: {}
+[17.566601] (-) TimerEvent: {}
+[17.667658] (-) TimerEvent: {}
+[17.768986] (-) TimerEvent: {}
+[17.867952] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38\x1b[m\x1b[K,\n'}
+[17.869007] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[17.869724] (-) TimerEvent: {}
+[17.871086] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[17.873777] (slam_gmapping) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[17.874551] (slam_gmapping) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[17.969993] (-) TimerEvent: {}
+[18.071084] (-) TimerEvent: {}
+[18.172219] (-) TimerEvent: {}
+[18.273399] (-) TimerEvent: {}
+[18.374434] (-) TimerEvent: {}
+[18.475444] (-) TimerEvent: {}
+[18.576473] (-) TimerEvent: {}
+[18.677560] (-) TimerEvent: {}
+[18.778564] (-) TimerEvent: {}
+[18.879618] (-) TimerEvent: {}
+[18.980649] (-) TimerEvent: {}
+[19.081709] (-) TimerEvent: {}
+[19.183278] (-) TimerEvent: {}
+[19.284319] (-) TimerEvent: {}
+[19.385374] (-) TimerEvent: {}
+[19.486466] (-) TimerEvent: {}
+[19.587556] (-) TimerEvent: {}
+[19.688565] (-) TimerEvent: {}
+[19.789636] (-) TimerEvent: {}
+[19.890678] (-) TimerEvent: {}
+[19.991710] (-) TimerEvent: {}
+[20.092826] (-) TimerEvent: {}
+[20.193870] (-) TimerEvent: {}
+[20.294941] (-) TimerEvent: {}
+[20.395995] (-) TimerEvent: {}
+[20.497088] (-) TimerEvent: {}
+[20.598136] (-) TimerEvent: {}
+[20.699182] (-) TimerEvent: {}
+[20.800226] (-) TimerEvent: {}
+[20.901282] (-) TimerEvent: {}
+[21.002793] (-) TimerEvent: {}
+[21.103799] (-) TimerEvent: {}
+[21.204831] (-) TimerEvent: {}
+[21.305848] (-) TimerEvent: {}
+[21.406888] (-) TimerEvent: {}
+[21.507905] (-) TimerEvent: {}
+[21.608983] (-) TimerEvent: {}
+[21.710039] (-) TimerEvent: {}
+[21.811106] (-) TimerEvent: {}
+[21.912179] (-) TimerEvent: {}
+[22.013201] (-) TimerEvent: {}
+[22.114228] (-) TimerEvent: {}
+[22.215291] (-) TimerEvent: {}
+[22.316322] (-) TimerEvent: {}
+[22.417416] (-) TimerEvent: {}
+[22.518439] (-) TimerEvent: {}
+[22.619470] (-) TimerEvent: {}
+[22.720616] (-) TimerEvent: {}
+[22.821724] (-) TimerEvent: {}
+[22.922826] (-) TimerEvent: {}
+[23.023908] (-) TimerEvent: {}
+[23.124996] (-) TimerEvent: {}
+[23.226104] (-) TimerEvent: {}
+[23.327158] (-) TimerEvent: {}
+[23.428214] (-) TimerEvent: {}
+[23.529339] (-) TimerEvent: {}
+[23.630375] (-) TimerEvent: {}
+[23.731764] (-) TimerEvent: {}
+[23.832845] (-) TimerEvent: {}
+[23.933953] (-) TimerEvent: {}
+[24.034971] (-) TimerEvent: {}
+[24.136062] (-) TimerEvent: {}
+[24.237162] (-) TimerEvent: {}
+[24.338139] (-) TimerEvent: {}
+[24.439199] (-) TimerEvent: {}
+[24.540256] (-) TimerEvent: {}
+[24.641296] (-) TimerEvent: {}
+[24.742290] (-) TimerEvent: {}
+[24.843295] (-) TimerEvent: {}
+[24.944322] (-) TimerEvent: {}
+[25.045395] (-) TimerEvent: {}
+[25.146429] (-) TimerEvent: {}
+[25.247487] (-) TimerEvent: {}
+[25.348495] (-) TimerEvent: {}
+[25.449595] (-) TimerEvent: {}
+[25.550570] (-) TimerEvent: {}
+[25.651651] (-) TimerEvent: {}
+[25.752692] (-) TimerEvent: {}
+[25.853792] (-) TimerEvent: {}
+[25.954859] (-) TimerEvent: {}
+[26.055925] (-) TimerEvent: {}
+[26.157011] (-) TimerEvent: {}
+[26.258085] (-) TimerEvent: {}
+[26.359121] (-) TimerEvent: {}
+[26.460214] (-) TimerEvent: {}
+[26.561301] (-) TimerEvent: {}
+[26.662348] (-) TimerEvent: {}
+[26.763400] (-) TimerEvent: {}
+[26.864476] (-) TimerEvent: {}
+[26.965562] (-) TimerEvent: {}
+[27.066656] (-) TimerEvent: {}
+[27.167635] (-) TimerEvent: {}
+[27.268632] (-) TimerEvent: {}
+[27.369680] (-) TimerEvent: {}
+[27.470768] (-) TimerEvent: {}
+[27.571839] (-) TimerEvent: {}
+[27.672879] (-) TimerEvent: {}
+[27.773888] (-) TimerEvent: {}
+[27.874983] (-) TimerEvent: {}
+[27.976034] (-) TimerEvent: {}
+[28.077119] (-) TimerEvent: {}
+[28.178184] (-) TimerEvent: {}
+[28.279195] (-) TimerEvent: {}
+[28.380273] (-) TimerEvent: {}
+[28.481344] (-) TimerEvent: {}
+[28.582413] (-) TimerEvent: {}
+[28.683399] (-) TimerEvent: {}
+[28.784407] (-) TimerEvent: {}
+[28.885527] (-) TimerEvent: {}
+[28.986585] (-) TimerEvent: {}
+[29.087640] (-) TimerEvent: {}
+[29.188655] (-) TimerEvent: {}
+[29.289721] (-) TimerEvent: {}
+[29.390767] (-) TimerEvent: {}
+[29.492216] (-) TimerEvent: {}
+[29.593316] (-) TimerEvent: {}
+[29.694397] (-) TimerEvent: {}
+[29.795411] (-) TimerEvent: {}
+[29.896360] (-) TimerEvent: {}
+[29.997369] (-) TimerEvent: {}
+[30.098317] (-) TimerEvent: {}
+[30.199221] (-) TimerEvent: {}
+[30.300152] (-) TimerEvent: {}
+[30.401119] (-) TimerEvent: {}
+[30.502059] (-) TimerEvent: {}
+[30.603015] (-) TimerEvent: {}
+[30.703955] (-) TimerEvent: {}
+[30.804985] (-) TimerEvent: {}
+[30.905968] (-) TimerEvent: {}
+[31.007000] (-) TimerEvent: {}
+[31.108038] (-) TimerEvent: {}
+[31.209145] (-) TimerEvent: {}
+[31.310222] (-) TimerEvent: {}
+[31.411332] (-) TimerEvent: {}
+[31.512334] (-) TimerEvent: {}
+[31.613419] (-) TimerEvent: {}
+[31.714434] (-) TimerEvent: {}
+[31.815435] (-) TimerEvent: {}
+[31.916483] (-) TimerEvent: {}
+[32.017557] (-) TimerEvent: {}
+[32.118640] (-) TimerEvent: {}
+[32.219656] (-) TimerEvent: {}
+[32.320746] (-) TimerEvent: {}
+[32.421835] (-) TimerEvent: {}
+[32.522879] (-) TimerEvent: {}
+[32.623920] (-) TimerEvent: {}
+[32.724979] (-) TimerEvent: {}
+[32.826093] (-) TimerEvent: {}
+[32.927145] (-) TimerEvent: {}
+[33.028212] (-) TimerEvent: {}
+[33.129317] (-) TimerEvent: {}
+[33.230365] (-) TimerEvent: {}
+[33.331385] (-) TimerEvent: {}
+[33.432409] (-) TimerEvent: {}
+[33.533607] (-) TimerEvent: {}
+[33.634726] (-) TimerEvent: {}
+[33.735771] (-) TimerEvent: {}
+[33.836896] (-) TimerEvent: {}
+[33.937912] (-) TimerEvent: {}
+[34.038921] (-) TimerEvent: {}
+[34.140008] (-) TimerEvent: {}
+[34.241031] (-) TimerEvent: {}
+[34.341978] (-) TimerEvent: {}
+[34.442969] (-) TimerEvent: {}
+[34.544051] (-) TimerEvent: {}
+[34.645122] (-) TimerEvent: {}
+[34.746157] (-) TimerEvent: {}
+[34.847194] (-) TimerEvent: {}
+[34.948224] (-) TimerEvent: {}
+[35.049302] (-) TimerEvent: {}
+[35.097755] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9\x1b[m\x1b[K,\n'}
+[35.099478] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45\x1b[m\x1b[K,\n'}
+[35.100418] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[35.101344] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[35.102180] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kthis \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99 clause does not guard... [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation\x07-Wmisleading-indentation\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[35.102969] (slam_gmapping) StderrLine: {'line': b'  140 |         \x1b[01;35m\x1b[Kif\x1b[m\x1b[K (count>0)\n'}
+[35.103722] (slam_gmapping) StderrLine: {'line': b'      |         \x1b[01;35m\x1b[K^~\x1b[m\x1b[K\n'}
+[35.104468] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K...this statement, but the latter is misleadingly indented as if it were guarded by the \xe2\x80\x98\x1b[01m\x1b[Kif\x1b[m\x1b[K\xe2\x80\x99\n'}
+[35.105327] (slam_gmapping) StderrLine: {'line': b'  142 |                 \x1b[01;36m\x1b[Kout\x1b[m\x1b[K++;\n'}
+[35.106097] (slam_gmapping) StderrLine: {'line': b'      |                 \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[35.149531] (-) TimerEvent: {}
+[35.250572] (-) TimerEvent: {}
+[35.351618] (-) TimerEvent: {}
+[35.452642] (-) TimerEvent: {}
+[35.553825] (-) TimerEvent: {}
+[35.655543] (-) TimerEvent: {}
+[35.757662] (-) TimerEvent: {}
+[35.858732] (-) TimerEvent: {}
+[35.960484] (-) TimerEvent: {}
+[36.061701] (-) TimerEvent: {}
+[36.162753] (-) TimerEvent: {}
+[36.263792] (-) TimerEvent: {}
+[36.364920] (-) TimerEvent: {}
+[36.466009] (-) TimerEvent: {}
+[36.567085] (-) TimerEvent: {}
+[36.668091] (-) TimerEvent: {}
+[36.769163] (-) TimerEvent: {}
+[36.870227] (-) TimerEvent: {}
+[36.971329] (-) TimerEvent: {}
+[37.072368] (-) TimerEvent: {}
+[37.079498] (slam_gmapping) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/utility:70\x1b[m\x1b[K,\n'}
+[37.081123] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/tuple:38\x1b[m\x1b[K,\n'}
+[37.082084] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/mutex:38\x1b[m\x1b[K,\n'}
+[37.082899] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:26\x1b[m\x1b[K,\n'}
+[37.083733] (slam_gmapping) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24\x1b[m\x1b[K:\n'}
+[37.084556] (slam_gmapping) StderrLine: {'line': b'/usr/include/c++/11/bits/stl_pair.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = GMapping::point<double>&; _T2 = GMapping::point<double>&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = GMapping::point<double>; typename std::decay<_Tp2>::type = std::decay<GMapping::point<double>&>::type; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = GMapping::point<double>; typename std::decay<_Tp>::type = std::decay<GMapping::point<double>&>::type]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[37.085557] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:127:34:\x1b[m\x1b[K   required from here\n'}
+[37.086411] (slam_gmapping) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/stl_pair.h:567:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kparameter passing for argument of type \xe2\x80\x98\x1b[01m\x1b[Kstd::pair<GMapping::point<double>, GMapping::point<double> >\x1b[m\x1b[K\xe2\x80\x99 when C++17 is enabled changed to match C++14 \x1b]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_base\x07in GCC 10.1\x1b]8;;\x07\n'}
+[37.087286] (slam_gmapping) StderrLine: {'line': b'  567 |     \x1b[01;36m\x1b[Kmake_pair\x1b[m\x1b[K(_T1&& __x, _T2&& __y)\n'}
+[37.088136] (slam_gmapping) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[37.172616] (-) TimerEvent: {}
+[37.273685] (-) TimerEvent: {}
+[37.374687] (-) TimerEvent: {}
+[37.475734] (-) TimerEvent: {}
+[37.576971] (-) TimerEvent: {}
+[37.678005] (-) TimerEvent: {}
+[37.779051] (-) TimerEvent: {}
+[37.880073] (-) TimerEvent: {}
+[37.981212] (-) TimerEvent: {}
+[38.082284] (-) TimerEvent: {}
+[38.183332] (-) TimerEvent: {}
+[38.284396] (-) TimerEvent: {}
+[38.385513] (-) TimerEvent: {}
+[38.486596] (-) TimerEvent: {}
+[38.587615] (-) TimerEvent: {}
+[38.688597] (-) TimerEvent: {}
+[38.789672] (-) TimerEvent: {}
+[38.890729] (-) TimerEvent: {}
+[38.991732] (-) TimerEvent: {}
+[39.092830] (-) TimerEvent: {}
+[39.193912] (-) TimerEvent: {}
+[39.294968] (-) TimerEvent: {}
+[39.396020] (-) TimerEvent: {}
+[39.497118] (-) TimerEvent: {}
+[39.598205] (-) TimerEvent: {}
+[39.699854] (-) TimerEvent: {}
+[39.801003] (-) TimerEvent: {}
+[39.902168] (-) TimerEvent: {}
+[40.003256] (-) TimerEvent: {}
+[40.104346] (-) TimerEvent: {}
+[40.205822] (-) TimerEvent: {}
+[40.306917] (-) TimerEvent: {}
+[40.408001] (-) TimerEvent: {}
+[40.508966] (-) TimerEvent: {}
+[40.609928] (-) TimerEvent: {}
+[40.710975] (-) TimerEvent: {}
+[40.812045] (-) TimerEvent: {}
+[40.913112] (-) TimerEvent: {}
+[41.014154] (-) TimerEvent: {}
+[41.115197] (-) TimerEvent: {}
+[41.216268] (-) TimerEvent: {}
+[41.317376] (-) TimerEvent: {}
+[41.418454] (-) TimerEvent: {}
+[41.519473] (-) TimerEvent: {}
+[41.620514] (-) TimerEvent: {}
+[41.721616] (-) TimerEvent: {}
+[41.822672] (-) TimerEvent: {}
+[41.923735] (-) TimerEvent: {}
+[42.024800] (-) TimerEvent: {}
+[42.125746] (-) TimerEvent: {}
+[42.226676] (-) TimerEvent: {}
+[42.327641] (-) TimerEvent: {}
+[42.428613] (-) TimerEvent: {}
+[42.529738] (-) TimerEvent: {}
+[42.630680] (-) TimerEvent: {}
+[42.731617] (-) TimerEvent: {}
+[42.832564] (-) TimerEvent: {}
+[42.933552] (-) TimerEvent: {}
+[43.034744] (-) TimerEvent: {}
+[43.135701] (-) TimerEvent: {}
+[43.236658] (-) TimerEvent: {}
+[43.337632] (-) TimerEvent: {}
+[43.438584] (-) TimerEvent: {}
+[43.539540] (-) TimerEvent: {}
+[43.640494] (-) TimerEvent: {}
+[43.741487] (-) TimerEvent: {}
+[43.842410] (-) TimerEvent: {}
+[43.943354] (-) TimerEvent: {}
+[44.044325] (-) TimerEvent: {}
+[44.145336] (-) TimerEvent: {}
+[44.246385] (-) TimerEvent: {}
+[44.347361] (-) TimerEvent: {}
+[44.448539] (-) TimerEvent: {}
+[44.549609] (-) TimerEvent: {}
+[44.650661] (-) TimerEvent: {}
+[44.751713] (-) TimerEvent: {}
+[44.852764] (-) TimerEvent: {}
+[44.953799] (-) TimerEvent: {}
+[45.054803] (-) TimerEvent: {}
+[45.155792] (-) TimerEvent: {}
+[45.256876] (-) TimerEvent: {}
+[45.357894] (-) TimerEvent: {}
+[45.458894] (-) TimerEvent: {}
+[45.559921] (-) TimerEvent: {}
+[45.660976] (-) TimerEvent: {}
+[45.762044] (-) TimerEvent: {}
+[45.863050] (-) TimerEvent: {}
+[45.964071] (-) TimerEvent: {}
+[46.065149] (-) TimerEvent: {}
+[46.166219] (-) TimerEvent: {}
+[46.267248] (-) TimerEvent: {}
+[46.368284] (-) TimerEvent: {}
+[46.469469] (-) TimerEvent: {}
+[46.570549] (-) TimerEvent: {}
+[46.671531] (-) TimerEvent: {}
+[46.772588] (-) TimerEvent: {}
+[46.873717] (-) TimerEvent: {}
+[46.974763] (-) TimerEvent: {}
+[47.075810] (-) TimerEvent: {}
+[47.176923] (-) TimerEvent: {}
+[47.277944] (-) TimerEvent: {}
+[47.379022] (-) TimerEvent: {}
+[47.480105] (-) TimerEvent: {}
+[47.581253] (-) TimerEvent: {}
+[47.682311] (-) TimerEvent: {}
+[47.783367] (-) TimerEvent: {}
+[47.884421] (-) TimerEvent: {}
+[47.985471] (-) TimerEvent: {}
+[48.086534] (-) TimerEvent: {}
+[48.187640] (-) TimerEvent: {}
+[48.288838] (-) TimerEvent: {}
+[48.389950] (-) TimerEvent: {}
+[48.491049] (-) TimerEvent: {}
+[48.592133] (-) TimerEvent: {}
+[48.693214] (-) TimerEvent: {}
+[48.794226] (-) TimerEvent: {}
+[48.895294] (-) TimerEvent: {}
+[48.996325] (-) TimerEvent: {}
+[49.097399] (-) TimerEvent: {}
+[49.198446] (-) TimerEvent: {}
+[49.299488] (-) TimerEvent: {}
+[49.400538] (-) TimerEvent: {}
+[49.501664] (-) TimerEvent: {}
+[49.602703] (-) TimerEvent: {}
+[49.703753] (-) TimerEvent: {}
+[49.804898] (-) TimerEvent: {}
+[49.905971] (-) TimerEvent: {}
+[50.007035] (-) TimerEvent: {}
+[50.108082] (-) TimerEvent: {}
+[50.209151] (-) TimerEvent: {}
+[50.310170] (-) TimerEvent: {}
+[50.411213] (-) TimerEvent: {}
+[50.512363] (-) TimerEvent: {}
+[50.613594] (-) TimerEvent: {}
+[50.714626] (-) TimerEvent: {}
+[50.815764] (-) TimerEvent: {}
+[50.916865] (-) TimerEvent: {}
+[51.017866] (-) TimerEvent: {}
+[51.118883] (-) TimerEvent: {}
+[51.219992] (-) TimerEvent: {}
+[51.321146] (-) TimerEvent: {}
+[51.422227] (-) TimerEvent: {}
+[51.523270] (-) TimerEvent: {}
+[51.624336] (-) TimerEvent: {}
+[51.725418] (-) TimerEvent: {}
+[51.826460] (-) TimerEvent: {}
+[51.927490] (-) TimerEvent: {}
+[52.028561] (-) TimerEvent: {}
+[52.129710] (-) TimerEvent: {}
+[52.230752] (-) TimerEvent: {}
+[52.331855] (-) TimerEvent: {}
+[52.432891] (-) TimerEvent: {}
+[52.533933] (-) TimerEvent: {}
+[52.634973] (-) TimerEvent: {}
+[52.736042] (-) TimerEvent: {}
+[52.837504] (-) TimerEvent: {}
+[52.938571] (-) TimerEvent: {}
+[53.039638] (-) TimerEvent: {}
+[53.140669] (-) TimerEvent: {}
+[53.241659] (-) TimerEvent: {}
+[53.342724] (-) TimerEvent: {}
+[53.443785] (-) TimerEvent: {}
+[53.544876] (-) TimerEvent: {}
+[53.645882] (-) TimerEvent: {}
+[53.747023] (-) TimerEvent: {}
+[53.848103] (-) TimerEvent: {}
+[53.949397] (-) TimerEvent: {}
+[54.050472] (-) TimerEvent: {}
+[54.151546] (-) TimerEvent: {}
+[54.252626] (-) TimerEvent: {}
+[54.353759] (-) TimerEvent: {}
+[54.454808] (-) TimerEvent: {}
+[54.555768] (-) TimerEvent: {}
+[54.656696] (-) TimerEvent: {}
+[54.757686] (-) TimerEvent: {}
+[54.858624] (-) TimerEvent: {}
+[54.959581] (-) TimerEvent: {}
+[55.060512] (-) TimerEvent: {}
+[55.161483] (-) TimerEvent: {}
+[55.262407] (-) TimerEvent: {}
+[55.363339] (-) TimerEvent: {}
+[55.464298] (-) TimerEvent: {}
+[55.565333] (-) TimerEvent: {}
+[55.666324] (-) TimerEvent: {}
+[55.767321] (-) TimerEvent: {}
+[55.868396] (-) TimerEvent: {}
+[55.969489] (-) TimerEvent: {}
+[56.070506] (-) TimerEvent: {}
+[56.173044] (-) TimerEvent: {}
+[56.281944] (-) TimerEvent: {}
+[56.382956] (-) TimerEvent: {}
+[56.484132] (-) TimerEvent: {}
+[56.585280] (-) TimerEvent: {}
+[56.686473] (-) TimerEvent: {}
+[56.787602] (-) TimerEvent: {}
+[56.888698] (-) TimerEvent: {}
+[56.989768] (-) TimerEvent: {}
+[57.090787] (-) TimerEvent: {}
+[57.191827] (-) TimerEvent: {}
+[57.292899] (-) TimerEvent: {}
+[57.393944] (-) TimerEvent: {}
+[57.494978] (-) TimerEvent: {}
+[57.596090] (-) TimerEvent: {}
+[57.697212] (-) TimerEvent: {}
+[57.798246] (-) TimerEvent: {}
+[57.899207] (-) TimerEvent: {}
+[58.000195] (-) TimerEvent: {}
+[58.101210] (-) TimerEvent: {}
+[58.202191] (-) TimerEvent: {}
+[58.303225] (-) TimerEvent: {}
+[58.404293] (-) TimerEvent: {}
+[58.505418] (-) TimerEvent: {}
+[58.606554] (-) TimerEvent: {}
+[58.707595] (-) TimerEvent: {}
+[58.808723] (-) TimerEvent: {}
+[58.909770] (-) TimerEvent: {}
+[59.010738] (-) TimerEvent: {}
+[59.111703] (-) TimerEvent: {}
+[59.212700] (-) TimerEvent: {}
+[59.313712] (-) TimerEvent: {}
+[59.414714] (-) TimerEvent: {}
+[59.515706] (-) TimerEvent: {}
+[59.616676] (-) TimerEvent: {}
+[59.717770] (-) TimerEvent: {}
+[59.818884] (-) TimerEvent: {}
+[59.919870] (-) TimerEvent: {}
+[60.020882] (-) TimerEvent: {}
+[60.121920] (-) TimerEvent: {}
+[60.223165] (-) TimerEvent: {}
+[60.324501] (-) TimerEvent: {}
+[60.425902] (-) TimerEvent: {}
+[60.526968] (-) TimerEvent: {}
+[60.628004] (-) TimerEvent: {}
+[60.729092] (-) TimerEvent: {}
+[60.830178] (-) TimerEvent: {}
+[60.931218] (-) TimerEvent: {}
+[61.032275] (-) TimerEvent: {}
+[61.133414] (-) TimerEvent: {}
+[61.234485] (-) TimerEvent: {}
+[61.335537] (-) TimerEvent: {}
+[61.436569] (-) TimerEvent: {}
+[61.537691] (-) TimerEvent: {}
+[61.638712] (-) TimerEvent: {}
+[61.739739] (-) TimerEvent: {}
+[61.840812] (-) TimerEvent: {}
+[61.941763] (-) TimerEvent: {}
+[62.042768] (-) TimerEvent: {}
+[62.144183] (-) TimerEvent: {}
+[62.245273] (-) TimerEvent: {}
+[62.346297] (-) TimerEvent: {}
+[62.447346] (-) TimerEvent: {}
+[62.548500] (-) TimerEvent: {}
+[62.649633] (-) TimerEvent: {}
+[62.750678] (-) TimerEvent: {}
+[62.851741] (-) TimerEvent: {}
+[62.952867] (-) TimerEvent: {}
+[63.054428] (-) TimerEvent: {}
+[63.155625] (-) TimerEvent: {}
+[63.256657] (-) TimerEvent: {}
+[63.358357] (-) TimerEvent: {}
+[63.459429] (-) TimerEvent: {}
+[63.560863] (-) TimerEvent: {}
+[63.661870] (-) TimerEvent: {}
+[63.762921] (-) TimerEvent: {}
+[63.863941] (-) TimerEvent: {}
+[63.964986] (-) TimerEvent: {}
+[64.066015] (-) TimerEvent: {}
+[64.167072] (-) TimerEvent: {}
+[64.268138] (-) TimerEvent: {}
+[64.369222] (-) TimerEvent: {}
+[64.470294] (-) TimerEvent: {}
+[64.571296] (-) TimerEvent: {}
+[64.672329] (-) TimerEvent: {}
+[64.773351] (-) TimerEvent: {}
+[64.874402] (-) TimerEvent: {}
+[64.975444] (-) TimerEvent: {}
+[65.076455] (-) TimerEvent: {}
+[65.177534] (-) TimerEvent: {}
+[65.278572] (-) TimerEvent: {}
+[65.379584] (-) TimerEvent: {}
+[65.480680] (-) TimerEvent: {}
+[65.581755] (-) TimerEvent: {}
+[65.682780] (-) TimerEvent: {}
+[65.783850] (-) TimerEvent: {}
+[65.884936] (-) TimerEvent: {}
+[65.985993] (-) TimerEvent: {}
+[66.087049] (-) TimerEvent: {}
+[66.188080] (-) TimerEvent: {}
+[66.289224] (-) TimerEvent: {}
+[66.390280] (-) TimerEvent: {}
+[66.491329] (-) TimerEvent: {}
+[66.592404] (-) TimerEvent: {}
+[66.693517] (-) TimerEvent: {}
+[66.794589] (-) TimerEvent: {}
+[66.895634] (-) TimerEvent: {}
+[66.996704] (-) TimerEvent: {}
+[67.097801] (-) TimerEvent: {}
+[67.198862] (-) TimerEvent: {}
+[67.299969] (-) TimerEvent: {}
+[67.401100] (-) TimerEvent: {}
+[67.505393] (-) TimerEvent: {}
+[67.606458] (-) TimerEvent: {}
+[67.707634] (-) TimerEvent: {}
+[67.808754] (-) TimerEvent: {}
+[67.909837] (-) TimerEvent: {}
+[68.010881] (-) TimerEvent: {}
+[68.111943] (-) TimerEvent: {}
+[68.213012] (-) TimerEvent: {}
+[68.314003] (-) TimerEvent: {}
+[68.415032] (-) TimerEvent: {}
+[68.516107] (-) TimerEvent: {}
+[68.617238] (-) TimerEvent: {}
+[68.718248] (-) TimerEvent: {}
+[68.819354] (-) TimerEvent: {}
+[68.920360] (-) TimerEvent: {}
+[69.021447] (-) TimerEvent: {}
+[69.122523] (-) TimerEvent: {}
+[69.223594] (-) TimerEvent: {}
+[69.324594] (-) TimerEvent: {}
+[69.425819] (-) TimerEvent: {}
+[69.526896] (-) TimerEvent: {}
+[69.627960] (-) TimerEvent: {}
+[69.728987] (-) TimerEvent: {}
+[69.830024] (-) TimerEvent: {}
+[69.931050] (-) TimerEvent: {}
+[70.032033] (-) TimerEvent: {}
+[70.133278] (-) TimerEvent: {}
+[70.234264] (-) TimerEvent: {}
+[70.335323] (-) TimerEvent: {}
+[70.436398] (-) TimerEvent: {}
+[70.537486] (-) TimerEvent: {}
+[70.638528] (-) TimerEvent: {}
+[70.739540] (-) TimerEvent: {}
+[70.840572] (-) TimerEvent: {}
+[70.941697] (-) TimerEvent: {}
+[71.042811] (-) TimerEvent: {}
+[71.143840] (-) TimerEvent: {}
+[71.244936] (-) TimerEvent: {}
+[71.345965] (-) TimerEvent: {}
+[71.446999] (-) TimerEvent: {}
+[71.548097] (-) TimerEvent: {}
+[71.649283] (-) TimerEvent: {}
+[71.750379] (-) TimerEvent: {}
+[71.851577] (-) TimerEvent: {}
+[71.952642] (-) TimerEvent: {}
+[72.053723] (-) TimerEvent: {}
+[72.154789] (-) TimerEvent: {}
+[72.255855] (-) TimerEvent: {}
+[72.356981] (-) TimerEvent: {}
+[72.458018] (-) TimerEvent: {}
+[72.559154] (-) TimerEvent: {}
+[72.660204] (-) TimerEvent: {}
+[72.761309] (-) TimerEvent: {}
+[72.862316] (-) TimerEvent: {}
+[72.963346] (-) TimerEvent: {}
+[73.064365] (-) TimerEvent: {}
+[73.165485] (-) TimerEvent: {}
+[73.266527] (-) TimerEvent: {}
+[73.367576] (-) TimerEvent: {}
+[73.468627] (-) TimerEvent: {}
+[73.569688] (-) TimerEvent: {}
+[73.670727] (-) TimerEvent: {}
+[73.771807] (-) TimerEvent: {}
+[73.872903] (-) TimerEvent: {}
+[73.973961] (-) TimerEvent: {}
+[74.075019] (-) TimerEvent: {}
+[74.176191] (-) TimerEvent: {}
+[74.277392] (-) TimerEvent: {}
+[74.378427] (-) TimerEvent: {}
+[74.479494] (-) TimerEvent: {}
+[74.580504] (-) TimerEvent: {}
+[74.681549] (-) TimerEvent: {}
+[74.782522] (-) TimerEvent: {}
+[74.883478] (-) TimerEvent: {}
+[74.984427] (-) TimerEvent: {}
+[75.085412] (-) TimerEvent: {}
+[75.186381] (-) TimerEvent: {}
+[75.287715] (-) TimerEvent: {}
+[75.388690] (-) TimerEvent: {}
+[75.489690] (-) TimerEvent: {}
+[75.590638] (-) TimerEvent: {}
+[75.691575] (-) TimerEvent: {}
+[75.792523] (-) TimerEvent: {}
+[75.893511] (-) TimerEvent: {}
+[75.994464] (-) TimerEvent: {}
+[76.095436] (-) TimerEvent: {}
+[76.196516] (-) TimerEvent: {}
+[76.297539] (-) TimerEvent: {}
+[76.398800] (-) TimerEvent: {}
+[76.499818] (-) TimerEvent: {}
+[76.600844] (-) TimerEvent: {}
+[76.701855] (-) TimerEvent: {}
+[76.802851] (-) TimerEvent: {}
+[76.903814] (-) TimerEvent: {}
+[77.004867] (-) TimerEvent: {}
+[77.105832] (-) TimerEvent: {}
+[77.206781] (-) TimerEvent: {}
+[77.307799] (-) TimerEvent: {}
+[77.408899] (-) TimerEvent: {}
+[77.509986] (-) TimerEvent: {}
+[77.610972] (-) TimerEvent: {}
+[77.711939] (-) TimerEvent: {}
+[77.812983] (-) TimerEvent: {}
+[77.914079] (-) TimerEvent: {}
+[78.015236] (-) TimerEvent: {}
+[78.116272] (-) TimerEvent: {}
+[78.217393] (-) TimerEvent: {}
+[78.318418] (-) TimerEvent: {}
+[78.419528] (-) TimerEvent: {}
+[78.520628] (-) TimerEvent: {}
+[78.621838] (-) TimerEvent: {}
+[78.722850] (-) TimerEvent: {}
+[78.823867] (-) TimerEvent: {}
+[78.924925] (-) TimerEvent: {}
+[79.026003] (-) TimerEvent: {}
+[79.127066] (-) TimerEvent: {}
+[79.228127] (-) TimerEvent: {}
+[79.329269] (-) TimerEvent: {}
+[79.430333] (-) TimerEvent: {}
+[79.531404] (-) TimerEvent: {}
+[79.632465] (-) TimerEvent: {}
+[79.733585] (-) TimerEvent: {}
+[79.834659] (-) TimerEvent: {}
+[79.935703] (-) TimerEvent: {}
+[80.036763] (-) TimerEvent: {}
+[80.137865] (-) TimerEvent: {}
+[80.238925] (-) TimerEvent: {}
+[80.340062] (-) TimerEvent: {}
+[80.441176] (-) TimerEvent: {}
+[80.542296] (-) TimerEvent: {}
+[80.643373] (-) TimerEvent: {}
+[80.744541] (-) TimerEvent: {}
+[80.845587] (-) TimerEvent: {}
+[80.946660] (-) TimerEvent: {}
+[81.047706] (-) TimerEvent: {}
+[81.148764] (-) TimerEvent: {}
+[81.249861] (-) TimerEvent: {}
+[81.350953] (-) TimerEvent: {}
+[81.452066] (-) TimerEvent: {}
+[81.553151] (-) TimerEvent: {}
+[81.654173] (-) TimerEvent: {}
+[81.755205] (-) TimerEvent: {}
+[81.856224] (-) TimerEvent: {}
+[81.957299] (-) TimerEvent: {}
+[82.058391] (-) TimerEvent: {}
+[82.159482] (-) TimerEvent: {}
+[82.260553] (-) TimerEvent: {}
+[82.361686] (-) TimerEvent: {}
+[82.462756] (-) TimerEvent: {}
+[82.563870] (-) TimerEvent: {}
+[82.664948] (-) TimerEvent: {}
+[82.766015] (-) TimerEvent: {}
+[82.867090] (-) TimerEvent: {}
+[82.968148] (-) TimerEvent: {}
+[83.069224] (-) TimerEvent: {}
+[83.170252] (-) TimerEvent: {}
+[83.271320] (-) TimerEvent: {}
+[83.372392] (-) TimerEvent: {}
+[83.473492] (-) TimerEvent: {}
+[83.574469] (-) TimerEvent: {}
+[83.675537] (-) TimerEvent: {}
+[83.776576] (-) TimerEvent: {}
+[83.877655] (-) TimerEvent: {}
+[83.978705] (-) TimerEvent: {}
+[84.079778] (-) TimerEvent: {}
+[84.180938] (-) TimerEvent: {}
+[84.282044] (-) TimerEvent: {}
+[84.383071] (-) TimerEvent: {}
+[84.484145] (-) TimerEvent: {}
+[84.585262] (-) TimerEvent: {}
+[84.686305] (-) TimerEvent: {}
+[84.787426] (-) TimerEvent: {}
+[84.888549] (-) TimerEvent: {}
+[84.989605] (-) TimerEvent: {}
+[85.090680] (-) TimerEvent: {}
+[85.191743] (-) TimerEvent: {}
+[85.292820] (-) TimerEvent: {}
+[85.393891] (-) TimerEvent: {}
+[85.494916] (-) TimerEvent: {}
+[85.595985] (-) TimerEvent: {}
+[85.697070] (-) TimerEvent: {}
+[85.798124] (-) TimerEvent: {}
+[85.899198] (-) TimerEvent: {}
+[86.000255] (-) TimerEvent: {}
+[86.101359] (-) TimerEvent: {}
+[86.202410] (-) TimerEvent: {}
+[86.303470] (-) TimerEvent: {}
+[86.404475] (-) TimerEvent: {}
+[86.505528] (-) TimerEvent: {}
+[86.606568] (-) TimerEvent: {}
+[86.707703] (-) TimerEvent: {}
+[86.808909] (-) TimerEvent: {}
+[86.909917] (-) TimerEvent: {}
+[87.010954] (-) TimerEvent: {}
+[87.112007] (-) TimerEvent: {}
+[87.213075] (-) TimerEvent: {}
+[87.314124] (-) TimerEvent: {}
+[87.415193] (-) TimerEvent: {}
+[87.516295] (-) TimerEvent: {}
+[87.617355] (-) TimerEvent: {}
+[87.718366] (-) TimerEvent: {}
+[87.819415] (-) TimerEvent: {}
+[87.920484] (-) TimerEvent: {}
+[88.021588] (-) TimerEvent: {}
+[88.122662] (-) TimerEvent: {}
+[88.223726] (-) TimerEvent: {}
+[88.324817] (-) TimerEvent: {}
+[88.425857] (-) TimerEvent: {}
+[88.526979] (-) TimerEvent: {}
+[88.628154] (-) TimerEvent: {}
+[88.729255] (-) TimerEvent: {}
+[88.830323] (-) TimerEvent: {}
+[88.931420] (-) TimerEvent: {}
+[89.032548] (-) TimerEvent: {}
+[89.133619] (-) TimerEvent: {}
+[89.234670] (-) TimerEvent: {}
+[89.335700] (-) TimerEvent: {}
+[89.436843] (-) TimerEvent: {}
+[89.537881] (-) TimerEvent: {}
+[89.638947] (-) TimerEvent: {}
+[89.740035] (-) TimerEvent: {}
+[89.841132] (-) TimerEvent: {}
+[89.942155] (-) TimerEvent: {}
+[90.043186] (-) TimerEvent: {}
+[90.144240] (-) TimerEvent: {}
+[90.245274] (-) TimerEvent: {}
+[90.346315] (-) TimerEvent: {}
+[90.447364] (-) TimerEvent: {}
+[90.548428] (-) TimerEvent: {}
+[90.649530] (-) TimerEvent: {}
+[90.750584] (-) TimerEvent: {}
+[90.851634] (-) TimerEvent: {}
+[90.952691] (-) TimerEvent: {}
+[91.053802] (-) TimerEvent: {}
+[91.154873] (-) TimerEvent: {}
+[91.256015] (-) TimerEvent: {}
+[91.357200] (-) TimerEvent: {}
+[91.458099] (-) TimerEvent: {}
+[91.559015] (-) TimerEvent: {}
+[91.659934] (-) TimerEvent: {}
+[91.760882] (-) TimerEvent: {}
+[91.861841] (-) TimerEvent: {}
+[91.962847] (-) TimerEvent: {}
+[92.063851] (-) TimerEvent: {}
+[92.164893] (-) TimerEvent: {}
+[92.265869] (-) TimerEvent: {}
+[92.366903] (-) TimerEvent: {}
+[92.467995] (-) TimerEvent: {}
+[92.569113] (-) TimerEvent: {}
+[92.670104] (-) TimerEvent: {}
+[92.771082] (-) TimerEvent: {}
+[92.872077] (-) TimerEvent: {}
+[92.973197] (-) TimerEvent: {}
+[93.074235] (-) TimerEvent: {}
+[93.175245] (-) TimerEvent: {}
+[93.276286] (-) TimerEvent: {}
+[93.377382] (-) TimerEvent: {}
+[93.478336] (-) TimerEvent: {}
+[93.579378] (-) TimerEvent: {}
+[93.680356] (-) TimerEvent: {}
+[93.781369] (-) TimerEvent: {}
+[93.882335] (-) TimerEvent: {}
+[93.983283] (-) TimerEvent: {}
+[94.084227] (-) TimerEvent: {}
+[94.185221] (-) TimerEvent: {}
+[94.286220] (-) TimerEvent: {}
+[94.387251] (-) TimerEvent: {}
+[94.488243] (-) TimerEvent: {}
+[94.589259] (-) TimerEvent: {}
+[94.690191] (-) TimerEvent: {}
+[94.791241] (-) TimerEvent: {}
+[94.892229] (-) TimerEvent: {}
+[94.993285] (-) TimerEvent: {}
+[95.094265] (-) TimerEvent: {}
+[95.195279] (-) TimerEvent: {}
+[95.296251] (-) TimerEvent: {}
+[95.397245] (-) TimerEvent: {}
+[95.498223] (-) TimerEvent: {}
+[95.599195] (-) TimerEvent: {}
+[95.700243] (-) TimerEvent: {}
+[95.801321] (-) TimerEvent: {}
+[95.902333] (-) TimerEvent: {}
+[96.003329] (-) TimerEvent: {}
+[96.104281] (-) TimerEvent: {}
+[96.205332] (-) TimerEvent: {}
+[96.306329] (-) TimerEvent: {}
+[96.407273] (-) TimerEvent: {}
+[96.508627] (-) TimerEvent: {}
+[96.609649] (-) TimerEvent: {}
+[96.710626] (-) TimerEvent: {}
+[96.811595] (-) TimerEvent: {}
+[96.912545] (-) TimerEvent: {}
+[97.013531] (-) TimerEvent: {}
+[97.114560] (-) TimerEvent: {}
+[97.215508] (-) TimerEvent: {}
+[97.316456] (-) TimerEvent: {}
+[97.417470] (-) TimerEvent: {}
+[97.518459] (-) TimerEvent: {}
+[97.619389] (-) TimerEvent: {}
+[97.720347] (-) TimerEvent: {}
+[97.821372] (-) TimerEvent: {}
+[97.922353] (-) TimerEvent: {}
+[98.023639] (-) TimerEvent: {}
+[98.125289] (-) TimerEvent: {}
+[98.226659] (-) TimerEvent: {}
+[98.327877] (-) TimerEvent: {}
+[98.429052] (-) TimerEvent: {}
+[98.530194] (-) TimerEvent: {}
+[98.631317] (-) TimerEvent: {}
+[98.732313] (-) TimerEvent: {}
+[98.833290] (-) TimerEvent: {}
+[98.934214] (-) TimerEvent: {}
+[99.035174] (-) TimerEvent: {}
+[99.136091] (-) TimerEvent: {}
+[99.237053] (-) TimerEvent: {}
+[99.338062] (-) TimerEvent: {}
+[99.439126] (-) TimerEvent: {}
+[99.540151] (-) TimerEvent: {}
+[99.641292] (-) TimerEvent: {}
+[99.742222] (-) TimerEvent: {}
+[99.843217] (-) TimerEvent: {}
+[99.944145] (-) TimerEvent: {}
+[100.045185] (-) TimerEvent: {}
+[100.146236] (-) TimerEvent: {}
+[100.205204] (slam_gmapping) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable slam_gmapping\x1b[0m\n'}
+[100.246456] (-) TimerEvent: {}
+[100.347475] (-) TimerEvent: {}
+[100.448704] (-) TimerEvent: {}
+[100.550134] (-) TimerEvent: {}
+[100.651225] (-) TimerEvent: {}
+[100.752486] (-) TimerEvent: {}
+[100.853730] (-) TimerEvent: {}
+[100.954990] (-) TimerEvent: {}
+[101.055995] (-) TimerEvent: {}
+[101.157192] (-) TimerEvent: {}
+[101.258329] (-) TimerEvent: {}
+[101.359547] (-) TimerEvent: {}
+[101.460751] (-) TimerEvent: {}
+[101.561994] (-) TimerEvent: {}
+[101.663277] (-) TimerEvent: {}
+[101.764530] (-) TimerEvent: {}
+[101.865800] (-) TimerEvent: {}
+[101.966937] (-) TimerEvent: {}
+[102.068170] (-) TimerEvent: {}
+[102.169479] (-) TimerEvent: {}
+[102.270602] (-) TimerEvent: {}
+[102.371787] (-) TimerEvent: {}
+[102.473774] (-) TimerEvent: {}
+[102.574941] (-) TimerEvent: {}
+[102.676326] (-) TimerEvent: {}
+[102.777647] (-) TimerEvent: {}
+[102.878850] (-) TimerEvent: {}
+[102.980084] (-) TimerEvent: {}
+[103.081111] (-) TimerEvent: {}
+[103.182113] (-) TimerEvent: {}
+[103.283240] (-) TimerEvent: {}
+[103.384248] (-) TimerEvent: {}
+[103.485160] (-) TimerEvent: {}
+[103.586028] (-) TimerEvent: {}
+[103.686957] (-) TimerEvent: {}
+[103.787880] (-) TimerEvent: {}
+[103.888785] (-) TimerEvent: {}
+[103.989659] (-) TimerEvent: {}
+[104.090559] (-) TimerEvent: {}
+[104.191455] (-) TimerEvent: {}
+[104.292319] (-) TimerEvent: {}
+[104.393298] (-) TimerEvent: {}
+[104.494369] (-) TimerEvent: {}
+[104.595284] (-) TimerEvent: {}
+[104.696183] (-) TimerEvent: {}
+[104.797091] (-) TimerEvent: {}
+[104.897962] (-) TimerEvent: {}
+[104.998930] (-) TimerEvent: {}
+[105.099892] (-) TimerEvent: {}
+[105.200903] (-) TimerEvent: {}
+[105.301847] (-) TimerEvent: {}
+[105.402842] (-) TimerEvent: {}
+[105.503765] (-) TimerEvent: {}
+[105.604652] (-) TimerEvent: {}
+[105.705561] (-) TimerEvent: {}
+[105.807020] (-) TimerEvent: {}
+[105.908057] (-) TimerEvent: {}
+[106.009151] (-) TimerEvent: {}
+[106.072467] (slam_gmapping) StdoutLine: {'line': b'[100%] Built target slam_gmapping\n'}
+[106.109380] (-) TimerEvent: {}
+[106.121209] (slam_gmapping) CommandEnded: {'returncode': 0}
+[106.203731] (slam_gmapping) JobProgress: {'identifier': 'slam_gmapping', 'progress': 'install'}
+[106.209575] (-) TimerEvent: {}
+[106.240483] (slam_gmapping) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 43318 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b97cf0e6-36a9-41cf-a80b-db91d0e140a1.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-2ddc1d1355.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping'), ('SSH_CONNECTION', '192.168.159.239 43318 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[106.274283] (slam_gmapping) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[106.276219] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping\n'}
+[106.302416] (slam_gmapping) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""\n'}
+[106.304227] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/launch\n'}
+[106.306979] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py\n'}
+[106.308566] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping\n'}
+[106.309695] (-) TimerEvent: {}
+[106.310522] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping\n'}
+[106.312146] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh\n'}
+[106.313154] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv\n'}
+[106.314075] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh\n'}
+[106.315096] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv\n'}
+[106.316421] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash\n'}
+[106.317909] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh\n'}
+[106.319082] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh\n'}
+[106.320079] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv\n'}
+[106.321068] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/package.dsv\n'}
+[106.321891] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping\n'}
+[106.322652] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake\n'}
+[106.323365] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake\n'}
+[106.324029] (slam_gmapping) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/package.xml\n'}
+[106.329176] (slam_gmapping) CommandEnded: {'returncode': 0}
+[106.409980] (-) TimerEvent: {}
+[106.514391] (-) TimerEvent: {}
+[106.533340] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 0}
+[106.539446] (-) EventReactorShutdown: {}

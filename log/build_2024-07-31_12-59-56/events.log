@@ -1,0 +1,978 @@
+[0.000000] (-) TimerEvent: {}
+[0.001623] (bkwindbot_urdf) JobQueued: {'identifier': 'bkwindbot_urdf', 'dependencies': OrderedDict()}
+[0.003424] (wheeltec_robot_msg) JobQueued: {'identifier': 'wheeltec_robot_msg', 'dependencies': OrderedDict()}
+[0.004436] (wheeltec_robot_urdf) JobQueued: {'identifier': 'wheeltec_robot_urdf', 'dependencies': OrderedDict()}
+[0.005472] (turn_on_wheeltec_robot) JobQueued: {'identifier': 'turn_on_wheeltec_robot', 'dependencies': OrderedDict([('wheeltec_robot_msg', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg')])}
+[0.005886] (wheeltec_robot_msg) JobStarted: {'identifier': 'wheeltec_robot_msg'}
+[0.040992] (bkwindbot_urdf) JobStarted: {'identifier': 'bkwindbot_urdf'}
+[0.062464] (wheeltec_robot_urdf) JobStarted: {'identifier': 'wheeltec_robot_urdf'}
+[0.094943] (wheeltec_robot_msg) JobProgress: {'identifier': 'wheeltec_robot_msg', 'progress': 'cmake'}
+[0.096085] (wheeltec_robot_msg) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102398] (-) TimerEvent: {}
+[0.111414] (bkwindbot_urdf) JobProgress: {'identifier': 'bkwindbot_urdf', 'progress': 'cmake'}
+[0.115977] (bkwindbot_urdf) JobProgress: {'identifier': 'bkwindbot_urdf', 'progress': 'build'}
+[0.121654] (bkwindbot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.139716] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'cmake'}
+[0.146591] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'build'}
+[0.150359] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.202689] (-) TimerEvent: {}
+[0.305662] (-) TimerEvent: {}
+[0.312153] (bkwindbot_urdf) CommandEnded: {'returncode': 0}
+[0.325561] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.406614] (-) TimerEvent: {}
+[0.426591] (bkwindbot_urdf) JobProgress: {'identifier': 'bkwindbot_urdf', 'progress': 'install'}
+[0.472236] (bkwindbot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.495369] (wheeltec_robot_urdf) JobProgress: {'identifier': 'wheeltec_robot_urdf', 'progress': 'install'}
+[0.502672] (wheeltec_robot_urdf) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.507957] (-) TimerEvent: {}
+[0.515093] (bkwindbot_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.516238] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes\n'}
+[0.517129] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels\n'}
+[0.520137] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels/right_tire.stl\n'}
+[0.523854] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels/left_tire.stl\n'}
+[0.525002] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors\n'}
+[0.525994] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/astra.dae\n'}
+[0.533801] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/lds.stl\n'}
+[0.550907] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/r200.jpg\n'}
+[0.551866] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/astra.jpg\n'}
+[0.552720] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/r200.dae\n'}
+[0.553665] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases\n'}
+[0.554792] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/waffle_pi_base.stl\n'}
+[0.556080] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/burger_base.stl\n'}
+[0.557059] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/waffle_base.stl\n'}
+[0.570218] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/rviz\n'}
+[0.571151] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/rviz/model.rviz\n'}
+[0.571928] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf\n'}
+[0.572665] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_diff_robot.urdf\n'}
+[0.573374] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_mec_bs_robot.urdf\n'}
+[0.576768] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_akm_robot.urdf\n'}
+[0.577676] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_4wd_bs_robot.urdf\n'}
+[0.578737] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/four_wheel_diff_dl_robot.urdf\n'}
+[0.579730] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_4wd_bs_robot.urdf\n'}
+[0.581419] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_4wd_bs_robot.urdf\n'}
+[0.583548] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_mec_robot.urdf\n'}
+[0.587378] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/brushless_senior_diff.urdf\n'}
+[0.588170] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_akm_bs_robot.urdf\n'}
+[0.588848] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_mec_robot.urdf\n'}
+[0.589581] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_omni_robot.urdf\n'}
+[0.592140] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_akm_dl_robot.urdf\n'}
+[0.593276] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_omni_robot.urdf\n'}
+[0.594655] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_mec_dl_robot.urdf\n'}
+[0.595527] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_mec_dl_robot.urdf\n'}
+[0.596590] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_akm_robot.urdf\n'}
+[0.597729] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_4wd_dl_robot.urdf\n'}
+[0.599366] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_omni_robot.urdf\n'}
+[0.600437] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_4wd_dl_robot.urdf\n'}
+[0.601474] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_mec_bs_robot.urdf\n'}
+[0.602777] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mec_EightDrive_robot.urdf\n'}
+[0.616154] (-) TimerEvent: {}
+[0.616948] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_mec_dl_robot.urdf\n'}
+[0.619068] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_4wd_dl_robot.urdf\n'}
+[0.620279] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_4wd_robot.urdf\n'}
+[0.622726] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/four_wheel_diff_bs_robot.urdf\n'}
+[0.626754] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_mec_moveit.urdf\n'}
+[0.627560] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_four_wheel_diff_bs_robot.urdf\n'}
+[0.629458] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_four_wheel_diff_dl_robot.urdf\n'}
+[0.631026] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_tank_moveit.urdf\n'}
+[0.653739] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_diff_robot.urdf\n'}
+[0.654777] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/package_run_dependencies/bkwindbot_urdf\n'}
+[0.655569] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/parent_prefix_path/bkwindbot_urdf\n'}
+[0.656420] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/ament_prefix_path.sh\n'}
+[0.657219] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/ament_prefix_path.dsv\n'}
+[0.658070] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/path.sh\n'}
+[0.659176] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/path.dsv\n'}
+[0.660245] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.bash\n'}
+[0.661162] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.sh\n'}
+[0.662037] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.zsh\n'}
+[0.663079] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.dsv\n'}
+[0.663950] (bkwindbot_urdf) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.dsv\n'}
+[0.664834] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/packages/bkwindbot_urdf\n'}
+[0.665662] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/cmake/bkwindbot_urdfConfig.cmake\n'}
+[0.666556] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/cmake/bkwindbot_urdfConfig-version.cmake\n'}
+[0.667222] (bkwindbot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.xml\n'}
+[0.667829] (wheeltec_robot_msg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.668508] (bkwindbot_urdf) CommandEnded: {'returncode': 0}
+[0.672420] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.695328] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes\n'}
+[0.696108] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels\n'}
+[0.696860] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/right_tire.stl\n'}
+[0.697579] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/wheels/left_tire.stl\n'}
+[0.702703] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors\n'}
+[0.703529] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.dae\n'}
+[0.704359] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/lds.stl\n'}
+[0.705066] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.jpg\n'}
+[0.705713] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/astra.jpg\n'}
+[0.722664] (-) TimerEvent: {}
+[0.723363] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/sensors/r200.dae\n'}
+[0.724228] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases\n'}
+[0.724890] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_pi_base.stl\n'}
+[0.725514] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/burger_base.stl\n'}
+[0.729837] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/meshes/bases/waffle_base.stl\n'}
+[0.730853] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz\n'}
+[0.731753] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/rviz/model.rviz\n'}
+[0.732487] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf\n'}
+[0.733135] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_diff_robot.urdf\n'}
+[0.734237] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_bs_robot.urdf\n'}
+[0.735115] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_akm_robot.urdf\n'}
+[0.735875] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_bs_robot.urdf\n'}
+[0.736708] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_dl_robot.urdf\n'}
+[0.737597] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_bs_robot.urdf\n'}
+[0.739014] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_bs_robot.urdf\n'}
+[0.739798] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_robot.urdf\n'}
+[0.740618] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/brushless_senior_diff.urdf\n'}
+[0.741441] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_bs_robot.urdf\n'}
+[0.742406] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_robot.urdf\n'}
+[0.743169] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_omni_robot.urdf\n'}
+[0.743827] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_akm_dl_robot.urdf\n'}
+[0.744458] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_omni_robot.urdf\n'}
+[0.745509] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_mec_dl_robot.urdf\n'}
+[0.746566] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_mec_dl_robot.urdf\n'}
+[0.747735] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_akm_robot.urdf\n'}
+[0.748814] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_4wd_dl_robot.urdf\n'}
+[0.749613] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_omni_robot.urdf\n'}
+[0.750512] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_4wd_dl_robot.urdf\n'}
+[0.751408] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_bs_robot.urdf\n'}
+[0.752134] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mec_EightDrive_robot.urdf\n'}
+[0.753008] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/top_mec_dl_robot.urdf\n'}
+[0.754096] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_4wd_dl_robot.urdf\n'}
+[0.755113] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_4wd_robot.urdf\n'}
+[0.755948] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/four_wheel_diff_bs_robot.urdf\n'}
+[0.756676] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_mec_moveit.urdf\n'}
+[0.757350] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_bs_robot.urdf\n'}
+[0.768503] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/flagship_four_wheel_diff_dl_robot.urdf\n'}
+[0.770120] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/mini_tank_moveit.urdf\n'}
+[0.770975] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/urdf/senior_diff_robot.urdf\n'}
+[0.771810] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_urdf\n'}
+[0.772718] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_urdf\n'}
+[0.773987] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.sh\n'}
+[0.784204] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/ament_prefix_path.dsv\n'}
+[0.784923] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.sh\n'}
+[0.785613] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/environment/path.dsv\n'}
+[0.789425] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.bash\n'}
+[0.796185] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.sh\n'}
+[0.797000] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.zsh\n'}
+[0.797698] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/local_setup.dsv\n'}
+[0.799272] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv\n'}
+[0.800005] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/ament_index/resource_index/packages/wheeltec_robot_urdf\n'}
+[0.800699] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig.cmake\n'}
+[0.801371] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/cmake/wheeltec_robot_urdfConfig-version.cmake\n'}
+[0.806637] (wheeltec_robot_urdf) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.xml\n'}
+[0.827204] (wheeltec_robot_urdf) CommandEnded: {'returncode': 0}
+[0.830480] (-) TimerEvent: {}
+[0.931683] (-) TimerEvent: {}
+[0.982378] (wheeltec_robot_msg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.994119] (bkwindbot_urdf) JobEnded: {'identifier': 'bkwindbot_urdf', 'rc': 0}
+[1.025308] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.034024] (-) TimerEvent: {}
+[1.056199] (wheeltec_robot_urdf) JobEnded: {'identifier': 'wheeltec_robot_urdf', 'rc': 0}
+[1.134270] (-) TimerEvent: {}
+[1.235297] (-) TimerEvent: {}
+[1.336366] (-) TimerEvent: {}
+[1.397553] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.436564] (-) TimerEvent: {}
+[1.461116] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.462727] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.465354] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.484242] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.536799] (-) TimerEvent: {}
+[1.638503] (-) TimerEvent: {}
+[1.739512] (-) TimerEvent: {}
+[1.840750] (-) TimerEvent: {}
+[1.896940] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.940941] (-) TimerEvent: {}
+[1.961988] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.963713] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.966938] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.977664] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.041124] (-) TimerEvent: {}
+[2.142526] (-) TimerEvent: {}
+[2.243454] (-) TimerEvent: {}
+[2.344505] (-) TimerEvent: {}
+[2.445457] (-) TimerEvent: {}
+[2.546454] (-) TimerEvent: {}
+[2.648148] (-) TimerEvent: {}
+[2.749892] (-) TimerEvent: {}
+[2.851952] (-) TimerEvent: {}
+[2.952987] (-) TimerEvent: {}
+[3.047690] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.053218] (-) TimerEvent: {}
+[3.154675] (-) TimerEvent: {}
+[3.255669] (-) TimerEvent: {}
+[3.357212] (-) TimerEvent: {}
+[3.458236] (-) TimerEvent: {}
+[3.560160] (-) TimerEvent: {}
+[3.607827] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[3.625207] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.660374] (-) TimerEvent: {}
+[3.661799] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[3.760583] (-) TimerEvent: {}
+[3.861705] (-) TimerEvent: {}
+[3.897117] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.961967] (-) TimerEvent: {}
+[4.063505] (-) TimerEvent: {}
+[4.138210] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[4.163714] (-) TimerEvent: {}
+[4.264734] (-) TimerEvent: {}
+[4.365779] (-) TimerEvent: {}
+[4.466812] (-) TimerEvent: {}
+[4.567782] (-) TimerEvent: {}
+[4.668905] (-) TimerEvent: {}
+[4.769943] (-) TimerEvent: {}
+[4.870934] (-) TimerEvent: {}
+[4.972171] (-) TimerEvent: {}
+[5.073205] (-) TimerEvent: {}
+[5.174322] (-) TimerEvent: {}
+[5.275473] (-) TimerEvent: {}
+[5.377766] (-) TimerEvent: {}
+[5.478871] (-) TimerEvent: {}
+[5.579829] (-) TimerEvent: {}
+[5.680858] (-) TimerEvent: {}
+[5.781942] (-) TimerEvent: {}
+[5.882951] (-) TimerEvent: {}
+[5.983882] (-) TimerEvent: {}
+[6.084922] (-) TimerEvent: {}
+[6.186189] (-) TimerEvent: {}
+[6.287182] (-) TimerEvent: {}
+[6.388208] (-) TimerEvent: {}
+[6.489303] (-) TimerEvent: {}
+[6.590424] (-) TimerEvent: {}
+[6.662422] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)\n'}
+[6.677946] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[6.690660] (-) TimerEvent: {}
+[6.692021] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[6.706780] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[6.790871] (-) TimerEvent: {}
+[6.891853] (-) TimerEvent: {}
+[6.992913] (-) TimerEvent: {}
+[7.093960] (-) TimerEvent: {}
+[7.195662] (-) TimerEvent: {}
+[7.296840] (-) TimerEvent: {}
+[7.397911] (-) TimerEvent: {}
+[7.498869] (-) TimerEvent: {}
+[7.599889] (-) TimerEvent: {}
+[7.700928] (-) TimerEvent: {}
+[7.802014] (-) TimerEvent: {}
+[7.903565] (-) TimerEvent: {}
+[8.004608] (-) TimerEvent: {}
+[8.105570] (-) TimerEvent: {}
+[8.206593] (-) TimerEvent: {}
+[8.308097] (-) TimerEvent: {}
+[8.318456] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[8.408337] (-) TimerEvent: {}
+[8.509888] (-) TimerEvent: {}
+[8.610843] (-) TimerEvent: {}
+[8.712006] (-) TimerEvent: {}
+[8.813143] (-) TimerEvent: {}
+[8.914245] (-) TimerEvent: {}
+[9.015241] (-) TimerEvent: {}
+[9.116823] (-) TimerEvent: {}
+[9.217833] (-) TimerEvent: {}
+[9.318806] (-) TimerEvent: {}
+[9.419768] (-) TimerEvent: {}
+[9.520798] (-) TimerEvent: {}
+[9.621895] (-) TimerEvent: {}
+[9.722903] (-) TimerEvent: {}
+[9.824034] (-) TimerEvent: {}
+[9.925128] (-) TimerEvent: {}
+[10.026137] (-) TimerEvent: {}
+[10.127069] (-) TimerEvent: {}
+[10.228149] (-) TimerEvent: {}
+[10.329192] (-) TimerEvent: {}
+[10.425155] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[10.429412] (-) TimerEvent: {}
+[10.531047] (-) TimerEvent: {}
+[10.588935] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[10.596563] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[10.631244] (-) TimerEvent: {}
+[10.732235] (-) TimerEvent: {}
+[10.775523] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[10.778372] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[10.779411] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[10.780215] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[10.832422] (-) TimerEvent: {}
+[10.922799] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[10.932606] (-) TimerEvent: {}
+[11.033608] (-) TimerEvent: {}
+[11.134596] (-) TimerEvent: {}
+[11.236153] (-) TimerEvent: {}
+[11.274965] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_flake8: 0.12.11 (/opt/ros/humble/share/ament_cmake_flake8/cmake)\n'}
+[11.298076] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Found ament_cmake_pep257: 0.12.11 (/opt/ros/humble/share/ament_cmake_pep257/cmake)\n'}
+[11.336379] (-) TimerEvent: {}
+[11.341480] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.436588] (-) TimerEvent: {}
+[11.537601] (-) TimerEvent: {}
+[11.546573] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Generating done\n'}
+[11.564718] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg\n'}
+[11.607086] (wheeltec_robot_msg) CommandEnded: {'returncode': 0}
+[11.609181] (wheeltec_robot_msg) JobProgress: {'identifier': 'wheeltec_robot_msg', 'progress': 'build'}
+[11.609402] (wheeltec_robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.637838] (-) TimerEvent: {}
+[11.740017] (-) TimerEvent: {}
+[11.810333] (wheeltec_robot_msg) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[11.843763] (-) TimerEvent: {}
+[11.910347] (wheeltec_robot_msg) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[11.943976] (-) TimerEvent: {}
+[12.035967] (wheeltec_robot_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_wheeltec_robot_msg\n'}
+[12.044213] (-) TimerEvent: {}
+[12.146981] (-) TimerEvent: {}
+[12.250041] (-) TimerEvent: {}
+[12.351757] (-) TimerEvent: {}
+[12.454355] (-) TimerEvent: {}
+[12.557773] (-) TimerEvent: {}
+[12.658917] (-) TimerEvent: {}
+[12.760004] (-) TimerEvent: {}
+[12.861084] (-) TimerEvent: {}
+[12.964174] (-) TimerEvent: {}
+[13.065143] (-) TimerEvent: {}
+[13.169486] (-) TimerEvent: {}
+[13.272797] (-) TimerEvent: {}
+[13.375243] (-) TimerEvent: {}
+[13.478571] (-) TimerEvent: {}
+[13.580018] (-) TimerEvent: {}
+[13.680958] (-) TimerEvent: {}
+[13.784231] (-) TimerEvent: {}
+[13.887533] (-) TimerEvent: {}
+[13.988644] (-) TimerEvent: {}
+[14.091913] (-) TimerEvent: {}
+[14.194818] (-) TimerEvent: {}
+[14.297025] (-) TimerEvent: {}
+[14.399303] (-) TimerEvent: {}
+[14.401654] (wheeltec_robot_msg) StdoutLine: {'line': b'running egg_info\n'}
+[14.408982] (wheeltec_robot_msg) StdoutLine: {'line': b'creating wheeltec_robot_msg.egg-info\n'}
+[14.410161] (wheeltec_robot_msg) StdoutLine: {'line': b'writing wheeltec_robot_msg.egg-info/PKG-INFO\n'}
+[14.414389] (wheeltec_robot_msg) StdoutLine: {'line': b'writing dependency_links to wheeltec_robot_msg.egg-info/dependency_links.txt\n'}
+[14.415456] (wheeltec_robot_msg) StdoutLine: {'line': b'writing top-level names to wheeltec_robot_msg.egg-info/top_level.txt\n'}
+[14.416488] (wheeltec_robot_msg) StdoutLine: {'line': b"writing manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'\n"}
+[14.446267] (wheeltec_robot_msg) StdoutLine: {'line': b"reading manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'\n"}
+[14.447919] (wheeltec_robot_msg) StdoutLine: {'line': b"writing manifest file 'wheeltec_robot_msg.egg-info/SOURCES.txt'\n"}
+[14.499575] (-) TimerEvent: {}
+[14.601635] (-) TimerEvent: {}
+[14.692666] (wheeltec_robot_msg) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_wheeltec_robot_msg_egg\n'}
+[14.702030] (-) TimerEvent: {}
+[14.804206] (-) TimerEvent: {}
+[14.906468] (-) TimerEvent: {}
+[14.994785] (wheeltec_robot_msg) StdoutLine: {'line': b'[  5%] Built target wheeltec_robot_msg__cpp\n'}
+[15.006716] (-) TimerEvent: {}
+[15.042776] (wheeltec_robot_msg) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[15.048845] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[15.061073] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[15.101822] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_robot_msg/msg/detail/data__functions.c.o\x1b[0m\n'}
+[15.106952] (-) TimerEvent: {}
+[15.209308] (-) TimerEvent: {}
+[15.311590] (-) TimerEvent: {}
+[15.414692] (-) TimerEvent: {}
+[15.470257] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_c.dir/rosidl_generator_c/wheeltec_robot_msg/msg/detail/supersonic__functions.c.o\x1b[0m\n'}
+[15.514918] (-) TimerEvent: {}
+[15.617393] (-) TimerEvent: {}
+[15.719441] (-) TimerEvent: {}
+[15.826469] (-) TimerEvent: {}
+[15.928332] (-) TimerEvent: {}
+[16.029371] (-) TimerEvent: {}
+[16.130461] (-) TimerEvent: {}
+[16.154771] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libwheeltec_robot_msg__rosidl_generator_c.so\x1b[0m\n'}
+[16.234084] (-) TimerEvent: {}
+[16.338140] (-) TimerEvent: {}
+[16.442405] (-) TimerEvent: {}
+[16.545363] (-) TimerEvent: {}
+[16.650689] (-) TimerEvent: {}
+[16.714257] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 20%] Built target wheeltec_robot_msg__rosidl_generator_c\n'}
+[16.750912] (-) TimerEvent: {}
+[16.803600] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[16.851159] (-) TimerEvent: {}
+[16.954048] (-) TimerEvent: {}
+[17.056859] (-) TimerEvent: {}
+[17.159238] (-) TimerEvent: {}
+[17.262167] (-) TimerEvent: {}
+[17.363155] (-) TimerEvent: {}
+[17.466151] (-) TimerEvent: {}
+[17.567167] (-) TimerEvent: {}
+[17.669387] (-) TimerEvent: {}
+[17.771609] (-) TimerEvent: {}
+[17.886070] (-) TimerEvent: {}
+[17.987096] (-) TimerEvent: {}
+[18.090094] (-) TimerEvent: {}
+[18.198049] (-) TimerEvent: {}
+[18.302084] (-) TimerEvent: {}
+[18.410110] (-) TimerEvent: {}
+[18.514086] (-) TimerEvent: {}
+[18.589579] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_robot_msg/msg/data__type_support.cpp.o\x1b[0m\n'}
+[18.615926] (-) TimerEvent: {}
+[18.719356] (-) TimerEvent: {}
+[18.762492] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_robot_msg/msg/detail/data__type_support.cpp.o\x1b[0m\n'}
+[18.819580] (-) TimerEvent: {}
+[18.921256] (-) TimerEvent: {}
+[19.022983] (-) TimerEvent: {}
+[19.125511] (-) TimerEvent: {}
+[19.195241] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_robot_msg/msg/detail/dds_fastrtps/data__type_support.cpp.o\x1b[0m\n'}
+[19.225751] (-) TimerEvent: {}
+[19.327437] (-) TimerEvent: {}
+[19.429136] (-) TimerEvent: {}
+[19.531530] (-) TimerEvent: {}
+[19.633903] (-) TimerEvent: {}
+[19.737171] (-) TimerEvent: {}
+[19.840548] (-) TimerEvent: {}
+[19.942953] (-) TimerEvent: {}
+[20.053201] (-) TimerEvent: {}
+[20.155720] (-) TimerEvent: {}
+[20.257734] (-) TimerEvent: {}
+[20.360250] (-) TimerEvent: {}
+[20.454327] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_robot_msg/msg/detail/data__type_support_c.cpp.o\x1b[0m\n'}
+[20.461650] (-) TimerEvent: {}
+[20.564677] (-) TimerEvent: {}
+[20.668275] (-) TimerEvent: {}
+[20.770794] (-) TimerEvent: {}
+[20.874348] (-) TimerEvent: {}
+[20.976779] (-) TimerEvent: {}
+[21.078067] (-) TimerEvent: {}
+[21.179954] (-) TimerEvent: {}
+[21.281797] (-) TimerEvent: {}
+[21.383662] (-) TimerEvent: {}
+[21.485440] (-) TimerEvent: {}
+[21.587342] (-) TimerEvent: {}
+[21.689181] (-) TimerEvent: {}
+[21.791132] (-) TimerEvent: {}
+[21.893201] (-) TimerEvent: {}
+[22.002125] (-) TimerEvent: {}
+[22.103285] (-) TimerEvent: {}
+[22.155897] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/wheeltec_robot_msg/msg/supersonic__type_support.cpp.o\x1b[0m\n'}
+[22.203551] (-) TimerEvent: {}
+[22.306179] (-) TimerEvent: {}
+[22.408609] (-) TimerEvent: {}
+[22.510456] (-) TimerEvent: {}
+[22.612748] (-) TimerEvent: {}
+[22.715175] (-) TimerEvent: {}
+[22.817617] (-) TimerEvent: {}
+[22.920084] (-) TimerEvent: {}
+[23.022618] (-) TimerEvent: {}
+[23.124424] (-) TimerEvent: {}
+[23.226202] (-) TimerEvent: {}
+[23.328050] (-) TimerEvent: {}
+[23.429913] (-) TimerEvent: {}
+[23.532813] (-) TimerEvent: {}
+[23.635760] (-) TimerEvent: {}
+[23.738697] (-) TimerEvent: {}
+[23.841644] (-) TimerEvent: {}
+[23.944571] (-) TimerEvent: {}
+[24.047559] (-) TimerEvent: {}
+[24.143831] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/wheeltec_robot_msg/msg/detail/supersonic__type_support.cpp.o\x1b[0m\n'}
+[24.148107] (-) TimerEvent: {}
+[24.162589] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/wheeltec_robot_msg/msg/detail/dds_fastrtps/supersonic__type_support.cpp.o\x1b[0m\n'}
+[24.248392] (-) TimerEvent: {}
+[24.351314] (-) TimerEvent: {}
+[24.461629] (-) TimerEvent: {}
+[24.564533] (-) TimerEvent: {}
+[24.667427] (-) TimerEvent: {}
+[24.770867] (-) TimerEvent: {}
+[24.873787] (-) TimerEvent: {}
+[24.977414] (-) TimerEvent: {}
+[25.081181] (-) TimerEvent: {}
+[25.184855] (-) TimerEvent: {}
+[25.233468] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/wheeltec_robot_msg/msg/detail/supersonic__type_support_c.cpp.o\x1b[0m\n'}
+[25.285120] (-) TimerEvent: {}
+[25.388466] (-) TimerEvent: {}
+[25.491816] (-) TimerEvent: {}
+[25.598103] (-) TimerEvent: {}
+[25.694358] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[25.698353] (-) TimerEvent: {}
+[25.800578] (-) TimerEvent: {}
+[25.903542] (-) TimerEvent: {}
+[26.007411] (-) TimerEvent: {}
+[26.111033] (-) TimerEvent: {}
+[26.121635] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 46%] Built target wheeltec_robot_msg__rosidl_typesupport_cpp\n'}
+[26.211299] (-) TimerEvent: {}
+[26.226375] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 48%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[26.311556] (-) TimerEvent: {}
+[26.413746] (-) TimerEvent: {}
+[26.516491] (-) TimerEvent: {}
+[26.622441] (-) TimerEvent: {}
+[26.724596] (-) TimerEvent: {}
+[26.825790] (-) TimerEvent: {}
+[26.927035] (-) TimerEvent: {}
+[27.028221] (-) TimerEvent: {}
+[27.130692] (-) TimerEvent: {}
+[27.233106] (-) TimerEvent: {}
+[27.335667] (-) TimerEvent: {}
+[27.438508] (-) TimerEvent: {}
+[27.540959] (-) TimerEvent: {}
+[27.643407] (-) TimerEvent: {}
+[27.746057] (-) TimerEvent: {}
+[27.850098] (-) TimerEvent: {}
+[27.954080] (-) TimerEvent: {}
+[28.058122] (-) TimerEvent: {}
+[28.162105] (-) TimerEvent: {}
+[28.266103] (-) TimerEvent: {}
+[28.370072] (-) TimerEvent: {}
+[28.478082] (-) TimerEvent: {}
+[28.582117] (-) TimerEvent: {}
+[28.686086] (-) TimerEvent: {}
+[28.790104] (-) TimerEvent: {}
+[28.894086] (-) TimerEvent: {}
+[29.002113] (-) TimerEvent: {}
+[29.106091] (-) TimerEvent: {}
+[29.214060] (-) TimerEvent: {}
+[29.318086] (-) TimerEvent: {}
+[29.421454] (-) TimerEvent: {}
+[29.482636] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[29.492283] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[29.522625] (-) TimerEvent: {}
+[29.626626] (-) TimerEvent: {}
+[29.701465] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[29.726876] (-) TimerEvent: {}
+[29.830983] (-) TimerEvent: {}
+[29.934739] (-) TimerEvent: {}
+[30.038491] (-) TimerEvent: {}
+[30.142288] (-) TimerEvent: {}
+[30.246415] (-) TimerEvent: {}
+[30.318628] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 56%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp\n'}
+[30.346658] (-) TimerEvent: {}
+[30.396990] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_robot_msg/msg/detail/data__type_support.c.o\x1b[0m\n'}
+[30.398901] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 61%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.405726] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 61%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_cpp\n'}
+[30.447077] (-) TimerEvent: {}
+[30.494239] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/wheeltec_robot_msg/msg/detail/supersonic__type_support.c.o\x1b[0m\n'}
+[30.547309] (-) TimerEvent: {}
+[30.567198] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 64%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_c\n'}
+[30.647589] (-) TimerEvent: {}
+[30.750290] (-) TimerEvent: {}
+[30.807271] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[30.850531] (-) TimerEvent: {}
+[30.951914] (-) TimerEvent: {}
+[30.968176] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 66%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_c\n'}
+[31.052134] (-) TimerEvent: {}
+[31.153200] (-) TimerEvent: {}
+[31.254218] (-) TimerEvent: {}
+[31.355228] (-) TimerEvent: {}
+[31.457158] (-) TimerEvent: {}
+[31.558216] (-) TimerEvent: {}
+[31.659254] (-) TimerEvent: {}
+[31.760311] (-) TimerEvent: {}
+[31.861402] (-) TimerEvent: {}
+[31.962497] (-) TimerEvent: {}
+[32.063540] (-) TimerEvent: {}
+[32.164587] (-) TimerEvent: {}
+[32.265692] (-) TimerEvent: {}
+[32.366709] (-) TimerEvent: {}
+[32.467685] (-) TimerEvent: {}
+[32.568710] (-) TimerEvent: {}
+[32.670483] (-) TimerEvent: {}
+[32.771595] (-) TimerEvent: {}
+[32.787443] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_robot_msg/msg/data__type_support.cpp.o\x1b[0m\n'}
+[32.791933] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c.dir/rosidl_typesupport_c/wheeltec_robot_msg/msg/supersonic__type_support.cpp.o\x1b[0m\n'}
+[32.871851] (-) TimerEvent: {}
+[32.973003] (-) TimerEvent: {}
+[32.975959] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libwheeltec_robot_msg__rosidl_typesupport_c.so\x1b[0m\n'}
+[33.073272] (-) TimerEvent: {}
+[33.168486] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 74%] Built target wheeltec_robot_msg__rosidl_typesupport_c\n'}
+[33.173491] (-) TimerEvent: {}
+[33.248679] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 74%] Built target wheeltec_robot_msg\n'}
+[33.273736] (-) TimerEvent: {}
+[33.333432] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[33.374030] (-) TimerEvent: {}
+[33.475114] (-) TimerEvent: {}
+[33.576126] (-) TimerEvent: {}
+[33.677144] (-) TimerEvent: {}
+[33.778323] (-) TimerEvent: {}
+[33.879388] (-) TimerEvent: {}
+[33.981413] (-) TimerEvent: {}
+[34.082459] (-) TimerEvent: {}
+[34.183525] (-) TimerEvent: {}
+[34.284623] (-) TimerEvent: {}
+[34.386217] (-) TimerEvent: {}
+[34.487296] (-) TimerEvent: {}
+[34.588379] (-) TimerEvent: {}
+[34.689418] (-) TimerEvent: {}
+[34.791036] (-) TimerEvent: {}
+[34.892058] (-) TimerEvent: {}
+[34.993129] (-) TimerEvent: {}
+[35.094193] (-) TimerEvent: {}
+[35.195216] (-) TimerEvent: {}
+[35.296217] (-) TimerEvent: {}
+[35.397241] (-) TimerEvent: {}
+[35.498891] (-) TimerEvent: {}
+[35.599903] (-) TimerEvent: {}
+[35.700864] (-) TimerEvent: {}
+[35.801982] (-) TimerEvent: {}
+[35.903031] (-) TimerEvent: {}
+[36.004040] (-) TimerEvent: {}
+[36.105079] (-) TimerEvent: {}
+[36.206198] (-) TimerEvent: {}
+[36.307196] (-) TimerEvent: {}
+[36.408999] (-) TimerEvent: {}
+[36.510011] (-) TimerEvent: {}
+[36.611002] (-) TimerEvent: {}
+[36.712025] (-) TimerEvent: {}
+[36.813100] (-) TimerEvent: {}
+[36.914159] (-) TimerEvent: {}
+[37.015183] (-) TimerEvent: {}
+[37.117800] (-) TimerEvent: {}
+[37.219027] (-) TimerEvent: {}
+[37.320256] (-) TimerEvent: {}
+[37.361122] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 76%] Built target wheeltec_robot_msg__py\n'}
+[37.420524] (-) TimerEvent: {}
+[37.443737] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_robot_msg/msg/_supersonic_s.c.o\x1b[0m\n'}
+[37.448788] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_generator_py.dir/rosidl_generator_py/wheeltec_robot_msg/msg/_data_s.c.o\x1b[0m\n'}
+[37.520779] (-) TimerEvent: {}
+[37.621913] (-) TimerEvent: {}
+[37.723066] (-) TimerEvent: {}
+[37.824743] (-) TimerEvent: {}
+[37.925914] (-) TimerEvent: {}
+[38.027092] (-) TimerEvent: {}
+[38.128369] (-) TimerEvent: {}
+[38.230196] (-) TimerEvent: {}
+[38.248021] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/libwheeltec_robot_msg__rosidl_generator_py.so\x1b[0m\n'}
+[38.330457] (-) TimerEvent: {}
+[38.431708] (-) TimerEvent: {}
+[38.494317] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 84%] Built target wheeltec_robot_msg__rosidl_generator_py\n'}
+[38.531952] (-) TimerEvent: {}
+[38.596125] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[38.606368] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[38.608083] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/wheeltec_robot_msg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[38.632243] (-) TimerEvent: {}
+[38.733461] (-) TimerEvent: {}
+[38.838087] (-) TimerEvent: {}
+[38.942092] (-) TimerEvent: {}
+[39.046096] (-) TimerEvent: {}
+[39.150113] (-) TimerEvent: {}
+[39.258120] (-) TimerEvent: {}
+[39.360072] (-) TimerEvent: {}
+[39.368042] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[39.406436] (wheeltec_robot_msg) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[39.460367] (-) TimerEvent: {}
+[39.474170] (wheeltec_robot_msg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[39.560673] (-) TimerEvent: {}
+[39.664657] (-) TimerEvent: {}
+[39.703918] (wheeltec_robot_msg) StdoutLine: {'line': b'[100%] Built target wheeltec_robot_msg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[39.727030] (wheeltec_robot_msg) StdoutLine: {'line': b'[100%] Built target wheeltec_robot_msg__rosidl_typesupport_c__pyext\n'}
+[39.764910] (-) TimerEvent: {}
+[39.786663] (wheeltec_robot_msg) StdoutLine: {'line': b'[100%] Built target wheeltec_robot_msg__rosidl_typesupport_introspection_c__pyext\n'}
+[39.842796] (wheeltec_robot_msg) CommandEnded: {'returncode': 0}
+[39.865175] (-) TimerEvent: {}
+[39.966512] (-) TimerEvent: {}
+[40.068196] (-) TimerEvent: {}
+[40.092839] (wheeltec_robot_msg) JobProgress: {'identifier': 'wheeltec_robot_msg', 'progress': 'install'}
+[40.097159] (wheeltec_robot_msg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[40.134210] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[40.135721] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/ament_index/resource_index/rosidl_interfaces/wheeltec_robot_msg\n'}
+[40.137817] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.140129] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.142400] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/data.h\n'}
+[40.144262] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_generator_c__visibility_control.h\n'}
+[40.145625] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/supersonic.h\n'}
+[40.147276] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.148702] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__functions.h\n'}
+[40.150416] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__struct.h\n'}
+[40.152370] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.h\n'}
+[40.153727] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__functions.c\n'}
+[40.155181] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__functions.c\n'}
+[40.158107] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.h\n'}
+[40.159943] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__functions.h\n'}
+[40.161231] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__struct.h\n'}
+[40.163329] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/library_path.sh\n'}
+[40.165361] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/library_path.dsv\n'}
+[40.167371] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_c.so\n'}
+[40.169253] (-) TimerEvent: {}
+[40.172155] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_c.so" to ""\n'}
+[40.174160] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.175645] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.180037] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[40.181469] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.182608] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_fastrtps_c.h\n'}
+[40.184301] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_fastrtps_c.h\n'}
+[40.185670] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so\n'}
+[40.187484] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[40.189475] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.191559] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.193418] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[40.195341] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.197084] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_introspection_c.h\n'}
+[40.199015] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_introspection_c.h\n'}
+[40.200919] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.c\n'}
+[40.202085] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.c\n'}
+[40.203399] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so\n'}
+[40.204489] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[40.205596] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_c.so\n'}
+[40.207297] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_c.so" to ""\n'}
+[40.208419] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.209462] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.210643] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/data.hpp\n'}
+[40.211704] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/supersonic.hpp\n'}
+[40.212823] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.213957] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__builder.hpp\n'}
+[40.215047] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__struct.hpp\n'}
+[40.216064] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__traits.hpp\n'}
+[40.217100] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__traits.hpp\n'}
+[40.219154] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__struct.hpp\n'}
+[40.220371] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__builder.hpp\n'}
+[40.221409] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.222968] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.224019] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[40.225049] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.226454] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/dds_fastrtps\n'}
+[40.227569] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.228532] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[40.229554] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[40.230628] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[40.231598] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg\n'}
+[40.232553] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg\n'}
+[40.236071] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail\n'}
+[40.239681] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__type_support.cpp\n'}
+[40.240755] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.242693] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/supersonic__rosidl_typesupport_introspection_cpp.hpp\n'}
+[40.243781] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/include/wheeltec_robot_msg/wheeltec_robot_msg/msg/detail/data__type_support.cpp\n'}
+[40.244788] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so\n'}
+[40.245823] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[40.246951] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_cpp.so\n'}
+[40.247909] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_typesupport_cpp.so" to ""\n'}
+[40.248955] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/pythonpath.sh\n'}
+[40.250171] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/pythonpath.dsv\n'}
+[40.251397] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info\n'}
+[40.252583] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[40.253760] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[40.255056] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[40.256120] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[40.257351] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg\n'}
+[40.258611] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_c.c\n'}
+[40.259654] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[40.260638] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/libwheeltec_robot_msg__rosidl_generator_py.so\n'}
+[40.261616] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg\n'}
+[40.263659] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data_s.c\n'}
+[40.264634] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data.py\n'}
+[40.265650] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/__init__.py\n'}
+[40.266815] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic.py\n'}
+[40.267852] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic_s.c\n'}
+[40.268851] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/__init__.py\n'}
+[40.269754] (-) TimerEvent: {}
+[40.272374] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.273458] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.274673] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/_wheeltec_robot_msg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[40.277748] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.370051] (-) TimerEvent: {}
+[40.471157] (-) TimerEvent: {}
+[40.487781] (wheeltec_robot_msg) StdoutLine: {'line': b"Listing '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg'...\n"}
+[40.488950] (wheeltec_robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/__init__.py'...\n"}
+[40.489800] (wheeltec_robot_msg) StdoutLine: {'line': b"Listing '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg'...\n"}
+[40.490823] (wheeltec_robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/__init__.py'...\n"}
+[40.491642] (wheeltec_robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_data.py'...\n"}
+[40.492454] (wheeltec_robot_msg) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/msg/_supersonic.py'...\n"}
+[40.546369] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.547561] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[40.548903] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.550481] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[40.551502] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[40.555042] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages/wheeltec_robot_msg/wheeltec_robot_msg_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[40.556568] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_py.so\n'}
+[40.558014] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/libwheeltec_robot_msg__rosidl_generator_py.so" to ""\n'}
+[40.560049] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Data.idl\n'}
+[40.561968] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Supersonic.idl\n'}
+[40.562968] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Data.msg\n'}
+[40.563881] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/msg/Supersonic.msg\n'}
+[40.566573] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/ament_index/resource_index/package_run_dependencies/wheeltec_robot_msg\n'}
+[40.569416] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/ament_index/resource_index/parent_prefix_path/wheeltec_robot_msg\n'}
+[40.571995] (-) TimerEvent: {}
+[40.574389] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/ament_prefix_path.sh\n'}
+[40.578117] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/ament_prefix_path.dsv\n'}
+[40.581361] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/path.sh\n'}
+[40.584594] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/environment/path.dsv\n'}
+[40.585650] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.bash\n'}
+[40.590537] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.sh\n'}
+[40.591600] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.zsh\n'}
+[40.592662] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/local_setup.dsv\n'}
+[40.598402] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv\n'}
+[40.599407] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/ament_index/resource_index/packages/wheeltec_robot_msg\n'}
+[40.600278] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cExport.cmake\n'}
+[40.605415] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cExport-noconfig.cmake\n'}
+[40.607137] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[40.608319] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[40.614286] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[40.615673] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[40.617636] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cExport.cmake\n'}
+[40.619062] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[40.621585] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_cppExport.cmake\n'}
+[40.622815] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[40.623895] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[40.625067] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[40.627780] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[40.630291] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cppExport.cmake\n'}
+[40.631512] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[40.632617] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_pyExport.cmake\n'}
+[40.635232] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/export_wheeltec_robot_msg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[40.637214] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake-extras.cmake\n'}
+[40.638350] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[40.643181] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[40.644036] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[40.644844] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[40.645701] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[40.650637] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[40.651673] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msgConfig.cmake\n'}
+[40.652500] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake/wheeltec_robot_msgConfig-version.cmake\n'}
+[40.653350] (wheeltec_robot_msg) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.xml\n'}
+[40.661729] (wheeltec_robot_msg) CommandEnded: {'returncode': 0}
+[40.672254] (-) TimerEvent: {}
+[40.773357] (-) TimerEvent: {}
+[40.874565] (-) TimerEvent: {}
+[40.975915] (-) TimerEvent: {}
+[41.072745] (wheeltec_robot_msg) JobEnded: {'identifier': 'wheeltec_robot_msg', 'rc': 0}
+[41.082220] (-) TimerEvent: {}
+[41.086700] (turn_on_wheeltec_robot) JobStarted: {'identifier': 'turn_on_wheeltec_robot'}
+[41.122554] (turn_on_wheeltec_robot) JobProgress: {'identifier': 'turn_on_wheeltec_robot', 'progress': 'cmake'}
+[41.128499] (turn_on_wheeltec_robot) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 41594 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-90875dac-1aef-4fb0-9ff6-f49eb90be2d3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('PYTHONSTARTUP', '/home/sunrise/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/pythonrc.py'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot'), ('SSH_CONNECTION', '192.168.159.239 41594 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/opt/ros/humble')]), 'shell': False}
+[41.182453] (-) TimerEvent: {}
+[41.198987] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[41.282676] (-) TimerEvent: {}
+[41.383784] (-) TimerEvent: {}
+[41.484851] (-) TimerEvent: {}
+[41.586007] (-) TimerEvent: {}
+[41.687158] (-) TimerEvent: {}
+[41.788298] (-) TimerEvent: {}
+[41.889383] (-) TimerEvent: {}
+[41.990469] (-) TimerEvent: {}
+[42.092166] (-) TimerEvent: {}
+[42.193223] (-) TimerEvent: {}
+[42.246495] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[42.293471] (-) TimerEvent: {}
+[42.394575] (-) TimerEvent: {}
+[42.425120] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[42.445747] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[42.491729] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[42.494802] (-) TimerEvent: {}
+[42.585266] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[42.595033] (-) TimerEvent: {}
+[42.697166] (-) TimerEvent: {}
+[42.721951] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[42.797425] (-) TimerEvent: {}
+[42.898517] (-) TimerEvent: {}
+[42.999567] (-) TimerEvent: {}
+[43.100638] (-) TimerEvent: {}
+[43.201737] (-) TimerEvent: {}
+[43.302806] (-) TimerEvent: {}
+[43.403857] (-) TimerEvent: {}
+[43.504957] (-) TimerEvent: {}
+[43.606786] (-) TimerEvent: {}
+[43.707805] (-) TimerEvent: {}
+[43.773163] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[43.806440] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[43.807939] (-) TimerEvent: {}
+[43.815723] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[43.908196] (-) TimerEvent: {}
+[44.009210] (-) TimerEvent: {}
+[44.110666] (-) TimerEvent: {}
+[44.211683] (-) TimerEvent: {}
+[44.312629] (-) TimerEvent: {}
+[44.413572] (-) TimerEvent: {}
+[44.514671] (-) TimerEvent: {}
+[44.615684] (-) TimerEvent: {}
+[44.716656] (-) TimerEvent: {}
+[44.777099] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[44.786184] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[44.816857] (-) TimerEvent: {}
+[44.918430] (-) TimerEvent: {}
+[45.019393] (-) TimerEvent: {}
+[45.120397] (-) TimerEvent: {}
+[45.221524] (-) TimerEvent: {}
+[45.323120] (-) TimerEvent: {}
+[45.424189] (-) TimerEvent: {}
+[45.481305] (turn_on_wheeltec_robot) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[45.524407] (-) TimerEvent: {}
+[45.625429] (-) TimerEvent: {}
+[45.726472] (-) TimerEvent: {}
+[45.827488] (-) TimerEvent: {}
+[45.928521] (-) TimerEvent: {}
+[46.029501] (-) TimerEvent: {}
+[46.130554] (-) TimerEvent: {}
+[46.231618] (-) TimerEvent: {}
+[46.332664] (-) TimerEvent: {}
+[46.434201] (-) TimerEvent: {}
+[46.535672] (-) TimerEvent: {}
+[46.637191] (-) TimerEvent: {}
+[46.738746] (-) TimerEvent: {}
+[46.839687] (-) TimerEvent: {}
+[46.940662] (-) TimerEvent: {}
+[47.041622] (-) TimerEvent: {}
+[47.142634] (-) TimerEvent: {}
+[47.244554] (-) TimerEvent: {}
+[47.345551] (-) TimerEvent: {}
+[47.446605] (-) TimerEvent: {}
+[47.547563] (-) TimerEvent: {}
+[47.648589] (-) TimerEvent: {}
+[47.749711] (-) TimerEvent: {}
+[47.850899] (-) TimerEvent: {}
+[47.952391] (-) TimerEvent: {}
+[48.053352] (-) TimerEvent: {}
+[48.154380] (-) TimerEvent: {}
+[48.255336] (-) TimerEvent: {}
+[48.356289] (-) TimerEvent: {}
+[48.457290] (-) TimerEvent: {}
+[48.558256] (-) TimerEvent: {}
+[48.659187] (-) TimerEvent: {}
+[48.760115] (-) TimerEvent: {}
+[48.861119] (-) TimerEvent: {}
+[48.962107] (-) TimerEvent: {}
+[48.990121] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)\n'}
+[49.062315] (-) TimerEvent: {}
+[49.163265] (-) TimerEvent: {}
+[49.264731] (-) TimerEvent: {}
+[49.365714] (-) TimerEvent: {}
+[49.413570] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)\n'}
+[49.465960] (-) TimerEvent: {}
+[49.567533] (-) TimerEvent: {}
+[49.668540] (-) TimerEvent: {}
+[49.769544] (-) TimerEvent: {}
+[49.870567] (-) TimerEvent: {}
+[49.971526] (-) TimerEvent: {}
+[50.072488] (-) TimerEvent: {}
+[50.173972] (-) TimerEvent: {}
+[50.274985] (-) TimerEvent: {}
+[50.376489] (-) TimerEvent: {}
+[50.478006] (-) TimerEvent: {}
+[50.579581] (-) TimerEvent: {}
+[50.680681] (-) TimerEvent: {}
+[50.781661] (-) TimerEvent: {}
+[50.882730] (-) TimerEvent: {}
+[50.983715] (-) TimerEvent: {}
+[51.084713] (-) TimerEvent: {}
+[51.185669] (-) TimerEvent: {}
+[51.286655] (-) TimerEvent: {}
+[51.387591] (-) TimerEvent: {}
+[51.488511] (-) TimerEvent: {}
+[51.589496] (-) TimerEvent: {}
+[51.690545] (-) TimerEvent: {}
+[51.725988] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[51.727432] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[51.790760] (-) TimerEvent: {}
+[51.892417] (-) TimerEvent: {}
+[51.993939] (-) TimerEvent: {}
+[52.094936] (-) TimerEvent: {}
+[52.195901] (-) TimerEvent: {}
+[52.296925] (-) TimerEvent: {}
+[52.398629] (-) TimerEvent: {}
+[52.442560] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[52.498836] (-) TimerEvent: {}
+[52.575588] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Found wheeltec_robot_msg: 0.0.0 (/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/cmake)\n'}
+[52.599029] (-) TimerEvent: {}
+[52.700050] (-) TimerEvent: {}
+[52.801066] (-) TimerEvent: {}
+[52.902073] (-) TimerEvent: {}
+[52.982217] (turn_on_wheeltec_robot) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:36 (find_package):\n'}
+[52.988810] (turn_on_wheeltec_robot) StderrLine: {'line': b'  By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[52.990471] (turn_on_wheeltec_robot) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "serial", but\n'}
+[52.991190] (turn_on_wheeltec_robot) StderrLine: {'line': b'  CMake did not find one.\n'}
+[52.991859] (turn_on_wheeltec_robot) StderrLine: {'line': b'\n'}
+[52.992511] (turn_on_wheeltec_robot) StderrLine: {'line': b'  Could not find a package configuration file provided by "serial" with any\n'}
+[52.993180] (turn_on_wheeltec_robot) StderrLine: {'line': b'  of the following names:\n'}
+[52.993822] (turn_on_wheeltec_robot) StderrLine: {'line': b'\n'}
+[52.994626] (turn_on_wheeltec_robot) StderrLine: {'line': b'    serialConfig.cmake\n'}
+[52.995287] (turn_on_wheeltec_robot) StderrLine: {'line': b'    serial-config.cmake\n'}
+[52.995930] (turn_on_wheeltec_robot) StderrLine: {'line': b'\n'}
+[52.996623] (turn_on_wheeltec_robot) StderrLine: {'line': b'  Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set\n'}
+[52.997402] (turn_on_wheeltec_robot) StderrLine: {'line': b'  "serial_DIR" to a directory containing one of the above files.  If "serial"\n'}
+[52.998317] (turn_on_wheeltec_robot) StderrLine: {'line': b'  provides a separate development package or SDK, be sure it has been\n'}
+[52.999248] (turn_on_wheeltec_robot) StderrLine: {'line': b'  installed.\n'}
+[53.000118] (turn_on_wheeltec_robot) StderrLine: {'line': b'\n'}
+[53.000988] (turn_on_wheeltec_robot) StderrLine: {'line': b'\x1b[0m\n'}
+[53.001928] (turn_on_wheeltec_robot) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[53.002836] (-) TimerEvent: {}
+[53.004445] (turn_on_wheeltec_robot) StdoutLine: {'line': b'See also "/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot/CMakeFiles/CMakeOutput.log".\n'}
+[53.045015] (turn_on_wheeltec_robot) CommandEnded: {'returncode': 1}
+[53.103461] (-) TimerEvent: {}
+[53.123362] (turn_on_wheeltec_robot) JobEnded: {'identifier': 'turn_on_wheeltec_robot', 'rc': 1}
+[53.136210] (-) EventReactorShutdown: {}

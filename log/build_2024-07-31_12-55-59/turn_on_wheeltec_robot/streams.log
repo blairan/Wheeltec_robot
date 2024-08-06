@@ -1,0 +1,60 @@
+[0.096s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot
+[0.866s] -- The C compiler identification is GNU 11.2.0
+[1.449s] -- The CXX compiler identification is GNU 11.2.0
+[1.506s] -- Detecting C compiler ABI info
+[2.000s] -- Detecting C compiler ABI info - done
+[2.087s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.093s] -- Detecting C compile features
+[2.097s] -- Detecting C compile features - done
+[2.134s] -- Detecting CXX compiler ABI info
+[2.688s] -- Detecting CXX compiler ABI info - done
+[2.764s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.767s] -- Detecting CXX compile features
+[2.772s] -- Detecting CXX compile features - done
+[2.814s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.553s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.285s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[5.599s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.640s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.722s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.855s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[6.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.521s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[7.613s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[7.627s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[7.629s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[8.771s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.788s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.323s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.467s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.733s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.801s] -- Looking for pthread.h
+[10.205s] -- Looking for pthread.h - found
+[10.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.610s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.617s] -- Found Threads: TRUE  
+[14.527s] -- Found turtlesim: 1.4.2 (/opt/ros/humble/share/turtlesim/cmake)
+[15.010s] -- Found nav2_msgs: 1.1.15 (/opt/ros/humble/share/nav2_msgs/cmake)
+[17.393s] -- Found rclpy: 3.3.13 (/opt/ros/humble/share/rclpy/cmake)
+[17.400s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[18.141s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[18.332s] [31mCMake Error at CMakeLists.txt:35 (find_package):
+[18.333s]   By not providing "Findwheeltec_robot_msg.cmake" in CMAKE_MODULE_PATH this
+[18.334s]   project has asked CMake to find a package configuration file provided by
+[18.334s]   "wheeltec_robot_msg", but CMake did not find one.
+[18.336s] 
+[18.337s]   Could not find a package configuration file provided by
+[18.338s]   "wheeltec_robot_msg" with any of the following names:
+[18.339s] 
+[18.339s]     wheeltec_robot_msgConfig.cmake
+[18.353s]     wheeltec_robot_msg-config.cmake
+[18.353s] 
+[18.354s]   Add the installation prefix of "wheeltec_robot_msg" to CMAKE_PREFIX_PATH or
+[18.355s]   set "wheeltec_robot_msg_DIR" to a directory containing one of the above
+[18.356s]   files.  If "wheeltec_robot_msg" provides a separate development package or
+[18.357s]   SDK, be sure it has been installed.
+[18.357s] 
+[18.358s] [0m
+[18.359s] -- Configuring incomplete, errors occurred!
+[18.359s] See also "/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot/CMakeFiles/CMakeOutput.log".
+[18.409s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot

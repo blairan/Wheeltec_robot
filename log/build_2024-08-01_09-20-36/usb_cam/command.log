@@ -1,0 +1,2 @@
+Invoking command in '/home/sunrise/wheeltec_robot_ws/build/usb_cam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/usb_cam -- -j4 -l4
+Invoked command in '/home/sunrise/wheeltec_robot_ws/build/usb_cam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/usb_cam -- -j4 -l4

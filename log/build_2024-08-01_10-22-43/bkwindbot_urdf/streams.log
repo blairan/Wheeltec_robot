@@ -1,0 +1,88 @@
+[0.118s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+[3.796s] -- The C compiler identification is GNU 11.2.0
+[3.797s] -- The CXX compiler identification is GNU 11.2.0
+[3.797s] -- Detecting C compiler ABI info
+[3.798s] -- Detecting C compiler ABI info - done
+[3.807s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.808s] -- Detecting C compile features
+[3.809s] -- Detecting C compile features - done
+[3.810s] -- Detecting CXX compiler ABI info
+[3.828s] -- Detecting CXX compiler ABI info - done
+[3.829s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.830s] -- Detecting CXX compile features
+[3.832s] -- Detecting CXX compile features - done
+[3.833s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.112s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.909s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[5.963s] -- Configuring done
+[5.989s] -- Generating done
+[6.004s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf
+[6.067s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+[6.071s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+[6.312s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+[6.464s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf
+[6.520s] -- Install configuration: ""
+[6.522s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes
+[6.524s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels
+[6.526s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels/right_tire.stl
+[6.548s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/wheels/left_tire.stl
+[6.569s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors
+[6.574s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/astra.dae
+[6.719s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/lds.stl
+[6.744s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/r200.jpg
+[6.755s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/astra.jpg
+[6.757s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/sensors/r200.dae
+[6.769s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases
+[6.770s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/waffle_pi_base.stl
+[6.937s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/burger_base.stl
+[7.036s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/meshes/bases/waffle_base.stl
+[7.326s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/rviz
+[7.330s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/rviz/model.rviz
+[7.335s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf
+[7.338s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_diff_robot.urdf
+[7.344s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_mec_bs_robot.urdf
+[7.351s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_akm_robot.urdf
+[7.358s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_4wd_bs_robot.urdf
+[7.368s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/four_wheel_diff_dl_robot.urdf
+[7.374s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_4wd_bs_robot.urdf
+[7.384s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_4wd_bs_robot.urdf
+[7.388s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_mec_robot.urdf
+[7.396s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/brushless_senior_diff.urdf
+[7.405s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_akm_bs_robot.urdf
+[7.413s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_mec_robot.urdf
+[7.430s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_omni_robot.urdf
+[7.434s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_akm_dl_robot.urdf
+[7.447s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_omni_robot.urdf
+[7.454s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_mec_dl_robot.urdf
+[7.462s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_mec_dl_robot.urdf
+[7.466s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_akm_robot.urdf
+[7.467s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_4wd_dl_robot.urdf
+[7.485s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_omni_robot.urdf
+[7.486s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_4wd_dl_robot.urdf
+[7.487s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_mec_bs_robot.urdf
+[7.488s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mec_EightDrive_robot.urdf
+[7.489s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/top_mec_dl_robot.urdf
+[7.490s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_4wd_dl_robot.urdf
+[7.490s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_4wd_robot.urdf
+[7.527s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/four_wheel_diff_bs_robot.urdf
+[7.529s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_mec_moveit.urdf
+[7.530s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_four_wheel_diff_bs_robot.urdf
+[7.531s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/flagship_four_wheel_diff_dl_robot.urdf
+[7.532s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/mini_tank_moveit.urdf
+[7.533s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/urdf/senior_diff_robot.urdf
+[7.534s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/package_run_dependencies/bkwindbot_urdf
+[7.535s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/parent_prefix_path/bkwindbot_urdf
+[7.536s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/ament_prefix_path.sh
+[7.537s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/ament_prefix_path.dsv
+[7.538s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/path.sh
+[7.563s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/environment/path.dsv
+[7.564s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.bash
+[7.565s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.sh
+[7.566s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.zsh
+[7.567s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/local_setup.dsv
+[7.568s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.dsv
+[7.607s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/ament_index/resource_index/packages/bkwindbot_urdf
+[7.608s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/cmake/bkwindbot_urdfConfig.cmake
+[7.609s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/cmake/bkwindbot_urdfConfig-version.cmake
+[7.610s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.xml
+[7.616s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf

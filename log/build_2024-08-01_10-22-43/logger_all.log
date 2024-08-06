@@ -1,0 +1,514 @@
+[0.811s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.812s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f87298a30>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f872985b0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f872985b0>>)
+[2.207s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.208s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.209s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.209s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/wheeltec_robot_ws'
+[2.210s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.211s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.212s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.213s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.310s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.311s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.312s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.313s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.314s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.315s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.316s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.317s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.318s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.321s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.322s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.323s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.324s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.325s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.326s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.327s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.328s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.329s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore'
+[2.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore_ament_install'
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_pkg']
+[2.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_pkg'
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_meta']
+[2.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_meta'
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ros']
+[2.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ros'
+[2.351s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_ros2' with type 'ros.ament_cmake' and name 'serial'
+[2.352s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ignore'
+[2.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ignore_ament_install'
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['colcon_pkg']
+[2.354s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'colcon_pkg'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['colcon_meta']
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'colcon_meta'
+[2.355s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['ros']
+[2.356s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ros'
+[2.360s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_tools' with type 'ros.ament_python' and name 'tf2_tools'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore_ament_install'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_pkg']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_pkg'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_meta']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_meta'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ros']
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ros'
+[2.383s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turn_on_wheeltec_robot' with type 'ros.ament_cmake' and name 'turn_on_wheeltec_robot'
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ignore', 'ignore_ament_install']
+[2.384s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore'
+[2.385s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore_ament_install'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_pkg']
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_pkg'
+[2.386s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_meta']
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_meta'
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ros']
+[2.387s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ros'
+[2.391s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_msg' with type 'ros.ament_cmake' and name 'wheeltec_robot_msg'
+[2.392s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore'
+[2.393s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[2.394s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_meta'
+[2.395s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ros']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ros'
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['cmake', 'python']
+[2.396s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'cmake'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['python_setup_py']
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python_setup_py'
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extension 'ignore'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extension 'ignore_ament_install'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extensions ['colcon_pkg']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extension 'colcon_pkg'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extensions ['colcon_meta']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extension 'colcon_meta'
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extensions ['ros']
+[2.402s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/bkwindbot_urdf) by extension 'ros'
+[2.406s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_urdf/bkwindbot_urdf' with type 'ros.ament_cmake' and name 'bkwindbot_urdf'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_meta'
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ros']
+[2.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ros'
+[2.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_urdf/wheeltec_robot_urdf' with type 'ros.ament_cmake' and name 'wheeltec_robot_urdf'
+[2.415s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.416s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.561s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.568s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/image_common' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.568s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/image_transport' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.569s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/camera_info_manager' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.569s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.570s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.570s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.571s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.571s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.571s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/tf2_tools' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/serial' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.572s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[2.573s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/image_common' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.574s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/image_transport' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.574s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/camera_info_manager' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.575s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.576s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.576s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.577s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.578s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.578s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/serial' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.579s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[2.584s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/sunrise/wheeltec_robot_ws/install
+[2.596s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[2.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.091s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'tf2_tools' is in: /opt/ros/humble
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding tf2_tools
+
+This may be promoted to an error in a future release of colcon-override-check.
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_args' from command line to 'None'
+[3.100s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_target' from command line to 'None'
+[3.101s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.101s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[3.101s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[3.101s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[3.102s] Level 5:colcon.colcon_core.verb:set package 'bkwindbot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.103s] DEBUG:colcon.colcon_core.verb:Building package 'bkwindbot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf', 'symlink_install': False, 'test_result_base': None}
+[3.106s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to 'None'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[3.107s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[3.108s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.109s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/serial', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/serial_ros2', 'symlink_install': False, 'test_result_base': None}
+[3.112s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_args' from command line to 'None'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target' from command line to 'None'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_clean_first' from command line to 'False'
+[3.113s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'cmake_force_configure' from command line to 'False'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'ament_cmake_args' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[3.114s] Level 5:colcon.colcon_core.verb:set package 'tf2_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.114s] DEBUG:colcon.colcon_core.verb:Building package 'tf2_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/tf2_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/tf2_tools', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/tf2_tools', 'symlink_install': False, 'test_result_base': None}
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_args' from command line to 'None'
+[3.118s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_target' from command line to 'None'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_clean_first' from command line to 'False'
+[3.119s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'cmake_force_configure' from command line to 'False'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'ament_cmake_args' from command line to 'None'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[3.120s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.120s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_robot_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg', 'symlink_install': False, 'test_result_base': None}
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_args' from command line to 'None'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target' from command line to 'None'
+[3.124s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.125s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[3.125s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[3.125s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[3.125s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[3.126s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[3.126s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.126s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_robot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf', 'symlink_install': False, 'test_result_base': None}
+[3.130s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_args' from command line to 'None'
+[3.130s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_target' from command line to 'None'
+[3.130s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.131s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_clean_cache' from command line to 'False'
+[3.131s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_clean_first' from command line to 'False'
+[3.131s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'cmake_force_configure' from command line to 'False'
+[3.132s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'ament_cmake_args' from command line to 'None'
+[3.132s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'catkin_cmake_args' from command line to 'None'
+[3.132s] Level 5:colcon.colcon_core.verb:set package 'turn_on_wheeltec_robot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.132s] DEBUG:colcon.colcon_core.verb:Building package 'turn_on_wheeltec_robot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot', 'symlink_install': False, 'test_result_base': None}
+[3.134s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.142s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/serial_ros2' with build type 'ament_cmake'
+[3.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/serial_ros2'
+[3.161s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.162s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.163s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.186s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg' with build type 'ament_cmake'
+[3.188s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg'
+[3.190s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.191s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.210s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf' with build type 'ament_cmake'
+[3.212s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf'
+[3.214s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.235s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools' with build type 'ament_python'
+[3.236s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_tools', 'ament_prefix_path')
+[3.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.ps1'
+[3.244s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.dsv'
+[3.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/ament_prefix_path.sh'
+[3.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.303s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/serial
+[3.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg
+[3.331s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+[6.887s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools'
+[6.890s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.892s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.280s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+[9.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+[9.525s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+[9.677s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf
+[10.095s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/serial
+[10.106s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[10.654s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bkwindbot_urdf)
+[10.720s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' for CMake module files
+[10.724s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' for CMake config files
+[10.726s] Level 1:colcon.colcon_core.shell:create_environment_hook('bkwindbot_urdf', 'cmake_prefix_path')
+[10.729s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.ps1'
+[10.760s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.dsv'
+[10.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.sh'
+[10.787s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/bin'
+[10.788s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/lib/pkgconfig/bkwindbot_urdf.pc'
+[10.791s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/lib/python3.10/site-packages'
+[10.793s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/bin'
+[10.829s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf
+[10.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.ps1'
+[10.869s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.dsv'
+[10.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.sh'
+[10.892s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.bash'
+[10.907s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.zsh'
+[10.913s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/colcon-core/packages/bkwindbot_urdf)
+[11.170s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bkwindbot_urdf)
+[11.183s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' for CMake module files
+[11.195s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf' for CMake config files
+[11.198s] Level 1:colcon.colcon_core.shell:create_environment_hook('bkwindbot_urdf', 'cmake_prefix_path')
+[11.209s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.ps1'
+[11.222s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.dsv'
+[11.228s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/hook/cmake_prefix_path.sh'
+[11.242s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/bin'
+[11.243s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/lib/pkgconfig/bkwindbot_urdf.pc'
+[11.258s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/lib/python3.10/site-packages'
+[11.265s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/bin'
+[11.269s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.ps1'
+[11.285s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.dsv'
+[11.297s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.sh'
+[11.302s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.bash'
+[11.314s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/bkwindbot_urdf/package.zsh'
+[11.318s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf/share/colcon-core/packages/bkwindbot_urdf)
+[11.343s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf' with build type 'ament_cmake'
+[11.346s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf'
+[11.348s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[11.349s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[11.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf
+[12.751s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build install --record /home/sunrise/wheeltec_robot_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[17.983s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[18.165s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools' for CMake module files
+[18.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools' returned '0': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build install --record /home/sunrise/wheeltec_robot_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[18.179s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools' for CMake config files
+[18.182s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib'
+[18.184s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/bin'
+[18.185s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/pkgconfig/tf2_tools.pc'
+[18.187s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages'
+[18.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('tf2_tools', 'pythonpath')
+[18.191s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.ps1'
+[18.194s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.dsv'
+[18.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/hook/pythonpath.sh'
+[18.204s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/bin'
+[18.204s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tf2_tools)
+[18.208s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/package.ps1'
+[18.212s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/package.dsv'
+[18.215s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/package.sh'
+[18.219s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/package.bash'
+[18.221s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools/package.zsh'
+[18.224s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/colcon-core/packages/tf2_tools)
+[18.239s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial
+[18.325s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[18.327s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial' for CMake module files
+[18.331s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial' for CMake config files
+[18.333s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[18.335s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[18.341s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial
+[18.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[18.348s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[18.352s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib'
+[18.353s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/bin'
+[18.353s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[18.356s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib/python3.10/site-packages'
+[18.358s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/bin'
+[18.361s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.ps1'
+[18.365s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.dsv'
+[18.368s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.sh'
+[18.371s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.bash'
+[18.375s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.zsh'
+[18.377s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/serial/share/colcon-core/packages/serial)
+[18.539s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[18.542s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial' for CMake module files
+[18.546s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial' for CMake config files
+[18.548s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[18.551s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[18.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[18.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[18.571s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib'
+[18.572s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/bin'
+[18.573s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib/pkgconfig/serial.pc'
+[18.576s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/lib/python3.10/site-packages'
+[18.579s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/serial/bin'
+[18.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.ps1'
+[18.589s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.dsv'
+[18.595s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.sh'
+[18.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.bash'
+[18.603s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.zsh'
+[18.607s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/serial/share/colcon-core/packages/serial)
+[19.180s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf
+[19.192s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf -- -j4 -l4
+[19.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf -- -j4 -l4
+[19.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf
+[20.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[20.102s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake module files
+[20.115s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf
+[20.116s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake config files
+[20.118s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[20.120s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[20.123s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[20.125s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[20.129s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[20.130s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[20.133s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[20.135s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[20.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[20.142s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[20.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[20.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[20.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[20.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[20.240s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[20.242s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake module files
+[20.246s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake config files
+[20.248s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[20.251s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[20.254s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[20.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[20.266s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[20.267s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[20.269s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[20.272s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[20.275s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[20.280s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[20.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[20.290s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[20.296s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[20.299s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[21.154s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_msg -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg
+[21.158s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg -- -j4 -l4
+[48.330s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg -- -j4 -l4
+[48.593s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg
+[49.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_msg)
+[49.147s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' for CMake module files
+[49.165s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' for CMake config files
+[49.172s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_msg
+[49.175s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'cmake_prefix_path')
+[49.177s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.ps1'
+[49.180s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.dsv'
+[49.183s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.sh'
+[49.189s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib'
+[49.189s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'ld_library_path_lib')
+[49.192s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.ps1'
+[49.195s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.dsv'
+[49.197s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.sh'
+[49.200s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/bin'
+[49.201s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/pkgconfig/wheeltec_robot_msg.pc'
+[49.203s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/python3.10/site-packages'
+[49.206s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/bin'
+[49.210s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.ps1'
+[49.214s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv'
+[49.218s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.sh'
+[49.222s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.bash'
+[49.225s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.zsh'
+[49.227s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/colcon-core/packages/wheeltec_robot_msg)
+[49.488s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_msg)
+[49.491s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' for CMake module files
+[49.504s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg' for CMake config files
+[49.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'cmake_prefix_path')
+[49.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.ps1'
+[49.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.dsv'
+[49.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/cmake_prefix_path.sh'
+[49.525s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib'
+[49.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_msg', 'ld_library_path_lib')
+[49.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.ps1'
+[49.531s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.dsv'
+[49.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/hook/ld_library_path_lib.sh'
+[49.538s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/bin'
+[49.539s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/pkgconfig/wheeltec_robot_msg.pc'
+[49.541s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib/python3.10/site-packages'
+[49.544s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/bin'
+[49.547s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.ps1'
+[49.551s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.dsv'
+[49.556s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.sh'
+[49.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.bash'
+[49.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/wheeltec_robot_msg/package.zsh'
+[49.568s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/share/colcon-core/packages/wheeltec_robot_msg)
+[49.571s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot' with build type 'ament_cmake'
+[49.573s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot'
+[49.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[49.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[49.647s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot
+[72.583s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot
+[72.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot -- -j4 -l4
+[198.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot -- -j4 -l4
+[199.036s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot
+[199.518s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turn_on_wheeltec_robot)
+[199.520s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' for CMake module files
+[199.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot
+[199.528s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' for CMake config files
+[199.530s] Level 1:colcon.colcon_core.shell:create_environment_hook('turn_on_wheeltec_robot', 'cmake_prefix_path')
+[199.532s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.ps1'
+[199.534s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.dsv'
+[199.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.sh'
+[199.540s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib'
+[199.540s] Level 1:colcon.colcon_core.shell:create_environment_hook('turn_on_wheeltec_robot', 'ld_library_path_lib')
+[199.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.ps1'
+[199.544s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.dsv'
+[199.547s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.sh'
+[199.549s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/bin'
+[199.550s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/pkgconfig/turn_on_wheeltec_robot.pc'
+[199.552s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/python3.10/site-packages'
+[199.555s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/bin'
+[199.558s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.ps1'
+[199.562s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.dsv'
+[199.565s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.sh'
+[199.569s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.bash'
+[199.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.zsh'
+[199.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/colcon-core/packages/turn_on_wheeltec_robot)
+[199.772s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turn_on_wheeltec_robot)
+[199.774s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' for CMake module files
+[199.779s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot' for CMake config files
+[199.781s] Level 1:colcon.colcon_core.shell:create_environment_hook('turn_on_wheeltec_robot', 'cmake_prefix_path')
+[199.783s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.ps1'
+[199.786s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.dsv'
+[199.788s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/cmake_prefix_path.sh'
+[199.791s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib'
+[199.792s] Level 1:colcon.colcon_core.shell:create_environment_hook('turn_on_wheeltec_robot', 'ld_library_path_lib')
+[199.794s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.ps1'
+[199.796s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.dsv'
+[199.799s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/hook/ld_library_path_lib.sh'
+[199.802s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/bin'
+[199.802s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/pkgconfig/turn_on_wheeltec_robot.pc'
+[199.804s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/python3.10/site-packages'
+[199.806s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/bin'
+[199.809s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.ps1'
+[199.813s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.dsv'
+[199.817s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.sh'
+[199.820s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.bash'
+[199.823s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.zsh'
+[199.826s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/colcon-core/packages/turn_on_wheeltec_robot)
+[199.828s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[199.829s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[199.830s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[199.831s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[199.863s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[199.864s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[199.865s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[199.865s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[199.889s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[199.891s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.ps1'
+[199.898s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/wheeltec_robot_ws/install/_local_setup_util_ps1.py'
+[199.910s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.ps1'
+[199.919s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.sh'
+[199.923s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/wheeltec_robot_ws/install/_local_setup_util_sh.py'
+[199.926s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.sh'
+[199.934s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.bash'
+[199.938s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.bash'
+[199.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.zsh'
+[199.950s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.zsh'

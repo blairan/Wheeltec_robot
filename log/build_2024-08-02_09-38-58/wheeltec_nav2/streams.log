@@ -1,0 +1,101 @@
+[0.058s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2
+[0.610s] -- The C compiler identification is GNU 11.2.0
+[1.209s] -- The CXX compiler identification is GNU 11.2.0
+[1.254s] -- Detecting C compiler ABI info
+[1.629s] -- Detecting C compiler ABI info - done
+[1.693s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.696s] -- Detecting C compile features
+[1.700s] -- Detecting C compile features - done
+[1.722s] -- Detecting CXX compiler ABI info
+[2.145s] -- Detecting CXX compiler ABI info - done
+[2.212s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.213s] -- Detecting CXX compile features
+[2.217s] -- Detecting CXX compile features - done
+[2.235s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.407s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.103s] -- Found nav2_bringup: 1.1.15 (/opt/ros/humble/share/nav2_bringup/cmake)
+[4.115s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.761s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.787s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.794s] -- Added test 'lint_cmake' to check CMake code style
+[4.799s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.814s] -- Added test 'xmllint' to check XML markup files
+[4.823s] -- Configuring done
+[4.839s] -- Generating done
+[4.846s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2
+[4.872s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_nav2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2
+[4.882s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2 -- -j4 -l4
+[5.043s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2 -- -j4 -l4
+[5.177s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2
+[5.208s] -- Install configuration: ""
+[5.209s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch
+[5.210s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch/save_map.launch.py
+[5.211s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch/navigation_launch.py
+[5.212s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch/bringup_launch.py
+[5.213s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch/localization_launch.py
+[5.214s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/launch/wheeltec_nav2.launch.py
+[5.215s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/map
+[5.216s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/map/WHEELTEC.yaml
+[5.217s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/map/WHEELTEC.pgm
+[5.219s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param
+[5.220s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/navigate_w_replanning_speed.xml
+[5.221s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/navigate_w_replanning_and_recovery.xml
+[5.222s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/navigate_w_replanning_time.xml
+[5.223s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/navigate_w_replanning_distance.xml
+[5.224s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/bt_nav2.xml
+[5.225s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param
+[5.226s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_4wd_bs.yaml
+[5.227s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_mec_bs.yaml
+[5.228s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_mec_EightDrive.yaml
+[5.229s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_tank.yaml
+[5.231s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_diff.yaml
+[5.232s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/wheeltec_params.yaml
+[5.233s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_mec_bs.yaml
+[5.234s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_mec.yaml
+[5.235s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_4wd_bs.yaml
+[5.237s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_mec_bs.yaml
+[5.238s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_mec_EightDrive.yaml
+[5.239s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_omni.yaml
+[5.240s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_omni.yaml
+[5.241s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_brushless_senior_diff.yaml
+[5.242s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_4wd_dl.yaml
+[5.244s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_4wd.yaml
+[5.245s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_four_wheel_diff_dl.yaml
+[5.246s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_diff.yaml
+[5.247s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_akm.yaml
+[5.248s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_four_wheel_diff_bs.yaml
+[5.249s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_four_wheel_diff_dl.yaml
+[5.250s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_4wd_bs.yaml
+[5.251s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/ori.yaml
+[5.252s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_four_wheel_diff_bs.yaml
+[5.253s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_mini_akm.yaml
+[5.254s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/wheeltec-dwb.yaml
+[5.255s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_mec_dl.yaml
+[5.256s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_4wd_dl.yaml
+[5.256s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_flagship_mec_dl.yaml
+[5.257s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_omni.yaml
+[5.258s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_akm_bs.yaml
+[5.259s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_akm_dl.yaml
+[5.260s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_top_mec_dl.yaml
+[5.261s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_param/param_senior_4wd_dl.yaml
+[5.263s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/wheeltec_params-ori.yaml
+[5.265s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/navigate_w_replanning_and_round_robin_recovery.xml
+[5.267s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/param/follow_point.xml
+[5.268s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/rviz
+[5.269s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/rviz/wheeltec.rviz
+[5.270s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/ament_index/resource_index/package_run_dependencies/wheeltec_nav2
+[5.270s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/ament_index/resource_index/parent_prefix_path/wheeltec_nav2
+[5.272s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/environment/ament_prefix_path.sh
+[5.272s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/environment/ament_prefix_path.dsv
+[5.273s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/environment/path.sh
+[5.274s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/environment/path.dsv
+[5.275s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/local_setup.bash
+[5.276s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/local_setup.sh
+[5.277s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/local_setup.zsh
+[5.279s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/local_setup.dsv
+[5.289s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/package.dsv
+[5.290s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/ament_index/resource_index/packages/wheeltec_nav2
+[5.291s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/cmake/wheeltec_nav2Config.cmake
+[5.292s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/cmake/wheeltec_nav2Config-version.cmake
+[5.293s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2/share/wheeltec_nav2/package.xml
+[5.296s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_nav2

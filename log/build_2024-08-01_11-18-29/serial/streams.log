@@ -1,0 +1,71 @@
+[0.163s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/serial
+[3.934s] -- The C compiler identification is GNU 11.2.0
+[3.939s] -- The CXX compiler identification is GNU 11.2.0
+[3.942s] -- Detecting C compiler ABI info
+[3.943s] -- Detecting C compiler ABI info - done
+[3.944s] -- Check for working C compiler: /usr/bin/cc - skipped
+[3.945s] -- Detecting C compile features
+[3.946s] -- Detecting C compile features - done
+[3.947s] -- Detecting CXX compiler ABI info
+[3.965s] -- Detecting CXX compiler ABI info - done
+[3.971s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.973s] -- Detecting CXX compile features
+[3.973s] -- Detecting CXX compile features - done
+[3.974s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.975s] -- Found ament_cmake_core: 1.3.9 (/opt/ros/humble/share/ament_cmake_core/cmake)
+[4.295s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.952s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.001s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.529s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.502s] -- Configuring done
+[6.530s] -- Generating done
+[6.540s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/serial
+[6.578s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/serial_ros2 -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/serial
+[6.582s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[6.897s] [ 25%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[6.939s] [ 50%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[6.940s] [ 75%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[11.028s] [01m[K/home/sunrise/wheeltec_robot_ws/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::vector<std::__cxx11::basic_string<char> > glob(const std::vector<std::__cxx11::basic_string<char> >&)[m[K’:
+[11.029s] [01m[K/home/sunrise/wheeltec_robot_ws/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:66:40:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.030s]    66 |     for(int path_index = 0; [01;35m[Kpath_index < glob_results.gl_pathc[m[K; path_index++)
+[11.032s]       |                             [01;35m[K~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[11.033s] [01m[K/home/sunrise/wheeltec_robot_ws/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:57:9:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kglob_retval[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[11.034s]    57 |     int [01;35m[Kglob_retval[m[K = glob(patterns[0].c_str(), 0, NULL, &glob_results);
+[11.035s]       |         [01;35m[K^~~~~~~~~~~[m[K
+[11.058s] [01m[K/home/sunrise/wheeltec_robot_ws/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:[m[K In function ‘[01m[Kstd::string format(const char*, ...)[m[K’:
+[11.060s] [01m[K/home/sunrise/wheeltec_robot_ws/src/serial_ros2/src/impl/list_ports/list_ports_linux.cc:246:31:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[11.062s]   246 |         else if( [01;35m[Kreturn_value >= buffer_size_bytes[m[K )
+[11.063s]       |                  [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~[m[K
+[13.188s] [100%] [32m[1mLinking CXX static library libserial.a[0m
+[13.472s] [100%] Built target serial
+[13.533s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[13.732s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial
+[13.778s] -- Install configuration: ""
+[13.780s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/lib/libserial.a
+[13.785s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.sh
+[13.787s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[13.790s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial
+[13.792s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/serial.h
+[13.794s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl
+[13.796s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/win.h
+[13.798s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/unix.h
+[13.800s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/v8stdint.h
+[13.802s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[13.805s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[13.809s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[13.813s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[13.817s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.sh
+[13.820s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.dsv
+[13.822s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.bash
+[13.828s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.sh
+[13.830s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.zsh
+[13.832s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.dsv
+[13.836s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.dsv
+[13.840s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[13.842s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.847s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[13.848s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.849s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[13.850s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[13.871s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.xml
+[13.875s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial

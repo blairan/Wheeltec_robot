@@ -1,0 +1,309 @@
+[0.823s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'wheeltec_robot_urdf']
+[0.824s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['wheeltec_robot_urdf'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8bd1c6d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f8bd1c190>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f8bd1c190>>)
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.263s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.264s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.265s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.265s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/wheeltec_robot_ws'
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.268s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.361s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.362s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.363s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.364s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.365s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.366s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.367s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.368s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.369s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.370s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.371s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.372s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.373s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.374s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.375s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.376s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore_ament_install'
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_pkg']
+[2.377s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_pkg'
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_meta']
+[2.378s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_meta'
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ros']
+[2.379s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ros'
+[2.396s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_ros2' with type 'ros.ament_cmake' and name 'serial'
+[2.397s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['ignore', 'ignore_ament_install']
+[2.398s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ignore'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ignore_ament_install'
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['colcon_pkg']
+[2.399s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'colcon_pkg'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['colcon_meta']
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'colcon_meta'
+[2.400s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extensions ['ros']
+[2.401s] Level 1:colcon.colcon_core.package_identification:_identify(src/tf2_tools) by extension 'ros'
+[2.405s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tf2_tools' with type 'ros.ament_python' and name 'tf2_tools'
+[2.406s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ignore', 'ignore_ament_install']
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore'
+[2.407s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ignore_ament_install'
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_pkg']
+[2.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_pkg'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['colcon_meta']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'colcon_meta'
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extensions ['ros']
+[2.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/turn_on_wheeltec_robot) by extension 'ros'
+[2.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turn_on_wheeltec_robot' with type 'ros.ament_cmake' and name 'turn_on_wheeltec_robot'
+[2.428s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'ignore'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'ignore_ament_install'
+[2.429s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['colcon_pkg']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'colcon_pkg'
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['colcon_meta']
+[2.430s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'colcon_meta'
+[2.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['ros']
+[2.431s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'ros'
+[2.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['cmake', 'python']
+[2.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'cmake'
+[2.432s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'python'
+[2.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extensions ['python_setup_py']
+[2.433s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2) by extension 'python_setup_py'
+[2.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.434s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extension 'ignore'
+[2.435s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extension 'ignore_ament_install'
+[2.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extensions ['colcon_pkg']
+[2.436s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extension 'colcon_pkg'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extensions ['colcon_meta']
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extension 'colcon_meta'
+[2.437s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extensions ['ros']
+[2.438s] Level 1:colcon.colcon_core.package_identification:_identify(src/usb_cam-ros2/usb_cam-ros2) by extension 'ros'
+[2.452s] DEBUG:colcon.colcon_core.package_identification:Package 'src/usb_cam-ros2/usb_cam-ros2' with type 'ros.ament_cmake' and name 'usb_cam'
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'ignore'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'ignore_ament_install'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['colcon_pkg']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'colcon_pkg'
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['colcon_meta']
+[2.456s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'colcon_meta'
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['ros']
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'ros'
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['cmake', 'python']
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'cmake'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'python'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extensions ['python_setup_py']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2) by extension 'python_setup_py'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['ignore', 'ignore_ament_install']
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'ignore'
+[2.462s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'ignore_ament_install'
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['colcon_pkg']
+[2.463s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'colcon_pkg'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['colcon_meta']
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'colcon_meta'
+[2.464s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['ros']
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'ros'
+[2.465s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['cmake', 'python']
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'cmake'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'python'
+[2.466s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extensions ['python_setup_py']
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar) by extension 'python_setup_py'
+[2.467s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extensions ['ignore', 'ignore_ament_install']
+[2.468s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extension 'ignore'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extension 'ignore_ament_install'
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extensions ['colcon_pkg']
+[2.469s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extension 'colcon_pkg'
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extensions ['colcon_meta']
+[2.470s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extension 'colcon_meta'
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extensions ['ros']
+[2.471s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar06) by extension 'ros'
+[2.476s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_lidar_ros2/LDlidar/ldlidar06' with type 'ros.ament_cmake' and name 'ldlidar_stl_ros2'
+[2.477s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extensions ['ignore', 'ignore_ament_install']
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extension 'ignore'
+[2.478s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extension 'ignore_ament_install'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extensions ['colcon_pkg']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extension 'colcon_pkg'
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extensions ['colcon_meta']
+[2.479s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extension 'colcon_meta'
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extensions ['ros']
+[2.480s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LDlidar/ldlidar14) by extension 'ros'
+[2.485s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_lidar_ros2/LDlidar/ldlidar14' with type 'ros.ament_cmake' and name 'ldlidar_sl_ros2'
+[2.486s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['ignore', 'ignore_ament_install']
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'ignore'
+[2.487s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'ignore_ament_install'
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['colcon_pkg']
+[2.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'colcon_pkg'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['colcon_meta']
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'colcon_meta'
+[2.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['ros']
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'ros'
+[2.490s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['cmake', 'python']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'cmake'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'python'
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extensions ['python_setup_py']
+[2.491s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar) by extension 'python_setup_py'
+[2.492s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[2.493s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extension 'ignore'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extension 'ignore_ament_install'
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extensions ['colcon_pkg']
+[2.494s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extension 'colcon_pkg'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extensions ['colcon_meta']
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extension 'colcon_meta'
+[2.495s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extensions ['ros']
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_driver) by extension 'ros'
+[2.502s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_lidar_ros2/LSlidar/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extension 'ignore'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extension 'ignore_ament_install'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extensions ['colcon_pkg']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extension 'colcon_pkg'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extensions ['colcon_meta']
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extension 'colcon_meta'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extensions ['ros']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs) by extension 'ros'
+[2.512s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ignore', 'ignore_ament_install']
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ignore_ament_install'
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_pkg']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_pkg'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['colcon_meta']
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'colcon_meta'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extensions ['ros']
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_msg) by extension 'ros'
+[2.520s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_msg' with type 'ros.ament_cmake' and name 'wheeltec_robot_msg'
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.521s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[2.522s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[2.523s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'colcon_meta'
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['ros']
+[2.524s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'ros'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['cmake', 'python']
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'cmake'
+[2.525s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python'
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extensions ['python_setup_py']
+[2.526s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf) by extension 'python_setup_py'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ignore', 'ignore_ament_install']
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ignore_ament_install'
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_pkg']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_pkg'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['colcon_meta']
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'colcon_meta'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extensions ['ros']
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(src/wheeltec_robot_urdf/wheeltec_robot_urdf) by extension 'ros'
+[2.535s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wheeltec_robot_urdf/wheeltec_robot_urdf' with type 'ros.ament_cmake' and name 'wheeltec_robot_urdf'
+[2.535s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.536s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.697s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ldlidar_sl_ros2' in 'src/wheeltec_lidar_ros2/LDlidar/ldlidar14'
+[2.697s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'ldlidar_stl_ros2' in 'src/wheeltec_lidar_ros2/LDlidar/ldlidar06'
+[2.698s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lslidar_msgs' in 'src/wheeltec_lidar_ros2/LSlidar/lslidar_msgs'
+[2.698s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'serial' in 'src/serial_ros2'
+[2.699s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'tf2_tools' in 'src/tf2_tools'
+[2.699s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'usb_cam' in 'src/usb_cam-ros2/usb_cam-ros2'
+[2.699s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'wheeltec_robot_msg' in 'src/wheeltec_robot_msg'
+[2.700s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'lslidar_driver' in 'src/wheeltec_lidar_ros2/LSlidar/lslidar_driver'
+[2.700s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'turn_on_wheeltec_robot' in 'src/turn_on_wheeltec_robot'
+[2.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.703s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.719s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 10 installed packages in /home/sunrise/wheeltec_robot_ws/install
+[2.731s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 328 installed packages in /opt/ros/humble
+[2.826s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_args' from command line to 'None'
+[3.225s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target' from command line to 'None'
+[3.226s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[3.226s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_cache' from command line to 'False'
+[3.226s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_clean_first' from command line to 'False'
+[3.226s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'cmake_force_configure' from command line to 'False'
+[3.226s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'ament_cmake_args' from command line to 'None'
+[3.227s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_cmake_args' from command line to 'None'
+[3.227s] Level 5:colcon.colcon_core.verb:set package 'wheeltec_robot_urdf' build argument 'catkin_skip_building_tests' from command line to 'False'
+[3.227s] DEBUG:colcon.colcon_core.verb:Building package 'wheeltec_robot_urdf' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf', 'merge_install': False, 'path': '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf', 'symlink_install': False, 'test_result_base': None}
+[3.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[3.235s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[3.236s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf' with build type 'ament_cmake'
+[3.237s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/wheeltec_robot_urdf'
+[3.253s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[3.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.308s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf -- -j4 -l4
+[3.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf -- -j4 -l4
+[3.585s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf
+[3.634s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[3.677s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake module files
+[3.689s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake config files
+[3.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_urdf
+[3.697s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[3.699s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[3.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[3.706s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[3.713s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[3.716s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[3.718s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[3.720s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[3.726s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[3.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[3.737s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[3.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[3.749s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[3.821s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(wheeltec_robot_urdf)
+[3.823s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake module files
+[3.827s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf' for CMake config files
+[3.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('wheeltec_robot_urdf', 'cmake_prefix_path')
+[3.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.ps1'
+[3.833s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.dsv'
+[3.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/hook/cmake_prefix_path.sh'
+[3.840s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[3.841s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/pkgconfig/wheeltec_robot_urdf.pc'
+[3.843s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/lib/python3.10/site-packages'
+[3.845s] Level 1:colcon.colcon_core.environment:checking '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/bin'
+[3.847s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.ps1'
+[3.851s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.dsv'
+[3.854s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.sh'
+[3.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.bash'
+[3.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/wheeltec_robot_urdf/package.zsh'
+[3.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf/share/colcon-core/packages/wheeltec_robot_urdf)
+[3.865s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[3.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[3.867s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[3.868s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[3.900s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[3.900s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[3.901s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[3.902s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[3.925s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[3.928s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.ps1'
+[3.935s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/wheeltec_robot_ws/install/_local_setup_util_ps1.py'
+[3.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.ps1'
+[3.956s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.sh'
+[3.961s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sunrise/wheeltec_robot_ws/install/_local_setup_util_sh.py'
+[3.964s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.sh'
+[3.974s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.bash'
+[3.978s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.bash'
+[3.987s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sunrise/wheeltec_robot_ws/install/local_setup.zsh'
+[3.991s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sunrise/wheeltec_robot_ws/install/setup.zsh'

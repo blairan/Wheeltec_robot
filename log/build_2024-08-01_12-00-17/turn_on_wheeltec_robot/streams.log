@@ -1,0 +1,160 @@
+[0.080s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot -- -j4 -l4
+[0.325s] [  2%] Built target turn_on_wheeltec_robot__cpp
+[0.351s] [ 11%] Built target turn_on_wheeltec_robot__rosidl_generator_c
+[0.377s] [ 11%] Built target ament_cmake_python_copy_turn_on_wheeltec_robot
+[0.407s] [ 20%] Built target wheeltec_robot_node
+[0.441s] [ 29%] Built target turn_on_wheeltec_robot__rosidl_typesupport_cpp
+[0.472s] [ 38%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp
+[0.501s] [ 47%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_c
+[0.511s] [ 55%] Built target turn_on_wheeltec_robot__rosidl_typesupport_c
+[0.563s] [ 64%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp
+[0.603s] [ 73%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c
+[0.687s] [ 73%] Built target turn_on_wheeltec_robot
+[0.778s] [ 76%] Built target turn_on_wheeltec_robot__py
+[0.873s] [ 82%] Built target turn_on_wheeltec_robot__rosidl_generator_py
+[0.992s] [ 88%] Built target turn_on_wheeltec_robot__rosidl_typesupport_c__pyext
+[0.996s] [ 94%] Built target turn_on_wheeltec_robot__rosidl_typesupport_introspection_c__pyext
+[1.027s] [100%] Built target turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c__pyext
+[2.548s] running egg_info
+[2.554s] writing turn_on_wheeltec_robot.egg-info/PKG-INFO
+[2.555s] writing dependency_links to turn_on_wheeltec_robot.egg-info/dependency_links.txt
+[2.556s] writing top-level names to turn_on_wheeltec_robot.egg-info/top_level.txt
+[2.573s] reading manifest file 'turn_on_wheeltec_robot.egg-info/SOURCES.txt'
+[2.578s] writing manifest file 'turn_on_wheeltec_robot.egg-info/SOURCES.txt'
+[2.787s] [100%] Built target ament_cmake_python_build_turn_on_wheeltec_robot_egg
+[2.836s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot -- -j4 -l4
+[3.104s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot
+[3.138s] -- Install configuration: ""
+[3.140s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/ament_index/resource_index/rosidl_interfaces/turn_on_wheeltec_robot
+[3.141s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.142s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.143s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_generator_c__visibility_control.h
+[3.144s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.145s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__functions.h
+[3.147s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.h
+[3.148s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__struct.h
+[3.150s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__functions.c
+[3.151s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/position.h
+[3.151s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/library_path.sh
+[3.152s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/library_path.dsv
+[3.154s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_c.so
+[3.155s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.155s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.156s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.159s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.160s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+[3.162s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_c.so
+[3.163s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.163s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.164s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/position.hpp
+[3.165s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.166s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__struct.hpp
+[3.167s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__builder.hpp
+[3.168s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__traits.hpp
+[3.169s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.169s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.170s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.171s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.172s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+[3.172s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/dds_fastrtps
+[3.173s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cpp.so
+[3.174s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.175s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.176s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.176s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.177s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.c
+[3.178s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_introspection_c.h
+[3.179s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_c.so
+[3.180s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_c.so
+[3.180s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot
+[3.181s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg
+[3.182s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail
+[3.183s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+[3.184s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/include/turn_on_wheeltec_robot/turn_on_wheeltec_robot/msg/detail/position__type_support.cpp
+[3.184s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_introspection_cpp.so
+[3.185s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_typesupport_cpp.so
+[3.186s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/pythonpath.sh
+[3.187s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/pythonpath.dsv
+[3.187s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info
+[3.188s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/top_level.txt
+[3.189s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/SOURCES.txt
+[3.190s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/PKG-INFO
+[3.191s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot-0.0.0-py3.10.egg-info/dependency_links.txt
+[3.192s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot
+[3.193s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.194s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.195s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg
+[3.196s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/_position.py
+[3.197s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/_position_s.c
+[3.198s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg/__init__.py
+[3.199s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_c.c
+[3.201s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/__init__.py
+[3.202s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/libturn_on_wheeltec_robot__rosidl_generator_py.so
+[3.203s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.203s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.204s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/_turn_on_wheeltec_robot_s.ep.rosidl_typesupport_introspection_c.c
+[3.391s] Listing '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot'...
+[3.392s] Listing '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/msg'...
+[3.435s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.436s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.438s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages/turn_on_wheeltec_robot/turn_on_wheeltec_robot_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.439s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/libturn_on_wheeltec_robot__rosidl_generator_py.so
+[3.440s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/msg/Position.idl
+[3.441s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/msg/Position.msg
+[3.443s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib/turn_on_wheeltec_robot/wheeltec_robot_node
+[3.444s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch
+[3.446s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/robot_mode_description.launch.py
+[3.447s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_lidar.launch.py
+[3.449s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/__pycache__
+[3.450s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/__pycache__/testtwo.launch.cpython-38.pyc
+[3.451s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/robot_mode_description_minibot.launch.py
+[3.452s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/base_serial.launch.py
+[3.453s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/turn_on_wheeltec_robot.launch.py
+[3.454s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_camera.launch.py
+[3.455s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_sensors.launch.py
+[3.457s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/launch/wheeltec_ekf.launch.py
+[3.458s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config
+[3.459s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/camera_info.yaml
+[3.460s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/ekf.yaml
+[3.461s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/ekf_carto.yaml
+[3.462s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/config/imu.yaml
+[3.463s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/ament_index/resource_index/package_run_dependencies/turn_on_wheeltec_robot
+[3.464s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/ament_index/resource_index/parent_prefix_path/turn_on_wheeltec_robot
+[3.464s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/ament_prefix_path.sh
+[3.465s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/ament_prefix_path.dsv
+[3.466s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/path.sh
+[3.467s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/environment/path.dsv
+[3.468s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.bash
+[3.469s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.sh
+[3.470s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.zsh
+[3.472s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/local_setup.dsv
+[3.475s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.dsv
+[3.476s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/ament_index/resource_index/packages/turn_on_wheeltec_robot
+[3.477s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cExport.cmake
+[3.478s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cExport-noconfig.cmake
+[3.479s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cExport.cmake
+[3.480s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.480s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_cppExport.cmake
+[3.482s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.483s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.484s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cExport.cmake
+[3.485s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.487s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cExport.cmake
+[3.488s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cExport-noconfig.cmake
+[3.489s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cppExport.cmake
+[3.491s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.492s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cppExport.cmake
+[3.493s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robot__rosidl_typesupport_cppExport-noconfig.cmake
+[3.494s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_pyExport.cmake
+[3.495s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/export_turn_on_wheeltec_robot__rosidl_generator_pyExport-noconfig.cmake
+[3.497s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake-extras.cmake
+[3.498s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.499s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_libraries-extras.cmake
+[3.500s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_targets-extras.cmake
+[3.501s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.502s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.503s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.504s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robotConfig.cmake
+[3.505s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/cmake/turn_on_wheeltec_robotConfig-version.cmake
+[3.506s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/share/turn_on_wheeltec_robot/package.xml
+[3.507s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot' returned '0': CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/turn_on_wheeltec_robot

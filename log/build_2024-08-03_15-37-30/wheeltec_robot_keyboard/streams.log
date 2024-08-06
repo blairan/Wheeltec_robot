@@ -1,0 +1,39 @@
+[5.268s] Invoking command in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_keyboard': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheeltec_robot_keyboard build --build-base /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build install --record /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/install.log --install-scripts $base/lib/wheeltec_robot_keyboard --single-version-externally-managed install_data
+[7.211s] /usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[7.212s]   warnings.warn(
+[7.276s] running egg_info
+[7.280s] creating ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info
+[7.282s] writing ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/PKG-INFO
+[7.283s] writing dependency_links to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/dependency_links.txt
+[7.284s] writing entry points to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/entry_points.txt
+[7.286s] writing requirements to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/requires.txt
+[7.286s] writing top-level names to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/top_level.txt
+[7.287s] writing manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[7.299s] reading manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[7.305s] writing manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'
+[7.307s] running build
+[7.307s] running build_py
+[7.308s] creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build
+[7.309s] creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib
+[7.310s] creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard
+[7.311s] copying wheeltec_robot_keyboard/wheeltec_keyboard.py -> /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard
+[7.311s] copying wheeltec_robot_keyboard/__init__.py -> /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard
+[7.312s] running install
+[7.313s] running install_lib
+[7.318s] creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard
+[7.318s] copying /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard/wheeltec_keyboard.py -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard
+[7.319s] copying /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard/__init__.py -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard
+[7.322s] byte-compiling /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard/wheeltec_keyboard.py to wheeltec_keyboard.cpython-310.pyc
+[7.330s] byte-compiling /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard/__init__.py to __init__.cpython-310.pyc
+[7.331s] running install_data
+[7.332s] creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index
+[7.333s] creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index
+[7.334s] creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages
+[7.335s] copying resource/wheeltec_robot_keyboard -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages
+[7.336s] copying package.xml -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/wheeltec_robot_keyboard
+[7.336s] running install_egg_info
+[7.347s] Copying ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info to /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard-2.0.1-py3.10.egg-info
+[7.353s] running install_scripts
+[7.502s] Installing wheeltec_keyboard script to /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard
+[7.504s] writing list of installed files to '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/install.log'
+[7.715s] Invoked command in '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_keyboard' returned '0': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/wheeltec_robot_keyboard build --build-base /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build install --record /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/install.log --install-scripts $base/lib/wheeltec_robot_keyboard --single-version-externally-managed install_data

@@ -1,0 +1,17 @@
+[0.000000] (-) TimerEvent: {}
+[0.001735] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002858] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.003375] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.003719] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.004100] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.004443] (-) JobUnselected: {'identifier': 'serial'}
+[0.005085] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.005631] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.007214] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.007730] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.008125] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.008414] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.008701] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.008991] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.009291] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.009554] (-) EventReactorShutdown: {}

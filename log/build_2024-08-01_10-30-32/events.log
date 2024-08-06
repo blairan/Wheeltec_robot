@@ -1,0 +1,1222 @@
+[0.000000] (-) TimerEvent: {}
+[0.001751] (-) JobUnselected: {'identifier': 'bkwindbot_urdf'}
+[0.003678] (-) JobUnselected: {'identifier': 'serial'}
+[0.004866] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.006055] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.007851] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.008187] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.009272] (usb_cam) JobQueued: {'identifier': 'usb_cam', 'dependencies': OrderedDict()}
+[0.009709] (usb_cam) JobStarted: {'identifier': 'usb_cam'}
+[0.063259] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'cmake'}
+[0.064639] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/usb_cam-ros2/usb_cam-ros2', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/usb_cam'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/usb_cam', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/usb_cam'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[0.098409] (-) TimerEvent: {}
+[0.199868] (-) TimerEvent: {}
+[0.301857] (-) TimerEvent: {}
+[0.404208] (-) TimerEvent: {}
+[0.411189] (usb_cam) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.504475] (-) TimerEvent: {}
+[0.605587] (-) TimerEvent: {}
+[0.706714] (-) TimerEvent: {}
+[0.768417] (usb_cam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.806937] (-) TimerEvent: {}
+[0.808066] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.907180] (-) TimerEvent: {}
+[1.008709] (-) TimerEvent: {}
+[1.110558] (-) TimerEvent: {}
+[1.189363] (usb_cam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.210762] (-) TimerEvent: {}
+[1.256290] (usb_cam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.257939] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.260719] (usb_cam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.282272] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.311178] (-) TimerEvent: {}
+[1.412259] (-) TimerEvent: {}
+[1.513754] (-) TimerEvent: {}
+[1.614868] (-) TimerEvent: {}
+[1.715943] (-) TimerEvent: {}
+[1.728697] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.798675] (usb_cam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.800485] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.803900] (usb_cam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.816142] (-) TimerEvent: {}
+[1.818025] (usb_cam) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.9 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.916342] (-) TimerEvent: {}
+[2.017375] (-) TimerEvent: {}
+[2.118597] (-) TimerEvent: {}
+[2.219630] (-) TimerEvent: {}
+[2.321351] (-) TimerEvent: {}
+[2.422551] (-) TimerEvent: {}
+[2.525026] (-) TimerEvent: {}
+[2.626166] (-) TimerEvent: {}
+[2.727335] (-) TimerEvent: {}
+[2.828372] (-) TimerEvent: {}
+[2.929379] (-) TimerEvent: {}
+[3.030453] (-) TimerEvent: {}
+[3.108225] (usb_cam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.130772] (-) TimerEvent: {}
+[3.231899] (-) TimerEvent: {}
+[3.333045] (-) TimerEvent: {}
+[3.434106] (-) TimerEvent: {}
+[3.535223] (-) TimerEvent: {}
+[3.636324] (-) TimerEvent: {}
+[3.737450] (-) TimerEvent: {}
+[3.838597] (-) TimerEvent: {}
+[3.939781] (-) TimerEvent: {}
+[4.040842] (-) TimerEvent: {}
+[4.142283] (-) TimerEvent: {}
+[4.243475] (-) TimerEvent: {}
+[4.344523] (-) TimerEvent: {}
+[4.445633] (-) TimerEvent: {}
+[4.546773] (-) TimerEvent: {}
+[4.647876] (-) TimerEvent: {}
+[4.732011] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.748103] (-) TimerEvent: {}
+[4.768916] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.834439] (usb_cam) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.848343] (-) TimerEvent: {}
+[4.949200] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.950330] (-) TimerEvent: {}
+[5.051486] (-) TimerEvent: {}
+[5.115241] (usb_cam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.151716] (-) TimerEvent: {}
+[5.253116] (-) TimerEvent: {}
+[5.354142] (-) TimerEvent: {}
+[5.455278] (-) TimerEvent: {}
+[5.556308] (-) TimerEvent: {}
+[5.657345] (-) TimerEvent: {}
+[5.758467] (-) TimerEvent: {}
+[5.859615] (-) TimerEvent: {}
+[5.960646] (-) TimerEvent: {}
+[6.061667] (-) TimerEvent: {}
+[6.162707] (-) TimerEvent: {}
+[6.263813] (-) TimerEvent: {}
+[6.364950] (-) TimerEvent: {}
+[6.466249] (-) TimerEvent: {}
+[6.567344] (-) TimerEvent: {}
+[6.668327] (-) TimerEvent: {}
+[6.769376] (-) TimerEvent: {}
+[6.870443] (-) TimerEvent: {}
+[6.971574] (-) TimerEvent: {}
+[7.072726] (-) TimerEvent: {}
+[7.174481] (-) TimerEvent: {}
+[7.275628] (-) TimerEvent: {}
+[7.376661] (-) TimerEvent: {}
+[7.477696] (-) TimerEvent: {}
+[7.578738] (-) TimerEvent: {}
+[7.629378] (usb_cam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[7.649992] (usb_cam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[7.678960] (-) TimerEvent: {}
+[7.780009] (-) TimerEvent: {}
+[7.881682] (-) TimerEvent: {}
+[7.983340] (-) TimerEvent: {}
+[8.084419] (-) TimerEvent: {}
+[8.185554] (-) TimerEvent: {}
+[8.230297] (usb_cam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[8.285783] (-) TimerEvent: {}
+[8.386748] (usb_cam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[8.387803] (-) TimerEvent: {}
+[8.488774] (-) TimerEvent: {}
+[8.589892] (-) TimerEvent: {}
+[8.675615] (usb_cam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[8.690104] (-) TimerEvent: {}
+[8.747487] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[8.790326] (-) TimerEvent: {}
+[8.891526] (-) TimerEvent: {}
+[8.992627] (-) TimerEvent: {}
+[9.094564] (-) TimerEvent: {}
+[9.162611] (usb_cam) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[9.164061] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[9.194869] (-) TimerEvent: {}
+[9.295969] (-) TimerEvent: {}
+[9.397065] (-) TimerEvent: {}
+[9.498164] (-) TimerEvent: {}
+[9.560820] (usb_cam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[9.567354] (usb_cam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[9.598399] (-) TimerEvent: {}
+[9.699518] (-) TimerEvent: {}
+[9.806137] (-) TimerEvent: {}
+[9.907219] (-) TimerEvent: {}
+[10.008217] (-) TimerEvent: {}
+[10.114702] (-) TimerEvent: {}
+[10.215771] (-) TimerEvent: {}
+[10.316854] (-) TimerEvent: {}
+[10.417896] (-) TimerEvent: {}
+[10.518957] (-) TimerEvent: {}
+[10.619971] (-) TimerEvent: {}
+[10.721098] (-) TimerEvent: {}
+[10.822143] (-) TimerEvent: {}
+[10.923341] (-) TimerEvent: {}
+[11.024395] (-) TimerEvent: {}
+[11.125439] (-) TimerEvent: {}
+[11.226472] (-) TimerEvent: {}
+[11.328847] (-) TimerEvent: {}
+[11.429963] (-) TimerEvent: {}
+[11.531100] (-) TimerEvent: {}
+[11.632144] (-) TimerEvent: {}
+[11.733196] (-) TimerEvent: {}
+[11.834246] (-) TimerEvent: {}
+[11.935305] (-) TimerEvent: {}
+[12.036323] (-) TimerEvent: {}
+[12.137365] (-) TimerEvent: {}
+[12.238422] (-) TimerEvent: {}
+[12.339502] (-) TimerEvent: {}
+[12.416118] (usb_cam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.5.4") \n'}
+[12.434476] (usb_cam) StdoutLine: {'line': b'-- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") \n'}
+[12.439721] (-) TimerEvent: {}
+[12.441052] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavcodec'\n"}
+[12.499454] (usb_cam) StdoutLine: {'line': b'--   Found libavcodec, version 58.134.100\n'}
+[12.539976] (-) TimerEvent: {}
+[12.633305] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libavutil'\n"}
+[12.640202] (-) TimerEvent: {}
+[12.690042] (usb_cam) StdoutLine: {'line': b'--   Found libavutil, version 56.70.100\n'}
+[12.740454] (-) TimerEvent: {}
+[12.815633] (usb_cam) StdoutLine: {'line': b"-- Checking for module 'libswscale'\n"}
+[12.840706] (-) TimerEvent: {}
+[12.873380] (usb_cam) StdoutLine: {'line': b'--   Found libswscale, version 5.9.100\n'}
+[12.941401] (-) TimerEvent: {}
+[13.043232] (-) TimerEvent: {}
+[13.068280] (usb_cam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[13.143501] (-) TimerEvent: {}
+[13.207764] (usb_cam) StdoutLine: {'line': b"-- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built\n"}
+[13.243764] (-) TimerEvent: {}
+[13.277780] (usb_cam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[13.292305] (usb_cam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[13.294732] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/sunrise/wheeltec_robot_ws/src/usb_cam-ros2/usb_cam-ros2/include\n'}
+[13.295821] (usb_cam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[13.307700] (usb_cam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[13.310803] (usb_cam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[13.313320] (usb_cam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[13.319439] (usb_cam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[13.324639] (usb_cam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[13.337479] (usb_cam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[13.338589] (usb_cam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[13.342811] (usb_cam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[13.343864] (-) TimerEvent: {}
+[13.361591] (usb_cam) StdoutLine: {'line': b'-- Configuring done\n'}
+[13.444126] (-) TimerEvent: {}
+[13.545213] (-) TimerEvent: {}
+[13.583835] (usb_cam) StdoutLine: {'line': b'-- Generating done\n'}
+[13.604493] (usb_cam) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/usb_cam\n'}
+[13.645608] (-) TimerEvent: {}
+[13.715030] (usb_cam) CommandEnded: {'returncode': 0}
+[13.719580] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'build'}
+[13.726396] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/usb_cam', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/usb_cam', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/usb_cam'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[13.745936] (-) TimerEvent: {}
+[13.847148] (-) TimerEvent: {}
+[13.953720] (-) TimerEvent: {}
+[14.007371] (usb_cam) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam.dir/src/usb_cam.cpp.o\x1b[0m\n'}
+[14.015036] (usb_cam) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o\x1b[0m\n'}
+[14.028259] (usb_cam) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node_exe.dir/rclcpp_components/node_main_usb_cam_node_exe.cpp.o\x1b[0m\n'}
+[14.046466] (usb_cam) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o\x1b[0m\n'}
+[14.053954] (-) TimerEvent: {}
+[14.155787] (-) TimerEvent: {}
+[14.257474] (-) TimerEvent: {}
+[14.361418] (-) TimerEvent: {}
+[14.463075] (-) TimerEvent: {}
+[14.566897] (-) TimerEvent: {}
+[14.674750] (-) TimerEvent: {}
+[14.778745] (-) TimerEvent: {}
+[14.879784] (-) TimerEvent: {}
+[14.980816] (-) TimerEvent: {}
+[15.082478] (-) TimerEvent: {}
+[15.184228] (-) TimerEvent: {}
+[15.285881] (-) TimerEvent: {}
+[15.387644] (-) TimerEvent: {}
+[15.489433] (-) TimerEvent: {}
+[15.591212] (-) TimerEvent: {}
+[15.694283] (-) TimerEvent: {}
+[15.795644] (-) TimerEvent: {}
+[15.898030] (-) TimerEvent: {}
+[16.000250] (-) TimerEvent: {}
+[16.102401] (-) TimerEvent: {}
+[16.204616] (-) TimerEvent: {}
+[16.307157] (-) TimerEvent: {}
+[16.408941] (-) TimerEvent: {}
+[16.511434] (-) TimerEvent: {}
+[16.613781] (-) TimerEvent: {}
+[16.716235] (-) TimerEvent: {}
+[16.818653] (-) TimerEvent: {}
+[16.921186] (-) TimerEvent: {}
+[17.023721] (-) TimerEvent: {}
+[17.125988] (-) TimerEvent: {}
+[17.228230] (-) TimerEvent: {}
+[17.330004] (-) TimerEvent: {}
+[17.431821] (-) TimerEvent: {}
+[17.533708] (-) TimerEvent: {}
+[17.635516] (-) TimerEvent: {}
+[17.738744] (-) TimerEvent: {}
+[17.843195] (-) TimerEvent: {}
+[17.944988] (-) TimerEvent: {}
+[18.046756] (-) TimerEvent: {}
+[18.148498] (-) TimerEvent: {}
+[18.250279] (-) TimerEvent: {}
+[18.353147] (-) TimerEvent: {}
+[18.457021] (-) TimerEvent: {}
+[18.559649] (-) TimerEvent: {}
+[18.661429] (-) TimerEvent: {}
+[18.763338] (-) TimerEvent: {}
+[18.865175] (-) TimerEvent: {}
+[18.966985] (-) TimerEvent: {}
+[19.069517] (-) TimerEvent: {}
+[19.172138] (-) TimerEvent: {}
+[19.274318] (-) TimerEvent: {}
+[19.376285] (-) TimerEvent: {}
+[19.478055] (-) TimerEvent: {}
+[19.583077] (-) TimerEvent: {}
+[19.685879] (-) TimerEvent: {}
+[19.787794] (-) TimerEvent: {}
+[19.891671] (-) TimerEvent: {}
+[19.993528] (-) TimerEvent: {}
+[20.095503] (-) TimerEvent: {}
+[20.197324] (-) TimerEvent: {}
+[20.306650] (-) TimerEvent: {}
+[20.407797] (-) TimerEvent: {}
+[20.509628] (-) TimerEvent: {}
+[20.611491] (-) TimerEvent: {}
+[20.713325] (-) TimerEvent: {}
+[20.815179] (-) TimerEvent: {}
+[20.916967] (-) TimerEvent: {}
+[21.018837] (-) TimerEvent: {}
+[21.120660] (-) TimerEvent: {}
+[21.222552] (-) TimerEvent: {}
+[21.324403] (-) TimerEvent: {}
+[21.426224] (-) TimerEvent: {}
+[21.528786] (-) TimerEvent: {}
+[21.631367] (-) TimerEvent: {}
+[21.733947] (-) TimerEvent: {}
+[21.836458] (-) TimerEvent: {}
+[21.939032] (-) TimerEvent: {}
+[22.041550] (-) TimerEvent: {}
+[22.144153] (-) TimerEvent: {}
+[22.246690] (-) TimerEvent: {}
+[22.349163] (-) TimerEvent: {}
+[22.451512] (-) TimerEvent: {}
+[22.553883] (-) TimerEvent: {}
+[22.656639] (-) TimerEvent: {}
+[22.759247] (-) TimerEvent: {}
+[22.861742] (-) TimerEvent: {}
+[22.964078] (-) TimerEvent: {}
+[23.013986] (usb_cam) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX static library libgtest_main.a\x1b[0m\n'}
+[23.064358] (-) TimerEvent: {}
+[23.169244] (-) TimerEvent: {}
+[23.232087] (usb_cam) StdoutLine: {'line': b'[ 35%] Built target gtest_main\n'}
+[23.270744] (-) TimerEvent: {}
+[23.372131] (-) TimerEvent: {}
+[23.477387] (-) TimerEvent: {}
+[23.579344] (-) TimerEvent: {}
+[23.681838] (-) TimerEvent: {}
+[23.784052] (-) TimerEvent: {}
+[23.885845] (-) TimerEvent: {}
+[23.987622] (-) TimerEvent: {}
+[24.089427] (-) TimerEvent: {}
+[24.191284] (-) TimerEvent: {}
+[24.293133] (-) TimerEvent: {}
+[24.395138] (-) TimerEvent: {}
+[24.496948] (-) TimerEvent: {}
+[24.598772] (-) TimerEvent: {}
+[24.700680] (-) TimerEvent: {}
+[24.802788] (-) TimerEvent: {}
+[24.909366] (-) TimerEvent: {}
+[25.010471] (-) TimerEvent: {}
+[25.111697] (-) TimerEvent: {}
+[25.212899] (-) TimerEvent: {}
+[25.314763] (-) TimerEvent: {}
+[25.415931] (-) TimerEvent: {}
+[25.517101] (-) TimerEvent: {}
+[25.619793] (-) TimerEvent: {}
+[25.722263] (-) TimerEvent: {}
+[25.824029] (-) TimerEvent: {}
+[25.925888] (-) TimerEvent: {}
+[26.027746] (-) TimerEvent: {}
+[26.129501] (-) TimerEvent: {}
+[26.231324] (-) TimerEvent: {}
+[26.333882] (-) TimerEvent: {}
+[26.436451] (-) TimerEvent: {}
+[26.538984] (-) TimerEvent: {}
+[26.641475] (-) TimerEvent: {}
+[26.744006] (-) TimerEvent: {}
+[26.846165] (-) TimerEvent: {}
+[26.950745] (-) TimerEvent: {}
+[27.054765] (-) TimerEvent: {}
+[27.158743] (-) TimerEvent: {}
+[27.262750] (-) TimerEvent: {}
+[27.366744] (-) TimerEvent: {}
+[27.474761] (-) TimerEvent: {}
+[27.578730] (-) TimerEvent: {}
+[27.682754] (-) TimerEvent: {}
+[27.783939] (-) TimerEvent: {}
+[27.886342] (-) TimerEvent: {}
+[27.988906] (-) TimerEvent: {}
+[28.091460] (-) TimerEvent: {}
+[28.193653] (-) TimerEvent: {}
+[28.295542] (-) TimerEvent: {}
+[28.397409] (-) TimerEvent: {}
+[28.500274] (-) TimerEvent: {}
+[28.605335] (-) TimerEvent: {}
+[28.706528] (-) TimerEvent: {}
+[28.808518] (-) TimerEvent: {}
+[28.910324] (-) TimerEvent: {}
+[29.012113] (-) TimerEvent: {}
+[29.114000] (-) TimerEvent: {}
+[29.215806] (-) TimerEvent: {}
+[29.317621] (-) TimerEvent: {}
+[29.419518] (-) TimerEvent: {}
+[29.520778] (-) TimerEvent: {}
+[29.625108] (-) TimerEvent: {}
+[29.727660] (-) TimerEvent: {}
+[29.830065] (-) TimerEvent: {}
+[29.931908] (-) TimerEvent: {}
+[30.033795] (-) TimerEvent: {}
+[30.135631] (-) TimerEvent: {}
+[30.237517] (-) TimerEvent: {}
+[30.339472] (-) TimerEvent: {}
+[30.441357] (-) TimerEvent: {}
+[30.543157] (-) TimerEvent: {}
+[30.645037] (-) TimerEvent: {}
+[30.746882] (-) TimerEvent: {}
+[30.848812] (-) TimerEvent: {}
+[30.950732] (-) TimerEvent: {}
+[31.052628] (-) TimerEvent: {}
+[31.154530] (-) TimerEvent: {}
+[31.256400] (-) TimerEvent: {}
+[31.358293] (-) TimerEvent: {}
+[31.459596] (-) TimerEvent: {}
+[31.560844] (-) TimerEvent: {}
+[31.662638] (-) TimerEvent: {}
+[31.764393] (-) TimerEvent: {}
+[31.866172] (-) TimerEvent: {}
+[31.967916] (-) TimerEvent: {}
+[32.069700] (-) TimerEvent: {}
+[32.171453] (-) TimerEvent: {}
+[32.272608] (-) TimerEvent: {}
+[32.374365] (-) TimerEvent: {}
+[32.432383] (usb_cam) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam.so\x1b[0m\n'}
+[32.474673] (-) TimerEvent: {}
+[32.578659] (-) TimerEvent: {}
+[32.680544] (-) TimerEvent: {}
+[32.782383] (-) TimerEvent: {}
+[32.884297] (-) TimerEvent: {}
+[32.986277] (-) TimerEvent: {}
+[33.088176] (-) TimerEvent: {}
+[33.193961] (-) TimerEvent: {}
+[33.298712] (-) TimerEvent: {}
+[33.399725] (-) TimerEvent: {}
+[33.501616] (-) TimerEvent: {}
+[33.602629] (-) TimerEvent: {}
+[33.704290] (-) TimerEvent: {}
+[33.805973] (-) TimerEvent: {}
+[33.907782] (-) TimerEvent: {}
+[34.009690] (-) TimerEvent: {}
+[34.111698] (-) TimerEvent: {}
+[34.213587] (-) TimerEvent: {}
+[34.315353] (-) TimerEvent: {}
+[34.417102] (-) TimerEvent: {}
+[34.518808] (-) TimerEvent: {}
+[34.619833] (-) TimerEvent: {}
+[34.675612] (usb_cam) StdoutLine: {'line': b'[ 42%] Built target usb_cam\n'}
+[34.720085] (-) TimerEvent: {}
+[34.821233] (-) TimerEvent: {}
+[34.922385] (-) TimerEvent: {}
+[35.023552] (-) TimerEvent: {}
+[35.124667] (-) TimerEvent: {}
+[35.226547] (-) TimerEvent: {}
+[35.328253] (-) TimerEvent: {}
+[35.429467] (-) TimerEvent: {}
+[35.530678] (-) TimerEvent: {}
+[35.633118] (-) TimerEvent: {}
+[35.734177] (-) TimerEvent: {}
+[35.835400] (-) TimerEvent: {}
+[35.936600] (-) TimerEvent: {}
+[36.037644] (-) TimerEvent: {}
+[36.138739] (-) TimerEvent: {}
+[36.240521] (-) TimerEvent: {}
+[36.341606] (-) TimerEvent: {}
+[36.442736] (-) TimerEvent: {}
+[36.543833] (-) TimerEvent: {}
+[36.644926] (-) TimerEvent: {}
+[36.746012] (-) TimerEvent: {}
+[36.847230] (-) TimerEvent: {}
+[36.948309] (-) TimerEvent: {}
+[37.049468] (-) TimerEvent: {}
+[37.150748] (-) TimerEvent: {}
+[37.251934] (-) TimerEvent: {}
+[37.358738] (-) TimerEvent: {}
+[37.459876] (-) TimerEvent: {}
+[37.561606] (-) TimerEvent: {}
+[37.664218] (-) TimerEvent: {}
+[37.765285] (-) TimerEvent: {}
+[37.866412] (-) TimerEvent: {}
+[37.967667] (-) TimerEvent: {}
+[38.070222] (-) TimerEvent: {}
+[38.171454] (-) TimerEvent: {}
+[38.273642] (-) TimerEvent: {}
+[38.374961] (-) TimerEvent: {}
+[38.476104] (-) TimerEvent: {}
+[38.577299] (-) TimerEvent: {}
+[38.679834] (-) TimerEvent: {}
+[38.781033] (-) TimerEvent: {}
+[38.882169] (-) TimerEvent: {}
+[38.983425] (-) TimerEvent: {}
+[39.085923] (-) TimerEvent: {}
+[39.187084] (-) TimerEvent: {}
+[39.288251] (-) TimerEvent: {}
+[39.389444] (-) TimerEvent: {}
+[39.490704] (-) TimerEvent: {}
+[39.591772] (-) TimerEvent: {}
+[39.692954] (-) TimerEvent: {}
+[39.794112] (-) TimerEvent: {}
+[39.895338] (-) TimerEvent: {}
+[39.996560] (-) TimerEvent: {}
+[40.098013] (-) TimerEvent: {}
+[40.199345] (-) TimerEvent: {}
+[40.300536] (-) TimerEvent: {}
+[40.401697] (-) TimerEvent: {}
+[40.504285] (-) TimerEvent: {}
+[40.605462] (-) TimerEvent: {}
+[40.708216] (-) TimerEvent: {}
+[40.809383] (-) TimerEvent: {}
+[40.910653] (-) TimerEvent: {}
+[41.011815] (-) TimerEvent: {}
+[41.112970] (-) TimerEvent: {}
+[41.214174] (-) TimerEvent: {}
+[41.316411] (-) TimerEvent: {}
+[41.417688] (-) TimerEvent: {}
+[41.518822] (-) TimerEvent: {}
+[41.619993] (-) TimerEvent: {}
+[41.721125] (-) TimerEvent: {}
+[41.823913] (-) TimerEvent: {}
+[41.925013] (-) TimerEvent: {}
+[42.026106] (-) TimerEvent: {}
+[42.127332] (-) TimerEvent: {}
+[42.229144] (-) TimerEvent: {}
+[42.330255] (-) TimerEvent: {}
+[42.431423] (-) TimerEvent: {}
+[42.532519] (-) TimerEvent: {}
+[42.633624] (-) TimerEvent: {}
+[42.734746] (-) TimerEvent: {}
+[42.838301] (-) TimerEvent: {}
+[42.939474] (-) TimerEvent: {}
+[43.042730] (-) TimerEvent: {}
+[43.143769] (-) TimerEvent: {}
+[43.246723] (-) TimerEvent: {}
+[43.347942] (-) TimerEvent: {}
+[43.449074] (-) TimerEvent: {}
+[43.550161] (-) TimerEvent: {}
+[43.651334] (-) TimerEvent: {}
+[43.752443] (-) TimerEvent: {}
+[43.853557] (-) TimerEvent: {}
+[43.956006] (-) TimerEvent: {}
+[44.057127] (-) TimerEvent: {}
+[44.158245] (-) TimerEvent: {}
+[44.259464] (-) TimerEvent: {}
+[44.362367] (-) TimerEvent: {}
+[44.464188] (-) TimerEvent: {}
+[44.565285] (-) TimerEvent: {}
+[44.666547] (-) TimerEvent: {}
+[44.767642] (-) TimerEvent: {}
+[44.825860] (usb_cam) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX static library libgtest.a\x1b[0m\n'}
+[44.867922] (-) TimerEvent: {}
+[44.974771] (-) TimerEvent: {}
+[45.075876] (-) TimerEvent: {}
+[45.176983] (-) TimerEvent: {}
+[45.226088] (usb_cam) StdoutLine: {'line': b'[ 50%] Built target gtest\n'}
+[45.277232] (-) TimerEvent: {}
+[45.378717] (-) TimerEvent: {}
+[45.480294] (-) TimerEvent: {}
+[45.582792] (-) TimerEvent: {}
+[45.683827] (-) TimerEvent: {}
+[45.784864] (-) TimerEvent: {}
+[45.885887] (-) TimerEvent: {}
+[45.986985] (-) TimerEvent: {}
+[46.045502] (usb_cam) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX executable usb_cam_node_exe\x1b[0m\n'}
+[46.087199] (-) TimerEvent: {}
+[46.188276] (-) TimerEvent: {}
+[46.289369] (-) TimerEvent: {}
+[46.390425] (-) TimerEvent: {}
+[46.493048] (-) TimerEvent: {}
+[46.594146] (-) TimerEvent: {}
+[46.695301] (-) TimerEvent: {}
+[46.796298] (-) TimerEvent: {}
+[46.897367] (-) TimerEvent: {}
+[46.998416] (-) TimerEvent: {}
+[47.051108] (usb_cam) StdoutLine: {'line': b'[ 57%] Built target usb_cam_node_exe\n'}
+[47.098714] (-) TimerEvent: {}
+[47.174940] (usb_cam) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/test_pixel_formats.dir/test/test_pixel_formats.cpp.o\x1b[0m\n'}
+[47.202764] (-) TimerEvent: {}
+[47.306740] (-) TimerEvent: {}
+[47.410741] (-) TimerEvent: {}
+[47.511776] (-) TimerEvent: {}
+[47.612822] (-) TimerEvent: {}
+[47.713886] (-) TimerEvent: {}
+[47.815050] (-) TimerEvent: {}
+[47.916095] (-) TimerEvent: {}
+[48.017182] (-) TimerEvent: {}
+[48.118275] (-) TimerEvent: {}
+[48.219499] (-) TimerEvent: {}
+[48.320595] (-) TimerEvent: {}
+[48.421712] (-) TimerEvent: {}
+[48.522822] (-) TimerEvent: {}
+[48.623953] (-) TimerEvent: {}
+[48.725010] (-) TimerEvent: {}
+[48.826093] (-) TimerEvent: {}
+[48.927223] (-) TimerEvent: {}
+[49.028231] (-) TimerEvent: {}
+[49.130272] (-) TimerEvent: {}
+[49.231483] (-) TimerEvent: {}
+[49.332677] (-) TimerEvent: {}
+[49.433825] (-) TimerEvent: {}
+[49.534930] (-) TimerEvent: {}
+[49.636006] (-) TimerEvent: {}
+[49.737069] (-) TimerEvent: {}
+[49.838833] (-) TimerEvent: {}
+[49.940011] (-) TimerEvent: {}
+[50.041103] (-) TimerEvent: {}
+[50.142657] (-) TimerEvent: {}
+[50.243687] (-) TimerEvent: {}
+[50.344761] (-) TimerEvent: {}
+[50.445848] (-) TimerEvent: {}
+[50.547503] (-) TimerEvent: {}
+[50.648561] (-) TimerEvent: {}
+[50.749616] (-) TimerEvent: {}
+[50.850728] (-) TimerEvent: {}
+[50.951766] (-) TimerEvent: {}
+[51.052858] (-) TimerEvent: {}
+[51.153973] (-) TimerEvent: {}
+[51.255091] (-) TimerEvent: {}
+[51.356180] (-) TimerEvent: {}
+[51.457337] (-) TimerEvent: {}
+[51.558581] (-) TimerEvent: {}
+[51.660078] (-) TimerEvent: {}
+[51.761151] (-) TimerEvent: {}
+[51.862286] (-) TimerEvent: {}
+[51.964189] (-) TimerEvent: {}
+[52.065718] (-) TimerEvent: {}
+[52.166831] (-) TimerEvent: {}
+[52.267909] (-) TimerEvent: {}
+[52.368934] (-) TimerEvent: {}
+[52.470024] (-) TimerEvent: {}
+[52.571142] (-) TimerEvent: {}
+[52.672229] (-) TimerEvent: {}
+[52.773352] (-) TimerEvent: {}
+[52.874535] (-) TimerEvent: {}
+[52.975603] (-) TimerEvent: {}
+[53.076694] (-) TimerEvent: {}
+[53.177737] (-) TimerEvent: {}
+[53.242593] (usb_cam) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX executable test_pixel_formats\x1b[0m\n'}
+[53.277985] (-) TimerEvent: {}
+[53.379129] (-) TimerEvent: {}
+[53.480256] (-) TimerEvent: {}
+[53.581450] (-) TimerEvent: {}
+[53.682794] (-) TimerEvent: {}
+[53.784137] (-) TimerEvent: {}
+[53.885365] (-) TimerEvent: {}
+[53.986399] (-) TimerEvent: {}
+[54.087482] (-) TimerEvent: {}
+[54.188486] (-) TimerEvent: {}
+[54.289623] (-) TimerEvent: {}
+[54.390677] (-) TimerEvent: {}
+[54.491714] (-) TimerEvent: {}
+[54.592715] (-) TimerEvent: {}
+[54.693746] (-) TimerEvent: {}
+[54.719557] (usb_cam) StdoutLine: {'line': b'[ 71%] Built target test_pixel_formats\n'}
+[54.794061] (-) TimerEvent: {}
+[54.805361] (usb_cam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/test_usb_cam_utils.dir/test/test_usb_cam_utils.cpp.o\x1b[0m\n'}
+[54.894307] (-) TimerEvent: {}
+[54.995406] (-) TimerEvent: {}
+[55.096564] (-) TimerEvent: {}
+[55.198115] (-) TimerEvent: {}
+[55.299571] (-) TimerEvent: {}
+[55.400963] (-) TimerEvent: {}
+[55.502600] (-) TimerEvent: {}
+[55.603621] (-) TimerEvent: {}
+[55.704718] (-) TimerEvent: {}
+[55.805792] (-) TimerEvent: {}
+[55.906877] (-) TimerEvent: {}
+[56.007955] (-) TimerEvent: {}
+[56.109032] (-) TimerEvent: {}
+[56.210087] (-) TimerEvent: {}
+[56.311187] (-) TimerEvent: {}
+[56.412222] (-) TimerEvent: {}
+[56.513263] (-) TimerEvent: {}
+[56.614386] (-) TimerEvent: {}
+[56.715473] (-) TimerEvent: {}
+[56.816547] (-) TimerEvent: {}
+[56.917617] (-) TimerEvent: {}
+[57.018707] (-) TimerEvent: {}
+[57.119813] (-) TimerEvent: {}
+[57.221728] (-) TimerEvent: {}
+[57.322810] (-) TimerEvent: {}
+[57.424573] (-) TimerEvent: {}
+[57.525687] (-) TimerEvent: {}
+[57.627476] (-) TimerEvent: {}
+[57.728581] (-) TimerEvent: {}
+[57.829678] (-) TimerEvent: {}
+[57.930784] (-) TimerEvent: {}
+[58.031938] (-) TimerEvent: {}
+[58.133027] (-) TimerEvent: {}
+[58.234107] (-) TimerEvent: {}
+[58.335340] (-) TimerEvent: {}
+[58.436394] (-) TimerEvent: {}
+[58.537458] (-) TimerEvent: {}
+[58.638582] (-) TimerEvent: {}
+[58.739676] (-) TimerEvent: {}
+[58.841250] (-) TimerEvent: {}
+[58.942345] (-) TimerEvent: {}
+[59.043551] (-) TimerEvent: {}
+[59.144638] (-) TimerEvent: {}
+[59.245750] (-) TimerEvent: {}
+[59.346955] (-) TimerEvent: {}
+[59.448027] (-) TimerEvent: {}
+[59.549129] (-) TimerEvent: {}
+[59.650210] (-) TimerEvent: {}
+[59.751436] (-) TimerEvent: {}
+[59.852617] (-) TimerEvent: {}
+[59.954672] (-) TimerEvent: {}
+[60.055773] (-) TimerEvent: {}
+[60.156853] (-) TimerEvent: {}
+[60.257948] (-) TimerEvent: {}
+[60.359097] (-) TimerEvent: {}
+[60.460166] (-) TimerEvent: {}
+[60.561347] (-) TimerEvent: {}
+[60.662457] (-) TimerEvent: {}
+[60.763555] (-) TimerEvent: {}
+[60.864690] (-) TimerEvent: {}
+[60.965739] (-) TimerEvent: {}
+[61.066801] (-) TimerEvent: {}
+[61.161435] (usb_cam) StdoutLine: {'line': b'[ 85%] \x1b[32m\x1b[1mLinking CXX executable test_usb_cam_utils\x1b[0m\n'}
+[61.167028] (-) TimerEvent: {}
+[61.268168] (-) TimerEvent: {}
+[61.369314] (-) TimerEvent: {}
+[61.470570] (-) TimerEvent: {}
+[61.571935] (-) TimerEvent: {}
+[61.673995] (-) TimerEvent: {}
+[61.775177] (-) TimerEvent: {}
+[61.876212] (-) TimerEvent: {}
+[61.977270] (-) TimerEvent: {}
+[62.078307] (-) TimerEvent: {}
+[62.179379] (-) TimerEvent: {}
+[62.280426] (-) TimerEvent: {}
+[62.381424] (-) TimerEvent: {}
+[62.482457] (-) TimerEvent: {}
+[62.583475] (-) TimerEvent: {}
+[62.600971] (usb_cam) StdoutLine: {'line': b'[ 85%] Built target test_usb_cam_utils\n'}
+[62.683724] (-) TimerEvent: {}
+[62.687788] (usb_cam) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object CMakeFiles/usb_cam_node.dir/src/usb_cam_node.cpp.o\x1b[0m\n'}
+[62.783945] (-) TimerEvent: {}
+[62.885063] (-) TimerEvent: {}
+[62.987060] (-) TimerEvent: {}
+[63.088628] (-) TimerEvent: {}
+[63.190265] (-) TimerEvent: {}
+[63.291401] (-) TimerEvent: {}
+[63.392424] (-) TimerEvent: {}
+[63.493509] (-) TimerEvent: {}
+[63.594598] (-) TimerEvent: {}
+[63.696369] (-) TimerEvent: {}
+[63.797429] (-) TimerEvent: {}
+[63.899774] (-) TimerEvent: {}
+[64.001216] (-) TimerEvent: {}
+[64.103161] (-) TimerEvent: {}
+[64.204718] (-) TimerEvent: {}
+[64.305826] (-) TimerEvent: {}
+[64.406939] (-) TimerEvent: {}
+[64.507988] (-) TimerEvent: {}
+[64.609195] (-) TimerEvent: {}
+[64.710275] (-) TimerEvent: {}
+[64.811513] (-) TimerEvent: {}
+[64.912581] (-) TimerEvent: {}
+[65.013681] (-) TimerEvent: {}
+[65.118068] (-) TimerEvent: {}
+[65.219190] (-) TimerEvent: {}
+[65.320255] (-) TimerEvent: {}
+[65.421363] (-) TimerEvent: {}
+[65.522528] (-) TimerEvent: {}
+[65.623636] (-) TimerEvent: {}
+[65.724859] (-) TimerEvent: {}
+[65.825954] (-) TimerEvent: {}
+[65.927072] (-) TimerEvent: {}
+[66.028178] (-) TimerEvent: {}
+[66.129260] (-) TimerEvent: {}
+[66.230349] (-) TimerEvent: {}
+[66.331481] (-) TimerEvent: {}
+[66.432523] (-) TimerEvent: {}
+[66.533582] (-) TimerEvent: {}
+[66.634722] (-) TimerEvent: {}
+[66.735825] (-) TimerEvent: {}
+[66.836908] (-) TimerEvent: {}
+[66.938007] (-) TimerEvent: {}
+[67.039120] (-) TimerEvent: {}
+[67.140189] (-) TimerEvent: {}
+[67.241282] (-) TimerEvent: {}
+[67.342337] (-) TimerEvent: {}
+[67.443485] (-) TimerEvent: {}
+[67.544646] (-) TimerEvent: {}
+[67.645782] (-) TimerEvent: {}
+[67.746853] (-) TimerEvent: {}
+[67.847903] (-) TimerEvent: {}
+[67.948985] (-) TimerEvent: {}
+[68.050134] (-) TimerEvent: {}
+[68.151334] (-) TimerEvent: {}
+[68.252597] (-) TimerEvent: {}
+[68.353719] (-) TimerEvent: {}
+[68.454845] (-) TimerEvent: {}
+[68.555924] (-) TimerEvent: {}
+[68.657017] (-) TimerEvent: {}
+[68.758141] (-) TimerEvent: {}
+[68.859265] (-) TimerEvent: {}
+[68.960368] (-) TimerEvent: {}
+[69.062048] (-) TimerEvent: {}
+[69.163234] (-) TimerEvent: {}
+[69.264298] (-) TimerEvent: {}
+[69.365339] (-) TimerEvent: {}
+[69.466438] (-) TimerEvent: {}
+[69.567570] (-) TimerEvent: {}
+[69.668655] (-) TimerEvent: {}
+[69.769763] (-) TimerEvent: {}
+[69.870948] (-) TimerEvent: {}
+[69.972418] (-) TimerEvent: {}
+[70.073623] (-) TimerEvent: {}
+[70.174707] (-) TimerEvent: {}
+[70.275782] (-) TimerEvent: {}
+[70.376901] (-) TimerEvent: {}
+[70.477996] (-) TimerEvent: {}
+[70.579104] (-) TimerEvent: {}
+[70.680268] (-) TimerEvent: {}
+[70.781897] (-) TimerEvent: {}
+[70.883310] (-) TimerEvent: {}
+[70.984395] (-) TimerEvent: {}
+[71.085865] (-) TimerEvent: {}
+[71.187002] (-) TimerEvent: {}
+[71.288084] (-) TimerEvent: {}
+[71.389182] (-) TimerEvent: {}
+[71.490236] (-) TimerEvent: {}
+[71.591350] (-) TimerEvent: {}
+[71.692470] (-) TimerEvent: {}
+[71.793529] (-) TimerEvent: {}
+[71.894668] (-) TimerEvent: {}
+[71.995751] (-) TimerEvent: {}
+[72.096873] (-) TimerEvent: {}
+[72.197965] (-) TimerEvent: {}
+[72.299113] (-) TimerEvent: {}
+[72.400189] (-) TimerEvent: {}
+[72.501240] (-) TimerEvent: {}
+[72.602271] (-) TimerEvent: {}
+[72.703376] (-) TimerEvent: {}
+[72.804428] (-) TimerEvent: {}
+[72.905522] (-) TimerEvent: {}
+[73.006684] (-) TimerEvent: {}
+[73.107740] (-) TimerEvent: {}
+[73.209458] (-) TimerEvent: {}
+[73.310614] (-) TimerEvent: {}
+[73.411707] (-) TimerEvent: {}
+[73.512825] (-) TimerEvent: {}
+[73.613955] (-) TimerEvent: {}
+[73.715086] (-) TimerEvent: {}
+[73.816165] (-) TimerEvent: {}
+[73.917286] (-) TimerEvent: {}
+[74.018401] (-) TimerEvent: {}
+[74.119560] (-) TimerEvent: {}
+[74.220660] (-) TimerEvent: {}
+[74.321824] (-) TimerEvent: {}
+[74.423075] (-) TimerEvent: {}
+[74.524243] (-) TimerEvent: {}
+[74.625342] (-) TimerEvent: {}
+[74.726447] (-) TimerEvent: {}
+[74.827566] (-) TimerEvent: {}
+[74.928631] (-) TimerEvent: {}
+[75.029700] (-) TimerEvent: {}
+[75.130782] (-) TimerEvent: {}
+[75.231861] (-) TimerEvent: {}
+[75.333001] (-) TimerEvent: {}
+[75.434150] (-) TimerEvent: {}
+[75.535374] (-) TimerEvent: {}
+[75.636491] (-) TimerEvent: {}
+[75.737578] (-) TimerEvent: {}
+[75.838739] (-) TimerEvent: {}
+[75.939908] (-) TimerEvent: {}
+[76.040901] (-) TimerEvent: {}
+[76.141935] (-) TimerEvent: {}
+[76.243025] (-) TimerEvent: {}
+[76.344023] (-) TimerEvent: {}
+[76.445042] (-) TimerEvent: {}
+[76.546094] (-) TimerEvent: {}
+[76.647202] (-) TimerEvent: {}
+[76.748246] (-) TimerEvent: {}
+[76.849294] (-) TimerEvent: {}
+[76.950342] (-) TimerEvent: {}
+[77.051474] (-) TimerEvent: {}
+[77.152974] (-) TimerEvent: {}
+[77.254038] (-) TimerEvent: {}
+[77.355167] (-) TimerEvent: {}
+[77.456236] (-) TimerEvent: {}
+[77.557366] (-) TimerEvent: {}
+[77.658546] (-) TimerEvent: {}
+[77.759982] (-) TimerEvent: {}
+[77.862053] (-) TimerEvent: {}
+[77.963840] (-) TimerEvent: {}
+[78.064966] (-) TimerEvent: {}
+[78.166107] (-) TimerEvent: {}
+[78.267345] (-) TimerEvent: {}
+[78.368520] (-) TimerEvent: {}
+[78.469608] (-) TimerEvent: {}
+[78.570720] (-) TimerEvent: {}
+[78.671835] (-) TimerEvent: {}
+[78.772922] (-) TimerEvent: {}
+[78.873976] (-) TimerEvent: {}
+[78.975105] (-) TimerEvent: {}
+[79.076282] (-) TimerEvent: {}
+[79.177742] (-) TimerEvent: {}
+[79.278943] (-) TimerEvent: {}
+[79.381317] (-) TimerEvent: {}
+[79.482416] (-) TimerEvent: {}
+[79.583572] (-) TimerEvent: {}
+[79.684719] (-) TimerEvent: {}
+[79.785826] (-) TimerEvent: {}
+[79.887042] (-) TimerEvent: {}
+[79.988131] (-) TimerEvent: {}
+[80.089294] (-) TimerEvent: {}
+[80.190419] (-) TimerEvent: {}
+[80.291648] (-) TimerEvent: {}
+[80.392703] (-) TimerEvent: {}
+[80.494405] (-) TimerEvent: {}
+[80.595526] (-) TimerEvent: {}
+[80.696687] (-) TimerEvent: {}
+[80.797862] (-) TimerEvent: {}
+[80.899003] (-) TimerEvent: {}
+[81.000093] (-) TimerEvent: {}
+[81.101580] (-) TimerEvent: {}
+[81.202702] (-) TimerEvent: {}
+[81.303767] (-) TimerEvent: {}
+[81.404820] (-) TimerEvent: {}
+[81.505877] (-) TimerEvent: {}
+[81.607182] (-) TimerEvent: {}
+[81.708265] (-) TimerEvent: {}
+[81.809371] (-) TimerEvent: {}
+[81.910542] (-) TimerEvent: {}
+[82.011712] (-) TimerEvent: {}
+[82.112778] (-) TimerEvent: {}
+[82.213862] (-) TimerEvent: {}
+[82.314993] (-) TimerEvent: {}
+[82.416143] (-) TimerEvent: {}
+[82.517215] (-) TimerEvent: {}
+[82.618324] (-) TimerEvent: {}
+[82.720104] (-) TimerEvent: {}
+[82.821651] (-) TimerEvent: {}
+[82.922742] (-) TimerEvent: {}
+[83.023841] (-) TimerEvent: {}
+[83.124998] (-) TimerEvent: {}
+[83.226079] (-) TimerEvent: {}
+[83.327248] (-) TimerEvent: {}
+[83.428362] (-) TimerEvent: {}
+[83.529436] (-) TimerEvent: {}
+[83.630526] (-) TimerEvent: {}
+[83.731616] (-) TimerEvent: {}
+[83.832729] (-) TimerEvent: {}
+[83.934256] (-) TimerEvent: {}
+[84.036061] (-) TimerEvent: {}
+[84.137204] (-) TimerEvent: {}
+[84.238304] (-) TimerEvent: {}
+[84.339452] (-) TimerEvent: {}
+[84.440552] (-) TimerEvent: {}
+[84.541631] (-) TimerEvent: {}
+[84.642711] (-) TimerEvent: {}
+[84.743753] (-) TimerEvent: {}
+[84.844832] (-) TimerEvent: {}
+[84.945909] (-) TimerEvent: {}
+[85.047041] (-) TimerEvent: {}
+[85.148973] (-) TimerEvent: {}
+[85.250206] (-) TimerEvent: {}
+[85.351397] (-) TimerEvent: {}
+[85.452569] (-) TimerEvent: {}
+[85.553662] (-) TimerEvent: {}
+[85.654771] (-) TimerEvent: {}
+[85.755855] (-) TimerEvent: {}
+[85.856957] (-) TimerEvent: {}
+[85.957946] (-) TimerEvent: {}
+[86.059592] (-) TimerEvent: {}
+[86.160660] (-) TimerEvent: {}
+[86.261696] (-) TimerEvent: {}
+[86.362763] (-) TimerEvent: {}
+[86.463848] (-) TimerEvent: {}
+[86.565372] (-) TimerEvent: {}
+[86.666474] (-) TimerEvent: {}
+[86.767581] (-) TimerEvent: {}
+[86.868571] (-) TimerEvent: {}
+[86.969615] (-) TimerEvent: {}
+[87.070672] (-) TimerEvent: {}
+[87.171630] (-) TimerEvent: {}
+[87.272666] (-) TimerEvent: {}
+[87.373705] (-) TimerEvent: {}
+[87.474691] (-) TimerEvent: {}
+[87.576165] (-) TimerEvent: {}
+[87.677236] (-) TimerEvent: {}
+[87.778290] (-) TimerEvent: {}
+[87.879389] (-) TimerEvent: {}
+[87.980459] (-) TimerEvent: {}
+[88.081519] (-) TimerEvent: {}
+[88.182689] (-) TimerEvent: {}
+[88.283828] (-) TimerEvent: {}
+[88.384920] (-) TimerEvent: {}
+[88.485993] (-) TimerEvent: {}
+[88.587085] (-) TimerEvent: {}
+[88.688192] (-) TimerEvent: {}
+[88.789320] (-) TimerEvent: {}
+[88.890474] (-) TimerEvent: {}
+[88.991735] (-) TimerEvent: {}
+[89.092901] (-) TimerEvent: {}
+[89.194394] (-) TimerEvent: {}
+[89.295617] (-) TimerEvent: {}
+[89.396753] (-) TimerEvent: {}
+[89.497864] (-) TimerEvent: {}
+[89.599028] (-) TimerEvent: {}
+[89.700135] (-) TimerEvent: {}
+[89.801379] (-) TimerEvent: {}
+[89.903574] (-) TimerEvent: {}
+[90.004709] (-) TimerEvent: {}
+[90.105820] (-) TimerEvent: {}
+[90.207347] (-) TimerEvent: {}
+[90.308616] (-) TimerEvent: {}
+[90.410426] (-) TimerEvent: {}
+[90.511540] (-) TimerEvent: {}
+[90.612644] (-) TimerEvent: {}
+[90.713723] (-) TimerEvent: {}
+[90.814845] (-) TimerEvent: {}
+[90.915953] (-) TimerEvent: {}
+[91.017075] (-) TimerEvent: {}
+[91.118152] (-) TimerEvent: {}
+[91.219397] (-) TimerEvent: {}
+[91.320455] (-) TimerEvent: {}
+[91.421588] (-) TimerEvent: {}
+[91.522738] (-) TimerEvent: {}
+[91.623824] (-) TimerEvent: {}
+[91.724927] (-) TimerEvent: {}
+[91.826015] (-) TimerEvent: {}
+[91.927779] (-) TimerEvent: {}
+[92.028880] (-) TimerEvent: {}
+[92.129959] (-) TimerEvent: {}
+[92.231135] (-) TimerEvent: {}
+[92.332411] (-) TimerEvent: {}
+[92.433582] (-) TimerEvent: {}
+[92.534793] (-) TimerEvent: {}
+[92.636703] (-) TimerEvent: {}
+[92.737794] (-) TimerEvent: {}
+[92.838923] (-) TimerEvent: {}
+[92.940606] (-) TimerEvent: {}
+[93.041701] (-) TimerEvent: {}
+[93.142838] (-) TimerEvent: {}
+[93.243933] (-) TimerEvent: {}
+[93.345028] (-) TimerEvent: {}
+[93.446108] (-) TimerEvent: {}
+[93.547266] (-) TimerEvent: {}
+[93.648348] (-) TimerEvent: {}
+[93.749488] (-) TimerEvent: {}
+[93.850655] (-) TimerEvent: {}
+[93.951741] (-) TimerEvent: {}
+[94.052836] (-) TimerEvent: {}
+[94.153863] (-) TimerEvent: {}
+[94.254989] (-) TimerEvent: {}
+[94.356099] (-) TimerEvent: {}
+[94.457204] (-) TimerEvent: {}
+[94.558301] (-) TimerEvent: {}
+[94.659415] (-) TimerEvent: {}
+[94.761314] (-) TimerEvent: {}
+[94.862579] (-) TimerEvent: {}
+[94.963728] (-) TimerEvent: {}
+[95.064850] (-) TimerEvent: {}
+[95.166004] (-) TimerEvent: {}
+[95.267171] (-) TimerEvent: {}
+[95.368250] (-) TimerEvent: {}
+[95.469283] (-) TimerEvent: {}
+[95.570358] (-) TimerEvent: {}
+[95.671808] (-) TimerEvent: {}
+[95.772818] (-) TimerEvent: {}
+[95.873884] (-) TimerEvent: {}
+[95.974990] (-) TimerEvent: {}
+[96.076071] (-) TimerEvent: {}
+[96.177166] (-) TimerEvent: {}
+[96.278212] (-) TimerEvent: {}
+[96.379330] (-) TimerEvent: {}
+[96.480422] (-) TimerEvent: {}
+[96.581496] (-) TimerEvent: {}
+[96.682634] (-) TimerEvent: {}
+[96.783696] (-) TimerEvent: {}
+[96.884744] (-) TimerEvent: {}
+[96.985936] (-) TimerEvent: {}
+[97.087079] (-) TimerEvent: {}
+[97.188840] (-) TimerEvent: {}
+[97.289976] (-) TimerEvent: {}
+[97.391140] (-) TimerEvent: {}
+[97.492738] (-) TimerEvent: {}
+[97.593901] (-) TimerEvent: {}
+[97.695084] (-) TimerEvent: {}
+[97.796096] (-) TimerEvent: {}
+[97.897124] (-) TimerEvent: {}
+[97.998237] (-) TimerEvent: {}
+[98.099330] (-) TimerEvent: {}
+[98.200448] (-) TimerEvent: {}
+[98.301544] (-) TimerEvent: {}
+[98.402669] (-) TimerEvent: {}
+[98.503740] (-) TimerEvent: {}
+[98.604850] (-) TimerEvent: {}
+[98.705961] (-) TimerEvent: {}
+[98.807060] (-) TimerEvent: {}
+[98.908066] (-) TimerEvent: {}
+[99.009099] (-) TimerEvent: {}
+[99.110170] (-) TimerEvent: {}
+[99.211295] (-) TimerEvent: {}
+[99.312381] (-) TimerEvent: {}
+[99.413429] (-) TimerEvent: {}
+[99.514551] (-) TimerEvent: {}
+[99.615630] (-) TimerEvent: {}
+[99.716704] (-) TimerEvent: {}
+[99.818938] (-) TimerEvent: {}
+[99.921383] (-) TimerEvent: {}
+[100.022451] (-) TimerEvent: {}
+[100.123629] (-) TimerEvent: {}
+[100.224735] (-) TimerEvent: {}
+[100.325793] (-) TimerEvent: {}
+[100.426939] (-) TimerEvent: {}
+[100.528049] (-) TimerEvent: {}
+[100.629126] (-) TimerEvent: {}
+[100.730172] (-) TimerEvent: {}
+[100.831261] (-) TimerEvent: {}
+[100.932374] (-) TimerEvent: {}
+[101.033470] (-) TimerEvent: {}
+[101.134594] (-) TimerEvent: {}
+[101.235677] (-) TimerEvent: {}
+[101.336751] (-) TimerEvent: {}
+[101.437827] (-) TimerEvent: {}
+[101.538943] (-) TimerEvent: {}
+[101.640050] (-) TimerEvent: {}
+[101.741118] (-) TimerEvent: {}
+[101.842204] (-) TimerEvent: {}
+[101.943365] (-) TimerEvent: {}
+[102.044414] (-) TimerEvent: {}
+[102.146167] (-) TimerEvent: {}
+[102.247392] (-) TimerEvent: {}
+[102.348557] (-) TimerEvent: {}
+[102.449700] (-) TimerEvent: {}
+[102.550796] (-) TimerEvent: {}
+[102.651858] (-) TimerEvent: {}
+[102.753067] (-) TimerEvent: {}
+[102.854159] (-) TimerEvent: {}
+[102.957238] (-) TimerEvent: {}
+[103.059060] (-) TimerEvent: {}
+[103.160171] (-) TimerEvent: {}
+[103.261351] (-) TimerEvent: {}
+[103.362560] (-) TimerEvent: {}
+[103.463682] (-) TimerEvent: {}
+[103.564727] (-) TimerEvent: {}
+[103.666175] (-) TimerEvent: {}
+[103.767268] (-) TimerEvent: {}
+[103.868269] (-) TimerEvent: {}
+[103.969297] (-) TimerEvent: {}
+[104.070306] (-) TimerEvent: {}
+[104.171364] (-) TimerEvent: {}
+[104.273015] (-) TimerEvent: {}
+[104.374097] (-) TimerEvent: {}
+[104.475120] (-) TimerEvent: {}
+[104.576154] (-) TimerEvent: {}
+[104.677214] (-) TimerEvent: {}
+[104.778298] (-) TimerEvent: {}
+[104.879438] (-) TimerEvent: {}
+[104.980459] (-) TimerEvent: {}
+[105.081512] (-) TimerEvent: {}
+[105.182574] (-) TimerEvent: {}
+[105.283624] (-) TimerEvent: {}
+[105.372994] (usb_cam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libusb_cam_node.so\x1b[0m\n'}
+[105.383849] (-) TimerEvent: {}
+[105.484982] (-) TimerEvent: {}
+[105.586115] (-) TimerEvent: {}
+[105.687466] (-) TimerEvent: {}
+[105.788521] (-) TimerEvent: {}
+[105.890062] (-) TimerEvent: {}
+[105.991205] (-) TimerEvent: {}
+[106.092493] (-) TimerEvent: {}
+[106.194407] (-) TimerEvent: {}
+[106.295837] (-) TimerEvent: {}
+[106.397063] (-) TimerEvent: {}
+[106.498362] (-) TimerEvent: {}
+[106.600541] (-) TimerEvent: {}
+[106.701737] (-) TimerEvent: {}
+[106.803100] (-) TimerEvent: {}
+[106.904338] (-) TimerEvent: {}
+[107.005435] (-) TimerEvent: {}
+[107.106717] (-) TimerEvent: {}
+[107.207967] (-) TimerEvent: {}
+[107.309155] (-) TimerEvent: {}
+[107.410848] (-) TimerEvent: {}
+[107.511772] (-) TimerEvent: {}
+[107.612756] (-) TimerEvent: {}
+[107.713780] (-) TimerEvent: {}
+[107.814765] (-) TimerEvent: {}
+[107.915775] (-) TimerEvent: {}
+[107.981719] (usb_cam) StdoutLine: {'line': b'[100%] Built target usb_cam_node\n'}
+[108.016010] (-) TimerEvent: {}
+[108.031736] (usb_cam) CommandEnded: {'returncode': 0}
+[108.116296] (-) TimerEvent: {}
+[108.167059] (usb_cam) JobProgress: {'identifier': 'usb_cam', 'progress': 'install'}
+[108.211833] (usb_cam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/usb_cam'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/usb_cam', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/usb_cam'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[108.217565] (-) TimerEvent: {}
+[108.251864] (usb_cam) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[108.253186] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/library_path.sh\n'}
+[108.254441] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/library_path.dsv\n'}
+[108.255865] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe\n'}
+[108.263148] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/usb_cam/usb_cam_node_exe" to ""\n'}
+[108.264138] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/usb_cam/show_image.py\n'}
+[108.265064] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/libusb_cam.so\n'}
+[108.265986] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[108.275125] (usb_cam) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/libusb_cam_node.so" to ""\n'}
+[108.276850] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include\n'}
+[108.280597] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam\n'}
+[108.282934] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/usb_cam_node.hpp\n'}
+[108.285293] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/usb_cam.hpp\n'}
+[108.286849] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats\n'}
+[108.289345] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/mjpeg.hpp\n'}
+[108.290193] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/mono.hpp\n'}
+[108.292738] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/uyvy.hpp\n'}
+[108.293645] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/rgb.hpp\n'}
+[108.294652] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/utils.hpp\n'}
+[108.298890] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/yuyv.hpp\n'}
+[108.299805] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/m420.hpp\n'}
+[108.300672] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/formats/pixel_format_base.hpp\n'}
+[108.301562] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/constants.hpp\n'}
+[108.307912] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/utils.hpp\n'}
+[108.309005] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/include/usb_cam/conversions.hpp\n'}
+[108.310120] (usb_cam) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/usb_cam/lib/libusb_cam_node.so\n'}
+[108.312900] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch\n'}
+[108.313775] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch/usb_cam_launch.py\n'}
+[108.314812] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch/camera_config.py\n'}
+[108.316187] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch/demo.launch.py\n'}
+[108.317128] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch/camera.launch.py\n'}
+[108.318090] (-) TimerEvent: {}
+[108.318947] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/launch/__init__.py\n'}
+[108.319924] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/config\n'}
+[108.320725] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/config/camera_info.yaml\n'}
+[108.321594] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/config/params_1.yaml\n'}
+[108.323215] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/config/params_2.yaml\n'}
+[108.324110] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/config/params.yaml\n'}
+[108.325036] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/ament_index/resource_index/package_run_dependencies/usb_cam\n'}
+[108.325980] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/ament_index/resource_index/parent_prefix_path/usb_cam\n'}
+[108.328087] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.sh\n'}
+[108.329331] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/ament_prefix_path.dsv\n'}
+[108.331611] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/path.sh\n'}
+[108.335327] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/environment/path.dsv\n'}
+[108.336676] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/local_setup.bash\n'}
+[108.337929] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/local_setup.sh\n'}
+[108.339437] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/local_setup.zsh\n'}
+[108.340462] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/local_setup.dsv\n'}
+[108.341788] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/package.dsv\n'}
+[108.342832] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/ament_index/resource_index/packages/usb_cam\n'}
+[108.344279] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/ament_index/resource_index/rclcpp_components/usb_cam\n'}
+[108.345454] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[108.346573] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[108.348072] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[108.350004] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig.cmake\n'}
+[108.351644] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/cmake/usb_camConfig-version.cmake\n'}
+[108.352899] (usb_cam) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/usb_cam/share/usb_cam/package.xml\n'}
+[108.353960] (usb_cam) CommandEnded: {'returncode': 0}
+[108.419131] (-) TimerEvent: {}
+[108.520378] (-) TimerEvent: {}
+[108.621851] (-) TimerEvent: {}
+[108.642072] (usb_cam) JobEnded: {'identifier': 'usb_cam', 'rc': 0}
+[108.646828] (-) EventReactorShutdown: {}

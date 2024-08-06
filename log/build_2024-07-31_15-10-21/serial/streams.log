@@ -1,0 +1,33 @@
+[0.178s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[3.214s] [100%] Built target serial
+[3.269s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/serial -- -j4 -l4
+[3.523s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial
+[3.844s] -- Install configuration: ""
+[3.851s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/lib/libserial.a
+[3.852s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.sh
+[3.853s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/library_path.dsv
+[3.854s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial
+[3.855s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/serial.h
+[3.856s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl
+[3.862s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/win.h
+[3.863s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/impl/unix.h
+[3.863s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/include/serial/v8stdint.h
+[3.877s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[3.878s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[3.879s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[3.881s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[3.882s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.sh
+[3.883s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/environment/path.dsv
+[3.886s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.bash
+[3.890s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.sh
+[3.891s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.zsh
+[3.891s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/local_setup.dsv
+[3.896s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.dsv
+[3.901s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/ament_index/resource_index/packages/serial
+[3.902s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.903s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[3.907s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.908s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig.cmake
+[3.909s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[3.911s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/serial/share/serial/package.xml
+[4.020s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/serial

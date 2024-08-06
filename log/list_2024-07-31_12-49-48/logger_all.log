@@ -1,0 +1,50 @@
+[2.000s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'list', '-p', '--base-paths', '/home/sunrise/wheeltec_robot_ws']
+[2.002s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/sunrise/wheeltec_robot_ws'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f8dfc0400>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0x7f8df8f730>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0x7f8df8f730>>)
+[6.579s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[6.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[6.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[6.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[6.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[6.586s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sunrise/wheeltec_robot_ws'
+[6.587s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['ignore', 'ignore_ament_install']
+[6.588s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'ignore'
+[6.597s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'ignore_ament_install'
+[6.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['colcon_pkg']
+[6.598s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'colcon_pkg'
+[6.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['colcon_meta']
+[6.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'colcon_meta'
+[6.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['ros']
+[6.601s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'ros'
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['cmake', 'python']
+[6.818s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'cmake'
+[6.819s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'python'
+[6.820s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extensions ['python_setup_py']
+[6.832s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws) by extension 'python_setup_py'
+[6.834s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/log) by extensions ['ignore', 'ignore_ament_install']
+[6.835s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/log) by extension 'ignore'
+[6.840s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/log) ignored
+[6.841s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['ignore', 'ignore_ament_install']
+[6.842s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'ignore'
+[6.843s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'ignore_ament_install'
+[6.848s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['colcon_pkg']
+[6.849s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'colcon_pkg'
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['colcon_meta']
+[6.850s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'colcon_meta'
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['ros']
+[6.851s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'ros'
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['cmake', 'python']
+[6.857s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'cmake'
+[6.858s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'python'
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extensions ['python_setup_py']
+[6.859s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src) by extension 'python_setup_py'
+[6.865s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extensions ['ignore', 'ignore_ament_install']
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extension 'ignore'
+[6.866s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extension 'ignore_ament_install'
+[6.867s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extensions ['colcon_pkg']
+[6.872s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extension 'colcon_pkg'
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extensions ['colcon_meta']
+[6.873s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extension 'colcon_meta'
+[6.874s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extensions ['ros']
+[6.875s] Level 1:colcon.colcon_core.package_identification:_identify(/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot) by extension 'ros'
+[6.982s] DEBUG:colcon.colcon_core.package_identification:Package '/home/sunrise/wheeltec_robot_ws/src/turn_on_wheeltec_robot' with type 'ros.ament_cmake' and name 'turn_on_wheeltec_robot'
+[6.983s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

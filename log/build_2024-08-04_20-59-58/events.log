@@ -1,0 +1,165 @@
+[0.000000] (-) TimerEvent: {}
+[0.001474] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.003079] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.003435] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.004547] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.005547] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005865] (-) JobUnselected: {'identifier': 'serial'}
+[0.006123] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.006424] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.006664] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.006903] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.007103] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.007472] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.007738] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.007977] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.008295] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.008881] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.009235] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.009456] (simple_follower_ros2) JobQueued: {'identifier': 'simple_follower_ros2', 'dependencies': OrderedDict([('serial', '/home/sunrise/wheeltec_robot_ws/install/serial'), ('wheeltec_robot_msg', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg'), ('turn_on_wheeltec_robot', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot')])}
+[0.009711] (simple_follower_ros2) JobStarted: {'identifier': 'simple_follower_ros2'}
+[0.098464] (-) TimerEvent: {}
+[0.199394] (-) TimerEvent: {}
+[0.300312] (-) TimerEvent: {}
+[0.401326] (-) TimerEvent: {}
+[0.502717] (-) TimerEvent: {}
+[0.603674] (-) TimerEvent: {}
+[0.704547] (-) TimerEvent: {}
+[0.805452] (-) TimerEvent: {}
+[0.906331] (-) TimerEvent: {}
+[1.007281] (-) TimerEvent: {}
+[1.108212] (-) TimerEvent: {}
+[1.209102] (-) TimerEvent: {}
+[1.310004] (-) TimerEvent: {}
+[1.410910] (-) TimerEvent: {}
+[1.511928] (-) TimerEvent: {}
+[1.613637] (-) TimerEvent: {}
+[1.714964] (-) TimerEvent: {}
+[1.816450] (-) TimerEvent: {}
+[1.917367] (-) TimerEvent: {}
+[2.018332] (-) TimerEvent: {}
+[2.119223] (-) TimerEvent: {}
+[2.220362] (-) TimerEvent: {}
+[2.321416] (-) TimerEvent: {}
+[2.422532] (-) TimerEvent: {}
+[2.525164] (-) TimerEvent: {}
+[2.626144] (-) TimerEvent: {}
+[2.727061] (-) TimerEvent: {}
+[2.828014] (-) TimerEvent: {}
+[2.928971] (-) TimerEvent: {}
+[3.029856] (-) TimerEvent: {}
+[3.130813] (-) TimerEvent: {}
+[3.232082] (-) TimerEvent: {}
+[3.333025] (-) TimerEvent: {}
+[3.433956] (-) TimerEvent: {}
+[3.534859] (-) TimerEvent: {}
+[3.636209] (-) TimerEvent: {}
+[3.737092] (-) TimerEvent: {}
+[3.838001] (-) TimerEvent: {}
+[3.938895] (-) TimerEvent: {}
+[4.039882] (-) TimerEvent: {}
+[4.140782] (-) TimerEvent: {}
+[4.241715] (-) TimerEvent: {}
+[4.343030] (-) TimerEvent: {}
+[4.444028] (-) TimerEvent: {}
+[4.544925] (-) TimerEvent: {}
+[4.645828] (-) TimerEvent: {}
+[4.746727] (-) TimerEvent: {}
+[4.847659] (-) TimerEvent: {}
+[4.948561] (-) TimerEvent: {}
+[5.049935] (-) TimerEvent: {}
+[5.150959] (-) TimerEvent: {}
+[5.252017] (-) TimerEvent: {}
+[5.353023] (-) TimerEvent: {}
+[5.435669] (simple_follower_ros2) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/simple_follower_ros2', 'build', '--build-base', '/home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build', 'install', '--record', '/home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/install.log', '--install-scripts', '$base/lib/simple_follower_ros2', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/wheeltec_robot_ws/src/simple_follower_ros2', 'env': {'USER': 'sunrise', 'SSH_CLIENT': '192.168.159.239 56788 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.91.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-d65f9c94-9689-421f-a2ce-ead1571ad23c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-e8f915738d.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2', 'SSH_CONNECTION': '192.168.159.239 56788 192.168.159.59 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2'}, 'shell': False}
+[5.453184] (-) TimerEvent: {}
+[5.554128] (-) TimerEvent: {}
+[5.655089] (-) TimerEvent: {}
+[5.756175] (-) TimerEvent: {}
+[5.857416] (-) TimerEvent: {}
+[5.959125] (-) TimerEvent: {}
+[6.060384] (-) TimerEvent: {}
+[6.161347] (-) TimerEvent: {}
+[6.262249] (-) TimerEvent: {}
+[6.363124] (-) TimerEvent: {}
+[6.464055] (-) TimerEvent: {}
+[6.564930] (-) TimerEvent: {}
+[6.666230] (-) TimerEvent: {}
+[6.767117] (-) TimerEvent: {}
+[6.868069] (-) TimerEvent: {}
+[6.968971] (-) TimerEvent: {}
+[7.069881] (-) TimerEvent: {}
+[7.170781] (-) TimerEvent: {}
+[7.271720] (-) TimerEvent: {}
+[7.372625] (-) TimerEvent: {}
+[7.456557] (simple_follower_ros2) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.457586] (simple_follower_ros2) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.472818] (-) TimerEvent: {}
+[7.527663] (simple_follower_ros2) StdoutLine: {'line': b'running egg_info\n'}
+[7.532080] (simple_follower_ros2) StdoutLine: {'line': b'creating ../../build/simple_follower_ros2/simple_follower_ros2.egg-info\n'}
+[7.533615] (simple_follower_ros2) StdoutLine: {'line': b'writing ../../build/simple_follower_ros2/simple_follower_ros2.egg-info/PKG-INFO\n'}
+[7.535037] (simple_follower_ros2) StdoutLine: {'line': b'writing dependency_links to ../../build/simple_follower_ros2/simple_follower_ros2.egg-info/dependency_links.txt\n'}
+[7.536318] (simple_follower_ros2) StdoutLine: {'line': b'writing entry points to ../../build/simple_follower_ros2/simple_follower_ros2.egg-info/entry_points.txt\n'}
+[7.537352] (simple_follower_ros2) StdoutLine: {'line': b'writing requirements to ../../build/simple_follower_ros2/simple_follower_ros2.egg-info/requires.txt\n'}
+[7.538252] (simple_follower_ros2) StdoutLine: {'line': b'writing top-level names to ../../build/simple_follower_ros2/simple_follower_ros2.egg-info/top_level.txt\n'}
+[7.539382] (simple_follower_ros2) StdoutLine: {'line': b"writing manifest file '../../build/simple_follower_ros2/simple_follower_ros2.egg-info/SOURCES.txt'\n"}
+[7.552615] (simple_follower_ros2) StdoutLine: {'line': b"reading manifest file '../../build/simple_follower_ros2/simple_follower_ros2.egg-info/SOURCES.txt'\n"}
+[7.559121] (simple_follower_ros2) StdoutLine: {'line': b"writing manifest file '../../build/simple_follower_ros2/simple_follower_ros2.egg-info/SOURCES.txt'\n"}
+[7.560314] (simple_follower_ros2) StdoutLine: {'line': b'running build\n'}
+[7.561106] (simple_follower_ros2) StdoutLine: {'line': b'running build_py\n'}
+[7.562240] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build\n'}
+[7.563111] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib\n'}
+[7.564071] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.565011] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/visualTracker.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.565931] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/laserfollower.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.566826] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/laserTracker.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.567814] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/__init__.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.568883] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/adjust_hsv.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.569721] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/line_follow.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.570558] (simple_follower_ros2) StdoutLine: {'line': b'copying simple_follower_ros2/visualFollower.py -> /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2\n'}
+[7.571368] (simple_follower_ros2) StdoutLine: {'line': b'running install\n'}
+[7.572708] (simple_follower_ros2) StdoutLine: {'line': b'running install_lib\n'}
+[7.573441] (-) TimerEvent: {}
+[7.577597] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.578608] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/visualTracker.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.579581] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/laserfollower.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.580788] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/laserTracker.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.581876] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/__init__.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.582970] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/adjust_hsv.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.583998] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/line_follow.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.584677] (simple_follower_ros2) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/build/lib/simple_follower_ros2/visualFollower.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2\n'}
+[7.586955] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/visualTracker.py to visualTracker.cpython-310.pyc\n'}
+[7.596496] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/laserfollower.py to laserfollower.cpython-310.pyc\n'}
+[7.606264] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/laserTracker.py to laserTracker.cpython-310.pyc\n'}
+[7.610657] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/__init__.py to __init__.cpython-310.pyc\n'}
+[7.612027] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/adjust_hsv.py to adjust_hsv.cpython-310.pyc\n'}
+[7.616658] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/line_follow.py to line_follow.cpython-310.pyc\n'}
+[7.624663] (simple_follower_ros2) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2/visualFollower.py to visualFollower.cpython-310.pyc\n'}
+[7.633549] (simple_follower_ros2) StdoutLine: {'line': b'running install_data\n'}
+[7.635495] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/ament_index\n'}
+[7.636854] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/ament_index/resource_index\n'}
+[7.638048] (simple_follower_ros2) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/ament_index/resource_index/packages\n'}
+[7.639202] (simple_follower_ros2) StdoutLine: {'line': b'copying resource/simple_follower_ros2 -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/ament_index/resource_index/packages\n'}
+[7.640406] (simple_follower_ros2) StdoutLine: {'line': b'copying launch/line_follower.launch.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/simple_follower_ros2\n'}
+[7.641687] (simple_follower_ros2) StdoutLine: {'line': b'copying launch/laser_follower.launch.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/simple_follower_ros2\n'}
+[7.642409] (simple_follower_ros2) StdoutLine: {'line': b'copying launch/visual_follower.launch.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/simple_follower_ros2\n'}
+[7.643163] (simple_follower_ros2) StdoutLine: {'line': b'copying launch/adjust_hsv.launch.py -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/simple_follower_ros2\n'}
+[7.644044] (simple_follower_ros2) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/share/simple_follower_ros2\n'}
+[7.644839] (simple_follower_ros2) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.654751] (simple_follower_ros2) StdoutLine: {'line': b'Copying ../../build/simple_follower_ros2/simple_follower_ros2.egg-info to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages/simple_follower_ros2-0.0.0-py3.10.egg-info\n'}
+[7.660521] (simple_follower_ros2) StdoutLine: {'line': b'running install_scripts\n'}
+[7.673682] (-) TimerEvent: {}
+[7.774728] (-) TimerEvent: {}
+[7.821840] (simple_follower_ros2) StdoutLine: {'line': b'Installing adjust_hsv script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.823641] (simple_follower_ros2) StdoutLine: {'line': b'Installing laserfollower script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.824833] (simple_follower_ros2) StdoutLine: {'line': b'Installing lasertracker script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.825914] (simple_follower_ros2) StdoutLine: {'line': b'Installing line_follow script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.826992] (simple_follower_ros2) StdoutLine: {'line': b'Installing visualfollow script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.828005] (simple_follower_ros2) StdoutLine: {'line': b'Installing visualtracker script to /home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/simple_follower_ros2\n'}
+[7.829163] (simple_follower_ros2) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/wheeltec_robot_ws/build/simple_follower_ros2/install.log'\n"}
+[7.874975] (-) TimerEvent: {}
+[7.976106] (-) TimerEvent: {}
+[8.070584] (simple_follower_ros2) CommandEnded: {'returncode': 0}
+[8.076408] (-) TimerEvent: {}
+[8.153428] (simple_follower_ros2) JobEnded: {'identifier': 'simple_follower_ros2', 'rc': 0}
+[8.157593] (-) EventReactorShutdown: {}

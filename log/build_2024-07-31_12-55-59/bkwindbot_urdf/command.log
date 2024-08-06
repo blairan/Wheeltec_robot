@@ -1,0 +1,6 @@
+Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_urdf/bkwindbot_urdf -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf
+Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf -- -j4 -l4
+Invoking command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf
+Invoked command in '/home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/bkwindbot_urdf

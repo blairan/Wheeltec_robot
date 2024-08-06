@@ -1,0 +1,5 @@
+[0.107s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_info_manager -- -j4 -l4
+[0.218s] [0mCMake Error: The source directory "/home/sunrise/wheeltec_robot_ws/src/image_common/camera_info_manager" does not exist.
+[0.220s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.227s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[0.246s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_info_manager -- -j4 -l4

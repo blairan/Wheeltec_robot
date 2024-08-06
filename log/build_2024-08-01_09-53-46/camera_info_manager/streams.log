@@ -1,0 +1,73 @@
+[0.155s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager
+[0.720s] -- The C compiler identification is GNU 11.2.0
+[1.233s] -- The CXX compiler identification is GNU 11.2.0
+[1.326s] -- Detecting C compiler ABI info
+[2.083s] -- Detecting C compiler ABI info - done
+[2.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.209s] -- Detecting C compile features
+[2.217s] -- Detecting C compile features - done
+[2.255s] -- Detecting CXX compiler ABI info
+[2.902s] -- Detecting CXX compiler ABI info - done
+[3.006s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.019s] -- Detecting CXX compile features
+[3.032s] -- Detecting CXX compile features - done
+[3.074s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[5.190s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[6.207s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[6.222s] -- Found camera_calibration_parsers: 3.1.9 (/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)
+[6.766s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[6.814s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[6.940s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[7.137s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.430s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.459s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[8.494s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.326s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.544s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.986s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[10.102s] -- Looking for pthread.h
+[10.696s] -- Looking for pthread.h - found
+[10.704s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[11.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[11.363s] -- Found Threads: TRUE  
+[15.687s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[15.708s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[15.729s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[16.705s] -- Configuring done
+[16.822s] -- Generating done
+[16.834s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/camera_info_manager
+[16.937s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/image_common/camera_info_manager -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager
+[16.946s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_info_manager -- -j4 -l4
+[17.255s] [ 50%] [32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o[0m
+[44.164s] [100%] [32m[1mLinking CXX shared library libcamera_info_manager.so[0m
+[46.471s] [100%] Built target camera_info_manager
+[46.528s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_info_manager -- -j4 -l4
+[46.657s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/camera_info_manager
+[46.707s] -- Install configuration: ""
+[46.708s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib/libcamera_info_manager.so
+[46.715s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib/libcamera_info_manager.so" to ""
+[46.716s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager
+[46.717s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager
+[46.718s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp
+[46.721s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/visibility_control.h
+[46.722s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.h
+[46.724s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager
+[46.724s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager
+[46.738s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh
+[46.739s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv
+[46.740s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh
+[46.742s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv
+[46.743s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash
+[46.744s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh
+[46.746s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh
+[46.747s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv
+[46.750s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/package.dsv
+[46.751s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager
+[46.751s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake
+[46.752s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake
+[46.769s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake
+[46.770s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_targets-extras.cmake
+[46.772s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake
+[46.773s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake
+[46.774s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/package.xml
+[46.775s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/camera_info_manager

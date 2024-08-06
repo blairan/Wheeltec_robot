@@ -1,0 +1,22 @@
+[0.133s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/image_common': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/image_common/image_common -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/image_common
+[0.688s] -- The C compiler identification is GNU 11.2.0
+[1.234s] -- The CXX compiler identification is GNU 11.2.0
+[1.298s] -- Detecting C compiler ABI info
+[2.010s] -- Detecting C compiler ABI info - done
+[2.119s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.121s] -- Detecting C compile features
+[2.130s] -- Detecting C compile features - done
+[2.151s] -- Detecting CXX compiler ABI info
+[2.699s] -- Detecting CXX compiler ABI info - done
+[2.775s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.779s] -- Detecting CXX compile features
+[2.780s] -- Detecting CXX compile features - done
+[2.811s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.378s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.270s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.117s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.128s] -- Added test 'lint_cmake' to check CMake code style
+[6.136s] -- Added test 'xmllint' to check XML markup files
+[6.148s] -- Configuring done
+[6.166s] -- Generating done
+[6.174s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/image_common

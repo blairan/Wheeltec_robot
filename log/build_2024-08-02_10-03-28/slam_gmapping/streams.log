@@ -1,0 +1,108 @@
+[0.064s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/slam_gmapping
+[0.390s] -- The C compiler identification is GNU 11.2.0
+[0.738s] -- The CXX compiler identification is GNU 11.2.0
+[0.776s] -- Detecting C compiler ABI info
+[1.134s] -- Detecting C compiler ABI info - done
+[1.197s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.199s] -- Detecting C compile features
+[1.201s] -- Detecting C compile features - done
+[1.220s] -- Detecting CXX compiler ABI info
+[1.629s] -- Detecting CXX compiler ABI info - done
+[1.694s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.696s] -- Detecting CXX compile features
+[1.699s] -- Detecting CXX compile features - done
+[1.703s] [0m -fuse-ld=lld -Wl,--disable-new-dtags[0m
+[1.716s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.889s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.577s] -- Found std_msgs: 4.2.4 (/opt/ros/humble/share/std_msgs/cmake)
+[3.852s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.896s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.969s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.088s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.258s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.764s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[5.898s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[6.005s] -- Found tf2_ros: 0.25.7 (/opt/ros/humble/share/tf2_ros/cmake)
+[7.065s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[7.090s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[7.816s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[7.969s] -- Found FastRTPS: /opt/ros/humble/include  
+[8.253s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[8.333s] -- Looking for pthread.h
+[8.725s] -- Looking for pthread.h - found
+[8.726s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[9.130s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[9.136s] -- Found Threads: TRUE  
+[13.136s] -- Found tf2_geometry_msgs: 0.25.7 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[13.248s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[13.259s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[13.260s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[13.362s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[14.142s] -- Found visualization_msgs: 4.2.4 (/opt/ros/humble/share/visualization_msgs/cmake)
+[15.207s] -- Found openslam_gmapping: 0.1.2 (/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/share/openslam_gmapping/cmake)
+[15.228s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[15.866s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[15.868s] -- Configured cppcheck include dirs: /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include
+[15.869s] -- Configured cppcheck exclude dirs and/or files: 
+[15.872s] -- Added test 'flake8' to check Python code syntax and style conventions
+[15.876s] -- Added test 'lint_cmake' to check CMake code style
+[15.880s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[15.886s] -- Added test 'uncrustify' to check C / C++ code style
+[15.887s] -- Configured uncrustify additional arguments: 
+[15.890s] -- Added test 'xmllint' to check XML markup files
+[15.899s] -- Configuring done
+[15.976s] -- Generating done
+[15.989s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/slam_gmapping
+[16.070s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/slam_gmapping
+[16.081s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/slam_gmapping -- -j4 -l4
+[16.312s] [ 50%] [32mBuilding CXX object CMakeFiles/slam_gmapping.dir/src/slam_gmapping.cpp.o[0m
+[17.860s] In file included from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:38[m[K,
+[17.861s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[17.864s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[17.865s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[17.867s]       |  [01;35m[K^~~~~~~[m[K
+[35.090s] In file included from [01m[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/gridfastslam/gridslamprocessor.h:9[m[K,
+[35.091s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:45[m[K,
+[35.092s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[35.093s] [01m[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:[m[K In function ‘[01m[Kvoid rle(OutputIterator&, const Iterator&, const Iterator&)[m[K’:
+[35.094s] [01m[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:140:9:[m[K [01;35m[Kwarning: [m[Kthis ‘[01m[Kif[m[K’ clause does not guard... [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wmisleading-indentation-Wmisleading-indentation]8;;[m[K]
+[35.094s]   140 |         [01;35m[Kif[m[K (count>0)
+[35.095s]       |         [01;35m[K^~[m[K
+[35.096s] [01m[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/particlefilter/particlefilter.h:142:17:[m[K [01;36m[Knote: [m[K...this statement, but the latter is misleadingly indented as if it were guarded by the ‘[01m[Kif[m[K’
+[35.097s]   142 |                 [01;36m[Kout[m[K++;
+[35.098s]       |                 [01;36m[K^~~[m[K
+[37.071s] In file included from [01m[K/usr/include/c++/11/utility:70[m[K,
+[37.073s]                  from [01m[K/usr/include/c++/11/tuple:38[m[K,
+[37.074s]                  from [01m[K/usr/include/c++/11/mutex:38[m[K,
+[37.074s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/include/slam_gmapping/slam_gmapping.h:26[m[K,
+[37.075s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_slam/slam_gmapping/src/slam_gmapping.cpp:24[m[K:
+[37.076s] /usr/include/c++/11/bits/stl_pair.h: In instantiation of ‘[01m[Kconstexpr std::pair<typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type, typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type> std::make_pair(_T1&&, _T2&&) [with _T1 = GMapping::point<double>&; _T2 = GMapping::point<double>&; typename std::__strip_reference_wrapper<typename std::decay<_Tp2>::type>::__type = GMapping::point<double>; typename std::decay<_Tp2>::type = std::decay<GMapping::point<double>&>::type; typename std::__strip_reference_wrapper<typename std::decay<_Tp>::type>::__type = GMapping::point<double>; typename std::decay<_Tp>::type = std::decay<GMapping::point<double>&>::type][m[K’:
+[37.077s] [01m[K/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/include/gmapping/scanmatcher/scanmatcher.h:127:34:[m[K   required from here
+[37.078s] [01m[K/usr/include/c++/11/bits/stl_pair.h:567:5:[m[K [01;36m[Knote: [m[Kparameter passing for argument of type ‘[01m[Kstd::pair<GMapping::point<double>, GMapping::point<double> >[m[K’ when C++17 is enabled changed to match C++14 ]8;;https://gcc.gnu.org/gcc-10/changes.html#empty_basein GCC 10.1]8;;
+[37.079s]   567 |     [01;36m[Kmake_pair[m[K(_T1&& __x, _T2&& __y)
+[37.080s]       |     [01;36m[K^~~~~~~~~[m[K
+[100.197s] [100%] [32m[1mLinking CXX executable slam_gmapping[0m
+[106.064s] [100%] Built target slam_gmapping
+[106.113s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/slam_gmapping -- -j4 -l4
+[106.235s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/slam_gmapping
+[106.266s] -- Install configuration: ""
+[106.268s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping
+[106.294s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/slam_gmapping/lib/slam_gmapping/slam_gmapping" to ""
+[106.296s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/launch
+[106.299s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/launch/slam_gmapping.launch.py
+[106.300s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/package_run_dependencies/slam_gmapping
+[106.303s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/parent_prefix_path/slam_gmapping
+[106.304s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.sh
+[106.305s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/ament_prefix_path.dsv
+[106.306s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.sh
+[106.307s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/environment/path.dsv
+[106.309s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.bash
+[106.310s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.sh
+[106.311s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.zsh
+[106.312s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/local_setup.dsv
+[106.313s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/package.dsv
+[106.313s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/ament_index/resource_index/packages/slam_gmapping
+[106.314s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig.cmake
+[106.315s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/cmake/slam_gmappingConfig-version.cmake
+[106.315s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/slam_gmapping/share/slam_gmapping/package.xml
+[106.322s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/slam_gmapping' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/slam_gmapping

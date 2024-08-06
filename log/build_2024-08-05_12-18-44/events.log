@@ -1,0 +1,1855 @@
+[0.000000] (-) TimerEvent: {}
+[0.001800] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.002419] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.003975] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.005196] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.006533] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.007619] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.008054] (-) JobUnselected: {'identifier': 'serial'}
+[0.008564] (-) JobUnselected: {'identifier': 'simple_follower_ros2'}
+[0.009595] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.010061] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.010396] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.010663] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.011303] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.011711] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.012037] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.012389] (-) JobUnselected: {'identifier': 'wheeltec_robot_keyboard'}
+[0.012705] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.012973] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.013227] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.013836] (astra_camera_msgs) JobQueued: {'identifier': 'astra_camera_msgs', 'dependencies': OrderedDict()}
+[0.014295] (astra_camera_msgs) JobStarted: {'identifier': 'astra_camera_msgs'}
+[0.083997] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'cmake'}
+[0.085407] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/ros2_astra_camera/astra_camera_msgs', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 48140 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-647e2335-bf6a-46bb-bdea-ebfd2067552a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs'), ('SSH_CONNECTION', '192.168.159.239 48140 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[0.101006] (-) TimerEvent: {}
+[0.204130] (-) TimerEvent: {}
+[0.305152] (-) TimerEvent: {}
+[0.406391] (-) TimerEvent: {}
+[0.507513] (-) TimerEvent: {}
+[0.608665] (-) TimerEvent: {}
+[0.709844] (-) TimerEvent: {}
+[0.711019] (astra_camera_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.810125] (-) TimerEvent: {}
+[0.911178] (-) TimerEvent: {}
+[1.012267] (-) TimerEvent: {}
+[1.113397] (-) TimerEvent: {}
+[1.179832] (astra_camera_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.213611] (-) TimerEvent: {}
+[1.234732] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.313872] (-) TimerEvent: {}
+[1.415031] (-) TimerEvent: {}
+[1.516376] (-) TimerEvent: {}
+[1.618122] (-) TimerEvent: {}
+[1.633816] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.703459] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.706262] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.710957] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.718421] (-) TimerEvent: {}
+[1.739096] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.818677] (-) TimerEvent: {}
+[1.919762] (-) TimerEvent: {}
+[2.020809] (-) TimerEvent: {}
+[2.122397] (-) TimerEvent: {}
+[2.198344] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.222615] (-) TimerEvent: {}
+[2.270756] (astra_camera_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.273063] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.276406] (astra_camera_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.306488] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.322868] (-) TimerEvent: {}
+[2.423930] (-) TimerEvent: {}
+[2.524952] (-) TimerEvent: {}
+[2.626132] (-) TimerEvent: {}
+[2.727108] (-) TimerEvent: {}
+[2.829440] (-) TimerEvent: {}
+[2.930566] (-) TimerEvent: {}
+[3.031611] (-) TimerEvent: {}
+[3.132858] (-) TimerEvent: {}
+[3.234085] (-) TimerEvent: {}
+[3.335326] (-) TimerEvent: {}
+[3.436419] (-) TimerEvent: {}
+[3.537452] (-) TimerEvent: {}
+[3.638531] (-) TimerEvent: {}
+[3.720262] (astra_camera_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.738759] (-) TimerEvent: {}
+[3.839744] (-) TimerEvent: {}
+[3.942096] (-) TimerEvent: {}
+[4.043159] (-) TimerEvent: {}
+[4.144269] (-) TimerEvent: {}
+[4.245330] (-) TimerEvent: {}
+[4.346483] (-) TimerEvent: {}
+[4.447488] (-) TimerEvent: {}
+[4.548566] (-) TimerEvent: {}
+[4.603847] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[4.648791] (-) TimerEvent: {}
+[4.656411] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.728583] (astra_camera_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.749024] (-) TimerEvent: {}
+[4.850174] (-) TimerEvent: {}
+[4.951280] (-) TimerEvent: {}
+[5.052302] (-) TimerEvent: {}
+[5.130486] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.152547] (-) TimerEvent: {}
+[5.254286] (-) TimerEvent: {}
+[5.355470] (-) TimerEvent: {}
+[5.457351] (-) TimerEvent: {}
+[5.494998] (astra_camera_msgs) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[5.557637] (-) TimerEvent: {}
+[5.658782] (-) TimerEvent: {}
+[5.759853] (-) TimerEvent: {}
+[5.860964] (-) TimerEvent: {}
+[5.962105] (-) TimerEvent: {}
+[6.063196] (-) TimerEvent: {}
+[6.164354] (-) TimerEvent: {}
+[6.266990] (-) TimerEvent: {}
+[6.368483] (-) TimerEvent: {}
+[6.469600] (-) TimerEvent: {}
+[6.570721] (-) TimerEvent: {}
+[6.673140] (-) TimerEvent: {}
+[6.774333] (-) TimerEvent: {}
+[6.875527] (-) TimerEvent: {}
+[6.976665] (-) TimerEvent: {}
+[7.078344] (-) TimerEvent: {}
+[7.179985] (-) TimerEvent: {}
+[7.281070] (-) TimerEvent: {}
+[7.382191] (-) TimerEvent: {}
+[7.483289] (-) TimerEvent: {}
+[7.584357] (-) TimerEvent: {}
+[7.685407] (-) TimerEvent: {}
+[7.786520] (-) TimerEvent: {}
+[7.887584] (-) TimerEvent: {}
+[7.989123] (-) TimerEvent: {}
+[8.090224] (-) TimerEvent: {}
+[8.191294] (-) TimerEvent: {}
+[8.292304] (-) TimerEvent: {}
+[8.393355] (-) TimerEvent: {}
+[8.494506] (-) TimerEvent: {}
+[8.595734] (-) TimerEvent: {}
+[8.696813] (-) TimerEvent: {}
+[8.797801] (-) TimerEvent: {}
+[8.898856] (-) TimerEvent: {}
+[8.999918] (-) TimerEvent: {}
+[9.100993] (-) TimerEvent: {}
+[9.202129] (-) TimerEvent: {}
+[9.303146] (-) TimerEvent: {}
+[9.404262] (-) TimerEvent: {}
+[9.505391] (-) TimerEvent: {}
+[9.606590] (-) TimerEvent: {}
+[9.707658] (-) TimerEvent: {}
+[9.808666] (-) TimerEvent: {}
+[9.909774] (-) TimerEvent: {}
+[10.010862] (-) TimerEvent: {}
+[10.112016] (-) TimerEvent: {}
+[10.213192] (-) TimerEvent: {}
+[10.314389] (-) TimerEvent: {}
+[10.415417] (-) TimerEvent: {}
+[10.516446] (-) TimerEvent: {}
+[10.617539] (-) TimerEvent: {}
+[10.718659] (-) TimerEvent: {}
+[10.819690] (-) TimerEvent: {}
+[10.920789] (-) TimerEvent: {}
+[11.021843] (-) TimerEvent: {}
+[11.030092] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[11.122136] (-) TimerEvent: {}
+[11.223180] (-) TimerEvent: {}
+[11.324247] (-) TimerEvent: {}
+[11.425311] (-) TimerEvent: {}
+[11.526388] (-) TimerEvent: {}
+[11.627493] (-) TimerEvent: {}
+[11.728688] (-) TimerEvent: {}
+[11.829784] (-) TimerEvent: {}
+[11.930936] (-) TimerEvent: {}
+[12.032769] (-) TimerEvent: {}
+[12.133809] (-) TimerEvent: {}
+[12.234936] (-) TimerEvent: {}
+[12.336029] (-) TimerEvent: {}
+[12.437100] (-) TimerEvent: {}
+[12.538161] (-) TimerEvent: {}
+[12.639234] (-) TimerEvent: {}
+[12.740377] (-) TimerEvent: {}
+[12.841478] (-) TimerEvent: {}
+[12.942670] (-) TimerEvent: {}
+[13.043734] (-) TimerEvent: {}
+[13.144811] (-) TimerEvent: {}
+[13.247281] (-) TimerEvent: {}
+[13.348291] (-) TimerEvent: {}
+[13.449387] (-) TimerEvent: {}
+[13.551055] (-) TimerEvent: {}
+[13.638884] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[13.651272] (-) TimerEvent: {}
+[13.753394] (-) TimerEvent: {}
+[13.854466] (-) TimerEvent: {}
+[13.955568] (-) TimerEvent: {}
+[14.056586] (-) TimerEvent: {}
+[14.157600] (-) TimerEvent: {}
+[14.258883] (-) TimerEvent: {}
+[14.359959] (-) TimerEvent: {}
+[14.461091] (-) TimerEvent: {}
+[14.562279] (-) TimerEvent: {}
+[14.663297] (-) TimerEvent: {}
+[14.764391] (-) TimerEvent: {}
+[14.866805] (-) TimerEvent: {}
+[14.967823] (-) TimerEvent: {}
+[15.069143] (-) TimerEvent: {}
+[15.170937] (-) TimerEvent: {}
+[15.272608] (-) TimerEvent: {}
+[15.373682] (-) TimerEvent: {}
+[15.474869] (-) TimerEvent: {}
+[15.575971] (-) TimerEvent: {}
+[15.677003] (-) TimerEvent: {}
+[15.778113] (-) TimerEvent: {}
+[15.879201] (-) TimerEvent: {}
+[15.980285] (-) TimerEvent: {}
+[16.081349] (-) TimerEvent: {}
+[16.182492] (-) TimerEvent: {}
+[16.283546] (-) TimerEvent: {}
+[16.384543] (-) TimerEvent: {}
+[16.488414] (-) TimerEvent: {}
+[16.590985] (-) TimerEvent: {}
+[16.692062] (-) TimerEvent: {}
+[16.793117] (-) TimerEvent: {}
+[16.894297] (-) TimerEvent: {}
+[16.995424] (-) TimerEvent: {}
+[17.027441] (astra_camera_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[17.095627] (-) TimerEvent: {}
+[17.196788] (-) TimerEvent: {}
+[17.234378] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[17.296974] (-) TimerEvent: {}
+[17.352737] (astra_camera_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[17.397178] (-) TimerEvent: {}
+[17.498083] (-) TimerEvent: {}
+[17.603895] (-) TimerEvent: {}
+[17.705015] (-) TimerEvent: {}
+[17.729054] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[17.730696] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[17.731758] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[17.732581] (astra_camera_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[17.805239] (-) TimerEvent: {}
+[17.907251] (-) TimerEvent: {}
+[17.923415] (astra_camera_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[18.007477] (-) TimerEvent: {}
+[18.108549] (-) TimerEvent: {}
+[18.209632] (-) TimerEvent: {}
+[18.310803] (-) TimerEvent: {}
+[18.411843] (-) TimerEvent: {}
+[18.512909] (-) TimerEvent: {}
+[18.614001] (-) TimerEvent: {}
+[18.701053] (astra_camera_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[18.714189] (-) TimerEvent: {}
+[18.815241] (-) TimerEvent: {}
+[18.916769] (-) TimerEvent: {}
+[18.928738] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[18.944754] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[18.955817] (astra_camera_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[18.980342] (astra_camera_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[19.017022] (-) TimerEvent: {}
+[19.118146] (-) TimerEvent: {}
+[19.219306] (-) TimerEvent: {}
+[19.320417] (-) TimerEvent: {}
+[19.378734] (astra_camera_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[19.397308] (astra_camera_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs\n'}
+[19.420711] (-) TimerEvent: {}
+[19.483380] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[19.487644] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'build'}
+[19.494871] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 48140 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-647e2335-bf6a-46bb-bdea-ebfd2067552a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs'), ('SSH_CONNECTION', '192.168.159.239 48140 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[19.521014] (-) TimerEvent: {}
+[19.622149] (-) TimerEvent: {}
+[19.723290] (-) TimerEvent: {}
+[19.748667] (astra_camera_msgs) StdoutLine: {'line': b'[  1%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[19.779058] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[19.823527] (-) TimerEvent: {}
+[19.888234] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_copy_astra_camera_msgs\n'}
+[19.923789] (-) TimerEvent: {}
+[20.025873] (-) TimerEvent: {}
+[20.127175] (-) TimerEvent: {}
+[20.228896] (-) TimerEvent: {}
+[20.331359] (-) TimerEvent: {}
+[20.432782] (-) TimerEvent: {}
+[20.534524] (-) TimerEvent: {}
+[20.636107] (-) TimerEvent: {}
+[20.743723] (-) TimerEvent: {}
+[20.845730] (-) TimerEvent: {}
+[20.948670] (-) TimerEvent: {}
+[21.049780] (-) TimerEvent: {}
+[21.151466] (-) TimerEvent: {}
+[21.262160] (-) TimerEvent: {}
+[21.366153] (-) TimerEvent: {}
+[21.470179] (-) TimerEvent: {}
+[21.574190] (-) TimerEvent: {}
+[21.675311] (-) TimerEvent: {}
+[21.777065] (-) TimerEvent: {}
+[21.878889] (-) TimerEvent: {}
+[21.983494] (-) TimerEvent: {}
+[22.086579] (-) TimerEvent: {}
+[22.189335] (-) TimerEvent: {}
+[22.291893] (-) TimerEvent: {}
+[22.394200] (-) TimerEvent: {}
+[22.496568] (-) TimerEvent: {}
+[22.617243] (-) TimerEvent: {}
+[22.719082] (-) TimerEvent: {}
+[22.820125] (-) TimerEvent: {}
+[22.921240] (-) TimerEvent: {}
+[23.022367] (-) TimerEvent: {}
+[23.095006] (astra_camera_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[23.108939] (astra_camera_msgs) StdoutLine: {'line': b'creating astra_camera_msgs.egg-info\n'}
+[23.118774] (astra_camera_msgs) StdoutLine: {'line': b'writing astra_camera_msgs.egg-info/PKG-INFO\n'}
+[23.120115] (astra_camera_msgs) StdoutLine: {'line': b'writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt\n'}
+[23.122359] (astra_camera_msgs) StdoutLine: {'line': b'writing top-level names to astra_camera_msgs.egg-info/top_level.txt\n'}
+[23.123299] (-) TimerEvent: {}
+[23.131756] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[23.173828] (astra_camera_msgs) StdoutLine: {'line': b"reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[23.189183] (astra_camera_msgs) StdoutLine: {'line': b"writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'\n"}
+[23.223604] (-) TimerEvent: {}
+[23.326273] (-) TimerEvent: {}
+[23.428670] (-) TimerEvent: {}
+[23.484015] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target ament_cmake_python_build_astra_camera_msgs_egg\n'}
+[23.528908] (-) TimerEvent: {}
+[23.630686] (-) TimerEvent: {}
+[23.731747] (-) TimerEvent: {}
+[23.833470] (-) TimerEvent: {}
+[23.934534] (-) TimerEvent: {}
+[24.036145] (-) TimerEvent: {}
+[24.137127] (-) TimerEvent: {}
+[24.238126] (-) TimerEvent: {}
+[24.339160] (-) TimerEvent: {}
+[24.440176] (-) TimerEvent: {}
+[24.541377] (-) TimerEvent: {}
+[24.642432] (-) TimerEvent: {}
+[24.743385] (-) TimerEvent: {}
+[24.844426] (-) TimerEvent: {}
+[24.945417] (-) TimerEvent: {}
+[25.047586] (-) TimerEvent: {}
+[25.148625] (-) TimerEvent: {}
+[25.250904] (-) TimerEvent: {}
+[25.353267] (-) TimerEvent: {}
+[25.460622] (-) TimerEvent: {}
+[25.561630] (-) TimerEvent: {}
+[25.666187] (-) TimerEvent: {}
+[25.767191] (-) TimerEvent: {}
+[25.870171] (-) TimerEvent: {}
+[25.971140] (-) TimerEvent: {}
+[26.072123] (-) TimerEvent: {}
+[26.173082] (-) TimerEvent: {}
+[26.274198] (-) TimerEvent: {}
+[26.375209] (-) TimerEvent: {}
+[26.476733] (-) TimerEvent: {}
+[26.577741] (-) TimerEvent: {}
+[26.678771] (-) TimerEvent: {}
+[26.779799] (-) TimerEvent: {}
+[26.880771] (-) TimerEvent: {}
+[26.981802] (-) TimerEvent: {}
+[27.082818] (-) TimerEvent: {}
+[27.183810] (-) TimerEvent: {}
+[27.284810] (-) TimerEvent: {}
+[27.385829] (-) TimerEvent: {}
+[27.486868] (-) TimerEvent: {}
+[27.587791] (-) TimerEvent: {}
+[27.688791] (-) TimerEvent: {}
+[27.789832] (-) TimerEvent: {}
+[27.890817] (-) TimerEvent: {}
+[27.991805] (-) TimerEvent: {}
+[28.094176] (-) TimerEvent: {}
+[28.198203] (-) TimerEvent: {}
+[28.299231] (-) TimerEvent: {}
+[28.401556] (-) TimerEvent: {}
+[28.502588] (-) TimerEvent: {}
+[28.604931] (-) TimerEvent: {}
+[28.705926] (-) TimerEvent: {}
+[28.806974] (-) TimerEvent: {}
+[28.908689] (-) TimerEvent: {}
+[29.010121] (-) TimerEvent: {}
+[29.111300] (-) TimerEvent: {}
+[29.213853] (-) TimerEvent: {}
+[29.316410] (-) TimerEvent: {}
+[29.418269] (-) TimerEvent: {}
+[29.519952] (-) TimerEvent: {}
+[29.621759] (-) TimerEvent: {}
+[29.725097] (-) TimerEvent: {}
+[29.827642] (-) TimerEvent: {}
+[29.929466] (-) TimerEvent: {}
+[29.939249] (astra_camera_msgs) StdoutLine: {'line': b'[  2%] Built target astra_camera_msgs__cpp\n'}
+[30.002337] (astra_camera_msgs) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[30.029764] (-) TimerEvent: {}
+[30.132121] (-) TimerEvent: {}
+[30.233287] (-) TimerEvent: {}
+[30.334984] (-) TimerEvent: {}
+[30.419024] (astra_camera_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[30.435250] (-) TimerEvent: {}
+[30.537705] (-) TimerEvent: {}
+[30.646440] (-) TimerEvent: {}
+[30.748563] (-) TimerEvent: {}
+[30.792600] (astra_camera_msgs) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o\x1b[0m\n'}
+[30.848817] (-) TimerEvent: {}
+[30.951372] (-) TimerEvent: {}
+[31.054476] (-) TimerEvent: {}
+[31.157664] (-) TimerEvent: {}
+[31.260014] (-) TimerEvent: {}
+[31.302378] (astra_camera_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o\x1b[0m\n'}
+[31.360268] (-) TimerEvent: {}
+[31.462709] (-) TimerEvent: {}
+[31.564982] (-) TimerEvent: {}
+[31.667343] (-) TimerEvent: {}
+[31.691035] (astra_camera_msgs) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o\x1b[0m\n'}
+[31.767588] (-) TimerEvent: {}
+[31.869911] (-) TimerEvent: {}
+[31.971627] (-) TimerEvent: {}
+[32.062767] (astra_camera_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o\x1b[0m\n'}
+[32.071888] (-) TimerEvent: {}
+[32.173569] (-) TimerEvent: {}
+[32.275468] (-) TimerEvent: {}
+[32.377468] (-) TimerEvent: {}
+[32.480132] (-) TimerEvent: {}
+[32.583539] (-) TimerEvent: {}
+[32.745502] (-) TimerEvent: {}
+[32.755657] (astra_camera_msgs) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o\x1b[0m\n'}
+[32.845734] (-) TimerEvent: {}
+[32.952939] (-) TimerEvent: {}
+[33.055151] (-) TimerEvent: {}
+[33.158162] (-) TimerEvent: {}
+[33.262285] (-) TimerEvent: {}
+[33.367081] (-) TimerEvent: {}
+[33.402884] (astra_camera_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o\x1b[0m\n'}
+[33.467318] (-) TimerEvent: {}
+[33.568511] (-) TimerEvent: {}
+[33.670514] (-) TimerEvent: {}
+[33.772089] (-) TimerEvent: {}
+[33.873901] (-) TimerEvent: {}
+[33.888141] (astra_camera_msgs) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o\x1b[0m\n'}
+[33.974232] (-) TimerEvent: {}
+[34.076666] (-) TimerEvent: {}
+[34.178990] (-) TimerEvent: {}
+[34.281425] (-) TimerEvent: {}
+[34.343189] (astra_camera_msgs) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o\x1b[0m\n'}
+[34.381659] (-) TimerEvent: {}
+[34.488120] (-) TimerEvent: {}
+[34.589195] (-) TimerEvent: {}
+[34.691135] (-) TimerEvent: {}
+[34.793176] (-) TimerEvent: {}
+[34.832889] (astra_camera_msgs) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o\x1b[0m\n'}
+[34.894119] (-) TimerEvent: {}
+[34.997114] (-) TimerEvent: {}
+[35.098200] (-) TimerEvent: {}
+[35.202190] (-) TimerEvent: {}
+[35.306154] (-) TimerEvent: {}
+[35.323229] (astra_camera_msgs) StdoutLine: {'line': b'[ 14%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[35.406418] (-) TimerEvent: {}
+[35.508090] (-) TimerEvent: {}
+[35.612243] (-) TimerEvent: {}
+[35.657135] (astra_camera_msgs) StdoutLine: {'line': b'[ 14%] Built target astra_camera_msgs__rosidl_generator_c\n'}
+[35.712477] (-) TimerEvent: {}
+[35.722562] (astra_camera_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[35.812705] (-) TimerEvent: {}
+[35.922228] (-) TimerEvent: {}
+[36.023410] (-) TimerEvent: {}
+[36.124632] (-) TimerEvent: {}
+[36.226774] (-) TimerEvent: {}
+[36.328678] (-) TimerEvent: {}
+[36.431196] (-) TimerEvent: {}
+[36.533735] (-) TimerEvent: {}
+[36.636042] (-) TimerEvent: {}
+[36.720615] (astra_camera_msgs) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[36.736280] (-) TimerEvent: {}
+[36.770773] (astra_camera_msgs) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[36.836574] (-) TimerEvent: {}
+[36.939801] (-) TimerEvent: {}
+[37.042165] (-) TimerEvent: {}
+[37.144615] (-) TimerEvent: {}
+[37.248444] (-) TimerEvent: {}
+[37.351244] (-) TimerEvent: {}
+[37.452847] (-) TimerEvent: {}
+[37.554463] (-) TimerEvent: {}
+[37.656085] (-) TimerEvent: {}
+[37.760424] (-) TimerEvent: {}
+[37.862771] (-) TimerEvent: {}
+[37.965117] (-) TimerEvent: {}
+[38.067487] (-) TimerEvent: {}
+[38.169724] (-) TimerEvent: {}
+[38.275674] (-) TimerEvent: {}
+[38.377346] (-) TimerEvent: {}
+[38.479246] (-) TimerEvent: {}
+[38.581693] (-) TimerEvent: {}
+[38.684102] (-) TimerEvent: {}
+[38.786543] (-) TimerEvent: {}
+[38.888748] (-) TimerEvent: {}
+[38.991252] (-) TimerEvent: {}
+[39.093719] (-) TimerEvent: {}
+[39.196448] (-) TimerEvent: {}
+[39.298852] (-) TimerEvent: {}
+[39.401020] (-) TimerEvent: {}
+[39.502956] (-) TimerEvent: {}
+[39.604111] (-) TimerEvent: {}
+[39.705809] (-) TimerEvent: {}
+[39.807627] (-) TimerEvent: {}
+[39.909405] (-) TimerEvent: {}
+[40.011179] (-) TimerEvent: {}
+[40.113495] (-) TimerEvent: {}
+[40.215791] (-) TimerEvent: {}
+[40.318162] (-) TimerEvent: {}
+[40.419207] (-) TimerEvent: {}
+[40.522218] (-) TimerEvent: {}
+[40.624587] (-) TimerEvent: {}
+[40.729706] (-) TimerEvent: {}
+[40.834390] (-) TimerEvent: {}
+[40.938681] (-) TimerEvent: {}
+[41.040948] (-) TimerEvent: {}
+[41.079831] (astra_camera_msgs) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[41.141161] (-) TimerEvent: {}
+[41.246268] (-) TimerEvent: {}
+[41.350678] (-) TimerEvent: {}
+[41.453899] (-) TimerEvent: {}
+[41.556419] (-) TimerEvent: {}
+[41.658739] (-) TimerEvent: {}
+[41.761088] (-) TimerEvent: {}
+[41.863466] (-) TimerEvent: {}
+[41.965880] (-) TimerEvent: {}
+[42.038788] (astra_camera_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o\x1b[0m\n'}
+[42.066172] (-) TimerEvent: {}
+[42.167826] (-) TimerEvent: {}
+[42.269543] (-) TimerEvent: {}
+[42.371258] (-) TimerEvent: {}
+[42.472891] (-) TimerEvent: {}
+[42.574155] (-) TimerEvent: {}
+[42.675827] (-) TimerEvent: {}
+[42.777536] (-) TimerEvent: {}
+[42.887146] (-) TimerEvent: {}
+[42.989708] (-) TimerEvent: {}
+[43.094835] (-) TimerEvent: {}
+[43.195964] (-) TimerEvent: {}
+[43.298622] (-) TimerEvent: {}
+[43.403951] (-) TimerEvent: {}
+[43.506433] (-) TimerEvent: {}
+[43.608625] (-) TimerEvent: {}
+[43.710849] (-) TimerEvent: {}
+[43.812596] (-) TimerEvent: {}
+[43.918948] (-) TimerEvent: {}
+[44.020701] (-) TimerEvent: {}
+[44.122528] (-) TimerEvent: {}
+[44.224286] (-) TimerEvent: {}
+[44.326071] (-) TimerEvent: {}
+[44.429530] (-) TimerEvent: {}
+[44.534425] (-) TimerEvent: {}
+[44.636907] (-) TimerEvent: {}
+[44.739719] (-) TimerEvent: {}
+[44.841920] (-) TimerEvent: {}
+[44.944064] (-) TimerEvent: {}
+[45.046250] (-) TimerEvent: {}
+[45.063259] (astra_camera_msgs) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[45.146511] (-) TimerEvent: {}
+[45.248237] (-) TimerEvent: {}
+[45.350772] (-) TimerEvent: {}
+[45.452862] (-) TimerEvent: {}
+[45.555378] (-) TimerEvent: {}
+[45.657625] (-) TimerEvent: {}
+[45.759572] (-) TimerEvent: {}
+[45.861371] (-) TimerEvent: {}
+[45.963503] (-) TimerEvent: {}
+[46.065320] (-) TimerEvent: {}
+[46.167219] (-) TimerEvent: {}
+[46.271188] (-) TimerEvent: {}
+[46.372976] (-) TimerEvent: {}
+[46.474841] (-) TimerEvent: {}
+[46.576670] (-) TimerEvent: {}
+[46.678607] (-) TimerEvent: {}
+[46.781134] (-) TimerEvent: {}
+[46.883838] (-) TimerEvent: {}
+[46.995616] (-) TimerEvent: {}
+[47.021745] (astra_camera_msgs) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o\x1b[0m\n'}
+[47.095866] (-) TimerEvent: {}
+[47.202242] (-) TimerEvent: {}
+[47.303377] (-) TimerEvent: {}
+[47.405083] (-) TimerEvent: {}
+[47.514718] (-) TimerEvent: {}
+[47.587984] (astra_camera_msgs) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[47.614999] (-) TimerEvent: {}
+[47.717575] (-) TimerEvent: {}
+[47.820111] (-) TimerEvent: {}
+[47.922932] (-) TimerEvent: {}
+[48.026213] (-) TimerEvent: {}
+[48.134230] (-) TimerEvent: {}
+[48.235328] (-) TimerEvent: {}
+[48.337029] (-) TimerEvent: {}
+[48.431454] (astra_camera_msgs) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[48.437319] (-) TimerEvent: {}
+[48.539869] (-) TimerEvent: {}
+[48.592544] (astra_camera_msgs) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o\x1b[0m\n'}
+[48.640127] (-) TimerEvent: {}
+[48.742810] (-) TimerEvent: {}
+[48.850251] (-) TimerEvent: {}
+[48.958206] (-) TimerEvent: {}
+[49.062279] (-) TimerEvent: {}
+[49.166205] (-) TimerEvent: {}
+[49.270217] (-) TimerEvent: {}
+[49.373443] (-) TimerEvent: {}
+[49.478234] (-) TimerEvent: {}
+[49.582232] (-) TimerEvent: {}
+[49.686227] (-) TimerEvent: {}
+[49.790216] (-) TimerEvent: {}
+[49.894217] (-) TimerEvent: {}
+[50.002205] (-) TimerEvent: {}
+[50.110218] (-) TimerEvent: {}
+[50.214209] (-) TimerEvent: {}
+[50.318222] (-) TimerEvent: {}
+[50.422218] (-) TimerEvent: {}
+[50.526219] (-) TimerEvent: {}
+[50.630220] (-) TimerEvent: {}
+[50.731403] (-) TimerEvent: {}
+[50.833149] (-) TimerEvent: {}
+[50.935640] (-) TimerEvent: {}
+[51.038288] (-) TimerEvent: {}
+[51.140710] (-) TimerEvent: {}
+[51.244614] (-) TimerEvent: {}
+[51.347212] (-) TimerEvent: {}
+[51.449844] (-) TimerEvent: {}
+[51.552958] (-) TimerEvent: {}
+[51.655860] (-) TimerEvent: {}
+[51.759146] (-) TimerEvent: {}
+[51.861677] (-) TimerEvent: {}
+[51.965787] (-) TimerEvent: {}
+[51.984309] (astra_camera_msgs) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[52.018953] (astra_camera_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o\x1b[0m\n'}
+[52.066115] (-) TimerEvent: {}
+[52.171034] (-) TimerEvent: {}
+[52.272238] (-) TimerEvent: {}
+[52.373750] (-) TimerEvent: {}
+[52.475693] (-) TimerEvent: {}
+[52.494951] (astra_camera_msgs) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o\x1b[0m\n'}
+[52.576019] (-) TimerEvent: {}
+[52.616540] (astra_camera_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[52.676234] (-) TimerEvent: {}
+[52.777917] (-) TimerEvent: {}
+[52.880118] (-) TimerEvent: {}
+[52.989211] (-) TimerEvent: {}
+[53.091262] (-) TimerEvent: {}
+[53.192499] (-) TimerEvent: {}
+[53.293680] (-) TimerEvent: {}
+[53.394904] (-) TimerEvent: {}
+[53.496744] (-) TimerEvent: {}
+[53.598671] (-) TimerEvent: {}
+[53.700521] (-) TimerEvent: {}
+[53.802428] (-) TimerEvent: {}
+[53.904302] (-) TimerEvent: {}
+[54.006853] (-) TimerEvent: {}
+[54.109797] (-) TimerEvent: {}
+[54.212395] (-) TimerEvent: {}
+[54.315000] (-) TimerEvent: {}
+[54.416259] (-) TimerEvent: {}
+[54.520237] (-) TimerEvent: {}
+[54.630584] (-) TimerEvent: {}
+[54.732406] (-) TimerEvent: {}
+[54.834296] (-) TimerEvent: {}
+[54.936098] (-) TimerEvent: {}
+[55.038030] (-) TimerEvent: {}
+[55.139860] (-) TimerEvent: {}
+[55.241787] (-) TimerEvent: {}
+[55.344507] (-) TimerEvent: {}
+[55.447053] (-) TimerEvent: {}
+[55.550218] (-) TimerEvent: {}
+[55.654227] (-) TimerEvent: {}
+[55.758223] (-) TimerEvent: {}
+[55.862229] (-) TimerEvent: {}
+[55.966216] (-) TimerEvent: {}
+[56.074201] (-) TimerEvent: {}
+[56.178221] (-) TimerEvent: {}
+[56.286204] (-) TimerEvent: {}
+[56.390215] (-) TimerEvent: {}
+[56.478933] (astra_camera_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[56.490470] (-) TimerEvent: {}
+[56.593124] (-) TimerEvent: {}
+[56.652701] (astra_camera_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o\x1b[0m\n'}
+[56.693402] (-) TimerEvent: {}
+[56.796196] (-) TimerEvent: {}
+[56.898833] (-) TimerEvent: {}
+[57.001278] (-) TimerEvent: {}
+[57.055923] (astra_camera_msgs) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[57.101576] (-) TimerEvent: {}
+[57.140393] (astra_camera_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o\x1b[0m\n'}
+[57.201846] (-) TimerEvent: {}
+[57.306625] (-) TimerEvent: {}
+[57.407734] (-) TimerEvent: {}
+[57.510059] (-) TimerEvent: {}
+[57.612374] (-) TimerEvent: {}
+[57.714882] (-) TimerEvent: {}
+[57.817313] (-) TimerEvent: {}
+[57.919922] (-) TimerEvent: {}
+[58.022732] (-) TimerEvent: {}
+[58.125302] (-) TimerEvent: {}
+[58.227268] (-) TimerEvent: {}
+[58.329781] (-) TimerEvent: {}
+[58.432518] (-) TimerEvent: {}
+[58.535061] (-) TimerEvent: {}
+[58.642224] (-) TimerEvent: {}
+[58.743464] (-) TimerEvent: {}
+[58.846199] (-) TimerEvent: {}
+[58.950236] (-) TimerEvent: {}
+[59.054202] (-) TimerEvent: {}
+[59.158209] (-) TimerEvent: {}
+[59.259656] (-) TimerEvent: {}
+[59.362283] (-) TimerEvent: {}
+[59.464199] (-) TimerEvent: {}
+[59.566232] (-) TimerEvent: {}
+[59.670232] (-) TimerEvent: {}
+[59.704186] (astra_camera_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[59.774222] (-) TimerEvent: {}
+[59.878214] (-) TimerEvent: {}
+[59.979779] (-) TimerEvent: {}
+[60.081557] (-) TimerEvent: {}
+[60.183382] (-) TimerEvent: {}
+[60.285169] (-) TimerEvent: {}
+[60.388023] (-) TimerEvent: {}
+[60.489840] (-) TimerEvent: {}
+[60.591703] (-) TimerEvent: {}
+[60.693567] (-) TimerEvent: {}
+[60.796279] (-) TimerEvent: {}
+[60.899116] (-) TimerEvent: {}
+[61.001650] (-) TimerEvent: {}
+[61.104329] (-) TimerEvent: {}
+[61.168546] (astra_camera_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o\x1b[0m\n'}
+[61.204608] (-) TimerEvent: {}
+[61.307262] (-) TimerEvent: {}
+[61.409790] (-) TimerEvent: {}
+[61.512418] (-) TimerEvent: {}
+[61.614955] (-) TimerEvent: {}
+[61.717435] (-) TimerEvent: {}
+[61.819585] (-) TimerEvent: {}
+[61.921332] (-) TimerEvent: {}
+[62.027116] (-) TimerEvent: {}
+[62.129688] (-) TimerEvent: {}
+[62.232179] (-) TimerEvent: {}
+[62.334736] (-) TimerEvent: {}
+[62.437096] (-) TimerEvent: {}
+[62.445543] (astra_camera_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[62.537358] (-) TimerEvent: {}
+[62.646754] (-) TimerEvent: {}
+[62.701219] (astra_camera_msgs) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[62.750219] (-) TimerEvent: {}
+[62.854266] (-) TimerEvent: {}
+[62.958198] (-) TimerEvent: {}
+[63.061414] (-) TimerEvent: {}
+[63.166209] (-) TimerEvent: {}
+[63.268015] (-) TimerEvent: {}
+[63.350957] (astra_camera_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[63.368272] (-) TimerEvent: {}
+[63.470008] (-) TimerEvent: {}
+[63.572624] (-) TimerEvent: {}
+[63.678199] (-) TimerEvent: {}
+[63.779431] (-) TimerEvent: {}
+[63.882095] (-) TimerEvent: {}
+[63.984858] (-) TimerEvent: {}
+[64.087328] (-) TimerEvent: {}
+[64.189874] (-) TimerEvent: {}
+[64.292513] (-) TimerEvent: {}
+[64.395117] (-) TimerEvent: {}
+[64.496382] (-) TimerEvent: {}
+[64.598910] (-) TimerEvent: {}
+[64.701395] (-) TimerEvent: {}
+[64.803917] (-) TimerEvent: {}
+[64.906524] (-) TimerEvent: {}
+[65.009134] (-) TimerEvent: {}
+[65.111890] (-) TimerEvent: {}
+[65.214659] (-) TimerEvent: {}
+[65.317214] (-) TimerEvent: {}
+[65.419828] (-) TimerEvent: {}
+[65.522760] (-) TimerEvent: {}
+[65.627013] (-) TimerEvent: {}
+[65.662477] (astra_camera_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o\x1b[0m\n'}
+[65.727284] (-) TimerEvent: {}
+[65.829074] (-) TimerEvent: {}
+[65.930938] (-) TimerEvent: {}
+[66.033337] (-) TimerEvent: {}
+[66.136785] (-) TimerEvent: {}
+[66.239412] (-) TimerEvent: {}
+[66.342002] (-) TimerEvent: {}
+[66.444596] (-) TimerEvent: {}
+[66.546754] (-) TimerEvent: {}
+[66.650112] (-) TimerEvent: {}
+[66.748324] (astra_camera_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[66.752880] (-) TimerEvent: {}
+[66.855481] (-) TimerEvent: {}
+[66.958241] (-) TimerEvent: {}
+[67.060754] (-) TimerEvent: {}
+[67.164271] (-) TimerEvent: {}
+[67.266820] (-) TimerEvent: {}
+[67.369384] (-) TimerEvent: {}
+[67.472030] (-) TimerEvent: {}
+[67.575235] (-) TimerEvent: {}
+[67.677841] (-) TimerEvent: {}
+[67.714743] (astra_camera_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[67.754275] (astra_camera_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[67.778185] (-) TimerEvent: {}
+[67.880782] (-) TimerEvent: {}
+[67.983307] (-) TimerEvent: {}
+[68.088491] (-) TimerEvent: {}
+[68.194196] (-) TimerEvent: {}
+[68.295336] (-) TimerEvent: {}
+[68.398172] (-) TimerEvent: {}
+[68.501156] (-) TimerEvent: {}
+[68.603642] (-) TimerEvent: {}
+[68.711126] (-) TimerEvent: {}
+[68.813515] (-) TimerEvent: {}
+[68.916058] (-) TimerEvent: {}
+[69.018701] (-) TimerEvent: {}
+[69.121465] (-) TimerEvent: {}
+[69.224092] (-) TimerEvent: {}
+[69.330234] (-) TimerEvent: {}
+[69.432613] (-) TimerEvent: {}
+[69.536463] (-) TimerEvent: {}
+[69.641865] (-) TimerEvent: {}
+[69.740605] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[69.745102] (-) TimerEvent: {}
+[69.849384] (-) TimerEvent: {}
+[69.952095] (-) TimerEvent: {}
+[70.054941] (-) TimerEvent: {}
+[70.146413] (astra_camera_msgs) StdoutLine: {'line': b'[ 44%] Built target astra_camera_msgs__rosidl_typesupport_cpp\n'}
+[70.155241] (-) TimerEvent: {}
+[70.257772] (-) TimerEvent: {}
+[70.362471] (-) TimerEvent: {}
+[70.467486] (-) TimerEvent: {}
+[70.567110] (astra_camera_msgs) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o\x1b[0m\n'}
+[70.570962] (-) TimerEvent: {}
+[70.674042] (-) TimerEvent: {}
+[70.776722] (-) TimerEvent: {}
+[70.879203] (-) TimerEvent: {}
+[70.981557] (-) TimerEvent: {}
+[71.084090] (-) TimerEvent: {}
+[71.186945] (-) TimerEvent: {}
+[71.289538] (-) TimerEvent: {}
+[71.392120] (-) TimerEvent: {}
+[71.494751] (-) TimerEvent: {}
+[71.597306] (-) TimerEvent: {}
+[71.700152] (-) TimerEvent: {}
+[71.803419] (-) TimerEvent: {}
+[71.906046] (-) TimerEvent: {}
+[72.008815] (-) TimerEvent: {}
+[72.111349] (-) TimerEvent: {}
+[72.213791] (-) TimerEvent: {}
+[72.316317] (-) TimerEvent: {}
+[72.418574] (-) TimerEvent: {}
+[72.520879] (-) TimerEvent: {}
+[72.622741] (-) TimerEvent: {}
+[72.645415] (astra_camera_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o\x1b[0m\n'}
+[72.695568] (astra_camera_msgs) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[72.723015] (-) TimerEvent: {}
+[72.824879] (-) TimerEvent: {}
+[72.926856] (-) TimerEvent: {}
+[73.028003] (-) TimerEvent: {}
+[73.130018] (-) TimerEvent: {}
+[73.232728] (-) TimerEvent: {}
+[73.334791] (-) TimerEvent: {}
+[73.436041] (-) TimerEvent: {}
+[73.538213] (-) TimerEvent: {}
+[73.639435] (-) TimerEvent: {}
+[73.741273] (-) TimerEvent: {}
+[73.848987] (-) TimerEvent: {}
+[73.911958] (astra_camera_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o\x1b[0m\n'}
+[73.949260] (-) TimerEvent: {}
+[74.051891] (-) TimerEvent: {}
+[74.154344] (-) TimerEvent: {}
+[74.256776] (-) TimerEvent: {}
+[74.359217] (-) TimerEvent: {}
+[74.462809] (-) TimerEvent: {}
+[74.566966] (-) TimerEvent: {}
+[74.668772] (-) TimerEvent: {}
+[74.770655] (-) TimerEvent: {}
+[74.872508] (-) TimerEvent: {}
+[74.978220] (-) TimerEvent: {}
+[75.079464] (-) TimerEvent: {}
+[75.181355] (-) TimerEvent: {}
+[75.283221] (-) TimerEvent: {}
+[75.384998] (-) TimerEvent: {}
+[75.486858] (-) TimerEvent: {}
+[75.590434] (-) TimerEvent: {}
+[75.692905] (-) TimerEvent: {}
+[75.795536] (-) TimerEvent: {}
+[75.897326] (-) TimerEvent: {}
+[75.999449] (-) TimerEvent: {}
+[76.102260] (-) TimerEvent: {}
+[76.204437] (-) TimerEvent: {}
+[76.306416] (-) TimerEvent: {}
+[76.408421] (-) TimerEvent: {}
+[76.510392] (-) TimerEvent: {}
+[76.581567] (astra_camera_msgs) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o\x1b[0m\n'}
+[76.610658] (-) TimerEvent: {}
+[76.713013] (-) TimerEvent: {}
+[76.815116] (-) TimerEvent: {}
+[76.917580] (-) TimerEvent: {}
+[77.020153] (-) TimerEvent: {}
+[77.122673] (-) TimerEvent: {}
+[77.223546] (astra_camera_msgs) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o\x1b[0m\n'}
+[77.228107] (-) TimerEvent: {}
+[77.331085] (-) TimerEvent: {}
+[77.433176] (-) TimerEvent: {}
+[77.491113] (astra_camera_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o\x1b[0m\n'}
+[77.533443] (-) TimerEvent: {}
+[77.635869] (-) TimerEvent: {}
+[77.738379] (-) TimerEvent: {}
+[77.846644] (-) TimerEvent: {}
+[77.949236] (-) TimerEvent: {}
+[78.054219] (-) TimerEvent: {}
+[78.156989] (-) TimerEvent: {}
+[78.261242] (-) TimerEvent: {}
+[78.364111] (-) TimerEvent: {}
+[78.466209] (-) TimerEvent: {}
+[78.567393] (-) TimerEvent: {}
+[78.670512] (-) TimerEvent: {}
+[78.773009] (-) TimerEvent: {}
+[78.877752] (-) TimerEvent: {}
+[78.986270] (-) TimerEvent: {}
+[79.087534] (-) TimerEvent: {}
+[79.190137] (-) TimerEvent: {}
+[79.292632] (-) TimerEvent: {}
+[79.395294] (-) TimerEvent: {}
+[79.497877] (-) TimerEvent: {}
+[79.601935] (-) TimerEvent: {}
+[79.706228] (-) TimerEvent: {}
+[79.810256] (-) TimerEvent: {}
+[79.914240] (-) TimerEvent: {}
+[80.018222] (-) TimerEvent: {}
+[80.122217] (-) TimerEvent: {}
+[80.226215] (-) TimerEvent: {}
+[80.330239] (-) TimerEvent: {}
+[80.372628] (astra_camera_msgs) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o\x1b[0m\n'}
+[80.430498] (-) TimerEvent: {}
+[80.532481] (-) TimerEvent: {}
+[80.634179] (-) TimerEvent: {}
+[80.735972] (-) TimerEvent: {}
+[80.837724] (-) TimerEvent: {}
+[80.897291] (astra_camera_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o\x1b[0m\n'}
+[80.938220] (-) TimerEvent: {}
+[81.042207] (-) TimerEvent: {}
+[81.052078] (astra_camera_msgs) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o\x1b[0m\n'}
+[81.142443] (-) TimerEvent: {}
+[81.244879] (-) TimerEvent: {}
+[81.347374] (-) TimerEvent: {}
+[81.449834] (-) TimerEvent: {}
+[81.552355] (-) TimerEvent: {}
+[81.655107] (-) TimerEvent: {}
+[81.757806] (-) TimerEvent: {}
+[81.860740] (-) TimerEvent: {}
+[81.963461] (-) TimerEvent: {}
+[82.066172] (-) TimerEvent: {}
+[82.170416] (-) TimerEvent: {}
+[82.272232] (-) TimerEvent: {}
+[82.374149] (-) TimerEvent: {}
+[82.476045] (-) TimerEvent: {}
+[82.578713] (-) TimerEvent: {}
+[82.680004] (-) TimerEvent: {}
+[82.782763] (-) TimerEvent: {}
+[82.885540] (-) TimerEvent: {}
+[82.988230] (-) TimerEvent: {}
+[83.095491] (-) TimerEvent: {}
+[83.196755] (-) TimerEvent: {}
+[83.300805] (-) TimerEvent: {}
+[83.403471] (-) TimerEvent: {}
+[83.506483] (-) TimerEvent: {}
+[83.611716] (-) TimerEvent: {}
+[83.717058] (-) TimerEvent: {}
+[83.819794] (-) TimerEvent: {}
+[83.927700] (-) TimerEvent: {}
+[84.033499] (-) TimerEvent: {}
+[84.136327] (-) TimerEvent: {}
+[84.220571] (astra_camera_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[84.236608] (-) TimerEvent: {}
+[84.337825] (-) TimerEvent: {}
+[84.359488] (astra_camera_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[84.438225] (-) TimerEvent: {}
+[84.539693] (-) TimerEvent: {}
+[84.642053] (-) TimerEvent: {}
+[84.744353] (-) TimerEvent: {}
+[84.846751] (-) TimerEvent: {}
+[84.897295] (astra_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[84.947042] (-) TimerEvent: {}
+[84.985003] (astra_camera_msgs) StdoutLine: {'line': b'[ 56%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c\n'}
+[85.047261] (-) TimerEvent: {}
+[85.148367] (-) TimerEvent: {}
+[85.202395] (astra_camera_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o\x1b[0m\n'}
+[85.248605] (-) TimerEvent: {}
+[85.349776] (-) TimerEvent: {}
+[85.451204] (-) TimerEvent: {}
+[85.552289] (-) TimerEvent: {}
+[85.653381] (-) TimerEvent: {}
+[85.754601] (-) TimerEvent: {}
+[85.855746] (-) TimerEvent: {}
+[85.956839] (-) TimerEvent: {}
+[86.057997] (-) TimerEvent: {}
+[86.159124] (-) TimerEvent: {}
+[86.260201] (-) TimerEvent: {}
+[86.361308] (-) TimerEvent: {}
+[86.462459] (-) TimerEvent: {}
+[86.563599] (-) TimerEvent: {}
+[86.664757] (-) TimerEvent: {}
+[86.767300] (-) TimerEvent: {}
+[86.868403] (-) TimerEvent: {}
+[86.969562] (-) TimerEvent: {}
+[87.070715] (-) TimerEvent: {}
+[87.171907] (-) TimerEvent: {}
+[87.273094] (-) TimerEvent: {}
+[87.374315] (-) TimerEvent: {}
+[87.475457] (-) TimerEvent: {}
+[87.576596] (-) TimerEvent: {}
+[87.677783] (-) TimerEvent: {}
+[87.778857] (-) TimerEvent: {}
+[87.879970] (-) TimerEvent: {}
+[87.981086] (-) TimerEvent: {}
+[88.082239] (-) TimerEvent: {}
+[88.183312] (-) TimerEvent: {}
+[88.216744] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[88.283543] (-) TimerEvent: {}
+[88.384730] (-) TimerEvent: {}
+[88.485909] (-) TimerEvent: {}
+[88.587068] (-) TimerEvent: {}
+[88.688164] (-) TimerEvent: {}
+[88.718930] (astra_camera_msgs) StdoutLine: {'line': b'[ 58%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp\n'}
+[88.768264] (astra_camera_msgs) StdoutLine: {'line': b'[ 60%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[88.788399] (-) TimerEvent: {}
+[88.889437] (-) TimerEvent: {}
+[88.990581] (-) TimerEvent: {}
+[89.091641] (-) TimerEvent: {}
+[89.192766] (-) TimerEvent: {}
+[89.293876] (-) TimerEvent: {}
+[89.394936] (-) TimerEvent: {}
+[89.495973] (-) TimerEvent: {}
+[89.597002] (-) TimerEvent: {}
+[89.698074] (-) TimerEvent: {}
+[89.799091] (-) TimerEvent: {}
+[89.900190] (-) TimerEvent: {}
+[90.001813] (-) TimerEvent: {}
+[90.102836] (-) TimerEvent: {}
+[90.203804] (-) TimerEvent: {}
+[90.304858] (-) TimerEvent: {}
+[90.405868] (-) TimerEvent: {}
+[90.506947] (-) TimerEvent: {}
+[90.607998] (-) TimerEvent: {}
+[90.709057] (-) TimerEvent: {}
+[90.810222] (-) TimerEvent: {}
+[90.911314] (-) TimerEvent: {}
+[91.012347] (-) TimerEvent: {}
+[91.113359] (-) TimerEvent: {}
+[91.215536] (-) TimerEvent: {}
+[91.316576] (-) TimerEvent: {}
+[91.417588] (-) TimerEvent: {}
+[91.518671] (-) TimerEvent: {}
+[91.619595] (-) TimerEvent: {}
+[91.720603] (-) TimerEvent: {}
+[91.821635] (-) TimerEvent: {}
+[91.922724] (-) TimerEvent: {}
+[92.023723] (-) TimerEvent: {}
+[92.125329] (-) TimerEvent: {}
+[92.227016] (-) TimerEvent: {}
+[92.334157] (-) TimerEvent: {}
+[92.435185] (-) TimerEvent: {}
+[92.536190] (-) TimerEvent: {}
+[92.637199] (-) TimerEvent: {}
+[92.738195] (-) TimerEvent: {}
+[92.839219] (-) TimerEvent: {}
+[92.940253] (-) TimerEvent: {}
+[93.041267] (-) TimerEvent: {}
+[93.142330] (-) TimerEvent: {}
+[93.243395] (-) TimerEvent: {}
+[93.344370] (-) TimerEvent: {}
+[93.445372] (-) TimerEvent: {}
+[93.546394] (-) TimerEvent: {}
+[93.647518] (-) TimerEvent: {}
+[93.748680] (-) TimerEvent: {}
+[93.849803] (-) TimerEvent: {}
+[93.950939] (-) TimerEvent: {}
+[93.972624] (astra_camera_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o\x1b[0m\n'}
+[94.051175] (-) TimerEvent: {}
+[94.148609] (astra_camera_msgs) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o\x1b[0m\n'}
+[94.151435] (-) TimerEvent: {}
+[94.252529] (-) TimerEvent: {}
+[94.326476] (astra_camera_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o\x1b[0m\n'}
+[94.352782] (-) TimerEvent: {}
+[94.453993] (-) TimerEvent: {}
+[94.518006] (astra_camera_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o\x1b[0m\n'}
+[94.554221] (-) TimerEvent: {}
+[94.655774] (-) TimerEvent: {}
+[94.709447] (astra_camera_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o\x1b[0m\n'}
+[94.755866] (-) TimerEvent: {}
+[94.857062] (-) TimerEvent: {}
+[94.903121] (astra_camera_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o\x1b[0m\n'}
+[94.957289] (-) TimerEvent: {}
+[95.058361] (-) TimerEvent: {}
+[95.094288] (astra_camera_msgs) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o\x1b[0m\n'}
+[95.158572] (-) TimerEvent: {}
+[95.259600] (-) TimerEvent: {}
+[95.282082] (astra_camera_msgs) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o\x1b[0m\n'}
+[95.359849] (-) TimerEvent: {}
+[95.461003] (-) TimerEvent: {}
+[95.470996] (astra_camera_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o\x1b[0m\n'}
+[95.561247] (-) TimerEvent: {}
+[95.644840] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[95.661506] (-) TimerEvent: {}
+[95.763256] (-) TimerEvent: {}
+[95.862899] (astra_camera_msgs) StdoutLine: {'line': b'[ 70%] Built target astra_camera_msgs__rosidl_typesupport_c\n'}
+[95.864653] (-) TimerEvent: {}
+[95.914205] (astra_camera_msgs) StdoutLine: {'line': b'[ 71%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[95.964885] (-) TimerEvent: {}
+[96.066378] (-) TimerEvent: {}
+[96.167395] (-) TimerEvent: {}
+[96.268553] (-) TimerEvent: {}
+[96.369531] (-) TimerEvent: {}
+[96.470644] (-) TimerEvent: {}
+[96.571636] (-) TimerEvent: {}
+[96.673146] (-) TimerEvent: {}
+[96.774165] (-) TimerEvent: {}
+[96.875149] (-) TimerEvent: {}
+[96.976134] (-) TimerEvent: {}
+[97.077106] (-) TimerEvent: {}
+[97.178121] (-) TimerEvent: {}
+[97.279113] (-) TimerEvent: {}
+[97.380169] (-) TimerEvent: {}
+[97.481150] (-) TimerEvent: {}
+[97.582172] (-) TimerEvent: {}
+[97.683143] (-) TimerEvent: {}
+[97.784099] (-) TimerEvent: {}
+[97.885100] (-) TimerEvent: {}
+[97.986176] (-) TimerEvent: {}
+[98.087136] (-) TimerEvent: {}
+[98.188127] (-) TimerEvent: {}
+[98.289113] (-) TimerEvent: {}
+[98.390801] (-) TimerEvent: {}
+[98.491800] (-) TimerEvent: {}
+[98.592791] (-) TimerEvent: {}
+[98.693751] (-) TimerEvent: {}
+[98.794796] (-) TimerEvent: {}
+[98.895796] (-) TimerEvent: {}
+[98.996842] (-) TimerEvent: {}
+[99.097883] (-) TimerEvent: {}
+[99.198921] (-) TimerEvent: {}
+[99.299966] (-) TimerEvent: {}
+[99.400930] (-) TimerEvent: {}
+[99.501993] (-) TimerEvent: {}
+[99.602964] (-) TimerEvent: {}
+[99.704001] (-) TimerEvent: {}
+[99.804923] (-) TimerEvent: {}
+[99.905990] (-) TimerEvent: {}
+[100.007022] (-) TimerEvent: {}
+[100.108043] (-) TimerEvent: {}
+[100.209064] (-) TimerEvent: {}
+[100.310502] (-) TimerEvent: {}
+[100.411493] (-) TimerEvent: {}
+[100.512555] (-) TimerEvent: {}
+[100.613565] (-) TimerEvent: {}
+[100.714653] (-) TimerEvent: {}
+[100.815611] (-) TimerEvent: {}
+[100.916674] (-) TimerEvent: {}
+[101.017617] (-) TimerEvent: {}
+[101.118660] (-) TimerEvent: {}
+[101.219649] (-) TimerEvent: {}
+[101.320675] (-) TimerEvent: {}
+[101.421645] (-) TimerEvent: {}
+[101.522661] (-) TimerEvent: {}
+[101.624860] (-) TimerEvent: {}
+[101.725808] (-) TimerEvent: {}
+[101.826841] (-) TimerEvent: {}
+[101.927790] (-) TimerEvent: {}
+[102.028808] (-) TimerEvent: {}
+[102.129771] (-) TimerEvent: {}
+[102.230794] (-) TimerEvent: {}
+[102.331899] (-) TimerEvent: {}
+[102.432964] (-) TimerEvent: {}
+[102.534104] (-) TimerEvent: {}
+[102.635411] (-) TimerEvent: {}
+[102.736810] (-) TimerEvent: {}
+[102.838581] (-) TimerEvent: {}
+[102.940052] (-) TimerEvent: {}
+[103.041108] (-) TimerEvent: {}
+[103.142273] (-) TimerEvent: {}
+[103.243386] (-) TimerEvent: {}
+[103.307665] (astra_camera_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o\x1b[0m\n'}
+[103.343646] (-) TimerEvent: {}
+[103.444720] (-) TimerEvent: {}
+[103.515651] (astra_camera_msgs) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o\x1b[0m\n'}
+[103.544995] (-) TimerEvent: {}
+[103.646105] (-) TimerEvent: {}
+[103.736023] (astra_camera_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o\x1b[0m\n'}
+[103.746345] (-) TimerEvent: {}
+[103.847483] (-) TimerEvent: {}
+[103.948597] (-) TimerEvent: {}
+[103.958725] (astra_camera_msgs) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o\x1b[0m\n'}
+[104.048857] (-) TimerEvent: {}
+[104.149908] (-) TimerEvent: {}
+[104.251152] (-) TimerEvent: {}
+[104.263434] (astra_camera_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o\x1b[0m\n'}
+[104.351403] (-) TimerEvent: {}
+[104.452527] (-) TimerEvent: {}
+[104.474230] (astra_camera_msgs) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o\x1b[0m\n'}
+[104.552757] (-) TimerEvent: {}
+[104.653821] (-) TimerEvent: {}
+[104.686303] (astra_camera_msgs) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o\x1b[0m\n'}
+[104.754104] (-) TimerEvent: {}
+[104.855199] (-) TimerEvent: {}
+[104.896701] (astra_camera_msgs) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o\x1b[0m\n'}
+[104.955434] (-) TimerEvent: {}
+[105.056487] (-) TimerEvent: {}
+[105.088268] (astra_camera_msgs) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o\x1b[0m\n'}
+[105.156729] (-) TimerEvent: {}
+[105.258058] (-) TimerEvent: {}
+[105.315352] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[105.358218] (-) TimerEvent: {}
+[105.459285] (-) TimerEvent: {}
+[105.501511] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c\n'}
+[105.559525] (-) TimerEvent: {}
+[105.589412] (astra_camera_msgs) StdoutLine: {'line': b'[ 82%] Built target astra_camera_msgs\n'}
+[105.659755] (-) TimerEvent: {}
+[105.686256] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[105.759953] (-) TimerEvent: {}
+[105.860959] (-) TimerEvent: {}
+[105.961996] (-) TimerEvent: {}
+[106.063039] (-) TimerEvent: {}
+[106.164060] (-) TimerEvent: {}
+[106.266384] (-) TimerEvent: {}
+[106.367484] (-) TimerEvent: {}
+[106.468478] (-) TimerEvent: {}
+[106.569481] (-) TimerEvent: {}
+[106.670502] (-) TimerEvent: {}
+[106.771479] (-) TimerEvent: {}
+[106.872457] (-) TimerEvent: {}
+[106.973428] (-) TimerEvent: {}
+[107.074500] (-) TimerEvent: {}
+[107.175482] (-) TimerEvent: {}
+[107.276489] (-) TimerEvent: {}
+[107.377443] (-) TimerEvent: {}
+[107.478489] (-) TimerEvent: {}
+[107.579474] (-) TimerEvent: {}
+[107.681128] (-) TimerEvent: {}
+[107.782152] (-) TimerEvent: {}
+[107.883170] (-) TimerEvent: {}
+[107.984148] (-) TimerEvent: {}
+[108.085178] (-) TimerEvent: {}
+[108.186253] (-) TimerEvent: {}
+[108.287248] (-) TimerEvent: {}
+[108.388217] (-) TimerEvent: {}
+[108.489174] (-) TimerEvent: {}
+[108.590145] (-) TimerEvent: {}
+[108.691111] (-) TimerEvent: {}
+[108.792107] (-) TimerEvent: {}
+[108.893087] (-) TimerEvent: {}
+[108.994084] (-) TimerEvent: {}
+[109.095050] (-) TimerEvent: {}
+[109.196051] (-) TimerEvent: {}
+[109.297143] (-) TimerEvent: {}
+[109.398857] (-) TimerEvent: {}
+[109.499918] (-) TimerEvent: {}
+[109.600888] (-) TimerEvent: {}
+[109.701920] (-) TimerEvent: {}
+[109.802943] (-) TimerEvent: {}
+[109.903971] (-) TimerEvent: {}
+[110.004958] (-) TimerEvent: {}
+[110.106037] (-) TimerEvent: {}
+[110.207036] (-) TimerEvent: {}
+[110.308103] (-) TimerEvent: {}
+[110.409092] (-) TimerEvent: {}
+[110.510121] (-) TimerEvent: {}
+[110.611124] (-) TimerEvent: {}
+[110.712116] (-) TimerEvent: {}
+[110.813099] (-) TimerEvent: {}
+[110.914141] (-) TimerEvent: {}
+[111.016373] (-) TimerEvent: {}
+[111.117358] (-) TimerEvent: {}
+[111.218469] (-) TimerEvent: {}
+[111.319492] (-) TimerEvent: {}
+[111.420469] (-) TimerEvent: {}
+[111.521420] (-) TimerEvent: {}
+[111.622503] (-) TimerEvent: {}
+[111.723522] (-) TimerEvent: {}
+[111.824516] (-) TimerEvent: {}
+[111.925504] (-) TimerEvent: {}
+[112.027866] (-) TimerEvent: {}
+[112.129423] (-) TimerEvent: {}
+[112.230577] (-) TimerEvent: {}
+[112.331964] (-) TimerEvent: {}
+[112.432974] (-) TimerEvent: {}
+[112.534019] (-) TimerEvent: {}
+[112.635029] (-) TimerEvent: {}
+[112.736039] (-) TimerEvent: {}
+[112.836990] (-) TimerEvent: {}
+[112.938540] (-) TimerEvent: {}
+[113.039562] (-) TimerEvent: {}
+[113.140549] (-) TimerEvent: {}
+[113.241498] (-) TimerEvent: {}
+[113.342627] (-) TimerEvent: {}
+[113.443659] (-) TimerEvent: {}
+[113.544671] (-) TimerEvent: {}
+[113.645721] (-) TimerEvent: {}
+[113.746753] (-) TimerEvent: {}
+[113.847714] (-) TimerEvent: {}
+[113.948702] (-) TimerEvent: {}
+[114.049660] (-) TimerEvent: {}
+[114.150708] (-) TimerEvent: {}
+[114.251674] (-) TimerEvent: {}
+[114.352682] (-) TimerEvent: {}
+[114.453638] (-) TimerEvent: {}
+[114.554716] (-) TimerEvent: {}
+[114.655743] (-) TimerEvent: {}
+[114.756726] (-) TimerEvent: {}
+[114.857716] (-) TimerEvent: {}
+[114.958709] (-) TimerEvent: {}
+[115.059701] (-) TimerEvent: {}
+[115.160641] (-) TimerEvent: {}
+[115.261626] (-) TimerEvent: {}
+[115.362641] (-) TimerEvent: {}
+[115.463606] (-) TimerEvent: {}
+[115.564604] (-) TimerEvent: {}
+[115.665659] (-) TimerEvent: {}
+[115.766702] (-) TimerEvent: {}
+[115.868308] (-) TimerEvent: {}
+[115.969286] (-) TimerEvent: {}
+[116.070277] (-) TimerEvent: {}
+[116.171259] (-) TimerEvent: {}
+[116.272223] (-) TimerEvent: {}
+[116.373211] (-) TimerEvent: {}
+[116.474205] (-) TimerEvent: {}
+[116.575184] (-) TimerEvent: {}
+[116.676244] (-) TimerEvent: {}
+[116.778035] (-) TimerEvent: {}
+[116.879155] (-) TimerEvent: {}
+[116.980197] (-) TimerEvent: {}
+[117.081259] (-) TimerEvent: {}
+[117.182276] (-) TimerEvent: {}
+[117.283250] (-) TimerEvent: {}
+[117.384321] (-) TimerEvent: {}
+[117.485485] (-) TimerEvent: {}
+[117.586529] (-) TimerEvent: {}
+[117.687504] (-) TimerEvent: {}
+[117.788517] (-) TimerEvent: {}
+[117.889528] (-) TimerEvent: {}
+[117.990566] (-) TimerEvent: {}
+[118.091583] (-) TimerEvent: {}
+[118.192626] (-) TimerEvent: {}
+[118.293646] (-) TimerEvent: {}
+[118.394703] (-) TimerEvent: {}
+[118.495676] (-) TimerEvent: {}
+[118.596697] (-) TimerEvent: {}
+[118.697663] (-) TimerEvent: {}
+[118.799004] (-) TimerEvent: {}
+[118.899925] (-) TimerEvent: {}
+[119.000946] (-) TimerEvent: {}
+[119.101991] (-) TimerEvent: {}
+[119.202973] (-) TimerEvent: {}
+[119.304046] (-) TimerEvent: {}
+[119.405021] (-) TimerEvent: {}
+[119.506024] (-) TimerEvent: {}
+[119.607881] (-) TimerEvent: {}
+[119.709710] (-) TimerEvent: {}
+[119.810810] (-) TimerEvent: {}
+[119.911860] (-) TimerEvent: {}
+[120.012901] (-) TimerEvent: {}
+[120.114568] (-) TimerEvent: {}
+[120.215587] (-) TimerEvent: {}
+[120.316630] (-) TimerEvent: {}
+[120.417599] (-) TimerEvent: {}
+[120.518715] (-) TimerEvent: {}
+[120.619666] (-) TimerEvent: {}
+[120.720685] (-) TimerEvent: {}
+[120.821735] (-) TimerEvent: {}
+[120.922781] (-) TimerEvent: {}
+[121.023819] (-) TimerEvent: {}
+[121.125360] (-) TimerEvent: {}
+[121.226509] (-) TimerEvent: {}
+[121.327870] (-) TimerEvent: {}
+[121.429564] (-) TimerEvent: {}
+[121.531517] (-) TimerEvent: {}
+[121.632640] (-) TimerEvent: {}
+[121.734189] (-) TimerEvent: {}
+[121.835637] (-) TimerEvent: {}
+[121.936694] (-) TimerEvent: {}
+[121.998645] (astra_camera_msgs) StdoutLine: {'line': b'[ 83%] Built target astra_camera_msgs__py\n'}
+[122.037072] (-) TimerEvent: {}
+[122.088902] (astra_camera_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o\x1b[0m\n'}
+[122.141400] (-) TimerEvent: {}
+[122.242612] (-) TimerEvent: {}
+[122.343740] (-) TimerEvent: {}
+[122.444853] (-) TimerEvent: {}
+[122.545894] (-) TimerEvent: {}
+[122.646940] (-) TimerEvent: {}
+[122.748872] (-) TimerEvent: {}
+[122.850087] (-) TimerEvent: {}
+[122.951161] (-) TimerEvent: {}
+[122.987436] (astra_camera_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o\x1b[0m\n'}
+[123.051414] (-) TimerEvent: {}
+[123.152445] (-) TimerEvent: {}
+[123.253573] (-) TimerEvent: {}
+[123.354764] (-) TimerEvent: {}
+[123.456478] (-) TimerEvent: {}
+[123.557577] (-) TimerEvent: {}
+[123.658791] (-) TimerEvent: {}
+[123.759905] (-) TimerEvent: {}
+[123.798247] (astra_camera_msgs) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o\x1b[0m\n'}
+[123.860133] (-) TimerEvent: {}
+[123.961159] (-) TimerEvent: {}
+[124.062237] (-) TimerEvent: {}
+[124.163322] (-) TimerEvent: {}
+[124.264999] (-) TimerEvent: {}
+[124.366155] (-) TimerEvent: {}
+[124.467234] (-) TimerEvent: {}
+[124.568280] (-) TimerEvent: {}
+[124.606542] (astra_camera_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o\x1b[0m\n'}
+[124.668517] (-) TimerEvent: {}
+[124.769649] (-) TimerEvent: {}
+[124.870756] (-) TimerEvent: {}
+[124.972073] (-) TimerEvent: {}
+[125.073173] (-) TimerEvent: {}
+[125.174312] (-) TimerEvent: {}
+[125.275408] (-) TimerEvent: {}
+[125.376437] (-) TimerEvent: {}
+[125.477551] (-) TimerEvent: {}
+[125.579271] (-) TimerEvent: {}
+[125.633245] (astra_camera_msgs) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o\x1b[0m\n'}
+[125.679528] (-) TimerEvent: {}
+[125.780648] (-) TimerEvent: {}
+[125.881751] (-) TimerEvent: {}
+[125.982855] (-) TimerEvent: {}
+[126.083984] (-) TimerEvent: {}
+[126.185072] (-) TimerEvent: {}
+[126.286182] (-) TimerEvent: {}
+[126.387238] (-) TimerEvent: {}
+[126.437524] (astra_camera_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o\x1b[0m\n'}
+[126.487498] (-) TimerEvent: {}
+[126.588945] (-) TimerEvent: {}
+[126.690038] (-) TimerEvent: {}
+[126.791153] (-) TimerEvent: {}
+[126.892634] (-) TimerEvent: {}
+[126.993736] (-) TimerEvent: {}
+[127.094902] (-) TimerEvent: {}
+[127.195919] (-) TimerEvent: {}
+[127.250799] (astra_camera_msgs) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o\x1b[0m\n'}
+[127.296167] (-) TimerEvent: {}
+[127.402433] (-) TimerEvent: {}
+[127.527168] (-) TimerEvent: {}
+[127.628611] (-) TimerEvent: {}
+[127.731082] (-) TimerEvent: {}
+[127.832212] (-) TimerEvent: {}
+[127.933382] (-) TimerEvent: {}
+[128.034437] (-) TimerEvent: {}
+[128.046291] (astra_camera_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o\x1b[0m\n'}
+[128.134685] (-) TimerEvent: {}
+[128.235787] (-) TimerEvent: {}
+[128.336842] (-) TimerEvent: {}
+[128.438016] (-) TimerEvent: {}
+[128.539169] (-) TimerEvent: {}
+[128.640794] (-) TimerEvent: {}
+[128.742955] (-) TimerEvent: {}
+[128.802563] (astra_camera_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o\x1b[0m\n'}
+[128.843201] (-) TimerEvent: {}
+[128.944923] (-) TimerEvent: {}
+[129.046031] (-) TimerEvent: {}
+[129.147044] (-) TimerEvent: {}
+[129.248051] (-) TimerEvent: {}
+[129.349046] (-) TimerEvent: {}
+[129.450220] (-) TimerEvent: {}
+[129.552519] (-) TimerEvent: {}
+[129.619047] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[129.652782] (-) TimerEvent: {}
+[129.754720] (-) TimerEvent: {}
+[129.855858] (-) TimerEvent: {}
+[129.933457] (astra_camera_msgs) StdoutLine: {'line': b'[ 93%] Built target astra_camera_msgs__rosidl_generator_py\n'}
+[129.956144] (-) TimerEvent: {}
+[130.035134] (astra_camera_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[130.056362] (-) TimerEvent: {}
+[130.157407] (-) TimerEvent: {}
+[130.258488] (-) TimerEvent: {}
+[130.359532] (-) TimerEvent: {}
+[130.460609] (-) TimerEvent: {}
+[130.561643] (-) TimerEvent: {}
+[130.663391] (-) TimerEvent: {}
+[130.765131] (-) TimerEvent: {}
+[130.866308] (-) TimerEvent: {}
+[130.967409] (-) TimerEvent: {}
+[131.068574] (-) TimerEvent: {}
+[131.169669] (-) TimerEvent: {}
+[131.194272] (astra_camera_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[131.269988] (-) TimerEvent: {}
+[131.371635] (-) TimerEvent: {}
+[131.472771] (-) TimerEvent: {}
+[131.507176] (astra_camera_msgs) StdoutLine: {'line': b'[ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[131.573021] (-) TimerEvent: {}
+[131.594829] (astra_camera_msgs) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[131.673302] (-) TimerEvent: {}
+[131.774466] (-) TimerEvent: {}
+[131.875521] (-) TimerEvent: {}
+[131.976590] (-) TimerEvent: {}
+[132.077689] (-) TimerEvent: {}
+[132.179393] (-) TimerEvent: {}
+[132.280393] (-) TimerEvent: {}
+[132.381852] (-) TimerEvent: {}
+[132.482999] (-) TimerEvent: {}
+[132.584108] (-) TimerEvent: {}
+[132.685122] (-) TimerEvent: {}
+[132.702176] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[132.785416] (-) TimerEvent: {}
+[132.886689] (-) TimerEvent: {}
+[132.987904] (-) TimerEvent: {}
+[133.005351] (astra_camera_msgs) StdoutLine: {'line': b'[ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext\n'}
+[133.088168] (-) TimerEvent: {}
+[133.094945] (astra_camera_msgs) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[133.188400] (-) TimerEvent: {}
+[133.289494] (-) TimerEvent: {}
+[133.390635] (-) TimerEvent: {}
+[133.491660] (-) TimerEvent: {}
+[133.592824] (-) TimerEvent: {}
+[133.693885] (-) TimerEvent: {}
+[133.795005] (-) TimerEvent: {}
+[133.896187] (-) TimerEvent: {}
+[133.997302] (-) TimerEvent: {}
+[134.098397] (-) TimerEvent: {}
+[134.199457] (-) TimerEvent: {}
+[134.203107] (astra_camera_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[134.299692] (-) TimerEvent: {}
+[134.400961] (-) TimerEvent: {}
+[134.502135] (-) TimerEvent: {}
+[134.517232] (astra_camera_msgs) StdoutLine: {'line': b'[100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[134.577747] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[134.602374] (-) TimerEvent: {}
+[134.703640] (-) TimerEvent: {}
+[134.806220] (-) TimerEvent: {}
+[134.910190] (-) TimerEvent: {}
+[135.014224] (-) TimerEvent: {}
+[135.118195] (-) TimerEvent: {}
+[135.220191] (-) TimerEvent: {}
+[135.321358] (-) TimerEvent: {}
+[135.422515] (-) TimerEvent: {}
+[135.523565] (-) TimerEvent: {}
+[135.626198] (-) TimerEvent: {}
+[135.661045] (astra_camera_msgs) JobProgress: {'identifier': 'astra_camera_msgs', 'progress': 'install'}
+[135.722055] (astra_camera_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 48140 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-647e2335-bf6a-46bb-bdea-ebfd2067552a.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs'), ('SSH_CONNECTION', '192.168.159.239 48140 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[135.727955] (-) TimerEvent: {}
+[135.763902] (astra_camera_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[135.766420] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs\n'}
+[135.767569] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.770502] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.771595] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h\n'}
+[135.772603] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[135.773639] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h\n'}
+[135.774745] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h\n'}
+[135.775770] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.776867] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h\n'}
+[135.778298] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c\n'}
+[135.784389] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h\n'}
+[135.785439] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c\n'}
+[135.787636] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h\n'}
+[135.790078] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h\n'}
+[135.792031] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c\n'}
+[135.792964] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h\n'}
+[135.793905] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h\n'}
+[135.794974] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h\n'}
+[135.795914] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h\n'}
+[135.796854] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h\n'}
+[135.797798] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[135.798902] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h\n'}
+[135.799835] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h\n'}
+[135.800817] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h\n'}
+[135.801779] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h\n'}
+[135.802855] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h\n'}
+[135.803811] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[135.804761] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c\n'}
+[135.805651] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c\n'}
+[135.806676] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h\n'}
+[135.807605] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c\n'}
+[135.808502] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h\n'}
+[135.809437] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h\n'}
+[135.810912] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h\n'}
+[135.811855] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h\n'}
+[135.812770] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h\n'}
+[135.813804] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h\n'}
+[135.814908] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h\n'}
+[135.815843] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h\n'}
+[135.822162] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h\n'}
+[135.823232] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h\n'}
+[135.824243] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h\n'}
+[135.825219] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c\n'}
+[135.830427] (-) TimerEvent: {}
+[135.831350] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h\n'}
+[135.834897] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h\n'}
+[135.836761] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c\n'}
+[135.837711] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h\n'}
+[135.841704] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h\n'}
+[135.842766] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h\n'}
+[135.843743] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c\n'}
+[135.844710] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h\n'}
+[135.845648] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h\n'}
+[135.847238] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh\n'}
+[135.848246] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv\n'}
+[135.849385] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so\n'}
+[135.850962] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""\n'}
+[135.852010] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.853028] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.854147] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[135.856073] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.857526] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h\n'}
+[135.859304] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[135.860799] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h\n'}
+[135.862328] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[135.863818] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[135.865269] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[135.866817] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h\n'}
+[135.868455] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h\n'}
+[135.869891] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h\n'}
+[135.872775] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h\n'}
+[135.874947] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h\n'}
+[135.876778] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[135.878580] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[135.879547] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.880867] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.887596] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[135.889628] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.892337] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h\n'}
+[135.893652] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h\n'}
+[135.894909] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h\n'}
+[135.896560] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c\n'}
+[135.897484] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c\n'}
+[135.899064] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c\n'}
+[135.900013] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[135.901331] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[135.902806] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c\n'}
+[135.904335] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h\n'}
+[135.905925] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c\n'}
+[135.907529] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h\n'}
+[135.908799] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h\n'}
+[135.910375] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c\n'}
+[135.911913] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h\n'}
+[135.913373] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c\n'}
+[135.914912] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c\n'}
+[135.916280] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c\n'}
+[135.917628] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h\n'}
+[135.919221] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h\n'}
+[135.920852] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so\n'}
+[135.922412] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[135.923886] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so\n'}
+[135.925217] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""\n'}
+[135.926927] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.928404] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.929727] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp\n'}
+[135.930918] (-) TimerEvent: {}
+[135.931756] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp\n'}
+[135.934569] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.935616] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp\n'}
+[135.936797] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp\n'}
+[135.937760] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp\n'}
+[135.940031] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp\n'}
+[135.941078] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp\n'}
+[135.942256] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp\n'}
+[135.943337] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp\n'}
+[135.944373] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp\n'}
+[135.945415] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp\n'}
+[135.946943] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp\n'}
+[135.947935] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[135.948867] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp\n'}
+[135.949931] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp\n'}
+[135.951773] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp\n'}
+[135.952732] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp\n'}
+[135.953617] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp\n'}
+[135.955437] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[135.956423] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp\n'}
+[135.957394] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp\n'}
+[135.958405] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp\n'}
+[135.959322] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp\n'}
+[135.960262] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp\n'}
+[135.961143] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp\n'}
+[135.962155] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp\n'}
+[135.963110] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp\n'}
+[135.964006] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp\n'}
+[135.964854] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp\n'}
+[135.965641] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp\n'}
+[135.966684] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp\n'}
+[135.967618] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp\n'}
+[135.968564] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp\n'}
+[135.969596] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp\n'}
+[135.970793] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp\n'}
+[135.971766] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp\n'}
+[135.972722] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp\n'}
+[135.973632] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp\n'}
+[135.974693] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.975648] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.976622] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[135.978542] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.979511] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps\n'}
+[135.980392] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.981316] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.982957] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.983991] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[135.984898] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[135.985857] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps\n'}
+[135.986923] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.987828] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.988817] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.989836] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.990959] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.991881] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[135.992832] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[135.993690] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[135.994719] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs\n'}
+[135.995727] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg\n'}
+[135.996672] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail\n'}
+[135.997639] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp\n'}
+[135.998762] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[135.999666] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp\n'}
+[136.000614] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.001606] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp\n'}
+[136.002639] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp\n'}
+[136.003616] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv\n'}
+[136.004541] (astra_camera_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail\n'}
+[136.005579] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.006629] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp\n'}
+[136.007582] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.008467] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.009447] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.010445] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp\n'}
+[136.011345] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp\n'}
+[136.012307] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp\n'}
+[136.013639] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.014656] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[136.015579] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp\n'}
+[136.016525] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp\n'}
+[136.017488] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[136.018443] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[136.019357] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so\n'}
+[136.020256] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[136.022770] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh\n'}
+[136.023778] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv\n'}
+[136.024702] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info\n'}
+[136.025644] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt\n'}
+[136.027801] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[136.028685] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO\n'}
+[136.029713] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[136.034826] (-) TimerEvent: {}
+[136.037820] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs\n'}
+[136.039052] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[136.040078] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[136.041112] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg\n'}
+[136.044872] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c\n'}
+[136.045928] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py\n'}
+[136.046999] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c\n'}
+[136.047965] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py\n'}
+[136.048865] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py\n'}
+[136.049730] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py\n'}
+[136.051342] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c\n'}
+[136.052374] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[136.053311] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.054746] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py\n'}
+[136.055809] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[136.056829] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv\n'}
+[136.057853] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c\n'}
+[136.059103] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c\n'}
+[136.060079] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c\n'}
+[136.061048] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py\n'}
+[136.062057] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c\n'}
+[136.063031] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c\n'}
+[136.065815] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py\n'}
+[136.066853] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py\n'}
+[136.067819] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py\n'}
+[136.068735] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py\n'}
+[136.070625] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c\n'}
+[136.073397] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py\n'}
+[136.074533] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py\n'}
+[136.075588] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.076647] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.135095] (-) TimerEvent: {}
+[136.236159] (-) TimerEvent: {}
+[136.337217] (-) TimerEvent: {}
+[136.367248] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...\n"}
+[136.368575] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...\n"}
+[136.369569] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...\n"}
+[136.373199] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py'...\n"}
+[136.375645] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py'...\n"}
+[136.376696] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py'...\n"}
+[136.377641] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py'...\n"}
+[136.378694] (astra_camera_msgs) StdoutLine: {'line': b"Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...\n"}
+[136.379618] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py'...\n"}
+[136.380577] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py'...\n"}
+[136.381683] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py'...\n"}
+[136.382953] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py'...\n"}
+[136.383915] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py'...\n"}
+[136.384860] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py'...\n"}
+[136.385823] (astra_camera_msgs) StdoutLine: {'line': b"Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py'...\n"}
+[136.424810] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.426981] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[136.428395] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.430771] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[136.432108] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[136.434472] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[136.435819] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so\n'}
+[136.437408] (-) TimerEvent: {}
+[136.438922] (astra_camera_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so" to ""\n'}
+[136.440089] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl\n'}
+[136.441317] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl\n'}
+[136.442716] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl\n'}
+[136.444628] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl\n'}
+[136.446545] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl\n'}
+[136.447945] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl\n'}
+[136.449161] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl\n'}
+[136.450602] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl\n'}
+[136.458492] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl\n'}
+[136.459822] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg\n'}
+[136.462744] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg\n'}
+[136.464096] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg\n'}
+[136.466510] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv\n'}
+[136.467870] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg\n'}
+[136.469767] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg\n'}
+[136.471096] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv\n'}
+[136.472156] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg\n'}
+[136.473311] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg\n'}
+[136.474798] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv\n'}
+[136.476044] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg\n'}
+[136.477230] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg\n'}
+[136.480754] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv\n'}
+[136.481870] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg\n'}
+[136.483185] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg\n'}
+[136.484576] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv\n'}
+[136.485736] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg\n'}
+[136.488110] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg\n'}
+[136.489657] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv\n'}
+[136.491232] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg\n'}
+[136.498723] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg\n'}
+[136.500324] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs\n'}
+[136.501534] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs\n'}
+[136.502648] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh\n'}
+[136.504051] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv\n'}
+[136.505376] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh\n'}
+[136.506719] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv\n'}
+[136.507919] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash\n'}
+[136.509352] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh\n'}
+[136.510658] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh\n'}
+[136.511912] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv\n'}
+[136.513222] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv\n'}
+[136.514716] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs\n'}
+[136.515946] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake\n'}
+[136.517169] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[136.518815] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[136.520050] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[136.521324] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[136.522623] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[136.523816] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake\n'}
+[136.525231] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[136.526468] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake\n'}
+[136.527476] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[136.528445] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[136.529445] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[136.530466] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[136.531345] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[136.532245] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[136.533186] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake\n'}
+[136.534273] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[136.535811] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[136.542920] (-) TimerEvent: {}
+[136.545193] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[136.547120] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[136.548614] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[136.551650] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[136.552791] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[136.554883] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[136.556020] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake\n'}
+[136.557383] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake\n'}
+[136.558569] (astra_camera_msgs) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml\n'}
+[136.559979] (astra_camera_msgs) CommandEnded: {'returncode': 0}
+[136.643066] (-) TimerEvent: {}
+[136.745637] (-) TimerEvent: {}
+[136.847515] (-) TimerEvent: {}
+[136.949260] (-) TimerEvent: {}
+[137.051187] (-) TimerEvent: {}
+[137.152737] (-) TimerEvent: {}
+[137.253812] (-) TimerEvent: {}
+[137.355593] (-) TimerEvent: {}
+[137.428511] (astra_camera_msgs) JobEnded: {'identifier': 'astra_camera_msgs', 'rc': 0}
+[137.438884] (-) EventReactorShutdown: {}

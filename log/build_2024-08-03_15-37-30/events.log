@@ -1,0 +1,137 @@
+[0.000000] (-) TimerEvent: {}
+[0.001431] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.002761] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.003749] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.004687] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.004980] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.005227] (-) JobUnselected: {'identifier': 'serial'}
+[0.005500] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.005737] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.005970] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.006229] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.006552] (-) JobUnselected: {'identifier': 'web_video_server'}
+[0.006873] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.007141] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.007415] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.007628] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.007847] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.008087] (wheeltec_robot_keyboard) JobQueued: {'identifier': 'wheeltec_robot_keyboard', 'dependencies': OrderedDict()}
+[0.008463] (wheeltec_robot_keyboard) JobStarted: {'identifier': 'wheeltec_robot_keyboard'}
+[0.098543] (-) TimerEvent: {}
+[0.199443] (-) TimerEvent: {}
+[0.300309] (-) TimerEvent: {}
+[0.401199] (-) TimerEvent: {}
+[0.502196] (-) TimerEvent: {}
+[0.603162] (-) TimerEvent: {}
+[0.704063] (-) TimerEvent: {}
+[0.804918] (-) TimerEvent: {}
+[0.905851] (-) TimerEvent: {}
+[1.006718] (-) TimerEvent: {}
+[1.107603] (-) TimerEvent: {}
+[1.208564] (-) TimerEvent: {}
+[1.309521] (-) TimerEvent: {}
+[1.410366] (-) TimerEvent: {}
+[1.511207] (-) TimerEvent: {}
+[1.612074] (-) TimerEvent: {}
+[1.712953] (-) TimerEvent: {}
+[1.813898] (-) TimerEvent: {}
+[1.914795] (-) TimerEvent: {}
+[2.015733] (-) TimerEvent: {}
+[2.116667] (-) TimerEvent: {}
+[2.217692] (-) TimerEvent: {}
+[2.318670] (-) TimerEvent: {}
+[2.419638] (-) TimerEvent: {}
+[2.520505] (-) TimerEvent: {}
+[2.621432] (-) TimerEvent: {}
+[2.722305] (-) TimerEvent: {}
+[2.823162] (-) TimerEvent: {}
+[2.924010] (-) TimerEvent: {}
+[3.024996] (-) TimerEvent: {}
+[3.125933] (-) TimerEvent: {}
+[3.226883] (-) TimerEvent: {}
+[3.327771] (-) TimerEvent: {}
+[3.429486] (-) TimerEvent: {}
+[3.530349] (-) TimerEvent: {}
+[3.631184] (-) TimerEvent: {}
+[3.732028] (-) TimerEvent: {}
+[3.832916] (-) TimerEvent: {}
+[3.933825] (-) TimerEvent: {}
+[4.034727] (-) TimerEvent: {}
+[4.135624] (-) TimerEvent: {}
+[4.236490] (-) TimerEvent: {}
+[4.337492] (-) TimerEvent: {}
+[4.438751] (-) TimerEvent: {}
+[4.539579] (-) TimerEvent: {}
+[4.640462] (-) TimerEvent: {}
+[4.748314] (-) TimerEvent: {}
+[4.849181] (-) TimerEvent: {}
+[4.950091] (-) TimerEvent: {}
+[5.050955] (-) TimerEvent: {}
+[5.151920] (-) TimerEvent: {}
+[5.252979] (-) TimerEvent: {}
+[5.272282] (wheeltec_robot_keyboard) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/wheeltec_robot_keyboard', 'build', '--build-base', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build', 'install', '--record', '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/install.log', '--install-scripts', '$base/lib/wheeltec_robot_keyboard', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/sunrise/wheeltec_robot_ws/src/wheeltec_robot_keyboard', 'env': {'USER': 'sunrise', 'SSH_CLIENT': '192.168.159.239 42648 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/usb_cam/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping/lib:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/home/sunrise', 'OLDPWD': '/home/sunrise', 'TERM_PROGRAM_VERSION': '1.91.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-24042ad6-2a96-447c-9b3e-a71c5eb30cbb.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/certs/ca-certificates.crt', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'COLCON_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'sunrise', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'zh_CN.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-2ddc1d1355.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard', 'SSH_CONNECTION': '192.168.159.239 42648 192.168.159.59 22', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2'}, 'shell': False}
+[5.353163] (-) TimerEvent: {}
+[5.454118] (-) TimerEvent: {}
+[5.554967] (-) TimerEvent: {}
+[5.655834] (-) TimerEvent: {}
+[5.756681] (-) TimerEvent: {}
+[5.857631] (-) TimerEvent: {}
+[5.958546] (-) TimerEvent: {}
+[6.059452] (-) TimerEvent: {}
+[6.160287] (-) TimerEvent: {}
+[6.261136] (-) TimerEvent: {}
+[6.362049] (-) TimerEvent: {}
+[6.462937] (-) TimerEvent: {}
+[6.563781] (-) TimerEvent: {}
+[6.664627] (-) TimerEvent: {}
+[6.765552] (-) TimerEvent: {}
+[6.866428] (-) TimerEvent: {}
+[6.967306] (-) TimerEvent: {}
+[7.068205] (-) TimerEvent: {}
+[7.169262] (-) TimerEvent: {}
+[7.219348] (wheeltec_robot_keyboard) StderrLine: {'line': b"/usr/lib/python3/dist-packages/setuptools/dist.py:723: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead\n"}
+[7.220285] (wheeltec_robot_keyboard) StderrLine: {'line': b'  warnings.warn(\n'}
+[7.269505] (-) TimerEvent: {}
+[7.284474] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running egg_info\n'}
+[7.288821] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info\n'}
+[7.290343] (wheeltec_robot_keyboard) StdoutLine: {'line': b'writing ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/PKG-INFO\n'}
+[7.291740] (wheeltec_robot_keyboard) StdoutLine: {'line': b'writing dependency_links to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/dependency_links.txt\n'}
+[7.292679] (wheeltec_robot_keyboard) StdoutLine: {'line': b'writing entry points to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/entry_points.txt\n'}
+[7.293633] (wheeltec_robot_keyboard) StdoutLine: {'line': b'writing requirements to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/requires.txt\n'}
+[7.294736] (wheeltec_robot_keyboard) StdoutLine: {'line': b'writing top-level names to ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/top_level.txt\n'}
+[7.295734] (wheeltec_robot_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'\n"}
+[7.307297] (wheeltec_robot_keyboard) StdoutLine: {'line': b"reading manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'\n"}
+[7.313065] (wheeltec_robot_keyboard) StdoutLine: {'line': b"writing manifest file '../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info/SOURCES.txt'\n"}
+[7.314176] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running build\n'}
+[7.315698] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running build_py\n'}
+[7.316559] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build\n'}
+[7.317476] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib\n'}
+[7.318340] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard\n'}
+[7.319000] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying wheeltec_robot_keyboard/wheeltec_keyboard.py -> /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard\n'}
+[7.319631] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying wheeltec_robot_keyboard/__init__.py -> /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard\n'}
+[7.320379] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running install\n'}
+[7.320993] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running install_lib\n'}
+[7.325699] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard\n'}
+[7.326656] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard/wheeltec_keyboard.py -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard\n'}
+[7.327527] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying /home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/build/lib/wheeltec_robot_keyboard/__init__.py -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard\n'}
+[7.330582] (wheeltec_robot_keyboard) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard/wheeltec_keyboard.py to wheeltec_keyboard.cpython-310.pyc\n'}
+[7.338667] (wheeltec_robot_keyboard) StdoutLine: {'line': b'byte-compiling /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard/__init__.py to __init__.cpython-310.pyc\n'}
+[7.339697] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running install_data\n'}
+[7.340580] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index\n'}
+[7.341646] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index\n'}
+[7.342539] (wheeltec_robot_keyboard) StdoutLine: {'line': b'creating /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages\n'}
+[7.343338] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying resource/wheeltec_robot_keyboard -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/ament_index/resource_index/packages\n'}
+[7.343948] (wheeltec_robot_keyboard) StdoutLine: {'line': b'copying package.xml -> /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/share/wheeltec_robot_keyboard\n'}
+[7.344600] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.355562] (wheeltec_robot_keyboard) StdoutLine: {'line': b'Copying ../../build/wheeltec_robot_keyboard/wheeltec_robot_keyboard.egg-info to /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/python3.10/site-packages/wheeltec_robot_keyboard-2.0.1-py3.10.egg-info\n'}
+[7.360763] (wheeltec_robot_keyboard) StdoutLine: {'line': b'running install_scripts\n'}
+[7.369661] (-) TimerEvent: {}
+[7.470521] (-) TimerEvent: {}
+[7.510586] (wheeltec_robot_keyboard) StdoutLine: {'line': b'Installing wheeltec_keyboard script to /home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard/lib/wheeltec_robot_keyboard\n'}
+[7.512464] (wheeltec_robot_keyboard) StdoutLine: {'line': b"writing list of installed files to '/home/sunrise/wheeltec_robot_ws/build/wheeltec_robot_keyboard/install.log'\n"}
+[7.570767] (-) TimerEvent: {}
+[7.671939] (-) TimerEvent: {}
+[7.722803] (wheeltec_robot_keyboard) CommandEnded: {'returncode': 0}
+[7.773243] (-) TimerEvent: {}
+[7.794022] (wheeltec_robot_keyboard) JobEnded: {'identifier': 'wheeltec_robot_keyboard', 'rc': 0}
+[7.797834] (-) EventReactorShutdown: {}

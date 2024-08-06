@@ -1,0 +1,149 @@
+[0.051s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/lslidar_driver
+[0.381s] -- The C compiler identification is GNU 11.2.0
+[0.752s] -- The CXX compiler identification is GNU 11.2.0
+[0.793s] -- Detecting C compiler ABI info
+[1.178s] -- Detecting C compiler ABI info - done
+[1.252s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.254s] -- Detecting C compile features
+[1.256s] -- Detecting C compile features - done
+[1.277s] -- Detecting CXX compiler ABI info
+[1.723s] -- Detecting CXX compiler ABI info - done
+[1.793s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.795s] -- Detecting CXX compile features
+[1.798s] -- Detecting CXX compile features - done
+[2.718s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.736s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[4.036s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[5.076s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[5.115s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.183s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[5.303s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.470s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[6.079s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[6.102s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[6.701s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[6.858s] -- Found FastRTPS: /opt/ros/humble/include  
+[7.170s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.250s] -- Found Threads: TRUE  
+[8.921s] -- Checking for module 'eigen3'
+[9.001s] --   Found eigen3, version 3.4.0
+[9.157s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[9.158s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.278s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[9.361s] -- Checking for module 'flann'
+[9.421s] --   Found flann, version 1.9.1
+[9.593s] -- Found FLANN: /usr/lib/aarch64-linux-gnu/libflann_cpp.so  
+[9.594s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[9.894s] -- Found GLEW: /usr/lib/aarch64-linux-gnu/libGLEW.so  
+[9.944s] -- Found OpenGL: /usr/lib/aarch64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[10.958s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/libmpi.so (found version "3.1") 
+[10.962s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[10.981s] -- Found JsonCpp: /usr/lib/aarch64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[11.063s] -- Found ZLIB: /usr/lib/aarch64-linux-gnu/libz.so (found version "1.2.11") 
+[11.244s] -- Found PNG: /usr/lib/aarch64-linux-gnu/libpng.so (found version "1.6.37") 
+[11.373s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[11.948s] -- Found X11: /usr/include   
+[11.954s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so
+[12.384s] -- Looking for XOpenDisplay in /usr/lib/aarch64-linux-gnu/libX11.so;/usr/lib/aarch64-linux-gnu/libXext.so - found
+[12.385s] -- Looking for gethostbyname
+[12.791s] -- Looking for gethostbyname - found
+[12.793s] -- Looking for connect
+[13.178s] -- Looking for connect - found
+[13.180s] -- Looking for remove
+[13.563s] -- Looking for remove - found
+[13.565s] -- Looking for shmat
+[13.948s] -- Looking for shmat - found
+[13.949s] -- Looking for IceConnectionNumber in ICE
+[14.350s] -- Looking for IceConnectionNumber in ICE - found
+[14.809s] -- Found EXPAT: /usr/lib/aarch64-linux-gnu/libexpat.so (found version "2.4.7") 
+[14.823s] -- Found double-conversion: /usr/lib/aarch64-linux-gnu/libdouble-conversion.so  
+[14.844s] -- Found LZ4: /usr/lib/aarch64-linux-gnu/liblz4.so (found version "1.9.3") 
+[14.859s] -- Found LZMA: /usr/lib/aarch64-linux-gnu/liblzma.so (found version "5.2.5") 
+[14.951s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[14.998s] -- Found TIFF: /usr/lib/aarch64-linux-gnu/libtiff.so (found version "4.3.0")  
+[15.036s] -- Found Freetype: /usr/lib/aarch64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[15.082s] -- Found utf8cpp: /usr/include/utf8cpp  
+[15.518s] -- Checking for module 'libusb-1.0'
+[15.581s] --   Found libusb-1.0, version 1.0.25
+[15.730s] -- Found libusb: /usr/lib/aarch64-linux-gnu/libusb-1.0.so  
+[15.739s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[15.740s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[15.988s] -- Found OpenNI2: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[15.989s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[15.991s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[17.169s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[17.204s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[17.239s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[18.379s] -- Found Qhull version 8.0.2
+[19.532s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[20.662s] -- looking for PCL_COMMON
+[20.669s] -- Found PCL_COMMON: /usr/lib/aarch64-linux-gnu/libpcl_common.so  
+[20.670s] -- looking for PCL_KDTREE
+[20.678s] -- Found PCL_KDTREE: /usr/lib/aarch64-linux-gnu/libpcl_kdtree.so  
+[20.679s] -- looking for PCL_OCTREE
+[20.686s] -- Found PCL_OCTREE: /usr/lib/aarch64-linux-gnu/libpcl_octree.so  
+[20.688s] -- looking for PCL_SEARCH
+[20.695s] -- Found PCL_SEARCH: /usr/lib/aarch64-linux-gnu/libpcl_search.so  
+[20.698s] -- looking for PCL_SAMPLE_CONSENSUS
+[20.705s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/aarch64-linux-gnu/libpcl_sample_consensus.so  
+[20.708s] -- looking for PCL_FILTERS
+[20.714s] -- Found PCL_FILTERS: /usr/lib/aarch64-linux-gnu/libpcl_filters.so  
+[20.717s] -- looking for PCL_2D
+[20.719s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[20.721s] -- looking for PCL_GEOMETRY
+[20.723s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[20.725s] -- looking for PCL_IO
+[20.732s] -- Found PCL_IO: /usr/lib/aarch64-linux-gnu/libpcl_io.so  
+[20.735s] -- looking for PCL_FEATURES
+[20.742s] -- Found PCL_FEATURES: /usr/lib/aarch64-linux-gnu/libpcl_features.so  
+[20.745s] -- looking for PCL_ML
+[20.752s] -- Found PCL_ML: /usr/lib/aarch64-linux-gnu/libpcl_ml.so  
+[20.754s] -- looking for PCL_SEGMENTATION
+[20.761s] -- Found PCL_SEGMENTATION: /usr/lib/aarch64-linux-gnu/libpcl_segmentation.so  
+[20.764s] -- looking for PCL_VISUALIZATION
+[20.771s] -- Found PCL_VISUALIZATION: /usr/lib/aarch64-linux-gnu/libpcl_visualization.so  
+[20.774s] -- looking for PCL_SURFACE
+[20.782s] -- Found PCL_SURFACE: /usr/lib/aarch64-linux-gnu/libpcl_surface.so  
+[20.784s] -- looking for PCL_REGISTRATION
+[20.791s] -- Found PCL_REGISTRATION: /usr/lib/aarch64-linux-gnu/libpcl_registration.so  
+[20.794s] -- looking for PCL_KEYPOINTS
+[20.802s] -- Found PCL_KEYPOINTS: /usr/lib/aarch64-linux-gnu/libpcl_keypoints.so  
+[20.804s] -- looking for PCL_TRACKING
+[20.811s] -- Found PCL_TRACKING: /usr/lib/aarch64-linux-gnu/libpcl_tracking.so  
+[20.813s] -- looking for PCL_RECOGNITION
+[20.821s] -- Found PCL_RECOGNITION: /usr/lib/aarch64-linux-gnu/libpcl_recognition.so  
+[20.824s] -- looking for PCL_STEREO
+[20.831s] -- Found PCL_STEREO: /usr/lib/aarch64-linux-gnu/libpcl_stereo.so  
+[20.833s] -- looking for PCL_APPS
+[20.841s] -- Found PCL_APPS: /usr/lib/aarch64-linux-gnu/libpcl_apps.so  
+[20.846s] -- looking for PCL_IN_HAND_SCANNER
+[20.848s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[20.850s] -- looking for PCL_MODELER
+[20.858s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[20.859s] -- looking for PCL_POINT_CLOUD_EDITOR
+[20.860s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[20.860s] -- looking for PCL_OUTOFCORE
+[20.865s] -- Found PCL_OUTOFCORE: /usr/lib/aarch64-linux-gnu/libpcl_outofcore.so  
+[20.867s] -- looking for PCL_PEOPLE
+[20.875s] -- Found PCL_PEOPLE: /usr/lib/aarch64-linux-gnu/libpcl_people.so  
+[20.882s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[20.898s] -- Found diagnostic_updater: 4.0.0 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[21.557s] -- Found lslidar_msgs: 1.2.0 (/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[22.042s] -- Found pluginlib: 5.1.0 (/opt/ros/humble/share/pluginlib/cmake)
+[22.213s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[26.294s] -- Configuring done
+[26.611s] -- Generating done
+[26.633s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/lslidar_driver
+[26.753s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/lslidar_driver
+[26.766s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/lslidar_driver -- -j4 -l4
+[27.023s] [ 20%] [32mBuilding CXX object CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o[0m
+[41.886s] In file included from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver/include/lslidar_driver/lslidar_driver.h:41[m[K,
+[41.887s]                  from [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver/src/lslidar_driver_node.cc:19[m[K:
+[41.888s] [01m[K/home/sunrise/wheeltec_robot_ws/src/wheeltec_lidar_ros2/LSlidar/lslidar_driver/include/lslidar_driver/input.h:32:10:[m[K [01;31m[Kfatal error: [m[Kpcap.h: 没有那个文件或目录
+[41.888s]    32 | #include [01;31m[K<pcap.h>[m[K
+[41.889s]       |          [01;31m[K^~~~~~~~[m[K
+[41.890s] compilation terminated.
+[41.998s] gmake[2]: *** [CMakeFiles/lslidar_driver_node.dir/build.make:76：CMakeFiles/lslidar_driver_node.dir/src/lslidar_driver_node.cc.o] 错误 1
+[41.999s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/lslidar_driver_node.dir/all] 错误 2
+[42.000s] gmake: *** [Makefile:146：all] 错误 2
+[42.009s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/lslidar_driver' returned '2': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/lslidar_driver -- -j4 -l4

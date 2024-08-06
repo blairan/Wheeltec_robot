@@ -1,0 +1,37 @@
+[9.381s] Invoking command in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build install --record /home/sunrise/wheeltec_robot_ws/build/tf2_tools/install.log --single-version-externally-managed install_data
+[13.791s] running egg_info
+[13.801s] creating ../../build/tf2_tools/tf2_tools.egg-info
+[13.802s] writing ../../build/tf2_tools/tf2_tools.egg-info/PKG-INFO
+[13.803s] writing dependency_links to ../../build/tf2_tools/tf2_tools.egg-info/dependency_links.txt
+[13.804s] writing entry points to ../../build/tf2_tools/tf2_tools.egg-info/entry_points.txt
+[13.805s] writing requirements to ../../build/tf2_tools/tf2_tools.egg-info/requires.txt
+[13.806s] writing top-level names to ../../build/tf2_tools/tf2_tools.egg-info/top_level.txt
+[13.806s] writing manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.831s] reading manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.840s] writing manifest file '../../build/tf2_tools/tf2_tools.egg-info/SOURCES.txt'
+[13.841s] running build
+[13.842s] running build_py
+[13.843s] creating /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build
+[13.844s] creating /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib
+[13.845s] creating /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib/tf2_tools
+[13.846s] copying tf2_tools/view_frames.py -> /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib/tf2_tools
+[13.853s] copying tf2_tools/__init__.py -> /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib/tf2_tools
+[13.854s] running install
+[13.855s] running install_lib
+[13.874s] creating /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools
+[13.875s] copying /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib/tf2_tools/view_frames.py -> /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools
+[13.876s] copying /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build/lib/tf2_tools/__init__.py -> /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools
+[13.881s] byte-compiling /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools/view_frames.py to view_frames.cpython-310.pyc
+[13.888s] byte-compiling /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools/__init__.py to __init__.cpython-310.pyc
+[13.890s] running install_data
+[13.892s] creating /home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/ament_index
+[13.894s] creating /home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/ament_index/resource_index
+[13.898s] creating /home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/ament_index/resource_index/packages
+[13.899s] copying resource/tf2_tools -> /home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/ament_index/resource_index/packages
+[13.908s] copying package.xml -> /home/sunrise/wheeltec_robot_ws/install/tf2_tools/share/tf2_tools
+[13.909s] running install_egg_info
+[13.926s] Copying ../../build/tf2_tools/tf2_tools.egg-info to /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages/tf2_tools-0.17.1-py3.10.egg-info
+[13.938s] running install_scripts
+[14.143s] Installing view_frames script to /home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/tf2_tools
+[14.150s] writing list of installed files to '/home/sunrise/wheeltec_robot_ws/build/tf2_tools/install.log'
+[14.471s] Invoked command in '/home/sunrise/wheeltec_robot_ws/src/tf2_tools' returned '0': PYTHONPATH=/home/sunrise/wheeltec_robot_ws/build/tf2_tools/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/tf2_tools build --build-base /home/sunrise/wheeltec_robot_ws/build/tf2_tools/build install --record /home/sunrise/wheeltec_robot_ws/build/tf2_tools/install.log --single-version-externally-managed install_data

@@ -1,0 +1,220 @@
+[0.074s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/astra_camera
+[0.145s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.140s] -- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)
+[1.144s] -- Found astra_camera_msgs: 1.0.1 (/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake)
+[1.301s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.320s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.362s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.450s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.585s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.413s] -- Found camera_info_manager: 3.1.9 (/opt/ros/humble/share/camera_info_manager/cmake)
+[4.801s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.814s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[5.555s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[7.248s] -- Found class_loader: 2.2.0 (/opt/ros/humble/share/class_loader/cmake)
+[7.262s] -- Found cv_bridge: 3.2.1 (/opt/ros/humble/share/cv_bridge/cmake)
+[7.393s] -- Found image_geometry: 3.2.1 (/opt/ros/humble/share/image_geometry/cmake)
+[7.455s] -- Found image_publisher: 3.0.4 (/opt/ros/humble/share/image_publisher/cmake)
+[8.388s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so (found version "80") 
+[8.389s] -- Found JPEG library using standard module
+[8.393s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[8.394s]   The package name passed to `find_package_handle_standard_args` (JPEG) does
+[8.395s]   not match the name of the calling package (JpegPkg).  This can lead to
+[8.396s]   problems in calling code that expects `find_package` result variables
+[8.396s]   (e.g., `_FOUND`) to follow a certain pattern.
+[8.397s] Call Stack (most recent call first):
+[8.397s]   /usr/local/lib/cmake/libuvc/FindJpegPkg.cmake:58 (find_package_handle_standard_args)
+[8.398s]   /usr/local/lib/cmake/libuvc/libuvcConfig.cmake:13 (find_package)
+[8.398s]   CMakeLists.txt:27 (find_package)
+[8.399s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[8.400s] [0m
+[8.400s] -- Found JPEG: /usr/lib/aarch64-linux-gnu/libjpeg.so  
+[8.411s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[8.417s] -- Checking for module 'libusb-1.0'
+[8.471s] --   Found libusb-1.0, version 1.0.25
+[8.581s] -- libusb-1.0 found using pkgconfig
+[8.640s] -- Found OpenCV: /usr (found version "4.5.4") 
+[8.663s] -- Found std_srvs: 4.2.4 (/opt/ros/humble/share/std_srvs/cmake)
+[8.828s] -- Found tf2: 0.25.7 (/opt/ros/humble/share/tf2/cmake)
+[8.905s] -- Found tf2_eigen: 0.25.7 (/opt/ros/humble/share/tf2_eigen/cmake)
+[11.298s] -- Found tf2_sensor_msgs: 0.25.7 (/opt/ros/humble/share/tf2_sensor_msgs/cmake)
+[11.497s] -- ORRBEC Machine : aarch64
+[11.498s] 
+[11.503s] -- ORRBEC Machine Bits : 64
+[11.504s] 
+[11.505s] -- ORRBEC : arm64
+[13.130s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[13.686s] -- Configuring done
+[14.040s] -- Generating done
+[14.054s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/astra_camera
+[14.144s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/ros2_astra_camera/astra_camera -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/astra_camera
+[14.149s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/astra_camera -- -j4 -l4
+[14.380s] [  6%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyz.cpp.o[0m
+[14.384s] [ 18%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/device_listener.cpp.o[0m
+[14.388s] [ 18%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/point_cloud_proc/point_cloud_xyzrgb.cpp.o[0m
+[14.390s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/dynamic_params.cpp.o[0m
+[49.493s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_info.cpp.o[0m
+[52.781s] [ 37%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_frame_listener.cpp.o[0m
+[139.332s] [ 43%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node.cpp.o[0m
+[195.470s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_param_backend.cpp.o[0m
+[196.519s] [ 56%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_camera_node_factory.cpp.o[0m
+[197.577s] [ 62%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ob_timer_filter.cpp.o[0m
+[262.136s] [ 68%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/uvc_camera_driver.cpp.o[0m
+[342.302s] [ 81%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/ros_service.cpp.o[0m
+[342.303s] [ 81%] [32mBuilding CXX object CMakeFiles/astra_camera.dir/src/utils.cpp.o[0m
+[441.194s] [ 87%] [32m[1mLinking CXX shared library libastra_camera.so[0m
+[461.608s] [ 87%] Built target astra_camera
+[461.709s] [ 93%] [32mBuilding CXX object CMakeFiles/list_devices_node.dir/src/list_devices_node.cpp.o[0m
+[486.826s] [100%] [32m[1mLinking CXX executable list_devices_node[0m
+[498.717s] [100%] Built target list_devices_node
+[498.768s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/astra_camera -- -j4 -l4
+[498.980s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/astra_camera
+[499.016s] -- Install configuration: "Debug"
+[499.039s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib/libastra_camera.so
+[499.281s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera/lib/libastra_camera.so" to ""
+[499.282s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib/libOpenNI2.so
+[499.290s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2
+[499.291s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2/Drivers
+[499.292s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2/Drivers/OniFile.ini
+[499.293s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2/Drivers/orbbec.ini
+[499.294s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2/Drivers/libOniFile.so
+[499.301s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib//OpenNI2/Drivers/liborbbec.so
+[499.323s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/lib/astra_camera/list_devices_node
+[499.329s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera/lib/astra_camera/list_devices_node" to ""
+[499.330s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include
+[499.331s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera
+[499.332s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/uvc_camera_driver.h
+[499.333s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/point_cloud_proc
+[499.334s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyzrgb.h
+[499.335s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/point_cloud_xyz.h
+[499.336s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/point_cloud_proc/depth_traits.h
+[499.337s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/constants.h
+[499.338s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/dynamic_params.h
+[499.339s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/utils.h
+[499.340s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/ob_timer_filter.h
+[499.341s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/types.h
+[499.341s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/ob_frame_listener.h
+[499.343s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/ob_camera_node_factory.h
+[499.344s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/device_listener.h
+[499.345s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/ros_param_backend.h
+[499.346s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/astra_camera/ob_camera_node.h
+[499.347s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2
+[499.348s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniCAPI.h
+[499.350s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/PS1080.h
+[499.351s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Win32
+[499.352s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Win32/OniPlatformWin32.h
+[499.353s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OpenNI.h
+[499.354s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/SonixCamera.h
+[499.355s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/MacOSX
+[499.356s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/MacOSX/OniPlatformMacOSX.h
+[499.357s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/KinectProperties.h
+[499.358s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniEnums.h
+[499.359s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniProperties.h
+[499.360s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Linux-x86
+[499.361s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Linux-x86/OniPlatformLinux-x86.h
+[499.361s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/PSLink.h
+[499.362s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniPlatform.h
+[499.363s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniCEnums.h
+[499.364s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/util.h
+[499.364s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Android-Arm
+[499.365s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Android-Arm/OniPlatformAndroid-Arm.h
+[499.366s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Linux-Arm
+[499.367s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Linux-Arm/OniPlatformLinux-Arm.h
+[499.368s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniCTypes.h
+[499.369s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist
+[499.369s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64
+[499.370s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/libDepthUtils.a
+[499.371s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI.ini
+[499.372s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/libOpenNI2.so
+[499.373s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2
+[499.374s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers
+[499.374s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/OniFile.ini
+[499.375s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/orbbec.ini
+[499.376s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/libOniFile.so
+[499.380s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/OpenNI2/Drivers/liborbbec.so
+[499.401s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/NiViewer
+[499.416s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/PS1080Console
+[499.419s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm64/SimpleRead
+[499.422s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm
+[499.423s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/libDepthUtils.a
+[499.424s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI.ini
+[499.425s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/libOpenNI2.so
+[499.432s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2
+[499.433s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers
+[499.434s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/OniFile.ini
+[499.435s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/orbbec.ini
+[499.436s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/libOniFile.so
+[499.443s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/OpenNI2/Drivers/liborbbec.so
+[499.461s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/NiViewer
+[499.469s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/PS1080Console
+[499.476s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/arm/SimpleRead
+[499.477s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64
+[499.478s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI.ini
+[499.479s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/libOpenNI2.so
+[499.487s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2
+[499.488s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers
+[499.489s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/OniFile.ini
+[499.490s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/orbbec.ini
+[499.491s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/libOniFile.so
+[499.498s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/openni2_redist/x64/OpenNI2/Drivers/liborbbec.so
+[499.522s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniVersion.h
+[499.523s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniCProperties.h
+[499.523s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/OniTest.h
+[499.525s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/PrimeSense.h
+[499.527s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Driver
+[499.531s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Driver/OniDriverAPI.h
+[499.533s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/include/openni2/Driver/OniDriverTypes.h
+[499.535s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch
+[499.536s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/dabai_dw.launch.py
+[499.538s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dw.launch.py
+[499.539s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/gemini.launch.py
+[499.543s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/astra_mini.launch.py
+[499.544s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/astra_pro_plus.launch.py
+[499.547s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/dabai_pro.launch.py
+[499.548s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_dcw.launch.py
+[499.549s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/multi_astra_mini.launch.py
+[499.550s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/dabai.launch.py
+[499.551s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/.gitkeep
+[499.553s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/dabai_dcw.launch.py
+[499.554s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai.launch.py
+[499.555s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/astra_pro.launch.py
+[499.555s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//launch/multi_dabai_pro.launch.py
+[499.556s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//config
+[499.560s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//config/.gitkeep
+[499.561s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params
+[499.562s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/dabai_dw_params.yaml
+[499.563s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/dabai_pro_params.yaml
+[499.565s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/gemini_params.yaml
+[499.565s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/camera_params_template.yaml
+[499.567s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/.gitkeep
+[499.568s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/astra_pro_plus_params.yaml
+[499.569s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/astra_mini_params.yaml
+[499.571s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/dabai_dcw_params.yaml
+[499.572s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/dabai_params.yaml
+[499.573s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//params/astra_pro_params.yaml
+[499.574s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//rviz
+[499.575s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//rviz/pointcloud.rviz
+[499.577s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//rviz/.gitkeep
+[499.578s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera//rviz/multi_camera.rviz
+[499.579s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/library_path.sh
+[499.580s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/library_path.dsv
+[499.581s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/ament_index/resource_index/package_run_dependencies/astra_camera
+[499.582s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/ament_index/resource_index/parent_prefix_path/astra_camera
+[499.583s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.sh
+[499.584s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/ament_prefix_path.dsv
+[499.585s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/path.sh
+[499.586s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/environment/path.dsv
+[499.587s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/local_setup.bash
+[499.590s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/local_setup.sh
+[499.591s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/local_setup.zsh
+[499.596s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/local_setup.dsv
+[499.600s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/package.dsv
+[499.601s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/ament_index/resource_index/packages/astra_camera
+[499.602s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/ament_index/resource_index/rclcpp_components/astra_camera
+[499.605s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_include_directories-extras.cmake
+[499.607s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_libraries-extras.cmake
+[499.609s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/cmake/ament_cmake_export_dependencies-extras.cmake
+[499.615s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig.cmake
+[499.616s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/cmake/astra_cameraConfig-version.cmake
+[499.617s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera/share/astra_camera/package.xml
+[499.625s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera' returned '0': AMENT_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_slam_toolbox:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/wheeltec_nav2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_cartographer:/home/sunrise/wheeltec_robot_ws/install/web_video_server:/home/sunrise/wheeltec_robot_ws/install/usb_cam:/home/sunrise/wheeltec_robot_ws/install/slam_gmapping:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping:/home/sunrise/wheeltec_robot_ws/install/lslidar_driver:/home/sunrise/wheeltec_robot_ws/install/lslidar_msgs:/home/sunrise/wheeltec_robot_ws/install/ldlidar_stl_ros2:/home/sunrise/wheeltec_robot_ws/install/ldlidar_sl_ros2:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble LD_LIBRARY_PATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/astra_camera

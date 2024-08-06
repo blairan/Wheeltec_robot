@@ -1,0 +1,428 @@
+[0.000000] (-) TimerEvent: {}
+[0.001771] (-) JobUnselected: {'identifier': 'astra_camera'}
+[0.003908] (-) JobUnselected: {'identifier': 'astra_camera_msgs'}
+[0.005368] (-) JobUnselected: {'identifier': 'bkwindbot_urdf'}
+[0.006669] (-) JobUnselected: {'identifier': 'serial'}
+[0.007233] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.007706] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.008058] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.008941] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.009417] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.009841] (camera_info_manager) JobQueued: {'identifier': 'camera_info_manager', 'dependencies': OrderedDict()}
+[0.010263] (camera_info_manager) JobStarted: {'identifier': 'camera_info_manager'}
+[0.067590] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'cmake'}
+[0.069106] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '/home/sunrise/wheeltec_robot_ws/src/camera_info_manager', '-DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/camera_info_manager'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[0.098325] (-) TimerEvent: {}
+[0.199729] (-) TimerEvent: {}
+[0.301276] (-) TimerEvent: {}
+[0.402436] (-) TimerEvent: {}
+[0.421147] (camera_info_manager) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.502706] (-) TimerEvent: {}
+[0.605240] (-) TimerEvent: {}
+[0.706502] (-) TimerEvent: {}
+[0.798639] (camera_info_manager) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[0.806742] (-) TimerEvent: {}
+[0.842216] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.908935] (-) TimerEvent: {}
+[1.010427] (-) TimerEvent: {}
+[1.111548] (-) TimerEvent: {}
+[1.212803] (-) TimerEvent: {}
+[1.266627] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.313026] (-) TimerEvent: {}
+[1.340658] (camera_info_manager) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.342442] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.345369] (camera_info_manager) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.367359] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.414401] (-) TimerEvent: {}
+[1.515376] (-) TimerEvent: {}
+[1.616469] (-) TimerEvent: {}
+[1.720937] (-) TimerEvent: {}
+[1.822059] (-) TimerEvent: {}
+[1.845223] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.922336] (-) TimerEvent: {}
+[1.931810] (camera_info_manager) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.937833] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.941356] (camera_info_manager) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.958535] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.022590] (-) TimerEvent: {}
+[2.124917] (-) TimerEvent: {}
+[2.226023] (-) TimerEvent: {}
+[2.327136] (-) TimerEvent: {}
+[2.428914] (-) TimerEvent: {}
+[2.529986] (-) TimerEvent: {}
+[2.631112] (-) TimerEvent: {}
+[2.732228] (-) TimerEvent: {}
+[2.833314] (-) TimerEvent: {}
+[2.934347] (-) TimerEvent: {}
+[3.035449] (-) TimerEvent: {}
+[3.136549] (-) TimerEvent: {}
+[3.237668] (-) TimerEvent: {}
+[3.338779] (-) TimerEvent: {}
+[3.440967] (-) TimerEvent: {}
+[3.450804] (camera_info_manager) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[3.541163] (-) TimerEvent: {}
+[3.642193] (-) TimerEvent: {}
+[3.743188] (-) TimerEvent: {}
+[3.844218] (-) TimerEvent: {}
+[3.945302] (-) TimerEvent: {}
+[4.047003] (-) TimerEvent: {}
+[4.148025] (-) TimerEvent: {}
+[4.206095] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_index_cpp: 1.4.0 (/opt/ros/humble/share/ament_index_cpp/cmake)\n'}
+[4.213140] (camera_info_manager) StdoutLine: {'line': b'-- Found camera_calibration_parsers: 3.1.9 (/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake)\n'}
+[4.248264] (-) TimerEvent: {}
+[4.349367] (-) TimerEvent: {}
+[4.450410] (-) TimerEvent: {}
+[4.536517] (camera_info_manager) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.550652] (-) TimerEvent: {}
+[4.576102] (camera_info_manager) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.648333] (camera_info_manager) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.650894] (-) TimerEvent: {}
+[4.751986] (-) TimerEvent: {}
+[4.778557] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.852237] (-) TimerEvent: {}
+[4.946109] (camera_info_manager) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.952448] (-) TimerEvent: {}
+[5.053550] (-) TimerEvent: {}
+[5.154656] (-) TimerEvent: {}
+[5.255716] (-) TimerEvent: {}
+[5.356822] (-) TimerEvent: {}
+[5.457934] (-) TimerEvent: {}
+[5.554107] (camera_info_manager) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[5.558139] (-) TimerEvent: {}
+[5.576046] (camera_info_manager) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[5.658373] (-) TimerEvent: {}
+[5.759362] (-) TimerEvent: {}
+[5.860369] (-) TimerEvent: {}
+[5.961478] (-) TimerEvent: {}
+[6.062762] (-) TimerEvent: {}
+[6.163904] (-) TimerEvent: {}
+[6.188407] (camera_info_manager) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[6.264168] (-) TimerEvent: {}
+[6.349264] (camera_info_manager) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[6.364424] (-) TimerEvent: {}
+[6.465599] (-) TimerEvent: {}
+[6.567348] (-) TimerEvent: {}
+[6.646121] (camera_info_manager) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[6.667590] (-) TimerEvent: {}
+[6.718633] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[6.767823] (-) TimerEvent: {}
+[6.868886] (-) TimerEvent: {}
+[6.970040] (-) TimerEvent: {}
+[7.073326] (-) TimerEvent: {}
+[7.139102] (camera_info_manager) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[7.140471] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[7.173580] (-) TimerEvent: {}
+[7.274600] (-) TimerEvent: {}
+[7.376942] (-) TimerEvent: {}
+[7.478235] (-) TimerEvent: {}
+[7.563350] (camera_info_manager) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[7.569751] (camera_info_manager) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[7.578437] (-) TimerEvent: {}
+[7.679492] (-) TimerEvent: {}
+[7.780552] (-) TimerEvent: {}
+[7.881603] (-) TimerEvent: {}
+[7.982651] (-) TimerEvent: {}
+[8.084395] (-) TimerEvent: {}
+[8.185624] (-) TimerEvent: {}
+[8.286701] (-) TimerEvent: {}
+[8.387717] (-) TimerEvent: {}
+[8.488770] (-) TimerEvent: {}
+[8.589810] (-) TimerEvent: {}
+[8.690811] (-) TimerEvent: {}
+[8.791846] (-) TimerEvent: {}
+[8.892895] (-) TimerEvent: {}
+[8.993919] (-) TimerEvent: {}
+[9.094938] (-) TimerEvent: {}
+[9.196093] (-) TimerEvent: {}
+[9.298449] (-) TimerEvent: {}
+[9.399567] (-) TimerEvent: {}
+[9.500546] (-) TimerEvent: {}
+[9.601729] (-) TimerEvent: {}
+[9.702753] (-) TimerEvent: {}
+[9.803776] (-) TimerEvent: {}
+[9.904842] (-) TimerEvent: {}
+[10.005899] (-) TimerEvent: {}
+[10.106935] (-) TimerEvent: {}
+[10.207955] (-) TimerEvent: {}
+[10.309019] (-) TimerEvent: {}
+[10.410080] (-) TimerEvent: {}
+[10.445022] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)\n'}
+[10.458440] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)\n'}
+[10.471530] (camera_info_manager) StdoutLine: {'line': b'-- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)\n'}
+[10.510304] (-) TimerEvent: {}
+[10.611393] (-) TimerEvent: {}
+[10.712437] (-) TimerEvent: {}
+[10.813652] (-) TimerEvent: {}
+[10.914743] (-) TimerEvent: {}
+[11.015867] (-) TimerEvent: {}
+[11.076590] (camera_info_manager) StdoutLine: {'line': b'-- Configuring done\n'}
+[11.116090] (-) TimerEvent: {}
+[11.144579] (camera_info_manager) StdoutLine: {'line': b'-- Generating done\n'}
+[11.161510] (camera_info_manager) StdoutLine: {'line': b'-- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/camera_info_manager\n'}
+[11.216377] (-) TimerEvent: {}
+[11.235135] (camera_info_manager) CommandEnded: {'returncode': 0}
+[11.239361] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'build'}
+[11.245660] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager', '--', '-j4', '-l4'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[11.316620] (-) TimerEvent: {}
+[11.417780] (-) TimerEvent: {}
+[11.489066] (camera_info_manager) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/camera_info_manager.dir/src/camera_info_manager.cpp.o\x1b[0m\n'}
+[11.518055] (-) TimerEvent: {}
+[11.619194] (-) TimerEvent: {}
+[11.720314] (-) TimerEvent: {}
+[11.822078] (-) TimerEvent: {}
+[11.924360] (-) TimerEvent: {}
+[12.025467] (-) TimerEvent: {}
+[12.126507] (-) TimerEvent: {}
+[12.227561] (-) TimerEvent: {}
+[12.328603] (-) TimerEvent: {}
+[12.429766] (-) TimerEvent: {}
+[12.530800] (-) TimerEvent: {}
+[12.631901] (-) TimerEvent: {}
+[12.733080] (-) TimerEvent: {}
+[12.834117] (-) TimerEvent: {}
+[12.935485] (-) TimerEvent: {}
+[13.036602] (-) TimerEvent: {}
+[13.137764] (-) TimerEvent: {}
+[13.238882] (-) TimerEvent: {}
+[13.339994] (-) TimerEvent: {}
+[13.441173] (-) TimerEvent: {}
+[13.543914] (-) TimerEvent: {}
+[13.648838] (-) TimerEvent: {}
+[13.750068] (-) TimerEvent: {}
+[13.851226] (-) TimerEvent: {}
+[13.952345] (-) TimerEvent: {}
+[14.053481] (-) TimerEvent: {}
+[14.154563] (-) TimerEvent: {}
+[14.255652] (-) TimerEvent: {}
+[14.356796] (-) TimerEvent: {}
+[14.457882] (-) TimerEvent: {}
+[14.558969] (-) TimerEvent: {}
+[14.660116] (-) TimerEvent: {}
+[14.761226] (-) TimerEvent: {}
+[14.862296] (-) TimerEvent: {}
+[14.963394] (-) TimerEvent: {}
+[15.064529] (-) TimerEvent: {}
+[15.165702] (-) TimerEvent: {}
+[15.266866] (-) TimerEvent: {}
+[15.367907] (-) TimerEvent: {}
+[15.469123] (-) TimerEvent: {}
+[15.571093] (-) TimerEvent: {}
+[15.672816] (-) TimerEvent: {}
+[15.773948] (-) TimerEvent: {}
+[15.875062] (-) TimerEvent: {}
+[15.976196] (-) TimerEvent: {}
+[16.077459] (-) TimerEvent: {}
+[16.178607] (-) TimerEvent: {}
+[16.279714] (-) TimerEvent: {}
+[16.380835] (-) TimerEvent: {}
+[16.481908] (-) TimerEvent: {}
+[16.583022] (-) TimerEvent: {}
+[16.684186] (-) TimerEvent: {}
+[16.785330] (-) TimerEvent: {}
+[16.886466] (-) TimerEvent: {}
+[16.987570] (-) TimerEvent: {}
+[17.088826] (-) TimerEvent: {}
+[17.189958] (-) TimerEvent: {}
+[17.291061] (-) TimerEvent: {}
+[17.392166] (-) TimerEvent: {}
+[17.493278] (-) TimerEvent: {}
+[17.594944] (-) TimerEvent: {}
+[17.696128] (-) TimerEvent: {}
+[17.797319] (-) TimerEvent: {}
+[17.898468] (-) TimerEvent: {}
+[17.999689] (-) TimerEvent: {}
+[18.100785] (-) TimerEvent: {}
+[18.201832] (-) TimerEvent: {}
+[18.302922] (-) TimerEvent: {}
+[18.404054] (-) TimerEvent: {}
+[18.505176] (-) TimerEvent: {}
+[18.606270] (-) TimerEvent: {}
+[18.707432] (-) TimerEvent: {}
+[18.809895] (-) TimerEvent: {}
+[18.911019] (-) TimerEvent: {}
+[19.012168] (-) TimerEvent: {}
+[19.113393] (-) TimerEvent: {}
+[19.214496] (-) TimerEvent: {}
+[19.315612] (-) TimerEvent: {}
+[19.416723] (-) TimerEvent: {}
+[19.517863] (-) TimerEvent: {}
+[19.619052] (-) TimerEvent: {}
+[19.720183] (-) TimerEvent: {}
+[19.821359] (-) TimerEvent: {}
+[19.922476] (-) TimerEvent: {}
+[20.023582] (-) TimerEvent: {}
+[20.125613] (-) TimerEvent: {}
+[20.226773] (-) TimerEvent: {}
+[20.327846] (-) TimerEvent: {}
+[20.429100] (-) TimerEvent: {}
+[20.530319] (-) TimerEvent: {}
+[20.631422] (-) TimerEvent: {}
+[20.732518] (-) TimerEvent: {}
+[20.833679] (-) TimerEvent: {}
+[20.934791] (-) TimerEvent: {}
+[21.035900] (-) TimerEvent: {}
+[21.137085] (-) TimerEvent: {}
+[21.238133] (-) TimerEvent: {}
+[21.339248] (-) TimerEvent: {}
+[21.440351] (-) TimerEvent: {}
+[21.542178] (-) TimerEvent: {}
+[21.643350] (-) TimerEvent: {}
+[21.744523] (-) TimerEvent: {}
+[21.845659] (-) TimerEvent: {}
+[21.946755] (-) TimerEvent: {}
+[22.047842] (-) TimerEvent: {}
+[22.149031] (-) TimerEvent: {}
+[22.250147] (-) TimerEvent: {}
+[22.351332] (-) TimerEvent: {}
+[22.452428] (-) TimerEvent: {}
+[22.553646] (-) TimerEvent: {}
+[22.654807] (-) TimerEvent: {}
+[22.755948] (-) TimerEvent: {}
+[22.857125] (-) TimerEvent: {}
+[22.958246] (-) TimerEvent: {}
+[23.059354] (-) TimerEvent: {}
+[23.160471] (-) TimerEvent: {}
+[23.261666] (-) TimerEvent: {}
+[23.362802] (-) TimerEvent: {}
+[23.463991] (-) TimerEvent: {}
+[23.565234] (-) TimerEvent: {}
+[23.666491] (-) TimerEvent: {}
+[23.767620] (-) TimerEvent: {}
+[23.868837] (-) TimerEvent: {}
+[23.969891] (-) TimerEvent: {}
+[24.070939] (-) TimerEvent: {}
+[24.172038] (-) TimerEvent: {}
+[24.273208] (-) TimerEvent: {}
+[24.374295] (-) TimerEvent: {}
+[24.475415] (-) TimerEvent: {}
+[24.576499] (-) TimerEvent: {}
+[24.677665] (-) TimerEvent: {}
+[24.778782] (-) TimerEvent: {}
+[24.879889] (-) TimerEvent: {}
+[24.981077] (-) TimerEvent: {}
+[25.082181] (-) TimerEvent: {}
+[25.183289] (-) TimerEvent: {}
+[25.284392] (-) TimerEvent: {}
+[25.385503] (-) TimerEvent: {}
+[25.486548] (-) TimerEvent: {}
+[25.587582] (-) TimerEvent: {}
+[25.688587] (-) TimerEvent: {}
+[25.789666] (-) TimerEvent: {}
+[25.890697] (-) TimerEvent: {}
+[25.991732] (-) TimerEvent: {}
+[26.092817] (-) TimerEvent: {}
+[26.193871] (-) TimerEvent: {}
+[26.294905] (-) TimerEvent: {}
+[26.396002] (-) TimerEvent: {}
+[26.497088] (-) TimerEvent: {}
+[26.598225] (-) TimerEvent: {}
+[26.699377] (-) TimerEvent: {}
+[26.800457] (-) TimerEvent: {}
+[26.901614] (-) TimerEvent: {}
+[27.002739] (-) TimerEvent: {}
+[27.103854] (-) TimerEvent: {}
+[27.205043] (-) TimerEvent: {}
+[27.306067] (-) TimerEvent: {}
+[27.407128] (-) TimerEvent: {}
+[27.508592] (-) TimerEvent: {}
+[27.611111] (-) TimerEvent: {}
+[27.712230] (-) TimerEvent: {}
+[27.813491] (-) TimerEvent: {}
+[27.914572] (-) TimerEvent: {}
+[28.015729] (-) TimerEvent: {}
+[28.116881] (-) TimerEvent: {}
+[28.217970] (-) TimerEvent: {}
+[28.318986] (-) TimerEvent: {}
+[28.420079] (-) TimerEvent: {}
+[28.521219] (-) TimerEvent: {}
+[28.622286] (-) TimerEvent: {}
+[28.723401] (-) TimerEvent: {}
+[28.824553] (-) TimerEvent: {}
+[28.927141] (-) TimerEvent: {}
+[29.028280] (-) TimerEvent: {}
+[29.129473] (-) TimerEvent: {}
+[29.230584] (-) TimerEvent: {}
+[29.331685] (-) TimerEvent: {}
+[29.432877] (-) TimerEvent: {}
+[29.534607] (-) TimerEvent: {}
+[29.635781] (-) TimerEvent: {}
+[29.736872] (-) TimerEvent: {}
+[29.837981] (-) TimerEvent: {}
+[29.939015] (-) TimerEvent: {}
+[30.040196] (-) TimerEvent: {}
+[30.141299] (-) TimerEvent: {}
+[30.242383] (-) TimerEvent: {}
+[30.343481] (-) TimerEvent: {}
+[30.444608] (-) TimerEvent: {}
+[30.545728] (-) TimerEvent: {}
+[30.646938] (-) TimerEvent: {}
+[30.748083] (-) TimerEvent: {}
+[30.849227] (-) TimerEvent: {}
+[30.950326] (-) TimerEvent: {}
+[31.051392] (-) TimerEvent: {}
+[31.152555] (-) TimerEvent: {}
+[31.253626] (-) TimerEvent: {}
+[31.354649] (-) TimerEvent: {}
+[31.455963] (-) TimerEvent: {}
+[31.557203] (-) TimerEvent: {}
+[31.658338] (-) TimerEvent: {}
+[31.759516] (-) TimerEvent: {}
+[31.860528] (-) TimerEvent: {}
+[31.961689] (-) TimerEvent: {}
+[32.062785] (-) TimerEvent: {}
+[32.164080] (-) TimerEvent: {}
+[32.265162] (-) TimerEvent: {}
+[32.286263] (camera_info_manager) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcamera_info_manager.so\x1b[0m\n'}
+[32.365408] (-) TimerEvent: {}
+[32.466617] (-) TimerEvent: {}
+[32.567857] (-) TimerEvent: {}
+[32.669023] (-) TimerEvent: {}
+[32.770388] (-) TimerEvent: {}
+[32.871730] (-) TimerEvent: {}
+[32.972876] (-) TimerEvent: {}
+[33.073996] (-) TimerEvent: {}
+[33.175308] (-) TimerEvent: {}
+[33.276619] (-) TimerEvent: {}
+[33.377742] (-) TimerEvent: {}
+[33.478892] (-) TimerEvent: {}
+[33.579997] (-) TimerEvent: {}
+[33.681145] (-) TimerEvent: {}
+[33.720645] (camera_info_manager) StdoutLine: {'line': b'[100%] Built target camera_info_manager\n'}
+[33.768908] (camera_info_manager) CommandEnded: {'returncode': 0}
+[33.781366] (-) TimerEvent: {}
+[33.864039] (camera_info_manager) JobProgress: {'identifier': 'camera_info_manager', 'progress': 'install'}
+[33.881621] (-) TimerEvent: {}
+[33.908051] (camera_info_manager) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager'], 'cwd': '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager', 'env': OrderedDict([('USER', 'sunrise'), ('SSH_CLIENT', '192.168.159.239 57084 22'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_transport/lib:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/lib:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/lib:/home/sunrise/wheeltec_robot_ws/install/serial/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/sunrise'), ('OLDPWD', '/home/sunrise/wheeltec_robot_ws/src'), ('TERM_PROGRAM_VERSION', '1.91.1'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-6f74535e-a536-4b75-97cb-aded47e46df3.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'sunrise'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '2'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/sunrise/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-e8f915738d.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/sunrise/wheeltec_robot_ws/build/camera_info_manager'), ('SSH_CONNECTION', '192.168.159.239 57084 192.168.159.59 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg/local/lib/python3.10/dist-packages:/home/sunrise/wheeltec_robot_ws/install/tf2_tools/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/sunrise/wheeltec_robot_ws/install/image_common:/home/sunrise/wheeltec_robot_ws/install/image_transport:/home/sunrise/wheeltec_robot_ws/install/camera_info_manager:/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers:/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_urdf:/home/sunrise/wheeltec_robot_ws/install/turn_on_wheeltec_robot:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_msg:/home/sunrise/wheeltec_robot_ws/install/serial:/home/sunrise/wheeltec_robot_ws/install/bkwindbot_urdf:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble')]), 'shell': False}
+[33.946510] (camera_info_manager) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[33.947928] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib/libcamera_info_manager.so\n'}
+[33.953883] (camera_info_manager) StdoutLine: {'line': b'-- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/camera_info_manager/lib/libcamera_info_manager.so" to ""\n'}
+[33.955416] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager\n'}
+[33.956935] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager\n'}
+[33.958153] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.hpp\n'}
+[33.959312] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/visibility_control.h\n'}
+[33.960436] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/include/camera_info_manager/camera_info_manager/camera_info_manager.h\n'}
+[33.963091] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/package_run_dependencies/camera_info_manager\n'}
+[33.965480] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/parent_prefix_path/camera_info_manager\n'}
+[33.966838] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.sh\n'}
+[33.968097] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/ament_prefix_path.dsv\n'}
+[33.969459] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/path.sh\n'}
+[33.971024] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/environment/path.dsv\n'}
+[33.972343] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.bash\n'}
+[33.973783] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.sh\n'}
+[33.975033] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.zsh\n'}
+[33.976201] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/local_setup.dsv\n'}
+[33.977342] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/package.dsv\n'}
+[33.978292] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/ament_index/resource_index/packages/camera_info_manager\n'}
+[33.979255] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport.cmake\n'}
+[33.980324] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/export_camera_info_managerExport-noconfig.cmake\n'}
+[33.981850] (-) TimerEvent: {}
+[33.983442] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[33.986822] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[33.990928] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig.cmake\n'}
+[33.992744] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/cmake/camera_info_managerConfig-version.cmake\n'}
+[33.994364] (camera_info_manager) StdoutLine: {'line': b'-- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_info_manager/share/camera_info_manager/package.xml\n'}
+[33.996062] (camera_info_manager) CommandEnded: {'returncode': 0}
+[34.085055] (-) TimerEvent: {}
+[34.186272] (-) TimerEvent: {}
+[34.274096] (camera_info_manager) JobEnded: {'identifier': 'camera_info_manager', 'rc': 0}
+[34.278918] (-) EventReactorShutdown: {}

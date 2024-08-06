@@ -1,0 +1,99 @@
+[0.170s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers
+[0.707s] -- The C compiler identification is GNU 11.2.0
+[1.420s] -- The CXX compiler identification is GNU 11.2.0
+[1.552s] -- Detecting C compiler ABI info
+[2.280s] -- Detecting C compiler ABI info - done
+[2.520s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.528s] -- Detecting C compile features
+[2.533s] -- Detecting C compile features - done
+[2.569s] -- Detecting CXX compiler ABI info
+[3.589s] -- Detecting CXX compiler ABI info - done
+[3.818s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[3.831s] -- Detecting CXX compile features
+[3.840s] -- Detecting CXX compile features - done
+[3.868s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[6.988s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[8.422s] -- Found rclcpp: 16.0.9 (/opt/ros/humble/share/rclcpp/cmake)
+[8.865s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[8.953s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[9.056s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[9.309s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[9.608s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[10.390s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[10.409s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[11.542s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[11.921s] -- Found FastRTPS: /opt/ros/humble/include  
+[12.452s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[12.554s] -- Looking for pthread.h
+[13.492s] -- Looking for pthread.h - found
+[13.493s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[14.460s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[14.472s] -- Found Threads: TRUE  
+[17.233s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[19.814s] -- Found yaml_cpp_vendor: 8.0.2 (/opt/ros/humble/share/yaml_cpp_vendor/cmake)
+[19.877s] -- Found ament_cmake_cppcheck: 0.12.11 (/opt/ros/humble/share/ament_cmake_cppcheck/cmake)
+[19.901s] -- Found ament_cmake_cpplint: 0.12.11 (/opt/ros/humble/share/ament_cmake_cpplint/cmake)
+[19.926s] -- Found ament_cmake_lint_cmake: 0.12.11 (/opt/ros/humble/share/ament_cmake_lint_cmake/cmake)
+[19.954s] -- Found ament_cmake_uncrustify: 0.12.11 (/opt/ros/humble/share/ament_cmake_uncrustify/cmake)
+[20.004s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[21.516s] -- Configuring done
+[21.886s] -- Generating done
+[21.924s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers
+[22.109s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/image_common/camera_calibration_parsers -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers
+[22.113s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers -- -j4 -l4
+[22.812s] [  7%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse.cpp.o[0m
+[66.168s] [ 14%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_ini.cpp.o[0m
+[78.882s] [ 21%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers.dir/src/parse_yml.cpp.o[0m
+[93.706s] [ 28%] [32m[1mLinking CXX shared library libcamera_calibration_parsers.so[0m
+[95.557s] [ 28%] Built target camera_calibration_parsers
+[95.705s] [ 35%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[127.311s] [ 42%] [32m[1mLinking CXX static library libgtest.a[0m
+[127.774s] [ 42%] Built target gtest
+[127.924s] [ 50%] [32mBuilding CXX object CMakeFiles/convert.dir/src/convert.cpp.o[0m
+[135.786s] [ 57%] [32m[1mLinking CXX executable convert[0m
+[137.226s] [ 57%] Built target convert
+[137.341s] [ 64%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[143.832s] [ 71%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[144.040s] [ 71%] Built target gtest_main
+[144.180s] [ 78%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_ini.dir/test/test_parse_ini.cpp.o[0m
+[154.345s] [ 85%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_ini[0m
+[156.526s] [ 85%] Built target camera_calibration_parsers-parse_ini
+[156.673s] [ 92%] [32mBuilding CXX object CMakeFiles/camera_calibration_parsers-parse_yml.dir/test/test_parse_yml.cpp.o[0m
+[167.216s] [100%] [32m[1mLinking CXX executable camera_calibration_parsers-parse_yml[0m
+[169.313s] [100%] Built target camera_calibration_parsers-parse_yml
+[169.428s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers -- -j4 -l4
+[169.811s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers
+[169.861s] -- Install configuration: ""
+[169.862s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so
+[169.870s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib/libcamera_calibration_parsers.so" to ""
+[169.876s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert
+[169.877s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/lib/camera_calibration_parsers/convert" to ""
+[169.878s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers
+[169.881s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers
+[169.882s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.h
+[169.889s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.hpp
+[169.890s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.h
+[169.894s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_ini.hpp
+[169.895s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse_yml.h
+[169.899s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/parse.hpp
+[169.904s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/include/camera_calibration_parsers/camera_calibration_parsers/visibility_control.hpp
+[169.906s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/package_run_dependencies/camera_calibration_parsers
+[169.906s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/parent_prefix_path/camera_calibration_parsers
+[169.911s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.sh
+[169.913s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/ament_prefix_path.dsv
+[169.914s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.sh
+[169.915s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/environment/path.dsv
+[169.921s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.bash
+[169.922s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.sh
+[169.928s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.zsh
+[169.929s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/local_setup.dsv
+[169.930s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.dsv
+[169.938s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/ament_index/resource_index/packages/camera_calibration_parsers
+[169.940s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport.cmake
+[169.948s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/export_camera_calibration_parsersExport-noconfig.cmake
+[169.949s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_targets-extras.cmake
+[169.950s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/ament_cmake_export_dependencies-extras.cmake
+[169.955s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig.cmake
+[169.956s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/cmake/camera_calibration_parsersConfig-version.cmake
+[169.957s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/camera_calibration_parsers/share/camera_calibration_parsers/package.xml
+[169.969s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/camera_calibration_parsers

@@ -1,0 +1,20 @@
+[0.000000] (-) TimerEvent: {}
+[0.003002] (-) JobUnselected: {'identifier': 'ldlidar_sl_ros2'}
+[0.004333] (-) JobUnselected: {'identifier': 'ldlidar_stl_ros2'}
+[0.005778] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.006211] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.006612] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.007023] (-) JobUnselected: {'identifier': 'serial'}
+[0.007388] (-) JobUnselected: {'identifier': 'tf2_tools'}
+[0.007757] (-) JobUnselected: {'identifier': 'turn_on_wheeltec_robot'}
+[0.008850] (-) JobUnselected: {'identifier': 'usb_cam'}
+[0.009253] (-) JobUnselected: {'identifier': 'wheeltec_cartographer'}
+[0.009604] (-) JobUnselected: {'identifier': 'wheeltec_nav2'}
+[0.009948] (-) JobUnselected: {'identifier': 'wheeltec_robot_msg'}
+[0.010791] (-) JobUnselected: {'identifier': 'wheeltec_robot_urdf'}
+[0.011175] (-) JobUnselected: {'identifier': 'wheeltec_slam_toolbox'}
+[0.011485] (slam_gmapping) JobQueued: {'identifier': 'slam_gmapping', 'dependencies': OrderedDict([('openslam_gmapping', '/home/sunrise/wheeltec_robot_ws/install/openslam_gmapping')])}
+[0.011869] (slam_gmapping) JobStarted: {'identifier': 'slam_gmapping'}
+[0.098011] (-) TimerEvent: {}
+[0.118918] (slam_gmapping) JobEnded: {'identifier': 'slam_gmapping', 'rc': 1}
+[0.131331] (-) EventReactorShutdown: {}

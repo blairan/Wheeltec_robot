@@ -1,0 +1,480 @@
+[0.077s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs
+[0.697s] -- The C compiler identification is GNU 11.2.0
+[1.166s] -- The CXX compiler identification is GNU 11.2.0
+[1.221s] -- Detecting C compiler ABI info
+[1.620s] -- Detecting C compiler ABI info - done
+[1.690s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.692s] -- Detecting C compile features
+[1.698s] -- Detecting C compile features - done
+[1.725s] -- Detecting CXX compiler ABI info
+[2.185s] -- Detecting CXX compiler ABI info - done
+[2.257s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.259s] -- Detecting CXX compile features
+[2.263s] -- Detecting CXX compile features - done
+[2.293s] -- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.707s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[4.590s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[4.643s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.715s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[5.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.481s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[11.016s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[13.625s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[17.014s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[17.221s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[17.339s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[17.715s] -- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[17.717s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[17.718s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[17.719s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[17.910s] -- Found PythonExtra: .so  
+[18.687s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[18.915s] -- Added test 'copyright' to check source files copyright and LICENSE
+[18.931s] -- Added test 'lint_cmake' to check CMake code style
+[18.942s] -- Added test 'xmllint' to check XML markup files
+[18.967s] -- Configuring done
+[19.365s] -- Generating done
+[19.384s] -- Build files have been written to: /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs
+[19.470s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake /home/sunrise/wheeltec_robot_ws/src/ros2_astra_camera/astra_camera_msgs -DCMAKE_INSTALL_PREFIX=/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs
+[19.490s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs -- -j4 -l4
+[19.735s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[19.765s] [  2%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[19.874s] [  2%] Built target ament_cmake_python_copy_astra_camera_msgs
+[23.081s] running egg_info
+[23.095s] creating astra_camera_msgs.egg-info
+[23.105s] writing astra_camera_msgs.egg-info/PKG-INFO
+[23.106s] writing dependency_links to astra_camera_msgs.egg-info/dependency_links.txt
+[23.109s] writing top-level names to astra_camera_msgs.egg-info/top_level.txt
+[23.118s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[23.160s] reading manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[23.175s] writing manifest file 'astra_camera_msgs.egg-info/SOURCES.txt'
+[23.473s] [  2%] Built target ament_cmake_python_build_astra_camera_msgs_egg
+[29.928s] [  2%] Built target astra_camera_msgs__cpp
+[29.991s] [  3%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[30.405s] [  4%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[30.782s] [  5%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/device_info__functions.c.o[0m
+[31.291s] [  6%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/extrinsics__functions.c.o[0m
+[31.681s] [  7%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/msg/detail/metadata__functions.c.o[0m
+[32.049s] [  8%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_device_info__functions.c.o[0m
+[32.743s] [  9%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_info__functions.c.o[0m
+[33.389s] [ 10%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_camera_params__functions.c.o[0m
+[33.877s] [ 11%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_int32__functions.c.o[0m
+[34.331s] [ 12%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/get_string__functions.c.o[0m
+[34.821s] [ 13%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_c.dir/rosidl_generator_c/astra_camera_msgs/srv/detail/set_int32__functions.c.o[0m
+[35.313s] [ 14%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_generator_c.so[0m
+[35.643s] [ 14%] Built target astra_camera_msgs__rosidl_generator_c
+[35.709s] [ 15%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[36.710s] [ 16%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[36.760s] [ 17%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[41.069s] [ 18%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[42.026s] [ 20%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/device_info__type_support.cpp.o[0m
+[45.052s] [ 21%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[47.012s] [ 22%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/device_info__type_support.cpp.o[0m
+[47.577s] [ 23%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/extrinsics__type_support.cpp.o[0m
+[48.418s] [ 24%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[48.581s] [ 25%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/device_info__type_support_c.cpp.o[0m
+[51.971s] [ 26%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp.o[0m
+[52.005s] [ 27%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/msg/detail/dds_fastrtps/metadata__type_support.cpp.o[0m
+[52.481s] [ 28%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/extrinsics__type_support_c.cpp.o[0m
+[52.603s] [ 29%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[56.465s] [ 30%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[56.641s] [ 31%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/msg/detail/metadata__type_support_c.cpp.o[0m
+[57.045s] [ 32%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_device_info__type_support.cpp.o[0m
+[57.129s] [ 33%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/msg/detail/metadata__type_support.cpp.o[0m
+[59.691s] [ 34%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[61.157s] [ 35%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_device_info__type_support_c.cpp.o[0m
+[62.433s] [ 36%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp.o[0m
+[62.687s] [ 37%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_info__type_support.cpp.o[0m
+[63.337s] [ 38%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[65.651s] [ 40%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_info__type_support_c.cpp.o[0m
+[66.737s] [ 41%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[67.703s] [ 42%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp.o[0m
+[67.741s] [ 43%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_camera_params__type_support.cpp.o[0m
+[69.729s] [ 44%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_cpp.so[0m
+[70.135s] [ 44%] Built target astra_camera_msgs__rosidl_typesupport_cpp
+[70.556s] [ 45%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_camera_params__type_support_c.cpp.o[0m
+[72.632s] [ 46%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_int32__type_support.cpp.o[0m
+[72.682s] [ 47%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp.o[0m
+[73.901s] [ 48%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_int32__type_support_c.cpp.o[0m
+[76.568s] [ 49%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/get_string__type_support.cpp.o[0m
+[77.212s] [ 50%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_int32__type_support.cpp.o[0m
+[77.480s] [ 51%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/get_string__type_support_c.cpp.o[0m
+[80.363s] [ 52%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/astra_camera_msgs/srv/detail/dds_fastrtps/set_int32__type_support.cpp.o[0m
+[80.886s] [ 53%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/astra_camera_msgs/srv/detail/set_int32__type_support_c.cpp.o[0m
+[81.038s] [ 54%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/get_string__type_support.cpp.o[0m
+[84.207s] [ 55%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[84.348s] [ 56%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[84.884s] [ 56%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_cpp
+[84.971s] [ 56%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c
+[85.189s] [ 57%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/astra_camera_msgs/srv/detail/set_int32__type_support.cpp.o[0m
+[88.203s] [ 58%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[88.705s] [ 58%] Built target astra_camera_msgs__rosidl_typesupport_introspection_cpp
+[88.755s] [ 60%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[93.959s] [ 61%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/device_info__type_support.cpp.o[0m
+[94.135s] [ 62%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/metadata__type_support.cpp.o[0m
+[94.313s] [ 63%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_device_info__type_support.cpp.o[0m
+[94.504s] [ 64%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_info__type_support.cpp.o[0m
+[94.696s] [ 65%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_camera_params__type_support.cpp.o[0m
+[94.889s] [ 66%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_int32__type_support.cpp.o[0m
+[95.081s] [ 67%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/get_string__type_support.cpp.o[0m
+[95.268s] [ 68%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/srv/set_int32__type_support.cpp.o[0m
+[95.457s] [ 69%] [32mBuilding CXX object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/astra_camera_msgs/msg/extrinsics__type_support.cpp.o[0m
+[95.631s] [ 70%] [32m[1mLinking CXX shared library libastra_camera_msgs__rosidl_typesupport_c.so[0m
+[95.850s] [ 70%] Built target astra_camera_msgs__rosidl_typesupport_c
+[95.900s] [ 71%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[103.294s] [ 72%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/device_info__type_support.c.o[0m
+[103.502s] [ 73%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_device_info__type_support.c.o[0m
+[103.722s] [ 74%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_info__type_support.c.o[0m
+[103.945s] [ 75%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_camera_params__type_support.c.o[0m
+[104.250s] [ 76%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_int32__type_support.c.o[0m
+[104.461s] [ 77%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/get_string__type_support.c.o[0m
+[104.673s] [ 78%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/srv/detail/set_int32__type_support.c.o[0m
+[104.883s] [ 80%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/metadata__type_support.c.o[0m
+[105.075s] [ 81%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/astra_camera_msgs/msg/detail/extrinsics__type_support.c.o[0m
+[105.302s] [ 82%] [32m[1mLinking C shared library libastra_camera_msgs__rosidl_typesupport_introspection_c.so[0m
+[105.488s] [ 82%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c
+[105.576s] [ 82%] Built target astra_camera_msgs
+[105.672s] [ 83%] [34m[1mGenerating Python code for ROS interfaces[0m
+[121.985s] [ 83%] Built target astra_camera_msgs__py
+[122.075s] [ 84%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_device_info_s.c.o[0m
+[122.974s] [ 85%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_device_info_s.c.o[0m
+[123.784s] [ 86%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_info_s.c.o[0m
+[124.593s] [ 87%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_camera_params_s.c.o[0m
+[125.620s] [ 88%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_int32_s.c.o[0m
+[126.424s] [ 89%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_get_string_s.c.o[0m
+[127.237s] [ 90%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/srv/_set_int32_s.c.o[0m
+[128.032s] [ 91%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_metadata_s.c.o[0m
+[128.789s] [ 92%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_generator_py.dir/rosidl_generator_py/astra_camera_msgs/msg/_extrinsics_s.c.o[0m
+[129.605s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so[0m
+[129.920s] [ 93%] Built target astra_camera_msgs__rosidl_generator_py
+[130.021s] [ 94%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[131.180s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[131.493s] [ 95%] Built target astra_camera_msgs__rosidl_typesupport_fastrtps_c__pyext
+[131.581s] [ 96%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[132.688s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[132.992s] [ 97%] Built target astra_camera_msgs__rosidl_typesupport_c__pyext
+[133.081s] [ 98%] [32mBuilding C object CMakeFiles/astra_camera_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[134.189s] [100%] [32m[1mLinking C shared library rosidl_generator_py/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[134.503s] [100%] Built target astra_camera_msgs__rosidl_typesupport_introspection_c__pyext
+[134.565s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --build /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs -- -j4 -l4
+[135.710s] Invoking command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs
+[135.750s] -- Install configuration: ""
+[135.753s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/rosidl_interfaces/astra_camera_msgs
+[135.754s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.757s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.758s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.h
+[135.759s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_generator_c__visibility_control.h
+[135.760s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.h
+[135.761s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.h
+[135.762s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.763s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.h
+[135.765s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.c
+[135.771s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.h
+[135.773s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__functions.c
+[135.775s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.h
+[135.777s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__functions.h
+[135.778s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.c
+[135.779s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.h
+[135.780s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__functions.h
+[135.781s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.h
+[135.782s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.h
+[135.783s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.h
+[135.784s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.785s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.h
+[135.786s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.h
+[135.787s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.h
+[135.788s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.h
+[135.789s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.h
+[135.790s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.791s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.c
+[135.792s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.c
+[135.793s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__functions.h
+[135.794s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.c
+[135.795s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.h
+[135.796s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.h
+[135.797s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.h
+[135.798s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__functions.h
+[135.799s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.h
+[135.800s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.h
+[135.801s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.h
+[135.802s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.h
+[135.808s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__functions.h
+[135.809s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.h
+[135.810s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.h
+[135.811s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__functions.c
+[135.818s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.h
+[135.822s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.h
+[135.823s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__functions.c
+[135.827s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.h
+[135.828s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.h
+[135.829s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.h
+[135.830s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__functions.c
+[135.831s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.h
+[135.832s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.h
+[135.833s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.sh
+[135.835s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/library_path.dsv
+[135.836s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so
+[135.837s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_c.so" to ""
+[135.838s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.839s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.841s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[135.843s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.844s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_c.h
+[135.846s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_c.h
+[135.847s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_c.h
+[135.849s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.850s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.852s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_c.h
+[135.853s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_c.h
+[135.855s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_c.h
+[135.857s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_c.h
+[135.859s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_c.h
+[135.862s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_c.h
+[135.864s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so
+[135.865s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[135.866s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.871s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.874s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[135.877s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.879s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_c.h
+[135.880s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_c.h
+[135.882s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_c.h
+[135.883s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.c
+[135.884s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.c
+[135.885s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.c
+[135.886s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.888s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.889s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.c
+[135.891s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_c.h
+[135.893s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.c
+[135.894s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_c.h
+[135.895s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_c.h
+[135.897s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.c
+[135.898s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_c.h
+[135.900s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.c
+[135.901s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.c
+[135.903s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.c
+[135.904s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_c.h
+[135.906s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_c.h
+[135.907s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so
+[135.909s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_c.so" to ""
+[135.910s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so
+[135.912s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_c.so" to ""
+[135.913s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.915s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.916s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/device_info.hpp
+[135.920s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/extrinsics.hpp
+[135.921s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.922s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__builder.hpp
+[135.923s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__struct.hpp
+[135.925s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__traits.hpp
+[135.926s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__struct.hpp
+[135.927s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__builder.hpp
+[135.928s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__builder.hpp
+[135.930s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__traits.hpp
+[135.931s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__traits.hpp
+[135.932s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__struct.hpp
+[135.933s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/metadata.hpp
+[135.934s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.935s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/set_int32.hpp
+[135.937s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_device_info.hpp
+[135.938s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_params.hpp
+[135.939s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_camera_info.hpp
+[135.941s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_string.hpp
+[135.942s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.943s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__builder.hpp
+[135.944s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__builder.hpp
+[135.945s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__traits.hpp
+[135.945s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__traits.hpp
+[135.946s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__traits.hpp
+[135.947s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__builder.hpp
+[135.948s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__traits.hpp
+[135.949s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__struct.hpp
+[135.950s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__struct.hpp
+[135.951s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__struct.hpp
+[135.952s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__builder.hpp
+[135.953s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__struct.hpp
+[135.954s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__builder.hpp
+[135.955s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__traits.hpp
+[135.956s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__struct.hpp
+[135.957s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__builder.hpp
+[135.958s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__struct.hpp
+[135.959s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__traits.hpp
+[135.960s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/get_int32.hpp
+[135.961s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.962s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.963s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[135.965s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.966s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/dds_fastrtps
+[135.966s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_fastrtps_cpp.hpp
+[135.968s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_fastrtps_cpp.hpp
+[135.969s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[135.970s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.971s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.972s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/dds_fastrtps
+[135.973s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_fastrtps_cpp.hpp
+[135.974s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[135.975s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_fastrtps_cpp.hpp
+[135.976s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_fastrtps_cpp.hpp
+[135.977s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_fastrtps_cpp.hpp
+[135.978s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_fastrtps_cpp.hpp
+[135.979s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so
+[135.980s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[135.981s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs
+[135.982s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg
+[135.983s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail
+[135.984s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__rosidl_typesupport_introspection_cpp.hpp
+[135.985s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__rosidl_typesupport_introspection_cpp.hpp
+[135.986s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/device_info__type_support.cpp
+[135.987s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__rosidl_typesupport_introspection_cpp.hpp
+[135.988s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/metadata__type_support.cpp
+[135.989s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/msg/detail/extrinsics__type_support.cpp
+[135.990s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv
+[135.991s] -- Up-to-date: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail
+[135.992s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__rosidl_typesupport_introspection_cpp.hpp
+[135.993s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__type_support.cpp
+[135.994s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__rosidl_typesupport_introspection_cpp.hpp
+[135.995s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__rosidl_typesupport_introspection_cpp.hpp
+[135.996s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__rosidl_typesupport_introspection_cpp.hpp
+[135.997s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__type_support.cpp
+[135.997s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_params__type_support.cpp
+[135.998s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_string__type_support.cpp
+[136.000s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_camera_info__rosidl_typesupport_introspection_cpp.hpp
+[136.001s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_device_info__rosidl_typesupport_introspection_cpp.hpp
+[136.002s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/get_int32__type_support.cpp
+[136.003s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/include/astra_camera_msgs/astra_camera_msgs/srv/detail/set_int32__type_support.cpp
+[136.004s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so
+[136.004s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[136.005s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so
+[136.008s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_typesupport_cpp.so" to ""
+[136.009s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.sh
+[136.010s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/pythonpath.dsv
+[136.011s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info
+[136.013s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/top_level.txt
+[136.014s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/SOURCES.txt
+[136.015s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/PKG-INFO
+[136.020s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs-1.0.1-py3.10.egg-info/dependency_links.txt
+[136.024s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs
+[136.025s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_c.c
+[136.026s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[136.027s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg
+[136.031s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info_s.c
+[136.032s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py
+[136.033s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata_s.c
+[136.034s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py
+[136.035s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py
+[136.037s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py
+[136.038s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics_s.c
+[136.039s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/libastra_camera_msgs__rosidl_generator_py.so
+[136.039s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[136.041s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py
+[136.042s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/_astra_camera_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[136.043s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv
+[136.044s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info_s.c
+[136.045s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32_s.c
+[136.046s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params_s.c
+[136.047s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py
+[136.048s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32_s.c
+[136.051s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string_s.c
+[136.052s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py
+[136.053s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py
+[136.054s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py
+[136.056s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py
+[136.059s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info_s.c
+[136.060s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py
+[136.061s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py
+[136.062s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[136.063s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[136.354s] Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs'...
+[136.355s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/__init__.py'...
+[136.358s] Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg'...
+[136.359s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/__init__.py'...
+[136.362s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_device_info.py'...
+[136.363s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_extrinsics.py'...
+[136.364s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/msg/_metadata.py'...
+[136.365s] Listing '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv'...
+[136.366s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/__init__.py'...
+[136.367s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_info.py'...
+[136.368s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_camera_params.py'...
+[136.369s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_device_info.py'...
+[136.370s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_int32.py'...
+[136.371s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_get_string.py'...
+[136.376s] Compiling '/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/srv/_set_int32.py'...
+[136.411s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[136.413s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[136.415s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[136.417s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[136.418s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[136.421s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/local/lib/python3.10/dist-packages/astra_camera_msgs/astra_camera_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[136.422s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so
+[136.425s] -- Set runtime path of "/home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/lib/libastra_camera_msgs__rosidl_generator_py.so" to ""
+[136.426s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.idl
+[136.428s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.idl
+[136.429s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.idl
+[136.431s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.idl
+[136.433s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.idl
+[136.434s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.idl
+[136.436s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.idl
+[136.444s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.idl
+[136.445s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.idl
+[136.448s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/DeviceInfo.msg
+[136.449s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Extrinsics.msg
+[136.452s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/msg/Metadata.msg
+[136.453s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo.srv
+[136.455s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Request.msg
+[136.456s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetDeviceInfo_Response.msg
+[136.457s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo.srv
+[136.458s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Request.msg
+[136.460s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraInfo_Response.msg
+[136.461s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams.srv
+[136.462s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Request.msg
+[136.466s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetCameraParams_Response.msg
+[136.467s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32.srv
+[136.468s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Request.msg
+[136.470s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetInt32_Response.msg
+[136.471s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString.srv
+[136.472s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Request.msg
+[136.475s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/GetString_Response.msg
+[136.476s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32.srv
+[136.478s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Request.msg
+[136.485s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/srv/SetInt32_Response.msg
+[136.487s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/package_run_dependencies/astra_camera_msgs
+[136.488s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/parent_prefix_path/astra_camera_msgs
+[136.489s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.sh
+[136.491s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/ament_prefix_path.dsv
+[136.492s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.sh
+[136.493s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/environment/path.dsv
+[136.494s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.bash
+[136.496s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.sh
+[136.497s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.zsh
+[136.498s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/local_setup.dsv
+[136.500s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.dsv
+[136.501s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/ament_index/resource_index/packages/astra_camera_msgs
+[136.502s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport.cmake
+[136.504s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cExport-noconfig.cmake
+[136.505s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[136.506s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[136.508s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport.cmake
+[136.509s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[136.510s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport.cmake
+[136.512s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[136.513s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_cppExport.cmake
+[136.514s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[136.515s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[136.516s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[136.517s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[136.517s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport.cmake
+[136.518s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[136.519s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport.cmake
+[136.521s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/export_astra_camera_msgs__rosidl_generator_pyExport-noconfig.cmake
+[136.523s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake-extras.cmake
+[136.532s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[136.534s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[136.537s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[136.538s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[136.540s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[136.541s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[136.543s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig.cmake
+[136.544s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/cmake/astra_camera_msgsConfig-version.cmake
+[136.545s] -- Installing: /home/sunrise/wheeltec_robot_ws/install/astra_camera_msgs/share/astra_camera_msgs/package.xml
+[136.547s] Invoked command in '/home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sunrise/wheeltec_robot_ws/install/simple_follower_ros2:/home/sunrise/wheeltec_robot_ws/install/wheeltec_robot_keyboard:/home/sunrise/wheeltec_robot_ws/install/tf2_tools:/opt/ros/humble /usr/bin/cmake --install /home/sunrise/wheeltec_robot_ws/build/astra_camera_msgs
