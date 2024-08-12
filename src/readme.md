@@ -41,10 +41,15 @@
 
 #### 4-4 保存地圖
 
-`ros2 run nav2_map_server map_saver_cli –f ~/wheeltec_ros2/src/wheeltec_robot_nav2/map/house`
+`ros2 run nav2_map_server map_saver_cli -f ~/wheeltec_ros2/src/wheeltec_robot_nav2/map/house`
 
-#### 5. Wheeltec_robot_rtab[RTAB 建图导航]
+#### 5. Wheeltec_robot_rtab[RTAB 建图]
 
 相機使用astra pro或astra pro plus,須修改wheeltec_camera.launch.py裡的參數
 
 `ros2 launch wheeltec_robot_rtab wheeltec_slam_rtab.launch.py`
+
+
+#### 6.Wheeltec_robot_rtab[RTAB 導航] #前提先用2D slam建圖並存檔
+
+`ros2 launch wheeltec_robot_rtab wheeltec_nav2_rtab.launch.py`
